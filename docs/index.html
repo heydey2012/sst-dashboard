@@ -97,6 +97,24 @@ function renderTabs() {
   });
 }
 
+function formatDateTime(isoString) {
+  const d = new Date(isoString);
+  if (isNaN(d.getTime())) return isoString;
+  const days = ["일요일","월요일","화요일","수요일","목요일","금요일","토요일"];
+  const yyyy = d.getFullYear();
+  const mm = String(d.getMonth() + 1).padStart(2, "0");
+  const dd = String(d.getDate()).padStart(2, "0");
+  const dayName = days[d.getDay()];
+  let hours = d.getHours();
+  const ampm = hours >= 12 ? "PM" : "AM";
+  hours = hours % 12;
+  if (hours === 0) hours = 12;
+  const hh = String(hours).padStart(2, "0");
+  const min = String(d.getMinutes()).padStart(2, "0");
+  const sec = String(d.getSeconds()).padStart(2, "0");
+  return `${yyyy}-${mm}-${dd} ${dayName} ${ampm} ${hh}:${min}:${sec}`;
+}
+
 function escapeHtml(str) {
   const div = document.createElement("div");
   div.textContent = str || "";
@@ -134,7 +152,7 @@ async function render() {
     return;
   }
 
-  meta.textContent = `마지막 업데이트: ${data.last_updated} · 전체 ${data.total_tickers}종목 · 시그널 ${data.total_signals}건`;
+  meta.textContent = `마지막 업데이트: ${formatDateTime(data.last_updated)} · 전체 ${data.total_tickers}종목 · 시그널 ${data.total_signals}건`;
 
   const results = data.results || [];
   if (results.length === 0) {
