@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SST · Signal Sentinels Team</title>
+<style>
+  :root{
+    --bg: #f6f7f9; --panel: #ffffff; --line: #e5e8ee;
+    --text: #12161f; --muted: #6b7787; --muted-2: #9aa3b2;
+    --green: #0aa279; --green-dim: rgba(10,162,121,0.09);
+    --amber: #b7791f; --amber-dim: rgba(183,121,31,0.10);
+    --red: #d64545;
+    --sans: -apple-system, BlinkMacSystemFont, 'Pretendard', 'Apple SD Gothic Neo', 'Segoe UI', sans-serif;
+    --mono: 'SF Mono', ui-monospace, Menlo, Consolas, monospace;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0; font-family:var(--sans); background:var(--bg); color:var(--text);
+    padding-bottom:60px;
+  }
+  .wrap{ max-width:760px; margin:0 auto; padding:24px 16px 0; }
+  h1{ font-size:22px; margin:0 0 4px; }
+  .sub{ color:var(--muted); font-size:13px; margin-bottom:20px; }
+
+  .tabs{ display:flex; gap:8px; margin-bottom:18px; flex-wrap:wrap; }
+  .tab{
+    padding:8px 16px; border-radius:999px; border:1px solid var(--line);
+    background:var(--panel); font-size:13.5px; font-weight:600; cursor:pointer; color:var(--muted);
+  }
+  .tab.active{ background:var(--text); color:#fff; border-color:var(--text); }
+
+  .meta{ font-size:12.5px; color:var(--muted); margin-bottom:16px; font-family:var(--mono); }
+
+  .section-label{ font-size:13px; font-weight:700; margin:18px 2px 10px; color:var(--muted); }
+
+  .card{
+    border:1px solid var(--line); background:var(--panel); border-radius:12px;
+    padding:16px; margin-bottom:10px;
+  }
+  .card-top{ display:flex; justify-content:space-between; align-items:center; gap:8px; }
+  .card-name{ font-size:15.5px; font-weight:700; }
+  .badge{
+    font-size:11px; font-weight:700; padding:3px 9px; border-radius:999px;
+    background:var(--green-dim); color:var(--green);
+  }
+  .card-line{ font-size:13px; color:var(--muted); margin-top:8px; line-height:1.6; }
+  .card-star{ font-size:12.5px; color:var(--amber); margin-top:6px; }
+
+  .empty{ text-align:center; padding:50px 20px; color:var(--muted); font-size:13px; }
+  .loading{ text-align:center; padding:50px 20px; color:var(--muted); font-size:13px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>📋 SST · Signal Sentinels Team</h1>
+  <div class="sub">RSI Spread Pro 기반 반등 시그널 자동 스캔 결과</div>
+
+  <div class="tabs" id="tabs"></div>
+  <div class="meta" id="meta"></div>
+  <div id="content" class="loading">불러오는 중...</div>
+</div>
+
+<script>
+const TIMEFRAMES = [
+  { key: "4h", label: "4시간봉" },
+  { key: "1h", label: "1시간봉" },
+  { key: "15m", label: "15분봉" },
+  { key: "5m", label: "5분봉" },
+];
+
+let current = "4h";
+const cache = {};
+
+async function loadResult(tf) {
+  if (cache[tf]) return cache[tf];
+  try {
+    const res = await fetch(`results/${tf}.json?t=${Date.now()}`);
+    if (!res.ok) return null;
+    const data = await res.json();
+    cache[tf] = data;
+    return data;
+  } catch (e) {
+    return null;
+  }
+}
+
+function renderTabs() {
+  const tabs = document.getElementById("tabs");
+  tabs.innerHTML = "";
+  TIMEFRAMES.forEach(tf => {
+    const el = document.createElement("div");
+    el.className = "tab" + (tf.key === current ? " active" : "");
+    el.textContent = tf.label;
+    el.onclick = () => { current = tf.key; render(); };
+    tabs.appendChild(el);
+  });
+}
+
+function escapeHtml(str) {
+  const div = document.createElement("div");
+  div.textContent = str || "";
+  return div.innerHTML;
+}
+
+function renderCard(v) {
+  const reasons = (v.reasons || []).join(", ");
+  const entryNote = v.has_active_entry ? " (진입 조건 활성)" : "";
+  const bestTag = v.best_signal ? `<span class="badge">강추</span>` : "";
+  return `
+    <div class="card">
+      <div class="card-top">
+        <div class="card-name">[${escapeHtml(v.ticker)}] ${escapeHtml(v.name)}${entryNote}</div>
+        ${bestTag}
+      </div>
+      <div class="card-line">시그널 ${escapeHtml(v.signal_time)} @ ${v.signal_price.toLocaleString()}</div>
+      <div class="card-line">반등봉 ${escapeHtml(v.rebound_time)} (${v.bars_after_signal}봉 후) @ ${v.rebound_price.toLocaleString()}</div>
+      <div class="card-line">패턴: ${escapeHtml(reasons)}</div>
+      ${v.best_signal ? `<div class="card-star">⭐ ${escapeHtml(v.best_reason)}</div>` : ""}
+    </div>
+  `;
+}
+
+async function render() {
+  renderTabs();
+  const content = document.getElementById("content");
+  const meta = document.getElementById("meta");
+  content.innerHTML = `<div class="loading">불러오는 중...</div>`;
+  meta.textContent = "";
+
+  const data = await loadResult(current);
+  if (!data) {
+    content.innerHTML = `<div class="empty">아직 이 타임프레임의 결과가 없습니다.<br>스캔이 최소 한 번 실행되어야 표시됩니다.</div>`;
+    return;
+  }
+
+  meta.textContent = `마지막 업데이트: ${data.last_updated} · 전체 ${data.total_tickers}종목 · 시그널 ${data.total_signals}건`;
+
+  const results = data.results || [];
+  if (results.length === 0) {
+    content.innerHTML = `<div class="empty">현재 조건에 맞는 반등 패턴이 없습니다.</div>`;
+    return;
+  }
+
+  const fresh = results.filter(r => r.is_fresh).sort((a, b) => (b.best_signal ? 1 : 0) - (a.best_signal ? 1 : 0));
+  const stale = results.filter(r => !r.is_fresh).sort((a, b) => (b.best_signal ? 1 : 0) - (a.best_signal ? 1 : 0));
+
+  let html = "";
+  if (fresh.length > 0) {
+    html += `<div class="section-label">🆕 방금 확인됨 (${fresh.length}건)</div>`;
+    html += fresh.map(renderCard).join("");
+  }
+  if (stale.length > 0) {
+    html += `<div class="section-label">📚 최근 히스토리 · 참고용 (${stale.length}건)</div>`;
+    html += stale.map(renderCard).join("");
+  }
+  content.innerHTML = html;
+}
+
+render();
+setInterval(() => { cache[current] = null; render(); }, 60000); // 1분마다 자동 새로고침
+</script>
+</body>
+</html>
