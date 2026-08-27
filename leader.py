@@ -3,14 +3,18 @@ SST Leader 에이전트
 - 수집 -> 계산 -> 검증 -> 알림 순서로 팀원 에이전트를 지휘
 - 종목을 배치(config.BATCH_SIZE개씩) 단위로 나눠 처리하고, 배치가 끝날 때마다
   바로 텔레그램으로 결과를 발송합니다 (전체 다 끝날 때까지 기다리지 않음).
+- 전체 스캔이 끝나면 docs/results/{timeframe}.json 으로 결과를 저장하고,
+  git이 설정되어 있으면 자동으로 커밋+푸시해서 GitHub Pages에 반영합니다.
 
 타임프레임 전환: 이 파일을 직접 실행하면 4시간봉 기준입니다.
-15분봉/5분봉으로 돌리려면 leader15.py / leader05.py 를 실행하세요
-(둘 다 이 파일의 SSTLeader를 그대로 재사용하되 SST_TIMEFRAME 환경변수만 다르게 설정합니다).
+15분봉/5분봉/1시간봉으로 돌리려면 leader15.py / leader05.py / leader1h.py 를 실행하세요
+(모두 이 파일의 SSTLeader를 그대로 재사용하되 SST_TIMEFRAME 환경변수만 다르게 설정합니다).
 """
 import os
 os.environ.setdefault("SST_TIMEFRAME", "4h")  # 직접 실행 시 기본값 (leader15.py 등이 먼저 설정했으면 그 값 유지)
 
+import json
+import subprocess
 from datetime import datetime
 
 import config
@@ -58,7 +62,72 @@ class SSTLeader:
         print(f"[SST Leader] 전체 완료 - 총 {len(TICKERS)}개 종목, "
               f"롱 시그널 {total_signals}건, 반등 확인 {len(all_verified)}건")
 
+        self._export_web_json(all_verified, total_signals)
+
         return all_verified
+
+    def _export_web_json(self, all_verified: list, total_signals: int):
+        """docs/results/{timeframe}.json 으로 저장 후 git 커밋+푸시 (설정되어 있으면)"""
+        root = os.path.dirname(os.path.abspath(__file__))
+        results_dir = os.path.join(root, "docs", "results")
+        os.makedirs(results_dir, exist_ok=True)
+
+        payload = {
+            "timeframe": config.TIMEFRAME,
+            "timeframe_label": config.TIMEFRAME_LABEL,
+            "last_updated": datetime.now().isoformat(timespec="seconds"),
+            "total_tickers": len(TICKERS),
+            "total_signals": total_signals,
+            "results": [self._serialize(v) for v in all_verified],
+        }
+
+        path = os.path.join(results_dir, f"{config.TIMEFRAME}.json")
+        with open(path, "w", encoding="utf-8") as f:
+            json.dump(payload, f, ensure_ascii=False, indent=2)
+        print(f"[SST Leader] 웹 결과 저장 완료: {path}")
+
+        self._git_push(root)
+
+    def _serialize(self, v: dict) -> dict:
+        name = TICKER_NAMES.get(v["ticker"], v["ticker"])
+        return {
+            "ticker": v["ticker"],
+            "name": name,
+            "is_fresh": v.get("is_fresh", False),
+            "best_signal": v.get("best_signal", False),
+            "best_reason": v.get("best_reason", ""),
+            "has_active_entry": v.get("has_active_entry", False),
+            "signal_time": self._fmt_time(v["signal_time"]),
+            "signal_price": v["signal_price"],
+            "rebound_time": self._fmt_time(v["rebound_time"]),
+            "rebound_price": v["rebound_price"],
+            "bars_after_signal": v["bars_after_signal"],
+            "reasons": v["reasons"],
+        }
+
+    def _git_push(self, root: str):
+        """git이 설정되어 있으면 자동 커밋+푸시. 설정 안 되어 있으면 조용히 건너뜀."""
+        git_dir = os.path.join(root, ".git")
+        if not os.path.isdir(git_dir):
+            print("[SST Leader] git 저장소가 아직 설정되지 않아 웹 게시는 건너뜁니다 "
+                  "(README의 'GitHub Pages 설정' 참고)")
+            return
+        try:
+            subprocess.run(["git", "add", "docs/results"], cwd=root, check=True,
+                            capture_output=True)
+            msg = f"SST {config.TIMEFRAME_LABEL} 스캔 결과 갱신 {datetime.now().strftime('%Y-%m-%d %H:%M')}"
+            commit = subprocess.run(["git", "commit", "-m", msg], cwd=root,
+                                     capture_output=True, text=True)
+            if commit.returncode != 0 and "nothing to commit" not in commit.stdout:
+                print(f"[SST Leader] git commit 경고: {commit.stdout.strip()} {commit.stderr.strip()}")
+                return
+            push = subprocess.run(["git", "push"], cwd=root, capture_output=True, text=True)
+            if push.returncode != 0:
+                print(f"[SST Leader] git push 실패: {push.stderr.strip()}")
+            else:
+                print("[SST Leader] GitHub로 결과 푸시 완료")
+        except Exception as e:
+            print(f"[SST Leader] git 자동화 중 오류: {e}")
 
     def _fmt_time(self, ts) -> str:
         try:
