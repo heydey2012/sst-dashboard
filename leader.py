@@ -36,7 +36,25 @@ class SSTLeader:
         for i in range(0, len(items), size):
             yield items[i:i + size]
 
+    def _lock_path(self) -> str:
+        root = os.path.dirname(os.path.abspath(__file__))
+        return os.path.join(root, f".sst_{config.TIMEFRAME}.lock")
+
     def run_daily_scan(self):
+        lock_path = self._lock_path()
+        if os.path.exists(lock_path):
+            print(f"[SST Leader] 이미 {config.TIMEFRAME_LABEL} 스캔이 실행 중인 것 같습니다 "
+                  f"(lock 파일 존재: {lock_path}) - 겹치지 않도록 이번 실행은 건너뜁니다.")
+            return []
+
+        try:
+            open(lock_path, "w").close()
+            return self._run_scan()
+        finally:
+            if os.path.exists(lock_path):
+                os.remove(lock_path)
+
+    def _run_scan(self):
         batches = list(self._chunk(TICKERS, config.BATCH_SIZE))
         total_batches = len(batches)
         print(f"[SST Leader] {datetime.now()} 스캔 시작 - 대상 {len(TICKERS)}개 종목 "
