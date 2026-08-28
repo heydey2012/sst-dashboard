@@ -1,7 +1,7 @@
 {
   "timeframe": "15m",
   "timeframe_label": "15분봉",
-  "last_updated": "2026-08-28T10:42:15",
+  "last_updated": "2026-08-28T10:54:55",
   "total_tickers": 98,
   "total_signals": 1,
   "results": [
@@ -22,43 +22,11 @@
       ]
     },
     {
-      "ticker": "034730",
-      "name": "SK",
-      "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
-      "has_active_entry": false,
-      "signal_time": "08/28 09:00",
-      "signal_price": 540000.0,
-      "rebound_time": "08/28 10:30",
-      "rebound_price": 545000.0,
-      "bars_after_signal": 6,
-      "reasons": [
-        "전 봉(음봉)보다 몸통이 큰 양봉"
-      ]
-    },
-    {
-      "ticker": "042660",
-      "name": "한화오션",
-      "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
-      "has_active_entry": true,
-      "signal_time": "08/28 10:15",
-      "signal_price": 88100.0,
-      "rebound_time": "08/28 10:30",
-      "rebound_price": 88400.0,
-      "bars_after_signal": 1,
-      "reasons": [
-        "전 봉(음봉)보다 몸통이 큰 양봉"
-      ]
-    },
-    {
       "ticker": "042700",
       "name": "한미반도체",
       "is_fresh": true,
-      "best_signal": true,
-      "best_reason": "1차 저점(214,000) 지지 후 재반등",
+      "best_signal": false,
+      "best_reason": "",
       "has_active_entry": false,
       "signal_time": "08/28 09:15",
       "signal_price": 216500.0,
@@ -73,13 +41,13 @@
       "ticker": "000990",
       "name": "DB하이텍",
       "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
-      "has_active_entry": true,
+      "best_signal": true,
+      "best_reason": "1차 저점(92,100) 지지 후 재반등",
+      "has_active_entry": false,
       "signal_time": "08/28 10:15",
       "signal_price": 92300.0,
       "rebound_time": "08/28 10:30",
-      "rebound_price": 92800.0,
+      "rebound_price": 92700.0,
       "bars_after_signal": 1,
       "reasons": [
         "전 봉(음봉)보다 몸통이 큰 양봉"
@@ -89,8 +57,8 @@
       "ticker": "086520",
       "name": "에코프로",
       "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
+      "best_signal": true,
+      "best_reason": "1차 저점(88,600) 지지 후 재반등",
       "has_active_entry": false,
       "signal_time": "08/28 10:15",
       "signal_price": 88800.0,
@@ -105,16 +73,16 @@
       "ticker": "247540",
       "name": "에코프로비엠",
       "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
+      "best_signal": true,
+      "best_reason": "1차 저점(114,800) 지지 후 재반등",
       "has_active_entry": false,
       "signal_time": "08/28 10:15",
       "signal_price": 115100.0,
       "rebound_time": "08/28 10:30",
-      "rebound_price": 115100.0,
+      "rebound_price": 115300.0,
       "bars_after_signal": 1,
       "reasons": [
-        "음봉형 도지"
+        "연속 양봉 2개 이상"
       ]
     },
     {
