@@ -1,7 +1,7 @@
 {
   "timeframe": "15m",
   "timeframe_label": "15분봉",
-  "last_updated": "2026-08-28T10:03:03",
+  "last_updated": "2026-08-28T10:12:01",
   "total_tickers": 98,
   "total_signals": 3,
   "results": [
@@ -286,11 +286,11 @@
       "has_active_entry": false,
       "signal_time": "08/28 09:00",
       "signal_price": 540000.0,
-      "rebound_time": "08/28 09:45",
-      "rebound_price": 539000.0,
-      "bars_after_signal": 3,
+      "rebound_time": "08/28 10:00",
+      "rebound_price": 542000.0,
+      "bars_after_signal": 4,
       "reasons": [
-        "음봉형 도지"
+        "전 봉(음봉)보다 몸통이 큰 양봉"
       ]
     },
     {
@@ -521,8 +521,8 @@
       "ticker": "015760",
       "name": "한국전력",
       "is_fresh": true,
-      "best_signal": true,
-      "best_reason": "저점 이탈(33,250→32,500)했으나 RSI 다이버전스 동반 재반등 (RSI 28.8→32.8)",
+      "best_signal": false,
+      "best_reason": "",
       "has_active_entry": false,
       "signal_time": "08/27 10:30",
       "signal_price": 33350.0,
@@ -873,8 +873,8 @@
       "ticker": "006800",
       "name": "미래에셋증권",
       "is_fresh": true,
-      "best_signal": true,
-      "best_reason": "저점 이탈(35,750→35,450)했으나 RSI 다이버전스 동반 재반등 (RSI 41.4→40.3)",
+      "best_signal": false,
+      "best_reason": "",
       "has_active_entry": false,
       "signal_time": "08/27 10:00",
       "signal_price": 35750.0,
@@ -1433,8 +1433,8 @@
       "ticker": "259960",
       "name": "크래프톤",
       "is_fresh": true,
-      "best_signal": true,
-      "best_reason": "저점 이탈(222,000→217,500)했으나 RSI 다이버전스 동반 재반등 (RSI 36.0→36.8)",
+      "best_signal": false,
+      "best_reason": "",
       "has_active_entry": false,
       "signal_time": "08/27 10:15",
       "signal_price": 222500.0,
