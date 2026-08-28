@@ -49,12 +49,43 @@
 
   .empty{ text-align:center; padding:50px 20px; color:var(--muted); font-size:13px; }
   .loading{ text-align:center; padding:50px 20px; color:var(--muted); font-size:13px; }
+
+  .portfolio{
+    border:1px solid var(--line); background:var(--panel); border-radius:14px;
+    padding:16px 18px; margin-bottom:20px;
+  }
+  .portfolio-title{ font-size:13px; font-weight:700; color:var(--muted); margin-bottom:12px; }
+  .portfolio-stats{ display:flex; gap:22px; flex-wrap:wrap; margin-bottom:4px; }
+  .stat-label{ font-size:11.5px; color:var(--muted-2); margin-bottom:2px; }
+  .stat-value{ font-size:17px; font-weight:700; font-family:var(--mono); }
+  .stat-value.pos{ color:var(--green); }
+  .stat-value.neg{ color:var(--red); }
+
+  .pos-row{
+    display:flex; justify-content:space-between; align-items:center; gap:10px;
+    padding:10px 0; border-top:1px solid var(--line);
+  }
+  .pos-info{ min-width:0; }
+  .pos-name{ font-size:14px; font-weight:700; }
+  .pos-line{ font-size:12px; color:var(--muted); margin-top:3px; font-family:var(--mono); }
+  .pos-pnl{ text-align:right; white-space:nowrap; }
+  .pos-pnl-amt{ font-size:14px; font-weight:700; font-family:var(--mono); }
+  .pos-pnl-pct{ font-size:11.5px; font-family:var(--mono); }
+  .liquidate-btn{
+    display:inline-block; margin-top:6px; padding:4px 10px; border-radius:999px;
+    font-size:11px; font-weight:700; text-decoration:none;
+    background:var(--red); color:#fff; opacity:0.85;
+  }
+  .liquidate-btn:hover{ opacity:1; }
+  .no-positions{ font-size:12.5px; color:var(--muted-2); padding:8px 0 2px; }
 </style>
 </head>
 <body>
 <div class="wrap">
   <h1>📋 SST · Signal Sentinels Team</h1>
   <div class="sub">RSI Spread Pro 기반 반등 시그널 자동 스캔 결과</div>
+
+  <div class="portfolio" id="portfolio"></div>
 
   <div class="tabs" id="tabs"></div>
   <div class="meta" id="meta"></div>
@@ -69,8 +100,73 @@ const TIMEFRAMES = [
   { key: "5m", label: "5분봉" },
 ];
 
+const REPO = "heydey2012/sst-dashboard";
 let current = "4h";
 const cache = {};
+
+async function loadPositions() {
+  try {
+    const res = await fetch(`results/positions.json?t=${Date.now()}`);
+    if (!res.ok) return null;
+    return await res.json();
+  } catch (e) {
+    return null;
+  }
+}
+
+function liquidateUrl(ticker, name) {
+  const title = encodeURIComponent(`청산:${ticker}`);
+  const body = encodeURIComponent(`대시보드에서 요청한 강제 매도입니다.\n종목: [${ticker}] ${name}\n\n이 이슈를 그대로 "Submit new issue"로 등록하면, 다음 자동 점검 주기(최대 3분 이내)에 시장가로 매도됩니다.`);
+  return `https://github.com/${REPO}/issues/new?title=${title}&body=${body}`;
+}
+
+function renderPortfolio(data) {
+  const el = document.getElementById("portfolio");
+  if (!data) {
+    el.innerHTML = `<div class="portfolio-title">🧪 모의투자 현황</div><div class="no-positions">아직 데이터가 없습니다 (자동매매가 최소 한 번 점검을 마쳐야 표시됩니다).</div>`;
+    return;
+  }
+
+  const hasCapital = data.current_capital !== null && data.current_capital !== undefined;
+  const profitClass = (data.profit_amount || 0) >= 0 ? "pos" : "neg";
+  const sign = (data.profit_amount || 0) >= 0 ? "+" : "";
+
+  let html = `<div class="portfolio-title">🧪 모의투자 현황 (키움 모의계좌) · ${formatDateTime(data.last_updated)}</div>`;
+  html += `<div class="portfolio-stats">`;
+  html += `<div><div class="stat-label">초기 자금</div><div class="stat-value">₩${data.initial_capital.toLocaleString()}</div></div>`;
+  html += `<div><div class="stat-label">현재 자금</div><div class="stat-value">${hasCapital ? "₩" + data.current_capital.toLocaleString() : "조회 실패"}</div></div>`;
+  if (hasCapital) {
+    html += `<div><div class="stat-label">수익률</div><div class="stat-value ${profitClass}">${sign}${data.return_pct}%</div></div>`;
+    html += `<div><div class="stat-label">수익금</div><div class="stat-value ${profitClass}">${sign}₩${data.profit_amount.toLocaleString()}</div></div>`;
+  }
+  html += `</div>`;
+
+  const positions = data.positions || [];
+  if (positions.length === 0) {
+    html += `<div class="no-positions">현재 보유 중인 포지션이 없습니다.</div>`;
+  } else {
+    positions.forEach(p => {
+      const hasPrice = p.current_price !== null && p.current_price !== undefined;
+      const pnlClass = (p.pnl || 0) >= 0 ? "pos" : "neg";
+      const pnlSign = (p.pnl || 0) >= 0 ? "+" : "";
+      html += `
+        <div class="pos-row">
+          <div class="pos-info">
+            <div class="pos-name">[${escapeHtml(p.ticker)}] ${escapeHtml(p.name)}</div>
+            <div class="pos-line">${p.qty}주 · 매수 ${p.entry_price.toLocaleString()} → 현재 ${hasPrice ? p.current_price.toLocaleString() : "-"}</div>
+            <a class="liquidate-btn" href="${liquidateUrl(p.ticker, p.name)}" target="_blank" rel="noopener">청산</a>
+          </div>
+          <div class="pos-pnl">
+            <div class="pos-pnl-amt ${hasPrice ? pnlClass : ''}">${hasPrice ? pnlSign + '₩' + p.pnl.toLocaleString() : '-'}</div>
+            <div class="pos-pnl-pct ${hasPrice ? pnlClass : ''}">${hasPrice ? pnlSign + p.pnl_pct + '%' : ''}</div>
+          </div>
+        </div>
+      `;
+    });
+  }
+
+  el.innerHTML = html;
+}
 
 async function loadResult(tf) {
   if (cache[tf]) return cache[tf];
@@ -175,8 +271,14 @@ async function render() {
   content.innerHTML = html;
 }
 
+async function refreshPortfolio() {
+  renderPortfolio(await loadPositions());
+}
+
 render();
+refreshPortfolio();
 setInterval(() => { cache[current] = null; render(); }, 60000); // 1분마다 자동 새로고침
+setInterval(refreshPortfolio, 60000);
 </script>
 </body>
 </html>

@@ -1,3 +1,8 @@
 .env
 data_cache/
 __pycache__/
+logs/
+.DS_Store
+/positions.json
+/trade_log.json
+/.liquidation_processed.json
