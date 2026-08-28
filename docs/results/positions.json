@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-08-28T12:25:12",
+  "last_updated": "2026-08-28T12:26:10",
   "initial_capital": 10000000,
-  "current_capital": 10024050.0,
+  "current_capital": 10024450.0,
   "return_pct": 0.24,
-  "profit_amount": 24050.0,
+  "profit_amount": 24450.0,
   "positions": [
     {
       "ticker": "042700",
@@ -23,11 +23,11 @@
       "qty": 10,
       "entry_price": 94400.0,
       "entry_time": "2026-08-28T11:09:16",
-      "current_price": 94800.0,
+      "current_price": 94500.0,
       "tp": 105728.0,
       "sl": 88736.0,
-      "pnl": 4000.0,
-      "pnl_pct": 0.42
+      "pnl": 1000.0,
+      "pnl_pct": 0.11
     },
     {
       "ticker": "086520",
@@ -35,11 +35,11 @@
       "qty": 11,
       "entry_price": 89100.0,
       "entry_time": "2026-08-28T11:09:17",
-      "current_price": 89800.0,
+      "current_price": 89900.0,
       "tp": 99792.0,
       "sl": 83754.0,
-      "pnl": 7700.0,
-      "pnl_pct": 0.79
+      "pnl": 8800.0,
+      "pnl_pct": 0.9
     },
     {
       "ticker": "247540",
@@ -47,11 +47,11 @@
       "qty": 8,
       "entry_price": 115700.0,
       "entry_time": "2026-08-28T11:09:19",
-      "current_price": 116900.0,
+      "current_price": 117000.0,
       "tp": 129584.0,
       "sl": 108758.0,
-      "pnl": 9600.0,
-      "pnl_pct": 1.04
+      "pnl": 10400.0,
+      "pnl_pct": 1.12
     },
     {
       "ticker": "012750",
@@ -71,11 +71,11 @@
       "qty": 2,
       "entry_price": 457500.0,
       "entry_time": "2026-08-28T11:20:44",
-      "current_price": 457500.0,
+      "current_price": 458000.0,
       "tp": 512400.0,
       "sl": 430050.0,
-      "pnl": 0.0,
-      "pnl_pct": 0.0
+      "pnl": 1000.0,
+      "pnl_pct": 0.11
     },
     {
       "ticker": "042660",
@@ -95,11 +95,11 @@
       "qty": 2,
       "entry_price": 368500.0,
       "entry_time": "2026-08-28T11:35:29",
-      "current_price": 369500.0,
+      "current_price": 370000.0,
       "tp": 412720.0,
       "sl": 346390.0,
-      "pnl": 2000.0,
-      "pnl_pct": 0.27
+      "pnl": 3000.0,
+      "pnl_pct": 0.41
     },
     {
       "ticker": "267260",
@@ -107,11 +107,11 @@
       "qty": 1,
       "entry_price": 812000.0,
       "entry_time": "2026-08-28T11:36:32",
-      "current_price": 818000.0,
+      "current_price": 819000.0,
       "tp": 909440.0,
       "sl": 763280.0,
-      "pnl": 6000.0,
-      "pnl_pct": 0.74
+      "pnl": 7000.0,
+      "pnl_pct": 0.86
     },
     {
       "ticker": "006260",
@@ -119,11 +119,11 @@
       "qty": 3,
       "entry_price": 314250.0,
       "entry_time": "2026-08-28T11:38:09",
-      "current_price": 316000.0,
+      "current_price": 315500.0,
       "tp": 351960.0,
       "sl": 295395.0,
-      "pnl": 5250.0,
-      "pnl_pct": 0.56
+      "pnl": 3750.0,
+      "pnl_pct": 0.4
     }
   ]
 }
