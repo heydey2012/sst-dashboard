@@ -1,7 +1,7 @@
 {
   "timeframe": "15m",
   "timeframe_label": "15분봉",
-  "last_updated": "2026-08-28T10:54:55",
+  "last_updated": "2026-08-28T11:10:19",
   "total_tickers": 98,
   "total_signals": 1,
   "results": [
@@ -22,11 +22,43 @@
       ]
     },
     {
-      "ticker": "042700",
-      "name": "한미반도체",
+      "ticker": "329180",
+      "name": "HD현대중공업",
       "is_fresh": true,
       "best_signal": false,
       "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "08/28 10:30",
+      "signal_price": 456000.0,
+      "rebound_time": "08/28 10:45",
+      "rebound_price": 456500.0,
+      "bars_after_signal": 1,
+      "reasons": [
+        "음봉형 도지"
+      ]
+    },
+    {
+      "ticker": "042660",
+      "name": "한화오션",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "08/28 10:30",
+      "signal_price": 88200.0,
+      "rebound_time": "08/28 10:45",
+      "rebound_price": 88300.0,
+      "bars_after_signal": 1,
+      "reasons": [
+        "음봉형 도지"
+      ]
+    },
+    {
+      "ticker": "042700",
+      "name": "한미반도체",
+      "is_fresh": true,
+      "best_signal": true,
+      "best_reason": "1차 저점(214,000) 지지 후 재반등",
       "has_active_entry": false,
       "signal_time": "08/28 09:15",
       "signal_price": 216500.0,
