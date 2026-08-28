@@ -1,7 +1,7 @@
 {
   "timeframe": "5m",
   "timeframe_label": "5분봉",
-  "last_updated": "2026-08-28T12:31:36",
+  "last_updated": "2026-08-28T12:36:53",
   "total_tickers": 98,
   "total_signals": 0,
   "results": [
@@ -371,6 +371,22 @@
       "bars_after_signal": 2,
       "reasons": [
         "연속 양봉 2개 이상"
+      ]
+    },
+    {
+      "ticker": "003490",
+      "name": "대한항공",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "08/28 12:20",
+      "signal_price": 28450.0,
+      "rebound_time": "08/28 12:25",
+      "rebound_price": 28600.0,
+      "bars_after_signal": 1,
+      "reasons": [
+        "전 봉(음봉)보다 몸통이 큰 양봉"
       ]
     },
     {
