@@ -1,7 +1,7 @@
 {
   "timeframe": "5m",
   "timeframe_label": "5분봉",
-  "last_updated": "2026-08-28T13:42:06",
+  "last_updated": "2026-08-28T13:51:39",
   "total_tickers": 98,
   "total_signals": 0,
   "results": [
@@ -368,6 +368,22 @@
       "signal_price": 180600.0,
       "rebound_time": "08/28 09:15",
       "rebound_price": 182300.0,
+      "bars_after_signal": 2,
+      "reasons": [
+        "연속 양봉 2개 이상"
+      ]
+    },
+    {
+      "ticker": "078930",
+      "name": "GS",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "08/28 13:30",
+      "signal_price": 127000.0,
+      "rebound_time": "08/28 13:40",
+      "rebound_price": 127700.0,
       "bars_after_signal": 2,
       "reasons": [
         "연속 양봉 2개 이상"
