@@ -1,9 +1,9 @@
 {
   "timeframe": "5m",
   "timeframe_label": "5분봉",
-  "last_updated": "2026-08-28T14:01:34",
+  "last_updated": "2026-08-28T14:06:45",
   "total_tickers": 98,
-  "total_signals": 1,
+  "total_signals": 2,
   "results": [
     {
       "ticker": "402340",
@@ -41,8 +41,8 @@
       "ticker": "207940",
       "name": "삼성바이오로직스",
       "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
+      "best_signal": true,
+      "best_reason": "1차 저점(1,481,000) 지지 후 재반등",
       "has_active_entry": false,
       "signal_time": "08/28 09:10",
       "signal_price": 1500000.0,
@@ -211,22 +211,6 @@
       "bars_after_signal": 6,
       "reasons": [
         "음봉형 도지"
-      ]
-    },
-    {
-      "ticker": "298040",
-      "name": "효성중공업",
-      "is_fresh": true,
-      "best_signal": true,
-      "best_reason": "1차 저점(3,093,000) 지지 후 재반등",
-      "has_active_entry": false,
-      "signal_time": "08/28 10:25",
-      "signal_price": 3097000.0,
-      "rebound_time": "08/28 10:30",
-      "rebound_price": 3128000.0,
-      "bars_after_signal": 1,
-      "reasons": [
-        "전 봉(음봉)보다 몸통이 큰 양봉"
       ]
     },
     {
@@ -569,8 +553,8 @@
       "ticker": "293490",
       "name": "카카오게임즈",
       "is_fresh": true,
-      "best_signal": true,
-      "best_reason": "1차 저점(8,240) 지지 후 재반등",
+      "best_signal": false,
+      "best_reason": "",
       "has_active_entry": false,
       "signal_time": "08/28 13:25",
       "signal_price": 8250.0,
