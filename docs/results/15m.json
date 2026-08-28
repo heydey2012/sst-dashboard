@@ -1,10 +1,26 @@
 {
   "timeframe": "15m",
   "timeframe_label": "15분봉",
-  "last_updated": "2026-08-28T09:26:10",
+  "last_updated": "2026-08-28T09:41:03",
   "total_tickers": 98,
-  "total_signals": 6,
+  "total_signals": 4,
   "results": [
+    {
+      "ticker": "005930",
+      "name": "삼성전자",
+      "is_fresh": false,
+      "best_signal": true,
+      "best_reason": "저점 이탈(259,000→245,000)했으나 RSI 다이버전스 동반 재반등 (RSI 27.5→31.3)",
+      "has_active_entry": false,
+      "signal_time": "08/24 10:45",
+      "signal_price": 260000.0,
+      "rebound_time": "08/24 11:15",
+      "rebound_price": 261000.0,
+      "bars_after_signal": 2,
+      "reasons": [
+        "연속 양봉 2개 이상"
+      ]
+    },
     {
       "ticker": "000660",
       "name": "SK하이닉스",
@@ -297,8 +313,8 @@
       "ticker": "066570",
       "name": "LG전자",
       "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
+      "best_signal": true,
+      "best_reason": "1차 저점(197,000) 지지 후 재반등",
       "has_active_entry": false,
       "signal_time": "08/27 09:45",
       "signal_price": 197500.0,
@@ -345,8 +361,8 @@
       "ticker": "009540",
       "name": "HD한국조선해양",
       "is_fresh": false,
-      "best_signal": true,
-      "best_reason": "1차 저점(355,500) 지지 후 재반등",
+      "best_signal": false,
+      "best_reason": "",
       "has_active_entry": false,
       "signal_time": "08/26 09:45",
       "signal_price": 355500.0,
@@ -1046,6 +1062,22 @@
       ]
     },
     {
+      "ticker": "042700",
+      "name": "한미반도체",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "08/28 09:15",
+      "signal_price": 216500.0,
+      "rebound_time": "08/28 09:30",
+      "rebound_price": 217500.0,
+      "bars_after_signal": 1,
+      "reasons": [
+        "연속 양봉 2개 이상"
+      ]
+    },
+    {
       "ticker": "302440",
       "name": "SK바이오사이언스",
       "is_fresh": false,
@@ -1168,22 +1200,6 @@
       "signal_price": 82600.0,
       "rebound_time": "08/25 09:30",
       "rebound_price": 84300.0,
-      "bars_after_signal": 1,
-      "reasons": [
-        "연속 양봉 2개 이상"
-      ]
-    },
-    {
-      "ticker": "247540",
-      "name": "에코프로비엠",
-      "is_fresh": false,
-      "best_signal": true,
-      "best_reason": "1차 저점(108,400) 지지 후 재반등",
-      "has_active_entry": false,
-      "signal_time": "08/25 09:15",
-      "signal_price": 110050.0,
-      "rebound_time": "08/25 09:30",
-      "rebound_price": 112300.0,
       "bars_after_signal": 1,
       "reasons": [
         "연속 양봉 2개 이상"
