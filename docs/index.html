@@ -24,13 +24,58 @@
   h1{ font-size:22px; margin:0 0 4px; }
   .sub{ color:var(--muted); font-size:13px; margin-bottom:20px; }
 
+  .header-btns{ display:flex; gap:8px; flex-shrink:0; margin-top:2px; }
   .refresh-btn{
     flex-shrink:0; padding:8px 14px; border-radius:999px; border:1px solid var(--line);
     background:var(--panel); color:var(--text); font-size:13px; font-weight:600;
-    cursor:pointer; margin-top:2px;
+    cursor:pointer; white-space:nowrap;
   }
   .refresh-btn:active{ transform:scale(0.96); }
   .refresh-btn.spinning{ opacity:0.6; }
+
+  .modal-backdrop{
+    position:fixed; inset:0; background:rgba(18,22,31,0.45); z-index:100;
+    display:flex; align-items:flex-start; justify-content:center; padding:24px 16px;
+    overflow-y:auto;
+  }
+  .modal{
+    background:var(--panel); border-radius:14px; max-width:720px; width:100%;
+    padding:20px; margin-top:20px;
+  }
+  .modal-top{ display:flex; justify-content:space-between; align-items:center; margin-bottom:14px; }
+  .modal-title{ font-size:16px; font-weight:700; }
+  .modal-close{
+    border:none; background:none; font-size:20px; cursor:pointer; color:var(--muted);
+    line-height:1; padding:4px;
+  }
+  .report-controls{ display:flex; gap:8px; margin-bottom:16px; flex-wrap:wrap; }
+  .report-search{
+    flex:1; min-width:160px; padding:8px 12px; border-radius:8px; border:1px solid var(--line);
+    font-size:13px; font-family:var(--sans); background:var(--bg); color:var(--text);
+  }
+  .report-group-btn{
+    padding:8px 14px; border-radius:8px; border:1px solid var(--line); background:var(--bg);
+    color:var(--muted); font-size:13px; font-weight:600; cursor:pointer;
+  }
+  .report-group-btn.active{ background:var(--text); color:#fff; border-color:var(--text); }
+  .report-period{
+    font-size:13px; font-weight:700; color:var(--muted); margin:16px 0 8px;
+    padding-top:10px; border-top:1px solid var(--line);
+  }
+  .report-period:first-child{ margin-top:0; padding-top:0; border-top:none; }
+  .report-row{
+    display:flex; justify-content:space-between; align-items:center; gap:10px;
+    padding:9px 0; border-top:1px solid var(--line); font-size:13px;
+  }
+  .report-row:first-of-type{ border-top:none; }
+  .report-status{
+    font-size:10.5px; font-weight:700; padding:2px 8px; border-radius:999px;
+    margin-left:6px; white-space:nowrap;
+  }
+  .report-status.open{ background:var(--amber-dim); color:var(--amber); }
+  .report-status.win{ background:var(--green-dim); color:var(--green); }
+  .report-status.loss{ background:rgba(214,69,69,0.1); color:var(--red); }
+  .report-empty{ text-align:center; color:var(--muted-2); font-size:13px; padding:30px 0; }
 
   .tabs{ display:flex; gap:8px; margin-bottom:18px; flex-wrap:wrap; }
   .tab{
@@ -96,10 +141,28 @@
       <h1>📋 SST · Signal Sentinels Team</h1>
       <div class="sub">RSI Spread Pro 기반 반등 시그널 자동 스캔 결과</div>
     </div>
-    <button class="refresh-btn" id="refreshBtn" onclick="refreshAll()">↻ 새로고침</button>
+    <div class="header-btns">
+      <button class="refresh-btn" onclick="openReport()">📊 매수 현황보고서</button>
+      <button class="refresh-btn" id="refreshBtn" onclick="refreshAll()">↻ 새로고침</button>
+    </div>
   </div>
 
   <div class="portfolio" id="portfolio"></div>
+
+  <div class="modal-backdrop" id="reportBackdrop" style="display:none" onclick="if(event.target===this) closeReport()">
+    <div class="modal">
+      <div class="modal-top">
+        <div class="modal-title">📊 매수 현황보고서</div>
+        <button class="modal-close" onclick="closeReport()">✕</button>
+      </div>
+      <div class="report-controls">
+        <input class="report-search" id="reportSearch" placeholder="종목명 또는 종목코드 검색 (예: 삼성전자, 005930)" oninput="renderReport()">
+        <button class="report-group-btn active" id="groupDayBtn" onclick="setReportGroup('day')">일별</button>
+        <button class="report-group-btn" id="groupMonthBtn" onclick="setReportGroup('month')">월별</button>
+      </div>
+      <div id="reportBody"></div>
+    </div>
+  </div>
 
   <div class="tabs" id="tabs"></div>
   <div class="meta" id="meta"></div>
@@ -126,6 +189,127 @@ async function loadPositions() {
   } catch (e) {
     return null;
   }
+}
+
+async function loadTradeLog() {
+  try {
+    const res = await fetch(`results/trade_log.json?t=${Date.now()}`);
+    if (!res.ok) return [];
+    return await res.json();
+  } catch (e) {
+    return [];
+  }
+}
+
+let reportGroup = "day";
+let reportTrades = null;
+
+function buildReportTrades(positionsData, tradeLog) {
+  const trades = [];
+  (tradeLog || []).forEach(t => {
+    trades.push({
+      ticker: t.ticker, name: t.name, qty: t.qty,
+      entry_price: t.entry_price, entry_time: t.entry_time,
+      exit_price: t.exit_price, exit_time: t.exit_time,
+      status: t.pnl >= 0 ? "win" : "loss",
+      status_label: t.reason || (t.pnl >= 0 ? "익절" : "손절"),
+      pnl: t.pnl, pnl_pct: t.pnl_pct,
+    });
+  });
+  ((positionsData && positionsData.positions) || []).forEach(p => {
+    trades.push({
+      ticker: p.ticker, name: p.name, qty: p.qty,
+      entry_price: p.entry_price, entry_time: p.entry_time,
+      exit_price: null, exit_time: null,
+      status: "open", status_label: "보유중",
+      pnl: p.pnl, pnl_pct: p.pnl_pct,
+    });
+  });
+  trades.sort((a, b) => new Date(b.entry_time) - new Date(a.entry_time));
+  return trades;
+}
+
+function periodKey(isoString, group) {
+  const d = new Date(isoString);
+  if (isNaN(d.getTime())) return "알 수 없음";
+  const yyyy = d.getFullYear();
+  const mm = String(d.getMonth() + 1).padStart(2, "0");
+  if (group === "month") return `${yyyy}년 ${mm}월`;
+  const dd = String(d.getDate()).padStart(2, "0");
+  const days = ["일", "월", "화", "수", "목", "금", "토"];
+  return `${yyyy}-${mm}-${dd} (${days[d.getDay()]})`;
+}
+
+function setReportGroup(g) {
+  reportGroup = g;
+  document.getElementById("groupDayBtn").classList.toggle("active", g === "day");
+  document.getElementById("groupMonthBtn").classList.toggle("active", g === "month");
+  renderReport();
+}
+
+async function openReport() {
+  document.getElementById("reportBackdrop").style.display = "flex";
+  document.getElementById("reportBody").innerHTML = `<div class="report-empty">불러오는 중...</div>`;
+  const [positionsData, tradeLog] = await Promise.all([loadPositions(), loadTradeLog()]);
+  reportTrades = buildReportTrades(positionsData, tradeLog);
+  renderReport();
+}
+
+function closeReport() {
+  document.getElementById("reportBackdrop").style.display = "none";
+}
+
+function renderReport() {
+  if (!reportTrades) return;
+  const body = document.getElementById("reportBody");
+  const query = (document.getElementById("reportSearch").value || "").trim().toLowerCase();
+
+  const filtered = query
+    ? reportTrades.filter(t => t.name.toLowerCase().includes(query) || t.ticker.includes(query))
+    : reportTrades;
+
+  if (filtered.length === 0) {
+    body.innerHTML = `<div class="report-empty">${reportTrades.length === 0 ? "아직 매수 내역이 없습니다." : "검색 결과가 없습니다."}</div>`;
+    return;
+  }
+
+  const groups = {};
+  const order = [];
+  filtered.forEach(t => {
+    const key = periodKey(t.entry_time, reportGroup);
+    if (!groups[key]) { groups[key] = []; order.push(key); }
+    groups[key].push(t);
+  });
+
+  let html = "";
+  order.forEach(key => {
+    const rows = groups[key];
+    const periodPnl = rows.reduce((sum, t) => sum + (t.pnl || 0), 0);
+    const periodClass = periodPnl >= 0 ? "pos" : "neg";
+    html += `<div class="report-period">${key} · ${rows.length}건 · <span class="${periodClass}">${periodPnl >= 0 ? "+" : ""}₩${periodPnl.toLocaleString()}</span></div>`;
+    rows.forEach(t => {
+      const hasPnl = t.pnl !== null && t.pnl !== undefined;
+      const pnlClass = (t.pnl || 0) >= 0 ? "pos" : "neg";
+      const pnlSign = (t.pnl || 0) >= 0 ? "+" : "";
+      const timeRange = t.exit_time
+        ? `${formatShortDateTime(t.entry_time)} → ${formatShortDateTime(t.exit_time)}`
+        : `${formatShortDateTime(t.entry_time)} → 보유중`;
+      html += `
+        <div class="report-row">
+          <div>
+            <div><b>[${escapeHtml(t.ticker)}] ${escapeHtml(t.name)}</b><span class="report-status ${t.status}">${escapeHtml(t.status_label)}</span></div>
+            <div class="pos-line">${t.qty}주 · ${timeRange}</div>
+          </div>
+          <div class="pos-pnl">
+            <div class="pos-pnl-amt ${hasPnl ? pnlClass : ''}">${hasPnl ? pnlSign + '₩' + t.pnl.toLocaleString() : '-'}</div>
+            <div class="pos-pnl-pct ${hasPnl ? pnlClass : ''}">${hasPnl ? pnlSign + t.pnl_pct + '%' : ''}</div>
+          </div>
+        </div>
+      `;
+    });
+  });
+
+  body.innerHTML = html;
 }
 
 function liquidateUrl(ticker, name) {
