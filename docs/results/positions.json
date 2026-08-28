@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-08-28T11:57:09",
+  "last_updated": "2026-08-28T11:57:31",
   "initial_capital": 10000000,
-  "current_capital": 10001500.0,
+  "current_capital": 10001450.0,
   "return_pct": 0.01,
-  "profit_amount": 1500.0,
+  "profit_amount": 1450.0,
   "positions": [
     {
       "ticker": "042700",
@@ -35,11 +35,11 @@
       "qty": 11,
       "entry_price": 89100.0,
       "entry_time": "2026-08-28T11:09:17",
-      "current_price": 89350.0,
+      "current_price": 89400.0,
       "tp": 99792.0,
       "sl": 83754.0,
-      "pnl": 2750.0,
-      "pnl_pct": 0.28
+      "pnl": 3300.0,
+      "pnl_pct": 0.34
     },
     {
       "ticker": "247540",
@@ -47,11 +47,11 @@
       "qty": 8,
       "entry_price": 115700.0,
       "entry_time": "2026-08-28T11:09:19",
-      "current_price": 116400.0,
+      "current_price": 116200.0,
       "tp": 129584.0,
       "sl": 108758.0,
-      "pnl": 5600.0,
-      "pnl_pct": 0.61
+      "pnl": 4000.0,
+      "pnl_pct": 0.43
     },
     {
       "ticker": "012750",
@@ -71,11 +71,11 @@
       "qty": 2,
       "entry_price": 457500.0,
       "entry_time": "2026-08-28T11:20:44",
-      "current_price": 456000.0,
+      "current_price": 456500.0,
       "tp": 512400.0,
       "sl": 430050.0,
-      "pnl": -3000.0,
-      "pnl_pct": -0.33
+      "pnl": -2000.0,
+      "pnl_pct": -0.22
     },
     {
       "ticker": "042660",
