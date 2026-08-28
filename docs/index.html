@@ -168,6 +168,7 @@ function renderPortfolio(data) {
           <div class="pos-info">
             <div class="pos-name">[${escapeHtml(p.ticker)}] ${escapeHtml(p.name)}</div>
             <div class="pos-line">${p.qty}주 · 매수 ${p.entry_price.toLocaleString()} → 현재 ${hasPrice ? p.current_price.toLocaleString() : "-"}</div>
+            <div class="pos-line pos-target"><span class="pos">익절 ${p.tp.toLocaleString()}</span> · <span class="neg">손절 ${p.sl.toLocaleString()}</span></div>
             <a class="liquidate-btn" href="${liquidateUrl(p.ticker, p.name)}" target="_blank" rel="noopener">청산</a>
           </div>
           <div class="pos-pnl">
