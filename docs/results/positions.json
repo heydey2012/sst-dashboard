@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-08-28T14:18:11",
+  "last_updated": "2026-08-28T14:20:09",
   "initial_capital": 10000000,
-  "current_capital": 9977950.0,
-  "return_pct": -0.22,
-  "profit_amount": -22050.0,
+  "current_capital": 9972850.0,
+  "return_pct": -0.27,
+  "profit_amount": -27150.0,
   "positions": [
     {
       "ticker": "042700",
@@ -11,11 +11,11 @@
       "qty": 4,
       "entry_price": 224500.0,
       "entry_time": "2026-08-28T11:08:43",
-      "current_price": 220000.0,
+      "current_price": 218500.0,
       "tp": 235000.0,
       "sl": 214000.0,
-      "pnl": -18000.0,
-      "pnl_pct": -2.0
+      "pnl": -24000.0,
+      "pnl_pct": -2.67
     },
     {
       "ticker": "000990",
@@ -23,11 +23,11 @@
       "qty": 10,
       "entry_price": 94400.0,
       "entry_time": "2026-08-28T11:09:16",
-      "current_price": 93000.0,
+      "current_price": 93100.0,
       "tp": 96800.0,
       "sl": 92000.0,
-      "pnl": -14000.0,
-      "pnl_pct": -1.48
+      "pnl": -13000.0,
+      "pnl_pct": -1.38
     },
     {
       "ticker": "012750",
@@ -71,11 +71,11 @@
       "qty": 1,
       "entry_price": 812000.0,
       "entry_time": "2026-08-28T11:36:32",
-      "current_price": 812000.0,
+      "current_price": 812500.0,
       "tp": 823000.0,
       "sl": 801000.0,
-      "pnl": 0.0,
-      "pnl_pct": 0.0
+      "pnl": 500.0,
+      "pnl_pct": 0.06
     },
     {
       "ticker": "006260",
@@ -95,11 +95,11 @@
       "qty": 4,
       "entry_price": 217000.0,
       "entry_time": "2026-08-28T13:36:21",
-      "current_price": 214500.0,
+      "current_price": 214000.0,
       "tp": 221000.0,
       "sl": 213000.0,
-      "pnl": -10000.0,
-      "pnl_pct": -1.15
+      "pnl": -12000.0,
+      "pnl_pct": -1.38
     },
     {
       "ticker": "047810",
@@ -107,11 +107,11 @@
       "qty": 7,
       "entry_price": 133200.0,
       "entry_time": "2026-08-28T13:52:36",
-      "current_price": 132800.0,
+      "current_price": 133000.0,
       "tp": 134300.0,
       "sl": 132100.0,
-      "pnl": -2800.0,
-      "pnl_pct": -0.3
+      "pnl": -1400.0,
+      "pnl_pct": -0.15
     },
     {
       "ticker": "329180",
