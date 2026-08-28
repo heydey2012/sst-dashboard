@@ -6,3 +6,4 @@ logs/
 /positions.json
 /trade_log.json
 /.liquidation_processed.json
+/.sst_*.lock
