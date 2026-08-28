@@ -1,7 +1,7 @@
 {
   "timeframe": "5m",
   "timeframe_label": "5분봉",
-  "last_updated": "2026-08-28T12:56:52",
+  "last_updated": "2026-08-28T13:01:35",
   "total_tickers": 98,
   "total_signals": 0,
   "results": [
@@ -9,13 +9,13 @@
       "ticker": "402340",
       "name": "SK스퀘어",
       "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
+      "best_signal": true,
+      "best_reason": "1차 저점(1,047,000) 지지 후 재반등",
       "has_active_entry": false,
       "signal_time": "08/28 12:40",
       "signal_price": 1050000.0,
       "rebound_time": "08/28 12:50",
-      "rebound_price": 1053000.0,
+      "rebound_price": 1056000.0,
       "bars_after_signal": 2,
       "reasons": [
         "연속 양봉 2개 이상"
