@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-08-28T12:29:13",
+  "last_updated": "2026-08-28T12:30:09",
   "initial_capital": 10000000,
-  "current_capital": 10023550.0,
-  "return_pct": 0.24,
-  "profit_amount": 23550.0,
+  "current_capital": 10025250.0,
+  "return_pct": 0.25,
+  "profit_amount": 25250.0,
   "positions": [
     {
       "ticker": "042700",
@@ -23,11 +23,11 @@
       "qty": 10,
       "entry_price": 94400.0,
       "entry_time": "2026-08-28T11:09:16",
-      "current_price": 94700.0,
+      "current_price": 94400.0,
       "tp": 105728.0,
       "sl": 88736.0,
-      "pnl": 3000.0,
-      "pnl_pct": 0.32
+      "pnl": 0.0,
+      "pnl_pct": 0.0
     },
     {
       "ticker": "086520",
@@ -35,11 +35,11 @@
       "qty": 11,
       "entry_price": 89100.0,
       "entry_time": "2026-08-28T11:09:17",
-      "current_price": 89900.0,
+      "current_price": 90000.0,
       "tp": 99792.0,
       "sl": 83754.0,
-      "pnl": 8800.0,
-      "pnl_pct": 0.9
+      "pnl": 9900.0,
+      "pnl_pct": 1.01
     },
     {
       "ticker": "247540",
@@ -47,11 +47,11 @@
       "qty": 8,
       "entry_price": 115700.0,
       "entry_time": "2026-08-28T11:09:19",
-      "current_price": 116900.0,
+      "current_price": 117100.0,
       "tp": 129584.0,
       "sl": 108758.0,
-      "pnl": 9600.0,
-      "pnl_pct": 1.04
+      "pnl": 11200.0,
+      "pnl_pct": 1.21
     },
     {
       "ticker": "012750",
@@ -71,11 +71,11 @@
       "qty": 2,
       "entry_price": 457500.0,
       "entry_time": "2026-08-28T11:20:44",
-      "current_price": 458000.0,
+      "current_price": 457500.0,
       "tp": 512400.0,
       "sl": 430050.0,
-      "pnl": 1000.0,
-      "pnl_pct": 0.11
+      "pnl": 0.0,
+      "pnl_pct": 0.0
     },
     {
       "ticker": "042660",
@@ -119,11 +119,11 @@
       "qty": 3,
       "entry_price": 314250.0,
       "entry_time": "2026-08-28T11:38:09",
-      "current_price": 315500.0,
+      "current_price": 316500.0,
       "tp": 351960.0,
       "sl": 295395.0,
-      "pnl": 3750.0,
-      "pnl_pct": 0.4
+      "pnl": 6750.0,
+      "pnl_pct": 0.72
     }
   ]
 }
