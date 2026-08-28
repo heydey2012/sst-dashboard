@@ -1,7 +1,7 @@
 {
   "timeframe": "5m",
   "timeframe_label": "5분봉",
-  "last_updated": "2026-08-28T11:16:34",
+  "last_updated": "2026-08-28T11:21:40",
   "total_tickers": 98,
   "total_signals": 0,
   "results": [
@@ -89,8 +89,8 @@
       "ticker": "012450",
       "name": "한화에어로스페이스",
       "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
+      "best_signal": true,
+      "best_reason": "저점 이탈(1,114,000→1,113,000)했으나 RSI 다이버전스 동반 재반등 (RSI 33.6→34.1)",
       "has_active_entry": false,
       "signal_time": "08/28 09:20",
       "signal_price": 1118000.0,
