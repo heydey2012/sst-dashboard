@@ -1,7 +1,7 @@
 {
   "timeframe": "15m",
   "timeframe_label": "15분봉",
-  "last_updated": "2026-08-28T13:39:52",
+  "last_updated": "2026-08-28T13:54:48",
   "total_tickers": 98,
   "total_signals": 0,
   "results": [
@@ -41,8 +41,8 @@
       "ticker": "329180",
       "name": "HD현대중공업",
       "is_fresh": true,
-      "best_signal": true,
-      "best_reason": "1차 저점(453,000) 지지 후 재반등",
+      "best_signal": false,
+      "best_reason": "",
       "has_active_entry": false,
       "signal_time": "08/28 10:30",
       "signal_price": 456000.0,
