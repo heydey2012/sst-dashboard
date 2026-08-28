@@ -1,9 +1,9 @@
 {
   "timeframe": "15m",
   "timeframe_label": "15분봉",
-  "last_updated": "2026-08-28T09:41:03",
+  "last_updated": "2026-08-28T09:56:22",
   "total_tickers": 98,
-  "total_signals": 4,
+  "total_signals": 2,
   "results": [
     {
       "ticker": "005930",
@@ -102,6 +102,22 @@
       ]
     },
     {
+      "ticker": "207940",
+      "name": "삼성바이오로직스",
+      "is_fresh": true,
+      "best_signal": true,
+      "best_reason": "1차 저점(1,489,000) 지지 후 재반등",
+      "has_active_entry": false,
+      "signal_time": "08/28 09:15",
+      "signal_price": 1497000.0,
+      "rebound_time": "08/28 09:30",
+      "rebound_price": 1515000.0,
+      "bars_after_signal": 1,
+      "reasons": [
+        "전 봉(음봉)보다 몸통이 큰 양봉"
+      ]
+    },
+    {
       "ticker": "105560",
       "name": "KB금융",
       "is_fresh": false,
@@ -184,7 +200,7 @@
     {
       "ticker": "000270",
       "name": "기아",
-      "is_fresh": true,
+      "is_fresh": false,
       "best_signal": false,
       "best_reason": "",
       "has_active_entry": false,
@@ -259,6 +275,22 @@
       "bars_after_signal": 1,
       "reasons": [
         "음봉형 도지"
+      ]
+    },
+    {
+      "ticker": "034730",
+      "name": "SK",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "08/28 09:00",
+      "signal_price": 540000.0,
+      "rebound_time": "08/28 09:45",
+      "rebound_price": 543000.0,
+      "bars_after_signal": 3,
+      "reasons": [
+        "전 봉(음봉)보다 몸통이 큰 양봉"
       ]
     },
     {
@@ -601,8 +633,8 @@
       "ticker": "138040",
       "name": "메리츠금융지주",
       "is_fresh": false,
-      "best_signal": false,
-      "best_reason": "",
+      "best_signal": true,
+      "best_reason": "저점 이탈(117,000→116,900)했으나 RSI 다이버전스 동반 재반등 (RSI 30.9→36.1)",
       "has_active_entry": false,
       "signal_time": "08/26 13:45",
       "signal_price": 117300.0,
@@ -841,8 +873,8 @@
       "ticker": "006800",
       "name": "미래에셋증권",
       "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
+      "best_signal": true,
+      "best_reason": "저점 이탈(35,750→35,450)했으나 RSI 다이버전스 동반 재반등 (RSI 41.4→40.3)",
       "has_active_entry": false,
       "signal_time": "08/27 10:00",
       "signal_price": 35750.0,
@@ -1065,13 +1097,13 @@
       "ticker": "042700",
       "name": "한미반도체",
       "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
+      "best_signal": true,
+      "best_reason": "1차 저점(214,000) 지지 후 재반등",
       "has_active_entry": false,
       "signal_time": "08/28 09:15",
       "signal_price": 216500.0,
       "rebound_time": "08/28 09:30",
-      "rebound_price": 217500.0,
+      "rebound_price": 219500.0,
       "bars_after_signal": 1,
       "reasons": [
         "연속 양봉 2개 이상"
@@ -1152,6 +1184,22 @@
       "signal_price": 107200.0,
       "rebound_time": "08/26 10:45",
       "rebound_price": 107700.0,
+      "bars_after_signal": 1,
+      "reasons": [
+        "연속 양봉 2개 이상"
+      ]
+    },
+    {
+      "ticker": "000990",
+      "name": "DB하이텍",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "08/28 09:30",
+      "signal_price": 92900.0,
+      "rebound_time": "08/28 09:45",
+      "rebound_price": 93000.0,
       "bars_after_signal": 1,
       "reasons": [
         "연속 양봉 2개 이상"
@@ -1401,8 +1449,8 @@
       "ticker": "259960",
       "name": "크래프톤",
       "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
+      "best_signal": true,
+      "best_reason": "저점 이탈(222,000→217,500)했으나 RSI 다이버전스 동반 재반등 (RSI 36.0→36.8)",
       "has_active_entry": false,
       "signal_time": "08/27 10:15",
       "signal_price": 222500.0,
@@ -1433,8 +1481,8 @@
       "ticker": "251270",
       "name": "넷마블",
       "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
+      "best_signal": true,
+      "best_reason": "저점 이탈(36,750→35,700)했으나 RSI 다이버전스 동반 재반등 (RSI 29.3→30.1)",
       "has_active_entry": false,
       "signal_time": "08/27 10:45",
       "signal_price": 36800.0,
