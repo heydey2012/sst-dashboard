@@ -20,8 +20,17 @@
     padding-bottom:60px;
   }
   .wrap{ max-width:760px; margin:0 auto; padding:24px 16px 0; }
+  .header-row{ display:flex; justify-content:space-between; align-items:flex-start; gap:12px; }
   h1{ font-size:22px; margin:0 0 4px; }
   .sub{ color:var(--muted); font-size:13px; margin-bottom:20px; }
+
+  .refresh-btn{
+    flex-shrink:0; padding:8px 14px; border-radius:999px; border:1px solid var(--line);
+    background:var(--panel); color:var(--text); font-size:13px; font-weight:600;
+    cursor:pointer; margin-top:2px;
+  }
+  .refresh-btn:active{ transform:scale(0.96); }
+  .refresh-btn.spinning{ opacity:0.6; }
 
   .tabs{ display:flex; gap:8px; margin-bottom:18px; flex-wrap:wrap; }
   .tab{
@@ -82,8 +91,13 @@
 </head>
 <body>
 <div class="wrap">
-  <h1>📋 SST · Signal Sentinels Team</h1>
-  <div class="sub">RSI Spread Pro 기반 반등 시그널 자동 스캔 결과</div>
+  <div class="header-row">
+    <div>
+      <h1>📋 SST · Signal Sentinels Team</h1>
+      <div class="sub">RSI Spread Pro 기반 반등 시그널 자동 스캔 결과</div>
+    </div>
+    <button class="refresh-btn" id="refreshBtn" onclick="refreshAll()">↻ 새로고침</button>
+  </div>
 
   <div class="portfolio" id="portfolio"></div>
 
@@ -273,6 +287,18 @@ async function render() {
 
 async function refreshPortfolio() {
   renderPortfolio(await loadPositions());
+}
+
+async function refreshAll() {
+  const btn = document.getElementById("refreshBtn");
+  btn.disabled = true;
+  btn.classList.add("spinning");
+  btn.textContent = "↻ 불러오는 중...";
+  cache[current] = null;
+  await Promise.all([render(), refreshPortfolio()]);
+  btn.disabled = false;
+  btn.classList.remove("spinning");
+  btn.textContent = "↻ 새로고침";
 }
 
 render();
