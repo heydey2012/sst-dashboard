@@ -1,0 +1,129 @@
+{
+  "last_updated": "2026-08-28T11:39:09",
+  "initial_capital": 10000000,
+  "current_capital": 9914058.0,
+  "return_pct": -0.86,
+  "profit_amount": -85942.0,
+  "positions": [
+    {
+      "ticker": "042700",
+      "name": "한미반도체",
+      "qty": 4,
+      "entry_price": 224500.0,
+      "entry_time": "2026-08-28T11:08:43",
+      "current_price": 222500.0,
+      "tp": 251440.0,
+      "sl": 211030.0,
+      "pnl": -8000.0,
+      "pnl_pct": -0.89
+    },
+    {
+      "ticker": "000990",
+      "name": "DB하이텍",
+      "qty": 10,
+      "entry_price": 94400.0,
+      "entry_time": "2026-08-28T11:09:16",
+      "current_price": 94500.0,
+      "tp": 105728.0,
+      "sl": 88736.0,
+      "pnl": 1000.0,
+      "pnl_pct": 0.11
+    },
+    {
+      "ticker": "086520",
+      "name": "에코프로",
+      "qty": 11,
+      "entry_price": 89100.0,
+      "entry_time": "2026-08-28T11:09:17",
+      "current_price": 89300.0,
+      "tp": 99792.0,
+      "sl": 83754.0,
+      "pnl": 2200.0,
+      "pnl_pct": 0.22
+    },
+    {
+      "ticker": "247540",
+      "name": "에코프로비엠",
+      "qty": 8,
+      "entry_price": 115700.0,
+      "entry_time": "2026-08-28T11:09:19",
+      "current_price": 116300.0,
+      "tp": 129584.0,
+      "sl": 108758.0,
+      "pnl": 4800.0,
+      "pnl_pct": 0.52
+    },
+    {
+      "ticker": "012750",
+      "name": "에스원",
+      "qty": 12,
+      "entry_price": 82000.0,
+      "entry_time": "2026-08-28T11:09:55",
+      "current_price": 81700.0,
+      "tp": 91840.0,
+      "sl": 77080.0,
+      "pnl": -3600.0,
+      "pnl_pct": -0.37
+    },
+    {
+      "ticker": "329180",
+      "name": "HD현대중공업",
+      "qty": 2,
+      "entry_price": 457500.0,
+      "entry_time": "2026-08-28T11:20:44",
+      "current_price": 456000.0,
+      "tp": 512400.0,
+      "sl": 430050.0,
+      "pnl": -3000.0,
+      "pnl_pct": -0.33
+    },
+    {
+      "ticker": "042660",
+      "name": "한화오션",
+      "qty": 11,
+      "entry_price": 88800.0,
+      "entry_time": "2026-08-28T11:21:37",
+      "current_price": 88800.0,
+      "tp": 99456.0,
+      "sl": 83472.0,
+      "pnl": 0.0,
+      "pnl_pct": 0.0
+    },
+    {
+      "ticker": "373220",
+      "name": "LG에너지솔루션",
+      "qty": 2,
+      "entry_price": 368500.0,
+      "entry_time": "2026-08-28T11:35:29",
+      "current_price": 369000.0,
+      "tp": 412720.0,
+      "sl": 346390.0,
+      "pnl": 1000.0,
+      "pnl_pct": 0.14
+    },
+    {
+      "ticker": "267260",
+      "name": "HD현대일렉트릭",
+      "qty": 1,
+      "entry_price": 812000.0,
+      "entry_time": "2026-08-28T11:36:32",
+      "current_price": 813000.0,
+      "tp": 909440.0,
+      "sl": 763280.0,
+      "pnl": 1000.0,
+      "pnl_pct": 0.12
+    },
+    {
+      "ticker": "006260",
+      "name": "LS",
+      "qty": 3,
+      "entry_price": 314250.0,
+      "entry_time": "2026-08-28T11:38:09",
+      "current_price": 315000.0,
+      "tp": 351960.0,
+      "sl": 295395.0,
+      "pnl": 2250.0,
+      "pnl_pct": 0.24
+    }
+  ]
+}
