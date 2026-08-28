@@ -76,6 +76,11 @@
   .report-status.win{ background:var(--green-dim); color:var(--green); }
   .report-status.loss{ background:rgba(214,69,69,0.1); color:var(--red); }
   .report-empty{ text-align:center; color:var(--muted-2); font-size:13px; padding:30px 0; }
+  #reportStatusTabs{ margin-bottom:12px; }
+  .report-total{
+    display:flex; justify-content:space-between; align-items:center; font-size:13px;
+    font-weight:700; padding:10px 12px; background:var(--bg); border-radius:8px; margin-bottom:12px;
+  }
 
   .tabs{ display:flex; gap:8px; margin-bottom:18px; flex-wrap:wrap; }
   .tab{
@@ -155,11 +160,15 @@
         <div class="modal-title">📊 매수 현황보고서</div>
         <button class="modal-close" onclick="closeReport()">✕</button>
       </div>
+      <div class="tabs" id="reportStatusTabs"></div>
       <div class="report-controls">
-        <input class="report-search" id="reportSearch" placeholder="종목명 또는 종목코드 검색 (예: 삼성전자, 005930)" oninput="renderReport()">
+        <input class="report-search" id="reportSearch" placeholder="종목명 또는 종목코드 검색 (예: 삼성전자, 005930)"
+               oninput="renderReport()" onkeydown="if(event.key==='Enter') renderReport()">
+        <button class="report-group-btn" onclick="renderReport()">🔍 검색</button>
         <button class="report-group-btn active" id="groupDayBtn" onclick="setReportGroup('day')">일별</button>
         <button class="report-group-btn" id="groupMonthBtn" onclick="setReportGroup('month')">월별</button>
       </div>
+      <div class="report-total" id="reportTotal"></div>
       <div id="reportBody"></div>
     </div>
   </div>
@@ -203,6 +212,13 @@ async function loadTradeLog() {
 
 let reportGroup = "day";
 let reportTrades = null;
+let reportStatus = "all";
+
+const REPORT_STATUS_TABS = [
+  { key: "all", label: "전체" },
+  { key: "closed", label: "청산완료" },
+  { key: "open", label: "미청산" },
+];
 
 function buildReportTrades(positionsData, tradeLog) {
   const trades = [];
@@ -247,9 +263,23 @@ function setReportGroup(g) {
   renderReport();
 }
 
+function renderReportStatusTabs() {
+  const el = document.getElementById("reportStatusTabs");
+  el.innerHTML = "";
+  REPORT_STATUS_TABS.forEach(s => {
+    const btn = document.createElement("div");
+    btn.className = "tab" + (s.key === reportStatus ? " active" : "");
+    btn.textContent = s.label;
+    btn.onclick = () => { reportStatus = s.key; renderReportStatusTabs(); renderReport(); };
+    el.appendChild(btn);
+  });
+}
+
 async function openReport() {
   document.getElementById("reportBackdrop").style.display = "flex";
   document.getElementById("reportBody").innerHTML = `<div class="report-empty">불러오는 중...</div>`;
+  reportStatus = "all";
+  renderReportStatusTabs();
   const [positionsData, tradeLog] = await Promise.all([loadPositions(), loadTradeLog()]);
   reportTrades = buildReportTrades(positionsData, tradeLog);
   renderReport();
@@ -262,16 +292,26 @@ function closeReport() {
 function renderReport() {
   if (!reportTrades) return;
   const body = document.getElementById("reportBody");
+  const totalEl = document.getElementById("reportTotal");
   const query = (document.getElementById("reportSearch").value || "").trim().toLowerCase();
 
-  const filtered = query
-    ? reportTrades.filter(t => t.name.toLowerCase().includes(query) || t.ticker.includes(query))
-    : reportTrades;
+  let filtered = reportTrades;
+  if (reportStatus === "open") filtered = filtered.filter(t => t.status === "open");
+  else if (reportStatus === "closed") filtered = filtered.filter(t => t.status !== "open");
+  if (query) {
+    filtered = filtered.filter(t => t.name.toLowerCase().includes(query) || t.ticker.includes(query));
+  }
 
+  const statusLabel = REPORT_STATUS_TABS.find(s => s.key === reportStatus).label;
   if (filtered.length === 0) {
-    body.innerHTML = `<div class="report-empty">${reportTrades.length === 0 ? "아직 매수 내역이 없습니다." : "검색 결과가 없습니다."}</div>`;
+    totalEl.innerHTML = "";
+    body.innerHTML = `<div class="report-empty">${reportTrades.length === 0 ? "아직 매수 내역이 없습니다." : `${statusLabel} 항목 중 검색/조건에 맞는 내역이 없습니다.`}</div>`;
     return;
   }
+
+  const totalPnl = filtered.reduce((sum, t) => sum + (t.pnl || 0), 0);
+  const totalClass = totalPnl >= 0 ? "pos" : "neg";
+  totalEl.innerHTML = `<span>${statusLabel} 합계 · ${filtered.length}건</span><span class="${totalClass}">${totalPnl >= 0 ? "+" : ""}₩${totalPnl.toLocaleString()}</span>`;
 
   const groups = {};
   const order = [];
