@@ -1,7 +1,7 @@
 {
   "timeframe": "5m",
   "timeframe_label": "5분봉",
-  "last_updated": "2026-08-28T13:51:39",
+  "last_updated": "2026-08-28T13:56:54",
   "total_tickers": 98,
   "total_signals": 0,
   "results": [
@@ -41,8 +41,8 @@
       "ticker": "207940",
       "name": "삼성바이오로직스",
       "is_fresh": true,
-      "best_signal": true,
-      "best_reason": "1차 저점(1,481,000) 지지 후 재반등",
+      "best_signal": false,
+      "best_reason": "",
       "has_active_entry": false,
       "signal_time": "08/28 09:10",
       "signal_price": 1500000.0,
