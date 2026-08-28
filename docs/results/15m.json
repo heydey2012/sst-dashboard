@@ -1,7 +1,7 @@
 {
   "timeframe": "15m",
   "timeframe_label": "15분봉",
-  "last_updated": "2026-08-28T13:24:38",
+  "last_updated": "2026-08-28T13:39:52",
   "total_tickers": 98,
   "total_signals": 0,
   "results": [
@@ -57,8 +57,8 @@
       "ticker": "034730",
       "name": "SK",
       "is_fresh": true,
-      "best_signal": true,
-      "best_reason": "1차 저점(533,000) 지지 후 재반등",
+      "best_signal": false,
+      "best_reason": "",
       "has_active_entry": false,
       "signal_time": "08/28 09:00",
       "signal_price": 540000.0,
