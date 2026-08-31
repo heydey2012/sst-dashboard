@@ -1,0 +1,105 @@
+{
+  "grid": [
+    0.5,
+    0.75,
+    1.0,
+    1.25,
+    1.5,
+    1.75,
+    2.0,
+    2.5,
+    3.0
+  ],
+  "results": [
+    {
+      "rr": 0.5,
+      "n_trades": 351,
+      "win_rate_pct": 70.37,
+      "profit_factor": 0.82,
+      "expectancy": -1179.0,
+      "final_capital": 586238.0,
+      "total_return_pct": -41.38,
+      "max_drawdown_pct": -50.62
+    },
+    {
+      "rr": 0.75,
+      "n_trades": 239,
+      "win_rate_pct": 59.41,
+      "profit_factor": 0.83,
+      "expectancy": -1331.0,
+      "final_capital": 681857.0,
+      "total_return_pct": -31.81,
+      "max_drawdown_pct": -40.21
+    },
+    {
+      "rr": 1.0,
+      "n_trades": 188,
+      "win_rate_pct": 54.79,
+      "profit_factor": 0.78,
+      "expectancy": -1915.0,
+      "final_capital": 639965.0,
+      "total_return_pct": -36.0,
+      "max_drawdown_pct": -46.77
+    },
+    {
+      "rr": 1.25,
+      "n_trades": 167,
+      "win_rate_pct": 49.7,
+      "profit_factor": 0.82,
+      "expectancy": -1675.0,
+      "final_capital": 720273.0,
+      "total_return_pct": -27.97,
+      "max_drawdown_pct": -40.62
+    },
+    {
+      "rr": 1.5,
+      "n_trades": 132,
+      "win_rate_pct": 44.7,
+      "profit_factor": 0.81,
+      "expectancy": -2258.0,
+      "final_capital": 701946.0,
+      "total_return_pct": -29.81,
+      "max_drawdown_pct": -35.07
+    },
+    {
+      "rr": 1.75,
+      "n_trades": 130,
+      "win_rate_pct": 42.31,
+      "profit_factor": 1.03,
+      "expectancy": 362.0,
+      "final_capital": 1047095.0,
+      "total_return_pct": 4.71,
+      "max_drawdown_pct": -29.09
+    },
+    {
+      "rr": 2.0,
+      "n_trades": 119,
+      "win_rate_pct": 41.18,
+      "profit_factor": 1.18,
+      "expectancy": 3092.0,
+      "final_capital": 1367946.0,
+      "total_return_pct": 36.79,
+      "max_drawdown_pct": -28.18
+    },
+    {
+      "rr": 2.5,
+      "n_trades": 79,
+      "win_rate_pct": 39.24,
+      "profit_factor": 1.55,
+      "expectancy": 8729.0,
+      "final_capital": 1689554.0,
+      "total_return_pct": 68.96,
+      "max_drawdown_pct": -29.05
+    },
+    {
+      "rr": 3.0,
+      "n_trades": 84,
+      "win_rate_pct": 35.71,
+      "profit_factor": 1.25,
+      "expectancy": 4893.0,
+      "final_capital": 1411044.0,
+      "total_return_pct": 41.1,
+      "max_drawdown_pct": -23.8
+    }
+  ]
+}

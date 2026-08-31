@@ -1,0 +1,57 @@
+{
+  "labels": {
+    "baseline": "필터 없음(기존 개선판)",
+    "trend": "정배열 SMA20>SMA100",
+    "best_signal": "강추(2차 확인) 전용",
+    "sl_cap": "손절폭 15.0% 이하만",
+    "rsi_oversold": "RSI≤35 과매도 전용"
+  },
+  "results": {
+    "baseline": {
+      "n_trades": 229,
+      "win_rate_pct": 52.84,
+      "profit_factor": 1.42,
+      "final_capital": 24655.82,
+      "total_return_pct": 146.56,
+      "max_drawdown_pct": -23.89,
+      "n_candidates_after_filter": 781
+    },
+    "trend": {
+      "n_trades": 189,
+      "win_rate_pct": 51.32,
+      "profit_factor": 1.32,
+      "final_capital": 18638.91,
+      "total_return_pct": 86.39,
+      "max_drawdown_pct": -18.73,
+      "n_candidates_after_filter": 510
+    },
+    "best_signal": {
+      "n_trades": 188,
+      "win_rate_pct": 61.17,
+      "profit_factor": 2.08,
+      "final_capital": 41286.62,
+      "total_return_pct": 312.87,
+      "max_drawdown_pct": -16.63,
+      "n_candidates_after_filter": 536
+    },
+    "sl_cap": {
+      "n_trades": 249,
+      "win_rate_pct": 51.41,
+      "profit_factor": 1.32,
+      "final_capital": 22683.77,
+      "total_return_pct": 126.84,
+      "max_drawdown_pct": -23.99,
+      "n_candidates_after_filter": 742
+    },
+    "rsi_oversold": {
+      "n_trades": 92,
+      "win_rate_pct": 39.13,
+      "profit_factor": 0.74,
+      "final_capital": 7379.71,
+      "total_return_pct": -26.2,
+      "max_drawdown_pct": -31.09,
+      "n_candidates_after_filter": 215
+    }
+  },
+  "funding_rate": 0.0001
+}

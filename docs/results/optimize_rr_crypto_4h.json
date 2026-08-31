@@ -1,0 +1,112 @@
+{
+  "symbols": [
+    "BTCUSDT",
+    "ETHUSDT",
+    "XRPUSDT",
+    "SOLUSDT",
+    "APTUSDT"
+  ],
+  "grid": [
+    0.5,
+    0.75,
+    1.0,
+    1.25,
+    1.5,
+    1.75,
+    2.0,
+    2.5,
+    3.0
+  ],
+  "results": [
+    {
+      "rr": 0.5,
+      "n_trades": 318,
+      "win_rate_pct": 70.44,
+      "profit_factor": 0.88,
+      "expectancy": -25.07,
+      "final_capital": 2028.56,
+      "total_return_pct": -79.71,
+      "max_drawdown_pct": -92.51
+    },
+    {
+      "rr": 0.75,
+      "n_trades": 292,
+      "win_rate_pct": 64.38,
+      "profit_factor": 0.92,
+      "expectancy": -24.69,
+      "final_capital": 2790.75,
+      "total_return_pct": -72.09,
+      "max_drawdown_pct": -94.85
+    },
+    {
+      "rr": 1.0,
+      "n_trades": 265,
+      "win_rate_pct": 58.87,
+      "profit_factor": 0.96,
+      "expectancy": -19.65,
+      "final_capital": 4792.23,
+      "total_return_pct": -52.08,
+      "max_drawdown_pct": -93.83
+    },
+    {
+      "rr": 1.25,
+      "n_trades": 251,
+      "win_rate_pct": 54.98,
+      "profit_factor": 1.0,
+      "expectancy": -3.2,
+      "final_capital": 9197.76,
+      "total_return_pct": -8.02,
+      "max_drawdown_pct": -92.13
+    },
+    {
+      "rr": 1.5,
+      "n_trades": 229,
+      "win_rate_pct": 52.84,
+      "profit_factor": 1.02,
+      "expectancy": 30.84,
+      "final_capital": 17061.75,
+      "total_return_pct": 70.62,
+      "max_drawdown_pct": -92.03
+    },
+    {
+      "rr": 1.75,
+      "n_trades": 211,
+      "win_rate_pct": 46.92,
+      "profit_factor": 1.02,
+      "expectancy": 26.47,
+      "final_capital": 15585.91,
+      "total_return_pct": 55.86,
+      "max_drawdown_pct": -90.9
+    },
+    {
+      "rr": 2.0,
+      "n_trades": 208,
+      "win_rate_pct": 43.27,
+      "profit_factor": 1.02,
+      "expectancy": 33.33,
+      "final_capital": 16932.48,
+      "total_return_pct": 69.32,
+      "max_drawdown_pct": -93.21
+    },
+    {
+      "rr": 2.5,
+      "n_trades": 191,
+      "win_rate_pct": 38.74,
+      "profit_factor": 1.03,
+      "expectancy": 47.57,
+      "final_capital": 19085.3,
+      "total_return_pct": 90.85,
+      "max_drawdown_pct": -85.61
+    },
+    {
+      "rr": 3.0,
+      "n_trades": 159,
+      "win_rate_pct": 32.08,
+      "profit_factor": 0.97,
+      "expectancy": -25.5,
+      "final_capital": 5944.98,
+      "total_return_pct": -40.55,
+      "max_drawdown_pct": -92.39
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "r_sweep_at_risk2pct": [
+    {
+      "rr": 0.5,
+      "risk_pct": 0.02,
+      "n_trades": 318,
+      "win_rate_pct": 70.44,
+      "profit_factor": 1.01,
+      "expectancy": 0.57,
+      "final_capital": 10180.09,
+      "total_return_pct": 1.8,
+      "max_drawdown_pct": -25.23,
+      "n_capped_by_capital": 61
+    },
+    {
+      "rr": 0.75,
+      "risk_pct": 0.02,
+      "n_trades": 292,
+      "win_rate_pct": 64.38,
+      "profit_factor": 1.14,
+      "expectancy": 13.08,
+      "final_capital": 13818.84,
+      "total_return_pct": 38.19,
+      "max_drawdown_pct": -27.95,
+      "n_capped_by_capital": 57
+    },
+    {
+      "rr": 1.0,
+      "risk_pct": 0.02,
+      "n_trades": 265,
+      "win_rate_pct": 58.87,
+      "profit_factor": 1.24,
+      "expectancy": 25.73,
+      "final_capital": 16817.65,
+      "total_return_pct": 68.18,
+      "max_drawdown_pct": -28.08,
+      "n_capped_by_capital": 50
+    },
+    {
+      "rr": 1.25,
+      "risk_pct": 0.02,
+      "n_trades": 251,
+      "win_rate_pct": 54.98,
+      "profit_factor": 1.34,
+      "expectancy": 44.6,
+      "final_capital": 21194.42,
+      "total_return_pct": 111.94,
+      "max_drawdown_pct": -28.94,
+      "n_capped_by_capital": 46
+    },
+    {
+      "rr": 1.5,
+      "risk_pct": 0.02,
+      "n_trades": 229,
+      "win_rate_pct": 52.84,
+      "profit_factor": 1.49,
+      "expectancy": 77.4,
+      "final_capital": 27724.68,
+      "total_return_pct": 177.25,
+      "max_drawdown_pct": -22.28,
+      "n_capped_by_capital": 41
+    },
+    {
+      "rr": 1.75,
+      "risk_pct": 0.02,
+      "n_trades": 211,
+      "win_rate_pct": 46.92,
+      "profit_factor": 1.36,
+      "expectancy": 58.51,
+      "final_capital": 22345.63,
+      "total_return_pct": 123.46,
+      "max_drawdown_pct": -20.02,
+      "n_capped_by_capital": 36
+    },
+    {
+      "rr": 2.0,
+      "risk_pct": 0.02,
+      "n_trades": 208,
+      "win_rate_pct": 43.27,
+      "profit_factor": 1.31,
+      "expectancy": 59.85,
+      "final_capital": 22447.84,
+      "total_return_pct": 124.48,
+      "max_drawdown_pct": -16.7,
+      "n_capped_by_capital": 37
+    },
+    {
+      "rr": 2.5,
+      "risk_pct": 0.02,
+      "n_trades": 191,
+      "win_rate_pct": 38.74,
+      "profit_factor": 1.37,
+      "expectancy": 75.45,
+      "final_capital": 24410.43,
+      "total_return_pct": 144.1,
+      "max_drawdown_pct": -14.81,
+      "n_capped_by_capital": 36
+    },
+    {
+      "rr": 3.0,
+      "risk_pct": 0.02,
+      "n_trades": 159,
+      "win_rate_pct": 32.08,
+      "profit_factor": 1.18,
+      "expectancy": 36.37,
+      "final_capital": 15782.34,
+      "total_return_pct": 57.82,
+      "max_drawdown_pct": -23.79,
+      "n_capped_by_capital": 28
+    }
+  ],
+  "risk_sweep_at_best_r": [
+    {
+      "rr": 1.5,
+      "risk_pct": 0.01,
+      "n_trades": 229,
+      "win_rate_pct": 52.84,
+      "profit_factor": 1.54,
+      "expectancy": 35.03,
+      "final_capital": 18022.5,
+      "total_return_pct": 80.23,
+      "max_drawdown_pct": -12.29,
+      "n_capped_by_capital": 11
+    },
+    {
+      "rr": 1.5,
+      "risk_pct": 0.02,
+      "n_trades": 229,
+      "win_rate_pct": 52.84,
+      "profit_factor": 1.49,
+      "expectancy": 77.4,
+      "final_capital": 27724.68,
+      "total_return_pct": 177.25,
+      "max_drawdown_pct": -22.28,
+      "n_capped_by_capital": 41
+    },
+    {
+      "rr": 1.5,
+      "risk_pct": 0.03,
+      "n_trades": 229,
+      "win_rate_pct": 52.84,
+      "profit_factor": 1.35,
+      "expectancy": 91.7,
+      "final_capital": 30999.24,
+      "total_return_pct": 209.99,
+      "max_drawdown_pct": -33.32,
+      "n_capped_by_capital": 73
+    },
+    {
+      "rr": 1.5,
+      "risk_pct": 0.05,
+      "n_trades": 229,
+      "win_rate_pct": 52.84,
+      "profit_factor": 1.19,
+      "expectancy": 82.22,
+      "final_capital": 28828.94,
+      "total_return_pct": 188.29,
+      "max_drawdown_pct": -50.6,
+      "n_capped_by_capital": 115
+    }
+  ]
+}
