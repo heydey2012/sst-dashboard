@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-31T16:58:01",
+  "last_updated": "2026-08-31T17:21:03",
   "initial_capital": 10000000,
   "current_capital": 9965150.0,
   "return_pct": -0.35,
@@ -14,6 +14,10 @@
       "current_price": 81700.0,
       "tp": 87200.0,
       "sl": 79000.0,
+      "tp_basis": "피벗고점",
+      "sl_basis": "피벗저점",
+      "pivot_high": 87200.0,
+      "pivot_low": 79000.0,
       "pnl": -3600.0,
       "pnl_pct": -0.37
     },
@@ -26,6 +30,10 @@
       "current_price": 449500.0,
       "tp": 480000.0,
       "sl": 425820.0,
+      "tp_basis": "피벗고점",
+      "sl_basis": "고정 6%",
+      "pivot_high": 480000.0,
+      "pivot_low": 453000.0,
       "pnl": -7000.0,
       "pnl_pct": -0.77
     },
@@ -38,6 +46,10 @@
       "current_price": 403500.0,
       "tp": 400500.0,
       "sl": 370360.0,
+      "tp_basis": "피벗고점",
+      "sl_basis": "고정 6%",
+      "pivot_high": 400500.0,
+      "pivot_low": 397500.0,
       "pnl": 19000.0,
       "pnl_pct": 2.41
     },
@@ -50,6 +62,10 @@
       "current_price": 240000.0,
       "tp": 245000.0,
       "sl": 227000.0,
+      "tp_basis": "피벗고점",
+      "sl_basis": "피벗저점",
+      "pivot_high": 245000.0,
+      "pivot_low": 227000.0,
       "pnl": 16000.0,
       "pnl_pct": 1.69
     },
@@ -62,6 +78,10 @@
       "current_price": 220500.0,
       "tp": 225500.0,
       "sl": 199280.0,
+      "tp_basis": "피벗고점",
+      "sl_basis": "고정 6%",
+      "pivot_high": 225500.0,
+      "pivot_low": 214000.0,
       "pnl": 34000.0,
       "pnl_pct": 4.01
     },
@@ -74,6 +94,10 @@
       "current_price": 177000.0,
       "tp": 182800.0,
       "sl": 161022.0,
+      "tp_basis": "피벗고점",
+      "sl_basis": "고정 6%",
+      "pivot_high": 182800.0,
+      "pivot_low": 174200.0,
       "pnl": 28500.0,
       "pnl_pct": 3.33
     },
@@ -86,6 +110,10 @@
       "current_price": 217000.0,
       "tp": 221500.0,
       "sl": 201630.0,
+      "tp_basis": "피벗고점",
+      "sl_basis": "고정 6%",
+      "pivot_high": 221500.0,
+      "pivot_low": 215500.0,
       "pnl": 10000.0,
       "pnl_pct": 1.17
     },
@@ -98,6 +126,10 @@
       "current_price": 207500.0,
       "tp": 217750.0,
       "sl": 192935.0,
+      "tp_basis": "피벗고점",
+      "sl_basis": "고정 6%",
+      "pivot_high": 217750.0,
+      "pivot_low": 213000.0,
       "pnl": 9000.0,
       "pnl_pct": 1.1
     },
@@ -110,6 +142,10 @@
       "current_price": 186500.0,
       "tp": 189400.0,
       "sl": 185200.0,
+      "tp_basis": "피벗고점",
+      "sl_basis": "피벗저점",
+      "pivot_high": 189400.0,
+      "pivot_low": 185200.0,
       "pnl": 2000.0,
       "pnl_pct": 0.21
     }
