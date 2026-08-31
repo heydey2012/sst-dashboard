@@ -1,7 +1,7 @@
 {
   "timeframe": "15m",
   "timeframe_label": "15분봉",
-  "last_updated": "2026-08-31T12:09:46",
+  "last_updated": "2026-08-31T12:24:53",
   "total_tickers": 98,
   "total_signals": 0,
   "results": [
@@ -56,9 +56,9 @@
     {
       "ticker": "012450",
       "name": "한화에어로스페이스",
-      "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
+      "is_fresh": false,
+      "best_signal": true,
+      "best_reason": "1차 저점(1,107,000) 지지 후 재반등",
       "has_active_entry": false,
       "signal_time": "08/31 11:30",
       "signal_price": 1112000.0,
@@ -440,9 +440,9 @@
     {
       "ticker": "097950",
       "name": "CJ제일제당",
-      "is_fresh": true,
-      "best_signal": true,
-      "best_reason": "1차 저점(185,500) 지지 후 재반등",
+      "is_fresh": false,
+      "best_signal": false,
+      "best_reason": "",
       "has_active_entry": false,
       "signal_time": "08/31 10:45",
       "signal_price": 186000.0,
@@ -472,7 +472,7 @@
     {
       "ticker": "051900",
       "name": "LG생활건강",
-      "is_fresh": true,
+      "is_fresh": false,
       "best_signal": true,
       "best_reason": "1차 저점(308,000) 지지 후 재반등",
       "has_active_entry": false,
