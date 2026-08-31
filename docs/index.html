@@ -127,6 +127,7 @@
   .pos-info{ min-width:0; }
   .pos-name{ font-size:14px; font-weight:700; }
   .pos-line{ font-size:12px; color:var(--muted); margin-top:3px; font-family:var(--mono); }
+  .basis-note{ font-size:11px; color:var(--muted-2); }
   .pos-pnl{ text-align:right; white-space:nowrap; }
   .pos-pnl-amt{ font-size:14px; font-weight:700; font-family:var(--mono); }
   .pos-pnl-pct{ font-size:11.5px; font-family:var(--mono); }
@@ -387,6 +388,10 @@ function renderPortfolio(data) {
       const hasPrice = p.current_price !== null && p.current_price !== undefined;
       const pnlClass = (p.pnl || 0) >= 0 ? "pos" : "neg";
       const pnlSign = (p.pnl || 0) >= 0 ? "+" : "";
+      const bothPivot = p.tp_basis === "피벗고점" && p.sl_basis === "피벗저점";
+      const basisNote = bothPivot
+        ? `고점 ${p.pivot_high.toLocaleString()} · 저점 ${p.pivot_low.toLocaleString()} (피보나치 0.5 기준)`
+        : `익절기준 ${escapeHtml(p.tp_basis || "-")} · 손절기준 ${escapeHtml(p.sl_basis || "-")}`;
       html += `
         <div class="pos-row">
           <div class="pos-info">
@@ -394,6 +399,7 @@ function renderPortfolio(data) {
             <div class="pos-line">매수시각 ${formatShortDateTime(p.entry_time)}</div>
             <div class="pos-line">${p.qty}주 · 매수 ${p.entry_price.toLocaleString()} → 현재 ${hasPrice ? p.current_price.toLocaleString() : "-"}</div>
             <div class="pos-line pos-target"><span class="pos">익절 ${p.tp.toLocaleString()}</span> · <span class="neg">손절 ${p.sl.toLocaleString()}</span></div>
+            <div class="pos-line basis-note">${basisNote}</div>
             <a class="liquidate-btn" href="${liquidateUrl(p.ticker, p.name)}" target="_blank" rel="noopener">청산</a>
           </div>
           <div class="pos-pnl">
