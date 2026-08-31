@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-31T17:21:03",
+  "last_updated": "2026-08-31T17:30:08",
   "initial_capital": 10000000,
   "current_capital": 9965150.0,
   "return_pct": -0.35,
@@ -18,6 +18,7 @@
       "sl_basis": "피벗저점",
       "pivot_high": 87200.0,
       "pivot_low": 79000.0,
+      "best_reason": "1차 저점(80,000) 지지 후 재반등",
       "pnl": -3600.0,
       "pnl_pct": -0.37
     },
@@ -34,6 +35,7 @@
       "sl_basis": "고정 6%",
       "pivot_high": 480000.0,
       "pivot_low": 453000.0,
+      "best_reason": "음봉형 도지",
       "pnl": -7000.0,
       "pnl_pct": -0.77
     },
@@ -50,6 +52,7 @@
       "sl_basis": "고정 6%",
       "pivot_high": 400500.0,
       "pivot_low": 397500.0,
+      "best_reason": "연속 양봉 2개 이상",
       "pnl": 19000.0,
       "pnl_pct": 2.41
     },
@@ -66,6 +69,7 @@
       "sl_basis": "피벗저점",
       "pivot_high": 245000.0,
       "pivot_low": 227000.0,
+      "best_reason": "전 봉(음봉)보다 몸통이 큰 양봉",
       "pnl": 16000.0,
       "pnl_pct": 1.69
     },
@@ -82,6 +86,7 @@
       "sl_basis": "고정 6%",
       "pivot_high": 225500.0,
       "pivot_low": 214000.0,
+      "best_reason": "전 봉(음봉)보다 몸통이 큰 양봉",
       "pnl": 34000.0,
       "pnl_pct": 4.01
     },
@@ -98,6 +103,7 @@
       "sl_basis": "고정 6%",
       "pivot_high": 182800.0,
       "pivot_low": 174200.0,
+      "best_reason": "연속 양봉 2개 이상",
       "pnl": 28500.0,
       "pnl_pct": 3.33
     },
@@ -114,6 +120,7 @@
       "sl_basis": "고정 6%",
       "pivot_high": 221500.0,
       "pivot_low": 215500.0,
+      "best_reason": "연속 양봉 2개 이상",
       "pnl": 10000.0,
       "pnl_pct": 1.17
     },
@@ -130,6 +137,7 @@
       "sl_basis": "고정 6%",
       "pivot_high": 217750.0,
       "pivot_low": 213000.0,
+      "best_reason": "연속 양봉 2개 이상",
       "pnl": 9000.0,
       "pnl_pct": 1.1
     },
@@ -146,6 +154,7 @@
       "sl_basis": "피벗저점",
       "pivot_high": 189400.0,
       "pivot_low": 185200.0,
+      "best_reason": "전 봉(음봉)보다 몸통이 큰 양봉",
       "pnl": 2000.0,
       "pnl_pct": 0.21
     }
