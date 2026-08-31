@@ -142,5 +142,17 @@
     "reason": "손절(SL 도달)",
     "pnl": -7700.0,
     "pnl_pct": -0.78
+  },
+  {
+    "ticker": "066570",
+    "name": "LG전자",
+    "qty": 5,
+    "entry_price": 199200.0,
+    "entry_time": "2026-08-31T09:21:17",
+    "exit_price": 201500.0,
+    "exit_time": "2026-08-31T09:32:05",
+    "reason": "익절(TP 도달)",
+    "pnl": 11500.0,
+    "pnl_pct": 1.15
   }
 ]
