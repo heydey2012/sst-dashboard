@@ -130,5 +130,17 @@
     "reason": "익절(TP 도달)",
     "pnl": 21000.0,
     "pnl_pct": 2.85
+  },
+  {
+    "ticker": "011790",
+    "name": "SKC",
+    "qty": 11,
+    "entry_price": 89400.0,
+    "entry_time": "2026-08-31T09:23:28",
+    "exit_price": 88700.0,
+    "exit_time": "2026-08-31T09:28:07",
+    "reason": "손절(SL 도달)",
+    "pnl": -7700.0,
+    "pnl_pct": -0.78
   }
 ]
