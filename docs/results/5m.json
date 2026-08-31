@@ -1,7 +1,7 @@
 {
   "timeframe": "5m",
   "timeframe_label": "5분봉",
-  "last_updated": "2026-08-31T13:06:48",
+  "last_updated": "2026-08-31T13:12:28",
   "total_tickers": 98,
   "total_signals": 0,
   "results": [
@@ -361,8 +361,8 @@
       "ticker": "298040",
       "name": "효성중공업",
       "is_fresh": false,
-      "best_signal": false,
-      "best_reason": "",
+      "best_signal": true,
+      "best_reason": "저점 이탈(2,987,000→2,915,000)했으나 RSI 다이버전스 동반 재반등 (RSI 22.1→31.9)",
       "has_active_entry": false,
       "signal_time": "08/31 09:10",
       "signal_price": 2992000.0,
