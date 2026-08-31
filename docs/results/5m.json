@@ -1,7 +1,7 @@
 {
   "timeframe": "5m",
   "timeframe_label": "5분봉",
-  "last_updated": "2026-08-31T11:41:42",
+  "last_updated": "2026-08-31T11:46:34",
   "total_tickers": 98,
   "total_signals": 0,
   "results": [
@@ -393,8 +393,8 @@
       "ticker": "010130",
       "name": "고려아연",
       "is_fresh": false,
-      "best_signal": false,
-      "best_reason": "",
+      "best_signal": true,
+      "best_reason": "저점 이탈(1,275,000→1,260,000)했으나 RSI 다이버전스 동반 재반등 (RSI 13.8→31.3)",
       "has_active_entry": false,
       "signal_time": "08/31 09:15",
       "signal_price": 1277000.0,
