@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-08-31T09:18:05",
+  "last_updated": "2026-08-31T09:20:03",
   "initial_capital": 10000000,
-  "current_capital": 9765650.0,
-  "return_pct": -2.34,
-  "profit_amount": -234350.0,
+  "current_capital": 9764650.0,
+  "return_pct": -2.35,
+  "profit_amount": -235350.0,
   "positions": [
     {
       "ticker": "012750",
@@ -35,11 +35,11 @@
       "qty": 2,
       "entry_price": 453000.0,
       "entry_time": "2026-08-28T14:05:47",
-      "current_price": 443000.0,
+      "current_price": 442500.0,
       "tp": 480180.0,
       "sl": 425820.0,
-      "pnl": -20000.0,
-      "pnl_pct": -2.21
+      "pnl": -21000.0,
+      "pnl_pct": -2.32
     }
   ]
 }
