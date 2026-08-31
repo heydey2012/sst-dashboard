@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-08-31T09:22:07",
+  "last_updated": "2026-08-31T09:24:10",
   "initial_capital": 10000000,
-  "current_capital": 9787450.0,
-  "return_pct": -2.13,
-  "profit_amount": -212550.0,
+  "current_capital": 9798650.0,
+  "return_pct": -2.01,
+  "profit_amount": -201350.0,
   "positions": [
     {
       "ticker": "012750",
@@ -11,11 +11,11 @@
       "qty": 12,
       "entry_price": 82000.0,
       "entry_time": "2026-08-28T11:09:55",
-      "current_price": 83000.0,
+      "current_price": 83300.0,
       "tp": 84400.0,
       "sl": 79600.0,
-      "pnl": 12000.0,
-      "pnl_pct": 1.22
+      "pnl": 15600.0,
+      "pnl_pct": 1.59
     },
     {
       "ticker": "329180",
@@ -35,11 +35,11 @@
       "qty": 2,
       "entry_price": 394000.0,
       "entry_time": "2026-08-31T09:20:14",
-      "current_price": 395500.0,
+      "current_price": 396500.0,
       "tp": 417640.0,
       "sl": 370360.0,
-      "pnl": 3000.0,
-      "pnl_pct": 0.38
+      "pnl": 5000.0,
+      "pnl_pct": 0.63
     },
     {
       "ticker": "066570",
@@ -47,11 +47,11 @@
       "qty": 5,
       "entry_price": 199200.0,
       "entry_time": "2026-08-31T09:21:17",
-      "current_price": 200000.0,
+      "current_price": 200500.0,
       "tp": 201300.0,
       "sl": 197100.0,
-      "pnl": 4000.0,
-      "pnl_pct": 0.4
+      "pnl": 6500.0,
+      "pnl_pct": 0.65
     },
     {
       "ticker": "018260",
@@ -64,6 +64,54 @@
       "sl": 227000.0,
       "pnl": 0.0,
       "pnl_pct": 0.0
+    },
+    {
+      "ticker": "086280",
+      "name": "현대글로비스",
+      "qty": 4,
+      "entry_price": 203500.0,
+      "entry_time": "2026-08-31T09:23:26",
+      "current_price": 203500.0,
+      "tp": 205500.0,
+      "sl": 201500.0,
+      "pnl": 0.0,
+      "pnl_pct": 0.0
+    },
+    {
+      "ticker": "011790",
+      "name": "SKC",
+      "qty": 11,
+      "entry_price": 89400.0,
+      "entry_time": "2026-08-31T09:23:28",
+      "current_price": 89500.0,
+      "tp": 90000.0,
+      "sl": 88800.0,
+      "pnl": 1100.0,
+      "pnl_pct": 0.11
+    },
+    {
+      "ticker": "042700",
+      "name": "한미반도체",
+      "qty": 4,
+      "entry_price": 212000.0,
+      "entry_time": "2026-08-31T09:23:48",
+      "current_price": 212500.0,
+      "tp": 224720.0,
+      "sl": 199280.0,
+      "pnl": 2000.0,
+      "pnl_pct": 0.24
+    },
+    {
+      "ticker": "039030",
+      "name": "이오테크닉스",
+      "qty": 2,
+      "entry_price": 385000.0,
+      "entry_time": "2026-08-31T09:24:03",
+      "current_price": null,
+      "tp": 408100.0,
+      "sl": 361900.0,
+      "pnl": null,
+      "pnl_pct": null
     }
   ]
 }
