@@ -34,5 +34,89 @@
     "reason": "손절(SL 도달)",
     "pnl": -9000.0,
     "pnl_pct": -0.98
+  },
+  {
+    "ticker": "042700",
+    "name": "한미반도체",
+    "qty": 4,
+    "entry_price": 224500.0,
+    "entry_time": "2026-08-28T11:08:43",
+    "exit_price": 210000.0,
+    "exit_time": "2026-08-31T09:00:19",
+    "reason": "손절(SL 도달)",
+    "pnl": -58000.0,
+    "pnl_pct": -6.46
+  },
+  {
+    "ticker": "000990",
+    "name": "DB하이텍",
+    "qty": 10,
+    "entry_price": 94400.0,
+    "entry_time": "2026-08-28T11:09:16",
+    "exit_price": 90700.0,
+    "exit_time": "2026-08-31T09:00:26",
+    "reason": "손절(SL 도달)",
+    "pnl": -37000.0,
+    "pnl_pct": -3.92
+  },
+  {
+    "ticker": "042660",
+    "name": "한화오션",
+    "qty": 11,
+    "entry_price": 88800.0,
+    "entry_time": "2026-08-28T11:21:37",
+    "exit_price": 85400.0,
+    "exit_time": "2026-08-31T09:00:28",
+    "reason": "손절(SL 도달)",
+    "pnl": -37400.0,
+    "pnl_pct": -3.83
+  },
+  {
+    "ticker": "267260",
+    "name": "HD현대일렉트릭",
+    "qty": 1,
+    "entry_price": 812000.0,
+    "entry_time": "2026-08-28T11:36:32",
+    "exit_price": 784000.0,
+    "exit_time": "2026-08-31T09:00:30",
+    "reason": "손절(SL 도달)",
+    "pnl": -28000.0,
+    "pnl_pct": -3.45
+  },
+  {
+    "ticker": "006260",
+    "name": "LS",
+    "qty": 3,
+    "entry_price": 314250.0,
+    "entry_time": "2026-08-28T11:38:09",
+    "exit_price": 301000.0,
+    "exit_time": "2026-08-31T09:00:31",
+    "reason": "손절(SL 도달)",
+    "pnl": -39750.0,
+    "pnl_pct": -4.22
+  },
+  {
+    "ticker": "010120",
+    "name": "LS ELECTRIC",
+    "qty": 4,
+    "entry_price": 217000.0,
+    "entry_time": "2026-08-28T13:36:21",
+    "exit_price": 206500.0,
+    "exit_time": "2026-08-31T09:00:33",
+    "reason": "손절(SL 도달)",
+    "pnl": -42000.0,
+    "pnl_pct": -4.84
+  },
+  {
+    "ticker": "047810",
+    "name": "한국항공우주",
+    "qty": 7,
+    "entry_price": 133200.0,
+    "entry_time": "2026-08-28T13:52:36",
+    "exit_price": 130300.0,
+    "exit_time": "2026-08-31T09:00:34",
+    "reason": "손절(SL 도달)",
+    "pnl": -20300.0,
+    "pnl_pct": -2.18
   }
 ]
