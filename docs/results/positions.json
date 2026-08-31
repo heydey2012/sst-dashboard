@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-08-31T12:40:08",
+  "last_updated": "2026-08-31T12:42:10",
   "initial_capital": 10000000,
-  "current_capital": 9907350.0,
-  "return_pct": -0.93,
-  "profit_amount": -92650.0,
+  "current_capital": 9914350.0,
+  "return_pct": -0.86,
+  "profit_amount": -85650.0,
   "positions": [
     {
       "ticker": "012750",
@@ -35,11 +35,11 @@
       "qty": 2,
       "entry_price": 394000.0,
       "entry_time": "2026-08-31T09:20:14",
-      "current_price": 399500.0,
+      "current_price": 400000.0,
       "tp": 417640.0,
       "sl": 370360.0,
-      "pnl": 11000.0,
-      "pnl_pct": 1.4
+      "pnl": 12000.0,
+      "pnl_pct": 1.52
     },
     {
       "ticker": "018260",
@@ -47,11 +47,11 @@
       "qty": 4,
       "entry_price": 236000.0,
       "entry_time": "2026-08-31T09:21:59",
-      "current_price": 239500.0,
+      "current_price": 240000.0,
       "tp": 245000.0,
       "sl": 227000.0,
-      "pnl": 14000.0,
-      "pnl_pct": 1.48
+      "pnl": 16000.0,
+      "pnl_pct": 1.69
     },
     {
       "ticker": "042700",
@@ -59,11 +59,11 @@
       "qty": 4,
       "entry_price": 212000.0,
       "entry_time": "2026-08-31T09:23:48",
-      "current_price": 220250.0,
+      "current_price": 221250.0,
       "tp": 224720.0,
       "sl": 199280.0,
-      "pnl": 33000.0,
-      "pnl_pct": 3.89
+      "pnl": 37000.0,
+      "pnl_pct": 4.36
     },
     {
       "ticker": "039030",
@@ -71,11 +71,11 @@
       "qty": 2,
       "entry_price": 385000.0,
       "entry_time": "2026-08-31T09:24:03",
-      "current_price": 403250.0,
+      "current_price": 403500.0,
       "tp": 408100.0,
       "sl": 361900.0,
-      "pnl": 36500.0,
-      "pnl_pct": 4.74
+      "pnl": 37000.0,
+      "pnl_pct": 4.81
     },
     {
       "ticker": "036930",
@@ -119,11 +119,11 @@
       "qty": 5,
       "entry_price": 186100.0,
       "entry_time": "2026-08-31T11:52:07",
-      "current_price": 186200.0,
+      "current_price": 186100.0,
       "tp": 187000.0,
       "sl": 185200.0,
-      "pnl": 500.0,
-      "pnl_pct": 0.05
+      "pnl": 0.0,
+      "pnl_pct": 0.0
     }
   ]
 }
