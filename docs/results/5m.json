@@ -1,7 +1,7 @@
 {
   "timeframe": "5m",
   "timeframe_label": "5분봉",
-  "last_updated": "2026-08-31T11:46:34",
+  "last_updated": "2026-08-31T11:51:35",
   "total_tickers": 98,
   "total_signals": 0,
   "results": [
@@ -1274,7 +1274,7 @@
       "name": "와이지엔터테인먼트",
       "is_fresh": false,
       "best_signal": true,
-      "best_reason": "1차 저점(39,200) 지지 후 재반등",
+      "best_reason": "저점 이탈(39,200→39,150)했으나 RSI 다이버전스 동반 재반등 (RSI 31.6→36.8)",
       "has_active_entry": false,
       "signal_time": "08/31 09:00",
       "signal_price": 39450.0,
