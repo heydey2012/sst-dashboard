@@ -1,7 +1,7 @@
 {
   "timeframe": "5m",
   "timeframe_label": "5분봉",
-  "last_updated": "2026-09-01T11:56:51",
+  "last_updated": "2026-09-01T12:01:36",
   "total_tickers": 98,
   "total_signals": 0,
   "results": [
@@ -169,8 +169,8 @@
       "ticker": "006400",
       "name": "삼성SDI",
       "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
+      "best_signal": true,
+      "best_reason": "1차 저점(575,000) 지지 후 재반등",
       "has_active_entry": false,
       "signal_time": "09/01 11:25",
       "signal_price": 575000.0,
@@ -442,13 +442,13 @@
       "ticker": "000100",
       "name": "유한양행",
       "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
+      "best_signal": true,
+      "best_reason": "1차 저점(82,300) 지지 후 재반등",
       "has_active_entry": false,
       "signal_time": "09/01 11:40",
       "signal_price": 82300.0,
       "rebound_time": "09/01 11:50",
-      "rebound_price": 82700.0,
+      "rebound_price": 82600.0,
       "bars_after_signal": 2,
       "reasons": [
         "연속 양봉 2개 이상"
