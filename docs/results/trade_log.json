@@ -264,5 +264,19 @@
     "pnl_pct": -1.22,
     "commission": 6503.0,
     "tax": 1855.0
+  },
+  {
+    "ticker": "018260",
+    "name": "삼성에스디에스",
+    "qty": 4,
+    "entry_price": 236000.0,
+    "entry_time": "2026-08-31T09:21:59",
+    "exit_price": 244000.0,
+    "exit_time": "2026-09-01T12:54:01",
+    "reason": "익절(TP 도달)",
+    "pnl": 23328.0,
+    "pnl_pct": 2.47,
+    "commission": 6720.0,
+    "tax": 1952.0
   }
 ]
