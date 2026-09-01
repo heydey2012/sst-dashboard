@@ -1,10 +1,10 @@
 {
-  "last_updated": "2026-09-01T13:16:11",
+  "last_updated": "2026-09-01T13:18:09",
   "strategy_version": "current",
   "initial_capital": 10000000,
-  "current_capital": 9663007.0,
-  "return_pct": -3.37,
-  "profit_amount": -336993.0,
+  "current_capital": 9661814.0,
+  "return_pct": -3.38,
+  "profit_amount": -338186.0,
   "positions": [
     {
       "ticker": "329180",
@@ -12,7 +12,7 @@
       "qty": 2,
       "entry_price": 453000.0,
       "entry_time": "2026-08-28T14:05:47",
-      "current_price": 443000.0,
+      "current_price": 444000.0,
       "tp": 475000.0,
       "sl": 425820.0,
       "tp_basis": "피벗고점",
@@ -28,8 +28,8 @@
       "rebound_price": null,
       "bars_after_signal": null,
       "reasons": [],
-      "pnl": -28044.0,
-      "pnl_pct": -3.1
+      "pnl": -26055.0,
+      "pnl_pct": -2.88
     },
     {
       "ticker": "042700",
@@ -37,7 +37,7 @@
       "qty": 4,
       "entry_price": 212000.0,
       "entry_time": "2026-08-31T09:23:48",
-      "current_price": 214500.0,
+      "current_price": 214000.0,
       "tp": 223500.0,
       "sl": 199280.0,
       "tp_basis": "피벗고점",
@@ -53,8 +53,8 @@
       "rebound_price": null,
       "bars_after_signal": null,
       "reasons": [],
-      "pnl": 2313.0,
-      "pnl_pct": 0.27
+      "pnl": 324.0,
+      "pnl_pct": 0.04
     },
     {
       "ticker": "036930",
@@ -87,7 +87,7 @@
       "qty": 4,
       "entry_price": 214500.0,
       "entry_time": "2026-08-31T09:36:18",
-      "current_price": 216500.0,
+      "current_price": 216000.0,
       "tp": 221500.0,
       "sl": 201630.0,
       "tp_basis": "피벗고점",
@@ -103,8 +103,8 @@
       "rebound_price": null,
       "bars_after_signal": null,
       "reasons": [],
-      "pnl": 234.0,
-      "pnl_pct": 0.03
+      "pnl": -1755.0,
+      "pnl_pct": -0.2
     },
     {
       "ticker": "010120",
@@ -164,7 +164,7 @@
       "qty": 8,
       "entry_price": 117000.0,
       "entry_time": "2026-09-01T10:37:35",
-      "current_price": 118700.0,
+      "current_price": 118800.0,
       "tp": 120000.0,
       "sl": 115300.0,
       "tp_basis": "피벗고점",
@@ -182,8 +182,8 @@
       "reasons": [
         "연속 양봉 2개 이상"
       ],
-      "pnl": 5101.0,
-      "pnl_pct": 0.55
+      "pnl": 5897.0,
+      "pnl_pct": 0.63
     },
     {
       "ticker": "033780",
