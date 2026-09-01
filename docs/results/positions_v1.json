@@ -1,10 +1,10 @@
 {
-  "last_updated": "2026-09-01T09:40:10",
+  "last_updated": "2026-09-01T09:42:12",
   "strategy_version": "legacy",
   "initial_capital": 10000000,
-  "current_capital": 9991274.0,
-  "return_pct": -0.09,
-  "profit_amount": -8726.0,
+  "current_capital": 9995252.0,
+  "return_pct": -0.05,
+  "profit_amount": -4748.0,
   "positions": [
     {
       "ticker": "042700",
@@ -12,7 +12,7 @@
       "qty": 4,
       "entry_price": 214750.0,
       "entry_time": "2026-09-01T09:38:45",
-      "current_price": 214500.0,
+      "current_price": 215500.0,
       "tp": 225000.0,
       "sl": 205500.0,
       "tp_basis": "피벗고점",
@@ -30,8 +30,8 @@
       "reasons": [
         "연속 양봉 2개 이상"
       ],
-      "pnl": -8726.0,
-      "pnl_pct": -1.02
+      "pnl": -4748.0,
+      "pnl_pct": -0.55
     }
   ]
 }
