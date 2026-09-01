@@ -1,26 +1,10 @@
 {
   "timeframe": "15m",
   "timeframe_label": "15분봉",
-  "last_updated": "2026-09-01T10:25:12",
+  "last_updated": "2026-09-01T10:40:31",
   "total_tickers": 98,
   "total_signals": 1,
   "results": [
-    {
-      "ticker": "012330",
-      "name": "현대모비스",
-      "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
-      "has_active_entry": false,
-      "signal_time": "09/01 10:00",
-      "signal_price": 445000.0,
-      "rebound_time": "09/01 10:15",
-      "rebound_price": 445500.0,
-      "bars_after_signal": 1,
-      "reasons": [
-        "음봉형 도지"
-      ]
-    },
     {
       "ticker": "033780",
       "name": "KT&G",
@@ -41,13 +25,13 @@
       "ticker": "003550",
       "name": "LG",
       "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
+      "best_signal": true,
+      "best_reason": "1차 저점(115,900) 지지 후 재반등",
       "has_active_entry": false,
       "signal_time": "09/01 10:00",
       "signal_price": 115900.0,
       "rebound_time": "09/01 10:15",
-      "rebound_price": 116200.0,
+      "rebound_price": 116300.0,
       "bars_after_signal": 1,
       "reasons": [
         "연속 양봉 2개 이상"
@@ -64,6 +48,22 @@
       "signal_price": 213000.0,
       "rebound_time": "09/01 09:30",
       "rebound_price": 216000.0,
+      "bars_after_signal": 1,
+      "reasons": [
+        "연속 양봉 2개 이상"
+      ]
+    },
+    {
+      "ticker": "214150",
+      "name": "클래시스",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "09/01 10:15",
+      "signal_price": 33100.0,
+      "rebound_time": "09/01 10:30",
+      "rebound_price": 33200.0,
       "bars_after_signal": 1,
       "reasons": [
         "연속 양봉 2개 이상"
@@ -102,16 +102,32 @@
       ]
     },
     {
+      "ticker": "086520",
+      "name": "에코프로",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "09/01 10:15",
+      "signal_price": 88700.0,
+      "rebound_time": "09/01 10:30",
+      "rebound_price": 88800.0,
+      "bars_after_signal": 1,
+      "reasons": [
+        "음봉형 도지"
+      ]
+    },
+    {
       "ticker": "011210",
       "name": "현대위아",
       "is_fresh": true,
       "best_signal": false,
       "best_reason": "",
       "has_active_entry": false,
-      "signal_time": "09/01 10:00",
-      "signal_price": 58800.0,
-      "rebound_time": "09/01 10:15",
-      "rebound_price": 58900.0,
+      "signal_time": "09/01 10:15",
+      "signal_price": 58700.0,
+      "rebound_time": "09/01 10:30",
+      "rebound_price": 58700.0,
       "bars_after_signal": 1,
       "reasons": [
         "음봉형 도지"
