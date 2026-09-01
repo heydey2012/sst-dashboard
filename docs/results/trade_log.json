@@ -8,8 +8,10 @@
     "exit_price": 90400.0,
     "exit_time": "2026-08-28T13:30:03",
     "reason": "익절(TP 도달)",
-    "pnl": 14300.0,
-    "pnl_pct": 1.46
+    "pnl": 5400.0,
+    "pnl_pct": 0.55,
+    "commission": 6911.0,
+    "tax": 1989.0
   },
   {
     "ticker": "247540",
@@ -20,8 +22,10 @@
     "exit_price": 117900.0,
     "exit_time": "2026-08-28T13:40:04",
     "reason": "익절(TP 도달)",
-    "pnl": 17600.0,
-    "pnl_pct": 1.9
+    "pnl": 9173.0,
+    "pnl_pct": 0.99,
+    "commission": 6541.0,
+    "tax": 1886.0
   },
   {
     "ticker": "329180",
@@ -32,8 +36,10 @@
     "exit_price": 453000.0,
     "exit_time": "2026-08-28T13:56:04",
     "reason": "손절(SL 도달)",
-    "pnl": -9000.0,
-    "pnl_pct": -0.98
+    "pnl": -17186.0,
+    "pnl_pct": -1.88,
+    "commission": 6374.0,
+    "tax": 1812.0
   },
   {
     "ticker": "042700",
@@ -44,8 +50,10 @@
     "exit_price": 210000.0,
     "exit_time": "2026-08-31T09:00:19",
     "reason": "손절(SL 도달)",
-    "pnl": -58000.0,
-    "pnl_pct": -6.46
+    "pnl": -65763.0,
+    "pnl_pct": -7.32,
+    "commission": 6083.0,
+    "tax": 1680.0
   },
   {
     "ticker": "000990",
@@ -56,8 +64,10 @@
     "exit_price": 90700.0,
     "exit_time": "2026-08-31T09:00:26",
     "reason": "손절(SL 도달)",
-    "pnl": -37000.0,
-    "pnl_pct": -3.92
+    "pnl": -45292.0,
+    "pnl_pct": -4.8,
+    "commission": 6478.0,
+    "tax": 1814.0
   },
   {
     "ticker": "042660",
@@ -68,8 +78,10 @@
     "exit_price": 85400.0,
     "exit_time": "2026-08-31T09:00:28",
     "reason": "손절(SL 도달)",
-    "pnl": -37400.0,
-    "pnl_pct": -3.83
+    "pnl": -45986.0,
+    "pnl_pct": -4.71,
+    "commission": 6707.0,
+    "tax": 1879.0
   },
   {
     "ticker": "267260",
@@ -80,8 +92,10 @@
     "exit_price": 784000.0,
     "exit_time": "2026-08-31T09:00:30",
     "reason": "손절(SL 도달)",
-    "pnl": -28000.0,
-    "pnl_pct": -3.45
+    "pnl": -35154.0,
+    "pnl_pct": -4.33,
+    "commission": 5586.0,
+    "tax": 1568.0
   },
   {
     "ticker": "006260",
@@ -92,8 +106,10 @@
     "exit_price": 301000.0,
     "exit_time": "2026-08-31T09:00:31",
     "reason": "손절(SL 도달)",
-    "pnl": -39750.0,
-    "pnl_pct": -4.22
+    "pnl": -48016.0,
+    "pnl_pct": -5.09,
+    "commission": 6460.0,
+    "tax": 1806.0
   },
   {
     "ticker": "010120",
@@ -104,8 +120,10 @@
     "exit_price": 206500.0,
     "exit_time": "2026-08-31T09:00:33",
     "reason": "손절(SL 도달)",
-    "pnl": -42000.0,
-    "pnl_pct": -4.84
+    "pnl": -49581.0,
+    "pnl_pct": -5.71,
+    "commission": 5929.0,
+    "tax": 1652.0
   },
   {
     "ticker": "047810",
@@ -116,8 +134,10 @@
     "exit_price": 130300.0,
     "exit_time": "2026-08-31T09:00:34",
     "reason": "손절(SL 도달)",
-    "pnl": -20300.0,
-    "pnl_pct": -2.18
+    "pnl": -28580.0,
+    "pnl_pct": -3.07,
+    "commission": 6456.0,
+    "tax": 1824.0
   },
   {
     "ticker": "373220",
@@ -128,8 +148,10 @@
     "exit_price": 379000.0,
     "exit_time": "2026-08-31T09:22:02",
     "reason": "익절(TP 도달)",
-    "pnl": 21000.0,
-    "pnl_pct": 2.85
+    "pnl": 14252.0,
+    "pnl_pct": 1.93,
+    "commission": 5232.0,
+    "tax": 1516.0
   },
   {
     "ticker": "011790",
@@ -140,8 +162,10 @@
     "exit_price": 88700.0,
     "exit_time": "2026-08-31T09:28:07",
     "reason": "손절(SL 도달)",
-    "pnl": -7700.0,
-    "pnl_pct": -0.78
+    "pnl": -16508.0,
+    "pnl_pct": -1.68,
+    "commission": 6857.0,
+    "tax": 1951.0
   },
   {
     "ticker": "066570",
@@ -152,8 +176,10 @@
     "exit_price": 201500.0,
     "exit_time": "2026-08-31T09:32:05",
     "reason": "익절(TP 도달)",
-    "pnl": 11500.0,
-    "pnl_pct": 1.15
+    "pnl": 2473.0,
+    "pnl_pct": 0.25,
+    "commission": 7012.0,
+    "tax": 2015.0
   },
   {
     "ticker": "086280",
@@ -164,8 +190,10 @@
     "exit_price": 205500.0,
     "exit_time": "2026-08-31T09:34:06",
     "reason": "익절(TP 도달)",
-    "pnl": 8000.0,
-    "pnl_pct": 0.98
+    "pnl": 630.0,
+    "pnl_pct": 0.08,
+    "commission": 5726.0,
+    "tax": 1644.0
   },
   {
     "ticker": "066570",
@@ -176,8 +204,10 @@
     "exit_price": 205000.0,
     "exit_time": "2026-08-31T11:48:10",
     "reason": "익절(TP 도달)",
-    "pnl": 16000.0,
-    "pnl_pct": 1.99
+    "pnl": 8676.0,
+    "pnl_pct": 1.08,
+    "commission": 5684.0,
+    "tax": 1640.0
   },
   {
     "ticker": "039030",
@@ -188,8 +218,10 @@
     "exit_price": 409000.0,
     "exit_time": "2026-08-31T13:06:08",
     "reason": "익절(TP 도달)",
-    "pnl": 48000.0,
-    "pnl_pct": 6.23
+    "pnl": 40806.0,
+    "pnl_pct": 5.3,
+    "commission": 5558.0,
+    "tax": 1636.0
   },
   {
     "ticker": "005380",
@@ -200,7 +232,9 @@
     "exit_price": 403500.0,
     "exit_time": "2026-09-01T09:00:04",
     "reason": "익절(TP 도달)",
-    "pnl": 19000.0,
-    "pnl_pct": 2.41
+    "pnl": 11804.0,
+    "pnl_pct": 1.5,
+    "commission": 5582.0,
+    "tax": 1614.0
   }
 ]
