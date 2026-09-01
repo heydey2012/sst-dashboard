@@ -1,26 +1,10 @@
 {
   "timeframe": "15m",
   "timeframe_label": "15분봉",
-  "last_updated": "2026-09-01T09:40:04",
+  "last_updated": "2026-09-01T09:54:33",
   "total_tickers": 98,
-  "total_signals": 4,
+  "total_signals": 7,
   "results": [
-    {
-      "ticker": "003550",
-      "name": "LG",
-      "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
-      "has_active_entry": false,
-      "signal_time": "09/01 09:00",
-      "signal_price": 115500.0,
-      "rebound_time": "09/01 09:30",
-      "rebound_price": 117300.0,
-      "bars_after_signal": 2,
-      "reasons": [
-        "연속 양봉 2개 이상"
-      ]
-    },
     {
       "ticker": "042700",
       "name": "한미반도체",
@@ -31,8 +15,40 @@
       "signal_time": "09/01 09:15",
       "signal_price": 213000.0,
       "rebound_time": "09/01 09:30",
-      "rebound_price": 214750.0,
+      "rebound_price": 216000.0,
       "bars_after_signal": 1,
+      "reasons": [
+        "연속 양봉 2개 이상"
+      ]
+    },
+    {
+      "ticker": "039030",
+      "name": "이오테크닉스",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "09/01 09:00",
+      "signal_price": 393500.0,
+      "rebound_time": "09/01 09:30",
+      "rebound_price": 398500.0,
+      "bars_after_signal": 2,
+      "reasons": [
+        "음봉형 도지"
+      ]
+    },
+    {
+      "ticker": "058470",
+      "name": "리노공업",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "09/01 09:00",
+      "signal_price": 65400.0,
+      "rebound_time": "09/01 09:30",
+      "rebound_price": 65700.0,
+      "bars_after_signal": 2,
       "reasons": [
         "연속 양봉 2개 이상"
       ]
