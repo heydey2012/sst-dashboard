@@ -1,7 +1,7 @@
 {
   "timeframe": "5m",
   "timeframe_label": "5분봉",
-  "last_updated": "2026-09-01T12:01:36",
+  "last_updated": "2026-09-01T12:06:54",
   "total_tickers": 98,
   "total_signals": 0,
   "results": [
@@ -522,8 +522,8 @@
       "ticker": "010060",
       "name": "OCI홀딩스",
       "is_fresh": true,
-      "best_signal": true,
-      "best_reason": "1차 저점(262,500) 지지 후 재반등",
+      "best_signal": false,
+      "best_reason": "",
       "has_active_entry": false,
       "signal_time": "09/01 11:25",
       "signal_price": 263000.0,
@@ -619,7 +619,7 @@
       "name": "이오테크닉스",
       "is_fresh": true,
       "best_signal": true,
-      "best_reason": "1차 저점(393,000) 지지 후 재반등",
+      "best_reason": "저점 이탈(393,000→392,750)했으나 RSI 다이버전스 동반 재반등 (RSI 26.3→37.1)",
       "has_active_entry": false,
       "signal_time": "09/01 09:10",
       "signal_price": 393500.0,
