@@ -1,10 +1,10 @@
 {
-  "last_updated": "2026-09-01T10:20:15",
+  "last_updated": "2026-09-01T10:22:14",
   "strategy_version": "legacy",
   "initial_capital": 10000000,
-  "current_capital": 9991548.0,
-  "return_pct": -0.08,
-  "profit_amount": -8452.0,
+  "current_capital": 9977960.0,
+  "return_pct": -0.22,
+  "profit_amount": -22040.0,
   "positions": [
     {
       "ticker": "042700",
@@ -66,7 +66,7 @@
       "qty": 15,
       "entry_price": 65500.0,
       "entry_time": "2026-09-01T09:53:29",
-      "current_price": 65800.0,
+      "current_price": 65700.0,
       "tp": 67400.0,
       "sl": 63700.0,
       "tp_basis": "피벗고점",
@@ -84,8 +84,8 @@
       "reasons": [
         "연속 양봉 2개 이상"
       ],
-      "pnl": -4367.0,
-      "pnl_pct": -0.44
+      "pnl": -5859.0,
+      "pnl_pct": -0.6
     },
     {
       "ticker": "064350",
@@ -93,7 +93,7 @@
       "qty": 7,
       "entry_price": 133500.0,
       "entry_time": "2026-09-01T10:10:07",
-      "current_price": 133400.0,
+      "current_price": 133100.0,
       "tp": 139300.0,
       "sl": 125490.0,
       "tp_basis": "피벗고점",
@@ -111,8 +111,35 @@
       "reasons": [
         "전 봉(음봉)보다 몸통이 큰 양봉"
       ],
-      "pnl": -9107.0,
-      "pnl_pct": -0.97
+      "pnl": -11195.0,
+      "pnl_pct": -1.2
+    },
+    {
+      "ticker": "012330",
+      "name": "현대모비스",
+      "qty": 2,
+      "entry_price": 445500.0,
+      "entry_time": "2026-09-01T10:21:04",
+      "current_price": 444500.0,
+      "tp": 455500.0,
+      "sl": 433500.0,
+      "tp_basis": "피벗고점",
+      "sl_basis": "피벗저점",
+      "pivot_high": 455500.0,
+      "pivot_low": 433500.0,
+      "best_reason": "음봉형 도지",
+      "timeframe": "15m",
+      "signal_time": "2026-09-01 10:00:00",
+      "signal_price": 445000.0,
+      "signal_rsi": 34.78293015343087,
+      "rebound_time": "2026-09-01 10:15:00",
+      "rebound_price": 445500.0,
+      "bars_after_signal": 1,
+      "reasons": [
+        "음봉형 도지"
+      ],
+      "pnl": -10008.0,
+      "pnl_pct": -1.12
     }
   ]
 }
