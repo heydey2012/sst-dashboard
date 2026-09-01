@@ -1,9 +1,9 @@
 {
   "timeframe": "15m",
   "timeframe_label": "15분봉",
-  "last_updated": "2026-09-01T09:54:33",
+  "last_updated": "2026-09-01T10:10:35",
   "total_tickers": 98,
-  "total_signals": 7,
+  "total_signals": 2,
   "results": [
     {
       "ticker": "042700",
@@ -41,8 +41,8 @@
       "ticker": "058470",
       "name": "리노공업",
       "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
+      "best_signal": true,
+      "best_reason": "1차 저점(65,400) 지지 후 재반등",
       "has_active_entry": false,
       "signal_time": "09/01 09:00",
       "signal_price": 65400.0,
@@ -51,6 +51,22 @@
       "bars_after_signal": 2,
       "reasons": [
         "연속 양봉 2개 이상"
+      ]
+    },
+    {
+      "ticker": "064350",
+      "name": "현대로템",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": true,
+      "signal_time": "09/01 09:45",
+      "signal_price": 132400.0,
+      "rebound_time": "09/01 10:00",
+      "rebound_price": 133500.0,
+      "bars_after_signal": 1,
+      "reasons": [
+        "전 봉(음봉)보다 몸통이 큰 양봉"
       ]
     }
   ]
