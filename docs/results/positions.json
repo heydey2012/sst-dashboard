@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-08-31T17:59:04",
+  "last_updated": "2026-09-01T09:00:12",
   "initial_capital": 10000000,
-  "current_capital": 9965150.0,
-  "return_pct": -0.35,
-  "profit_amount": -34850.0,
+  "current_capital": 9953150.0,
+  "return_pct": -0.47,
+  "profit_amount": -46850.0,
   "positions": [
     {
       "ticker": "012750",
@@ -56,31 +56,6 @@
       "pnl_pct": -0.77
     },
     {
-      "ticker": "005380",
-      "name": "현대차",
-      "qty": 2,
-      "entry_price": 394000.0,
-      "entry_time": "2026-08-31T09:20:14",
-      "current_price": 403500.0,
-      "tp": 400000.0,
-      "sl": 370360.0,
-      "tp_basis": "피벗고점",
-      "sl_basis": "고정 6%",
-      "pivot_high": 400000.0,
-      "pivot_low": 398000.0,
-      "best_reason": "연속 양봉 2개 이상",
-      "timeframe": null,
-      "signal_time": null,
-      "signal_price": null,
-      "signal_rsi": null,
-      "rebound_time": null,
-      "rebound_price": null,
-      "bars_after_signal": null,
-      "reasons": [],
-      "pnl": 19000.0,
-      "pnl_pct": 2.41
-    },
-    {
       "ticker": "018260",
       "name": "삼성에스디에스",
       "qty": 4,
@@ -111,7 +86,7 @@
       "qty": 4,
       "entry_price": 212000.0,
       "entry_time": "2026-08-31T09:23:48",
-      "current_price": 220500.0,
+      "current_price": 218000.0,
       "tp": 223500.0,
       "sl": 199280.0,
       "tp_basis": "피벗고점",
@@ -127,8 +102,8 @@
       "rebound_price": null,
       "bars_after_signal": null,
       "reasons": [],
-      "pnl": 34000.0,
-      "pnl_pct": 4.01
+      "pnl": 24000.0,
+      "pnl_pct": 2.83
     },
     {
       "ticker": "036930",
@@ -211,7 +186,7 @@
       "qty": 5,
       "entry_price": 186100.0,
       "entry_time": "2026-08-31T11:52:07",
-      "current_price": 186500.0,
+      "current_price": 186100.0,
       "tp": 189400.0,
       "sl": 185500.0,
       "tp_basis": "피벗고점",
@@ -227,8 +202,8 @@
       "rebound_price": null,
       "bars_after_signal": null,
       "reasons": [],
-      "pnl": 2000.0,
-      "pnl_pct": 0.21
+      "pnl": 0.0,
+      "pnl_pct": 0.0
     }
   ]
 }
