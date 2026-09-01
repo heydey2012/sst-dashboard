@@ -1,10 +1,10 @@
 {
-  "last_updated": "2026-09-01T09:52:09",
+  "last_updated": "2026-09-01T09:54:12",
   "strategy_version": "legacy",
   "initial_capital": 10000000,
-  "current_capital": 9991274.0,
-  "return_pct": -0.09,
-  "profit_amount": -8726.0,
+  "current_capital": 9976787.0,
+  "return_pct": -0.23,
+  "profit_amount": -23213.0,
   "positions": [
     {
       "ticker": "042700",
@@ -12,7 +12,7 @@
       "qty": 4,
       "entry_price": 214750.0,
       "entry_time": "2026-09-01T09:38:45",
-      "current_price": 214500.0,
+      "current_price": 214000.0,
       "tp": 225000.0,
       "sl": 205500.0,
       "tp_basis": "피벗고점",
@@ -30,8 +30,62 @@
       "reasons": [
         "연속 양봉 2개 이상"
       ],
-      "pnl": -8726.0,
-      "pnl_pct": -1.02
+      "pnl": -10714.0,
+      "pnl_pct": -1.25
+    },
+    {
+      "ticker": "039030",
+      "name": "이오테크닉스",
+      "qty": 2,
+      "entry_price": 396500.0,
+      "entry_time": "2026-09-01T09:53:29",
+      "current_price": 397500.0,
+      "tp": 406500.0,
+      "sl": 375000.0,
+      "tp_basis": "피벗고점",
+      "sl_basis": "피벗저점",
+      "pivot_high": 406500.0,
+      "pivot_low": 375000.0,
+      "best_reason": "음봉형 도지",
+      "timeframe": "15m",
+      "signal_time": "2026-09-01 09:00:00",
+      "signal_price": 393500.0,
+      "signal_rsi": 39.35197165238481,
+      "rebound_time": "2026-09-01 09:30:00",
+      "rebound_price": 398500.0,
+      "bars_after_signal": 2,
+      "reasons": [
+        "음봉형 도지"
+      ],
+      "pnl": -5148.0,
+      "pnl_pct": -0.65
+    },
+    {
+      "ticker": "058470",
+      "name": "리노공업",
+      "qty": 15,
+      "entry_price": 65500.0,
+      "entry_time": "2026-09-01T09:53:29",
+      "current_price": 65600.0,
+      "tp": 67400.0,
+      "sl": 63700.0,
+      "tp_basis": "피벗고점",
+      "sl_basis": "피벗저점",
+      "pivot_high": 67400.0,
+      "pivot_low": 63700.0,
+      "best_reason": "연속 양봉 2개 이상",
+      "timeframe": "15m",
+      "signal_time": "2026-09-01 09:00:00",
+      "signal_price": 65400.0,
+      "signal_rsi": 37.90821729801395,
+      "rebound_time": "2026-09-01 09:30:00",
+      "rebound_price": 65700.0,
+      "bars_after_signal": 2,
+      "reasons": [
+        "연속 양봉 2개 이상"
+      ],
+      "pnl": -7351.0,
+      "pnl_pct": -0.75
     }
   ]
 }
