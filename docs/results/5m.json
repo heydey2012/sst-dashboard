@@ -1,7 +1,7 @@
 {
   "timeframe": "5m",
   "timeframe_label": "5분봉",
-  "last_updated": "2026-09-01T13:31:39",
+  "last_updated": "2026-09-01T13:36:46",
   "total_tickers": 98,
   "total_signals": 0,
   "results": [
@@ -586,8 +586,8 @@
       "ticker": "042700",
       "name": "한미반도체",
       "is_fresh": true,
-      "best_signal": true,
-      "best_reason": "1차 저점(212,500) 지지 후 재반등",
+      "best_signal": false,
+      "best_reason": "",
       "has_active_entry": false,
       "signal_time": "09/01 09:10",
       "signal_price": 212500.0,
