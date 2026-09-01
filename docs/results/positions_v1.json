@@ -1,9 +1,37 @@
 {
-  "last_updated": "2026-09-01T09:38:13",
+  "last_updated": "2026-09-01T09:40:10",
   "strategy_version": "legacy",
   "initial_capital": 10000000,
-  "current_capital": 10000000,
-  "return_pct": 0.0,
-  "profit_amount": 0,
-  "positions": []
+  "current_capital": 9991274.0,
+  "return_pct": -0.09,
+  "profit_amount": -8726.0,
+  "positions": [
+    {
+      "ticker": "042700",
+      "name": "한미반도체",
+      "qty": 4,
+      "entry_price": 214750.0,
+      "entry_time": "2026-09-01T09:38:45",
+      "current_price": 214500.0,
+      "tp": 225000.0,
+      "sl": 205500.0,
+      "tp_basis": "피벗고점",
+      "sl_basis": "피벗저점",
+      "pivot_high": 225000.0,
+      "pivot_low": 205500.0,
+      "best_reason": "연속 양봉 2개 이상",
+      "timeframe": "15m",
+      "signal_time": "2026-09-01 09:15:00",
+      "signal_price": 213000.0,
+      "signal_rsi": 37.277269769515435,
+      "rebound_time": "2026-09-01 09:30:00",
+      "rebound_price": 214750.0,
+      "bars_after_signal": 1,
+      "reasons": [
+        "연속 양봉 2개 이상"
+      ],
+      "pnl": -8726.0,
+      "pnl_pct": -1.02
+    }
+  ]
 }
