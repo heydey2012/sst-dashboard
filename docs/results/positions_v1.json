@@ -1,10 +1,10 @@
 {
-  "last_updated": "2026-09-01T10:08:11",
+  "last_updated": "2026-09-01T10:10:13",
   "strategy_version": "legacy",
   "initial_capital": 10000000,
-  "current_capital": 10004136.0,
-  "return_pct": 0.04,
-  "profit_amount": 4136.0,
+  "current_capital": 9997317.0,
+  "return_pct": -0.03,
+  "profit_amount": -2683.0,
   "positions": [
     {
       "ticker": "042700",
@@ -66,7 +66,7 @@
       "qty": 15,
       "entry_price": 65500.0,
       "entry_time": "2026-09-01T09:53:29",
-      "current_price": 65900.0,
+      "current_price": 66100.0,
       "tp": 67400.0,
       "sl": 63700.0,
       "tp_basis": "피벗고점",
@@ -84,8 +84,35 @@
       "reasons": [
         "연속 양봉 2개 이상"
       ],
-      "pnl": -2876.0,
-      "pnl_pct": -0.29
+      "pnl": 108.0,
+      "pnl_pct": 0.01
+    },
+    {
+      "ticker": "064350",
+      "name": "현대로템",
+      "qty": 7,
+      "entry_price": 133500.0,
+      "entry_time": "2026-09-01T10:10:07",
+      "current_price": 133300.0,
+      "tp": 139300.0,
+      "sl": 125490.0,
+      "tp_basis": "피벗고점",
+      "sl_basis": "고정 6%",
+      "pivot_high": 139300.0,
+      "pivot_low": 134700.0,
+      "best_reason": "전 봉(음봉)보다 몸통이 큰 양봉",
+      "timeframe": "15m",
+      "signal_time": "2026-09-01 09:45:00",
+      "signal_price": 132400.0,
+      "signal_rsi": 23.235295978132285,
+      "rebound_time": "2026-09-01 10:00:00",
+      "rebound_price": 133500.0,
+      "bars_after_signal": 1,
+      "reasons": [
+        "전 봉(음봉)보다 몸통이 큰 양봉"
+      ],
+      "pnl": -9803.0,
+      "pnl_pct": -1.05
     }
   ]
 }
