@@ -1,9 +1,9 @@
 {
   "timeframe": "5m",
   "timeframe_label": "5분봉",
-  "last_updated": "2026-09-01T13:07:54",
+  "last_updated": "2026-09-01T13:16:40",
   "total_tickers": 98,
-  "total_signals": 0,
+  "total_signals": 1,
   "results": [
     {
       "ticker": "005930",
@@ -211,22 +211,6 @@
       "bars_after_signal": 5,
       "reasons": [
         "음봉형 도지"
-      ]
-    },
-    {
-      "ticker": "000810",
-      "name": "삼성화재",
-      "is_fresh": true,
-      "best_signal": true,
-      "best_reason": "1차 저점(666,000) 지지 후 재반등",
-      "has_active_entry": false,
-      "signal_time": "09/01 10:05",
-      "signal_price": 666000.0,
-      "rebound_time": "09/01 10:15",
-      "rebound_price": 671000.0,
-      "bars_after_signal": 2,
-      "reasons": [
-        "연속 양봉 2개 이상"
       ]
     },
     {
@@ -442,8 +426,8 @@
       "ticker": "000100",
       "name": "유한양행",
       "is_fresh": true,
-      "best_signal": true,
-      "best_reason": "1차 저점(82,300) 지지 후 재반등",
+      "best_signal": false,
+      "best_reason": "",
       "has_active_entry": false,
       "signal_time": "09/01 11:40",
       "signal_price": 82300.0,
