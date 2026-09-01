@@ -250,5 +250,19 @@
     "pnl_pct": -1.75,
     "commission": 6859.0,
     "tax": 1951.0
+  },
+  {
+    "ticker": "097950",
+    "name": "CJ제일제당",
+    "qty": 5,
+    "entry_price": 186100.0,
+    "entry_time": "2026-08-31T11:52:07",
+    "exit_price": 185500.0,
+    "exit_time": "2026-09-01T11:40:09",
+    "reason": "손절(SL 도달)",
+    "pnl": -11358.0,
+    "pnl_pct": -1.22,
+    "commission": 6503.0,
+    "tax": 1855.0
   }
 ]
