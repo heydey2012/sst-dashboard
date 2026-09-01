@@ -1,7 +1,7 @@
 {
   "timeframe": "5m",
   "timeframe_label": "5분봉",
-  "last_updated": "2026-09-01T12:51:41",
+  "last_updated": "2026-09-01T12:56:50",
   "total_tickers": 98,
   "total_signals": 0,
   "results": [
@@ -458,8 +458,8 @@
       "ticker": "078930",
       "name": "GS",
       "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
+      "best_signal": true,
+      "best_reason": "저점 이탈(124,300→122,800)했으나 RSI 다이버전스 동반 재반등 (RSI 34.3→33.2)",
       "has_active_entry": false,
       "signal_time": "09/01 10:10",
       "signal_price": 124900.0,
