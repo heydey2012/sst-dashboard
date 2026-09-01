@@ -1,9 +1,9 @@
 {
   "timeframe": "5m",
   "timeframe_label": "5분봉",
-  "last_updated": "2026-09-01T10:07:07",
+  "last_updated": "2026-09-01T10:16:32",
   "total_tickers": 98,
-  "total_signals": 3,
+  "total_signals": 2,
   "results": [
     {
       "ticker": "005930",
@@ -121,8 +121,8 @@
       "ticker": "329180",
       "name": "HD현대중공업",
       "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
+      "best_signal": true,
+      "best_reason": "1차 저점(444,000) 지지 후 재반등",
       "has_active_entry": false,
       "signal_time": "09/01 09:50",
       "signal_price": 444000.0,
@@ -214,6 +214,22 @@
       ]
     },
     {
+      "ticker": "042660",
+      "name": "한화오션",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "09/01 09:55",
+      "signal_price": 86500.0,
+      "rebound_time": "09/01 10:05",
+      "rebound_price": 87200.0,
+      "bars_after_signal": 2,
+      "reasons": [
+        "연속 양봉 2개 이상"
+      ]
+    },
+    {
       "ticker": "267260",
       "name": "HD현대일렉트릭",
       "is_fresh": true,
@@ -263,6 +279,22 @@
       ]
     },
     {
+      "ticker": "035720",
+      "name": "카카오",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "09/01 09:55",
+      "signal_price": 36500.0,
+      "rebound_time": "09/01 10:10",
+      "rebound_price": 36650.0,
+      "bars_after_signal": 3,
+      "reasons": [
+        "음봉형 도지"
+      ]
+    },
+    {
       "ticker": "018260",
       "name": "삼성에스디에스",
       "is_fresh": true,
@@ -300,14 +332,14 @@
       "is_fresh": true,
       "best_signal": false,
       "best_reason": "",
-      "has_active_entry": true,
+      "has_active_entry": false,
       "signal_time": "09/01 09:55",
       "signal_price": 186000.0,
-      "rebound_time": "09/01 10:00",
-      "rebound_price": 186200.0,
-      "bars_after_signal": 1,
+      "rebound_time": "09/01 10:10",
+      "rebound_price": 186100.0,
+      "bars_after_signal": 3,
       "reasons": [
-        "전 봉(음봉)보다 몸통이 큰 양봉"
+        "음봉형 도지"
       ]
     },
     {
@@ -320,7 +352,7 @@
       "signal_time": "09/01 09:55",
       "signal_price": 145200.0,
       "rebound_time": "09/01 10:00",
-      "rebound_price": 145900.0,
+      "rebound_price": 146000.0,
       "bars_after_signal": 1,
       "reasons": [
         "연속 양봉 2개 이상"
@@ -346,8 +378,8 @@
       "ticker": "003550",
       "name": "LG",
       "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
+      "best_signal": true,
+      "best_reason": "저점 이탈(115,900→115,700)했으나 RSI 다이버전스 동반 재반등 (RSI 26.1→31.1)",
       "has_active_entry": false,
       "signal_time": "09/01 09:15",
       "signal_price": 115900.0,
@@ -368,7 +400,7 @@
       "signal_time": "09/01 09:30",
       "signal_price": 82500.0,
       "rebound_time": "09/01 10:00",
-      "rebound_price": 82700.0,
+      "rebound_price": 82800.0,
       "bars_after_signal": 6,
       "reasons": [
         "연속 양봉 2개 이상"
@@ -426,8 +458,8 @@
       "ticker": "006260",
       "name": "LS",
       "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
+      "best_signal": true,
+      "best_reason": "1차 저점(302,500) 지지 후 재반등",
       "has_active_entry": false,
       "signal_time": "09/01 09:10",
       "signal_price": 302500.0,
@@ -666,8 +698,8 @@
       "ticker": "064350",
       "name": "현대로템",
       "is_fresh": true,
-      "best_signal": true,
-      "best_reason": "1차 저점(132,100) 지지 후 재반등",
+      "best_signal": false,
+      "best_reason": "",
       "has_active_entry": false,
       "signal_time": "09/01 09:15",
       "signal_price": 134200.0,
@@ -756,6 +788,22 @@
       "bars_after_signal": 1,
       "reasons": [
         "음봉형 도지"
+      ]
+    },
+    {
+      "ticker": "122870",
+      "name": "와이지엔터테인먼트",
+      "is_fresh": true,
+      "best_signal": true,
+      "best_reason": "1차 저점(40,400) 지지 후 재반등",
+      "has_active_entry": false,
+      "signal_time": "09/01 09:30",
+      "signal_price": 40400.0,
+      "rebound_time": "09/01 09:40",
+      "rebound_price": 40750.0,
+      "bars_after_signal": 2,
+      "reasons": [
+        "연속 양봉 2개 이상"
       ]
     },
     {
