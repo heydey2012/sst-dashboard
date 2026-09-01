@@ -236,5 +236,19 @@
     "pnl_pct": 1.5,
     "commission": 5582.0,
     "tax": 1614.0
+  },
+  {
+    "ticker": "012750",
+    "name": "에스원",
+    "qty": 12,
+    "entry_price": 82000.0,
+    "entry_time": "2026-08-28T11:09:55",
+    "exit_price": 81300.0,
+    "exit_time": "2026-09-01T10:04:01",
+    "reason": "대시보드 청산 요청",
+    "pnl": -17210.0,
+    "pnl_pct": -1.75,
+    "commission": 6859.0,
+    "tax": 1951.0
   }
 ]
