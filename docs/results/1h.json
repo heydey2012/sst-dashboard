@@ -1,9 +1,9 @@
 {
   "timeframe": "1h",
   "timeframe_label": "1시간봉",
-  "last_updated": "2026-09-01T12:10:13",
+  "last_updated": "2026-09-01T13:10:10",
   "total_tickers": 98,
-  "total_signals": 1,
+  "total_signals": 0,
   "results": [
     {
       "ticker": "012450",
@@ -25,29 +25,45 @@
       "ticker": "034020",
       "name": "두산에너빌리티",
       "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
+      "best_signal": true,
+      "best_reason": "1차 저점(80,350) 지지 후 재반등",
       "has_active_entry": false,
       "signal_time": "09/01 10:00",
       "signal_price": 80350.0,
       "rebound_time": "09/01 12:00",
-      "rebound_price": 80600.0,
+      "rebound_price": 81100.0,
       "bars_after_signal": 2,
       "reasons": [
-        "음봉형 도지"
+        "연속 양봉 2개 이상"
+      ]
+    },
+    {
+      "ticker": "267260",
+      "name": "HD현대일렉트릭",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "09/01 11:00",
+      "signal_price": 742000.0,
+      "rebound_time": "09/01 12:00",
+      "rebound_price": 752000.0,
+      "bars_after_signal": 1,
+      "reasons": [
+        "전 봉(음봉)보다 몸통이 큰 양봉"
       ]
     },
     {
       "ticker": "298040",
       "name": "효성중공업",
       "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
+      "best_signal": true,
+      "best_reason": "1차 저점(2,879,000) 지지 후 재반등",
       "has_active_entry": false,
       "signal_time": "09/01 10:00",
       "signal_price": 2879000.0,
       "rebound_time": "09/01 12:00",
-      "rebound_price": 2888000.0,
+      "rebound_price": 2903000.0,
       "bars_after_signal": 2,
       "reasons": [
         "연속 양봉 2개 이상"
@@ -57,8 +73,8 @@
       "ticker": "090430",
       "name": "아모레퍼시픽",
       "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
+      "best_signal": true,
+      "best_reason": "1차 저점(145,200) 지지 후 재반등",
       "has_active_entry": false,
       "signal_time": "09/01 09:00",
       "signal_price": 145200.0,
@@ -67,6 +83,22 @@
       "bars_after_signal": 2,
       "reasons": [
         "연속 양봉 2개 이상"
+      ]
+    },
+    {
+      "ticker": "064350",
+      "name": "현대로템",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": true,
+      "signal_time": "09/01 12:00",
+      "signal_price": 129400.0,
+      "rebound_time": "09/01 13:00",
+      "rebound_price": 129700.0,
+      "bars_after_signal": 1,
+      "reasons": [
+        "전 봉(음봉)보다 몸통이 큰 양봉"
       ]
     }
   ]
