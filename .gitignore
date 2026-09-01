@@ -5,5 +5,7 @@ logs/
 .DS_Store
 /positions.json
 /trade_log.json
+/positions_v1.json
+/trade_log_v1.json
 /.liquidation_processed.json
 /.sst_*.lock

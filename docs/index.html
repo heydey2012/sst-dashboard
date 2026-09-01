@@ -164,6 +164,7 @@
     </div>
   </div>
 
+  <div class="tabs" id="versionTabs"></div>
   <div class="portfolio" id="portfolio"></div>
 
   <div class="modal-backdrop" id="explainBackdrop" style="display:none" onclick="if(event.target===this) closeExplain()">
@@ -179,7 +180,7 @@
   <div class="modal-backdrop" id="reportBackdrop" style="display:none" onclick="if(event.target===this) closeReport()">
     <div class="modal">
       <div class="modal-top">
-        <div class="modal-title">📊 매수 현황보고서</div>
+        <div class="modal-title" id="reportModalTitle">📊 매수 현황보고서</div>
         <button class="modal-close" onclick="closeReport()">✕</button>
       </div>
       <div class="tabs" id="reportStatusTabs"></div>
@@ -212,9 +213,31 @@ const REPO = "heydey2012/sst-dashboard";
 let current = "4h";
 const cache = {};
 
+const VERSIONS = [
+  { key: "current", label: "신버전", positionsFile: "positions.json", tradeLogFile: "trade_log.json" },
+  { key: "legacy", label: "구버전(페이퍼)", positionsFile: "positions_v1.json", tradeLogFile: "trade_log_v1.json" },
+];
+let currentVersion = "current";
+
+function versionInfo(key) {
+  return VERSIONS.find(v => v.key === (key || currentVersion));
+}
+
+function renderVersionTabs() {
+  const el = document.getElementById("versionTabs");
+  el.innerHTML = "";
+  VERSIONS.forEach(v => {
+    const tab = document.createElement("div");
+    tab.className = "tab" + (v.key === currentVersion ? " active" : "");
+    tab.textContent = v.label;
+    tab.onclick = () => { currentVersion = v.key; renderVersionTabs(); refreshPortfolio(); };
+    el.appendChild(tab);
+  });
+}
+
 async function loadPositions() {
   try {
-    const res = await fetch(`results/positions.json?t=${Date.now()}`);
+    const res = await fetch(`results/${versionInfo().positionsFile}?t=${Date.now()}`);
     if (!res.ok) return null;
     return await res.json();
   } catch (e) {
@@ -224,7 +247,7 @@ async function loadPositions() {
 
 async function loadTradeLog() {
   try {
-    const res = await fetch(`results/trade_log.json?t=${Date.now()}`);
+    const res = await fetch(`results/${versionInfo().tradeLogFile}?t=${Date.now()}`);
     if (!res.ok) return [];
     return await res.json();
   } catch (e) {
@@ -362,6 +385,7 @@ function renderReportStatusTabs() {
 
 async function openReport() {
   document.getElementById("reportBackdrop").style.display = "flex";
+  document.getElementById("reportModalTitle").textContent = `📊 매수 현황보고서 [${versionInfo().label}]`;
   document.getElementById("reportBody").innerHTML = `<div class="report-empty">불러오는 중...</div>`;
   reportStatus = "all";
   renderReportStatusTabs();
@@ -445,8 +469,10 @@ function liquidateUrl(ticker, name) {
 
 function renderPortfolio(data) {
   const el = document.getElementById("portfolio");
+  const vLabel = versionInfo().label;
+  const vNote = currentVersion === "legacy" ? " · 실주문 아님, 가상매매(페이퍼)" : " · 키움 모의계좌 실주문";
   if (!data) {
-    el.innerHTML = `<div class="portfolio-title">🧪 모의투자 현황</div><div class="no-positions">아직 데이터가 없습니다 (자동매매가 최소 한 번 점검을 마쳐야 표시됩니다).</div>`;
+    el.innerHTML = `<div class="portfolio-title">🧪 모의투자 현황 [${vLabel}]</div><div class="no-positions">아직 데이터가 없습니다 (자동매매가 최소 한 번 점검을 마쳐야 표시됩니다).</div>`;
     return;
   }
 
@@ -454,7 +480,7 @@ function renderPortfolio(data) {
   const profitClass = (data.profit_amount || 0) >= 0 ? "pos" : "neg";
   const sign = (data.profit_amount || 0) >= 0 ? "+" : "";
 
-  let html = `<div class="portfolio-title">🧪 모의투자 현황 (키움 모의계좌) · 시세 기준 ${timeAgo(data.last_updated)} (1분마다 자동 갱신)</div>`;
+  let html = `<div class="portfolio-title">🧪 모의투자 현황 [${vLabel}]${vNote} · 시세 기준 ${timeAgo(data.last_updated)} (1분마다 자동 갱신)</div>`;
   html += `<div class="portfolio-stats">`;
   html += `<div><div class="stat-label">초기 자금</div><div class="stat-value">₩${data.initial_capital.toLocaleString()}</div></div>`;
   html += `<div><div class="stat-label">현재 자금</div><div class="stat-value">${hasCapital ? "₩" + data.current_capital.toLocaleString() : "조회 실패"}</div></div>`;
@@ -488,7 +514,7 @@ function renderPortfolio(data) {
             <div class="pos-btn-row">
               <button class="mini-btn" onclick="showEntryExplain(${i})">진입근거</button>
               <button class="mini-btn" onclick="showTpslExplain(${i})">익절근거</button>
-              <a class="liquidate-btn" href="${liquidateUrl(p.ticker, p.name)}" target="_blank" rel="noopener">청산</a>
+              ${currentVersion === "current" ? `<a class="liquidate-btn" href="${liquidateUrl(p.ticker, p.name)}" target="_blank" rel="noopener">청산</a>` : ""}
             </div>
           </div>
           <div class="pos-pnl">
@@ -640,6 +666,7 @@ async function refreshAll() {
 }
 
 render();
+renderVersionTabs();
 refreshPortfolio();
 setInterval(() => { cache[current] = null; render(); }, 60000); // 1분마다 자동 새로고침
 setInterval(refreshPortfolio, 60000);
