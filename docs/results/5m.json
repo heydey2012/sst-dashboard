@@ -1,7 +1,7 @@
 {
   "timeframe": "5m",
   "timeframe_label": "5분봉",
-  "last_updated": "2026-09-01T12:26:38",
+  "last_updated": "2026-09-01T12:31:33",
   "total_tickers": 98,
   "total_signals": 0,
   "results": [
@@ -618,8 +618,8 @@
       "ticker": "039030",
       "name": "이오테크닉스",
       "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
+      "best_signal": true,
+      "best_reason": "저점 이탈(393,000→391,000)했으나 RSI 다이버전스 동반 재반등 (RSI 26.3→32.9)",
       "has_active_entry": false,
       "signal_time": "09/01 09:10",
       "signal_price": 393500.0,
@@ -779,7 +779,7 @@
       "name": "현대로템",
       "is_fresh": true,
       "best_signal": true,
-      "best_reason": "저점 이탈(132,100→129,200)했으나 RSI 다이버전스 동반 재반등 (RSI 19.3→17.8)",
+      "best_reason": "저점 이탈(132,100→129,100)했으나 RSI 다이버전스 동반 재반등 (RSI 19.3→26.3)",
       "has_active_entry": false,
       "signal_time": "09/01 09:15",
       "signal_price": 134200.0,
