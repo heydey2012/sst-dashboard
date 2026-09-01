@@ -1,10 +1,58 @@
 {
   "timeframe": "5m",
   "timeframe_label": "5분봉",
-  "last_updated": "2026-09-01T09:22:03",
+  "last_updated": "2026-09-01T09:31:33",
   "total_tickers": 98,
-  "total_signals": 10,
+  "total_signals": 3,
   "results": [
+    {
+      "ticker": "402340",
+      "name": "SK스퀘어",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "09/01 09:10",
+      "signal_price": 1013000.0,
+      "rebound_time": "09/01 09:20",
+      "rebound_price": 1021000.0,
+      "bars_after_signal": 2,
+      "reasons": [
+        "연속 양봉 2개 이상"
+      ]
+    },
+    {
+      "ticker": "009150",
+      "name": "삼성전기",
+      "is_fresh": true,
+      "best_signal": true,
+      "best_reason": "1차 저점(1,417,000) 지지 후 재반등",
+      "has_active_entry": false,
+      "signal_time": "09/01 09:15",
+      "signal_price": 1417000.0,
+      "rebound_time": "09/01 09:20",
+      "rebound_price": 1420000.0,
+      "bars_after_signal": 1,
+      "reasons": [
+        "연속 양봉 2개 이상"
+      ]
+    },
+    {
+      "ticker": "005380",
+      "name": "현대차",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "09/01 09:10",
+      "signal_price": 399000.0,
+      "rebound_time": "09/01 09:25",
+      "rebound_price": 400000.0,
+      "bars_after_signal": 3,
+      "reasons": [
+        "음봉형 도지"
+      ]
+    },
     {
       "ticker": "373220",
       "name": "LG에너지솔루션",
@@ -38,12 +86,28 @@
       ]
     },
     {
+      "ticker": "028260",
+      "name": "삼성물산",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "09/01 09:10",
+      "signal_price": 370500.0,
+      "rebound_time": "09/01 09:15",
+      "rebound_price": 376500.0,
+      "bars_after_signal": 1,
+      "reasons": [
+        "전 봉(음봉)보다 몸통이 큰 양봉"
+      ]
+    },
+    {
       "ticker": "012330",
       "name": "현대모비스",
       "is_fresh": true,
       "best_signal": false,
       "best_reason": "",
-      "has_active_entry": true,
+      "has_active_entry": false,
       "signal_time": "09/01 09:10",
       "signal_price": 448500.0,
       "rebound_time": "09/01 09:15",
@@ -70,6 +134,22 @@
       ]
     },
     {
+      "ticker": "018260",
+      "name": "삼성에스디에스",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "09/01 09:10",
+      "signal_price": 234500.0,
+      "rebound_time": "09/01 09:20",
+      "rebound_price": 235500.0,
+      "bars_after_signal": 2,
+      "reasons": [
+        "음봉형 도지"
+      ]
+    },
+    {
       "ticker": "000720",
       "name": "현대건설",
       "is_fresh": true,
@@ -83,6 +163,38 @@
       "bars_after_signal": 1,
       "reasons": [
         "전 봉(음봉)보다 몸통이 큰 양봉"
+      ]
+    },
+    {
+      "ticker": "003550",
+      "name": "LG",
+      "is_fresh": true,
+      "best_signal": true,
+      "best_reason": "1차 저점(115,900) 지지 후 재반등",
+      "has_active_entry": false,
+      "signal_time": "09/01 09:15",
+      "signal_price": 115900.0,
+      "rebound_time": "09/01 09:20",
+      "rebound_price": 116500.0,
+      "bars_after_signal": 1,
+      "reasons": [
+        "연속 양봉 2개 이상"
+      ]
+    },
+    {
+      "ticker": "006800",
+      "name": "미래에셋증권",
+      "is_fresh": true,
+      "best_signal": true,
+      "best_reason": "1차 저점(34,250) 지지 후 재반등",
+      "has_active_entry": false,
+      "signal_time": "09/01 09:15",
+      "signal_price": 34250.0,
+      "rebound_time": "09/01 09:20",
+      "rebound_price": 34250.0,
+      "bars_after_signal": 1,
+      "reasons": [
+        "연속 양봉 2개 이상"
       ]
     },
     {
@@ -111,7 +223,7 @@
       "signal_time": "09/01 09:10",
       "signal_price": 302500.0,
       "rebound_time": "09/01 09:15",
-      "rebound_price": 306500.0,
+      "rebound_price": 307000.0,
       "bars_after_signal": 1,
       "reasons": [
         "전 봉(음봉)보다 몸통이 큰 양봉"
@@ -137,14 +249,14 @@
       "ticker": "042700",
       "name": "한미반도체",
       "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
+      "best_signal": true,
+      "best_reason": "1차 저점(212,500) 지지 후 재반등",
       "has_active_entry": false,
       "signal_time": "09/01 09:10",
       "signal_price": 212500.0,
-      "rebound_time": "09/01 09:20",
-      "rebound_price": 214000.0,
-      "bars_after_signal": 2,
+      "rebound_time": "09/01 09:25",
+      "rebound_price": 213000.0,
+      "bars_after_signal": 3,
       "reasons": [
         "음봉형 도지"
       ]
@@ -169,8 +281,8 @@
       "ticker": "058470",
       "name": "리노공업",
       "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
+      "best_signal": true,
+      "best_reason": "1차 저점(65,400) 지지 후 재반등",
       "has_active_entry": false,
       "signal_time": "09/01 09:15",
       "signal_price": 65400.0,
@@ -191,10 +303,42 @@
       "signal_time": "09/01 09:15",
       "signal_price": 108400.0,
       "rebound_time": "09/01 09:20",
-      "rebound_price": 108700.0,
+      "rebound_price": 108600.0,
       "bars_after_signal": 1,
       "reasons": [
         "연속 양봉 2개 이상"
+      ]
+    },
+    {
+      "ticker": "000990",
+      "name": "DB하이텍",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "09/01 09:20",
+      "signal_price": 93000.0,
+      "rebound_time": "09/01 09:30",
+      "rebound_price": 93100.0,
+      "bars_after_signal": 2,
+      "reasons": [
+        "음봉형 도지"
+      ]
+    },
+    {
+      "ticker": "036930",
+      "name": "주성엔지니어링",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "09/01 09:20",
+      "signal_price": 172200.0,
+      "rebound_time": "09/01 09:30",
+      "rebound_price": 172700.0,
+      "bars_after_signal": 2,
+      "reasons": [
+        "음봉형 도지"
       ]
     },
     {
@@ -204,13 +348,13 @@
       "best_signal": false,
       "best_reason": "",
       "has_active_entry": false,
-      "signal_time": "09/01 09:15",
-      "signal_price": 275500.0,
-      "rebound_time": "09/01 09:20",
+      "signal_time": "09/01 09:20",
+      "signal_price": 275000.0,
+      "rebound_time": "09/01 09:30",
       "rebound_price": 275500.0,
-      "bars_after_signal": 1,
+      "bars_after_signal": 2,
       "reasons": [
-        "음봉형 도지"
+        "연속 양봉 2개 이상"
       ]
     },
     {
@@ -223,10 +367,10 @@
       "signal_time": "09/01 09:15",
       "signal_price": 59400.0,
       "rebound_time": "09/01 09:20",
-      "rebound_price": 59500.0,
+      "rebound_price": 59400.0,
       "bars_after_signal": 1,
       "reasons": [
-        "연속 양봉 2개 이상"
+        "음봉형 도지"
       ]
     },
     {
