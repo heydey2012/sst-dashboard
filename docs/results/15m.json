@@ -1,7 +1,7 @@
 {
   "timeframe": "15m",
   "timeframe_label": "15분봉",
-  "last_updated": "2026-09-01T12:25:03",
+  "last_updated": "2026-09-01T12:40:26",
   "total_tickers": 98,
   "total_signals": 0,
   "results": [
@@ -78,19 +78,19 @@
       "has_active_entry": false,
       "signal_time": "09/01 11:45",
       "signal_price": 263500.0,
-      "rebound_time": "09/01 12:15",
-      "rebound_price": 262500.0,
-      "bars_after_signal": 2,
+      "rebound_time": "09/01 12:30",
+      "rebound_price": 263500.0,
+      "bars_after_signal": 3,
       "reasons": [
-        "음봉형 도지"
+        "전 봉(음봉)보다 몸통이 큰 양봉"
       ]
     },
     {
       "ticker": "042700",
       "name": "한미반도체",
       "is_fresh": true,
-      "best_signal": true,
-      "best_reason": "1차 저점(213,000) 지지 후 재반등",
+      "best_signal": false,
+      "best_reason": "",
       "has_active_entry": false,
       "signal_time": "09/01 09:15",
       "signal_price": 213000.0,
@@ -158,19 +158,19 @@
       "has_active_entry": false,
       "signal_time": "09/01 11:30",
       "signal_price": 87300.0,
-      "rebound_time": "09/01 12:15",
-      "rebound_price": 87600.0,
-      "bars_after_signal": 3,
+      "rebound_time": "09/01 12:30",
+      "rebound_price": 87850.0,
+      "bars_after_signal": 4,
       "reasons": [
-        "음봉형 도지"
+        "전 봉(음봉)보다 몸통이 큰 양봉"
       ]
     },
     {
       "ticker": "011210",
       "name": "현대위아",
       "is_fresh": true,
-      "best_signal": true,
-      "best_reason": "1차 저점(58,200) 지지 후 재반등",
+      "best_signal": false,
+      "best_reason": "",
       "has_active_entry": false,
       "signal_time": "09/01 10:45",
       "signal_price": 58400.0,
