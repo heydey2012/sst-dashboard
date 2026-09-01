@@ -1,9 +1,9 @@
 {
   "timeframe": "5m",
   "timeframe_label": "5분봉",
-  "last_updated": "2026-09-01T09:51:51",
+  "last_updated": "2026-09-01T09:56:39",
   "total_tickers": 98,
-  "total_signals": 0,
+  "total_signals": 4,
   "results": [
     {
       "ticker": "005930",
@@ -54,22 +54,6 @@
       ]
     },
     {
-      "ticker": "005380",
-      "name": "현대차",
-      "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
-      "has_active_entry": false,
-      "signal_time": "09/01 09:10",
-      "signal_price": 399000.0,
-      "rebound_time": "09/01 09:45",
-      "rebound_price": 400000.0,
-      "bars_after_signal": 7,
-      "reasons": [
-        "연속 양봉 2개 이상"
-      ]
-    },
-    {
       "ticker": "373220",
       "name": "LG에너지솔루션",
       "is_fresh": true,
@@ -115,22 +99,6 @@
       "bars_after_signal": 1,
       "reasons": [
         "전 봉(음봉)보다 몸통이 큰 양봉"
-      ]
-    },
-    {
-      "ticker": "329180",
-      "name": "HD현대중공업",
-      "is_fresh": true,
-      "best_signal": true,
-      "best_reason": "1차 저점(446,000) 지지 후 재반등",
-      "has_active_entry": false,
-      "signal_time": "09/01 09:35",
-      "signal_price": 446000.0,
-      "rebound_time": "09/01 09:40",
-      "rebound_price": 446000.0,
-      "bars_after_signal": 1,
-      "reasons": [
-        "음봉형 도지"
       ]
     },
     {
@@ -201,8 +169,8 @@
       "ticker": "010120",
       "name": "LS ELECTRIC",
       "is_fresh": true,
-      "best_signal": true,
-      "best_reason": "1차 저점(202,000) 지지 후 재반등",
+      "best_signal": false,
+      "best_reason": "",
       "has_active_entry": false,
       "signal_time": "09/01 09:10",
       "signal_price": 202000.0,
@@ -250,8 +218,8 @@
       "ticker": "010130",
       "name": "고려아연",
       "is_fresh": true,
-      "best_signal": true,
-      "best_reason": "1차 저점(1,238,000) 지지 후 재반등",
+      "best_signal": false,
+      "best_reason": "",
       "has_active_entry": false,
       "signal_time": "09/01 09:25",
       "signal_price": 1238000.0,
@@ -314,8 +282,8 @@
       "ticker": "003550",
       "name": "LG",
       "is_fresh": true,
-      "best_signal": true,
-      "best_reason": "1차 저점(115,900) 지지 후 재반등",
+      "best_signal": false,
+      "best_reason": "",
       "has_active_entry": false,
       "signal_time": "09/01 09:15",
       "signal_price": 115900.0,
@@ -330,8 +298,8 @@
       "ticker": "006800",
       "name": "미래에셋증권",
       "is_fresh": true,
-      "best_signal": true,
-      "best_reason": "1차 저점(34,250) 지지 후 재반등",
+      "best_signal": false,
+      "best_reason": "",
       "has_active_entry": false,
       "signal_time": "09/01 09:15",
       "signal_price": 34250.0,
@@ -490,8 +458,8 @@
       "ticker": "000990",
       "name": "DB하이텍",
       "is_fresh": true,
-      "best_signal": true,
-      "best_reason": "1차 저점(92,700) 지지 후 재반등",
+      "best_signal": false,
+      "best_reason": "",
       "has_active_entry": false,
       "signal_time": "09/01 09:30",
       "signal_price": 92700.0,
@@ -554,8 +522,8 @@
       "ticker": "145020",
       "name": "휴젤",
       "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
+      "best_signal": true,
+      "best_reason": "저점 이탈(243,500→242,500)했으나 RSI 다이버전스 동반 재반등 (RSI 30.2→30.0)",
       "has_active_entry": false,
       "signal_time": "09/01 09:30",
       "signal_price": 243500.0,
@@ -570,8 +538,8 @@
       "ticker": "039490",
       "name": "키움증권",
       "is_fresh": true,
-      "best_signal": true,
-      "best_reason": "저점 이탈(275,000→274,500)했으나 RSI 다이버전스 동반 재반등 (RSI 39.1→37.7)",
+      "best_signal": false,
+      "best_reason": "",
       "has_active_entry": false,
       "signal_time": "09/01 09:20",
       "signal_price": 275000.0,
@@ -599,19 +567,19 @@
       ]
     },
     {
-      "ticker": "064350",
-      "name": "현대로템",
+      "ticker": "000880",
+      "name": "한화",
       "is_fresh": true,
       "best_signal": false,
       "best_reason": "",
       "has_active_entry": false,
-      "signal_time": "09/01 09:15",
-      "signal_price": 134200.0,
+      "signal_time": "09/01 09:30",
+      "signal_price": 120200.0,
       "rebound_time": "09/01 09:50",
-      "rebound_price": 132700.0,
-      "bars_after_signal": 7,
+      "rebound_price": 120600.0,
+      "bars_after_signal": 4,
       "reasons": [
-        "음봉형 도지"
+        "전 봉(음봉)보다 몸통이 큰 양봉"
       ]
     },
     {
@@ -650,8 +618,8 @@
       "ticker": "041510",
       "name": "에스엠",
       "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
+      "best_signal": true,
+      "best_reason": "1차 저점(74,100) 지지 후 재반등",
       "has_active_entry": false,
       "signal_time": "09/01 09:35",
       "signal_price": 74100.0,
