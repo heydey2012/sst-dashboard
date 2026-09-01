@@ -1,10 +1,10 @@
 {
-  "last_updated": "2026-09-01T10:24:16",
+  "last_updated": "2026-09-01T10:26:18",
   "strategy_version": "legacy",
   "initial_capital": 10000000,
-  "current_capital": 9961235.0,
-  "return_pct": -0.39,
-  "profit_amount": -38765.0,
+  "current_capital": 9928487.0,
+  "return_pct": -0.72,
+  "profit_amount": -71513.0,
   "positions": [
     {
       "ticker": "042700",
@@ -12,7 +12,7 @@
       "qty": 4,
       "entry_price": 214750.0,
       "entry_time": "2026-09-01T09:38:45",
-      "current_price": 217000.0,
+      "current_price": 216500.0,
       "tp": 225000.0,
       "sl": 205500.0,
       "tp_basis": "피벗고점",
@@ -30,8 +30,8 @@
       "reasons": [
         "연속 양봉 2개 이상"
       ],
-      "pnl": 1220.0,
-      "pnl_pct": 0.14
+      "pnl": -770.0,
+      "pnl_pct": -0.09
     },
     {
       "ticker": "039030",
@@ -39,7 +39,7 @@
       "qty": 2,
       "entry_price": 396500.0,
       "entry_time": "2026-09-01T09:53:29",
-      "current_price": 401500.0,
+      "current_price": 398500.0,
       "tp": 406500.0,
       "sl": 375000.0,
       "tp_basis": "피벗고점",
@@ -57,8 +57,8 @@
       "reasons": [
         "음봉형 도지"
       ],
-      "pnl": 2808.0,
-      "pnl_pct": 0.35
+      "pnl": -3159.0,
+      "pnl_pct": -0.4
     },
     {
       "ticker": "058470",
@@ -66,7 +66,7 @@
       "qty": 15,
       "entry_price": 65500.0,
       "entry_time": "2026-09-01T09:53:29",
-      "current_price": 65800.0,
+      "current_price": 65600.0,
       "tp": 67400.0,
       "sl": 63700.0,
       "tp_basis": "피벗고점",
@@ -84,8 +84,8 @@
       "reasons": [
         "연속 양봉 2개 이상"
       ],
-      "pnl": -4367.0,
-      "pnl_pct": -0.44
+      "pnl": -7351.0,
+      "pnl_pct": -0.75
     },
     {
       "ticker": "064350",
@@ -93,7 +93,7 @@
       "qty": 7,
       "entry_price": 133500.0,
       "entry_time": "2026-09-01T10:10:07",
-      "current_price": 132800.0,
+      "current_price": 132400.0,
       "tp": 139300.0,
       "sl": 125490.0,
       "tp_basis": "피벗고점",
@@ -111,8 +111,8 @@
       "reasons": [
         "전 봉(음봉)보다 몸통이 큰 양봉"
       ],
-      "pnl": -13284.0,
-      "pnl_pct": -1.42
+      "pnl": -16068.0,
+      "pnl_pct": -1.72
     },
     {
       "ticker": "012330",
@@ -120,7 +120,7 @@
       "qty": 2,
       "entry_price": 445500.0,
       "entry_time": "2026-09-01T10:21:04",
-      "current_price": 444250.0,
+      "current_price": 442000.0,
       "tp": 455500.0,
       "sl": 433500.0,
       "tp_basis": "피벗고점",
@@ -138,8 +138,8 @@
       "reasons": [
         "음봉형 도지"
       ],
-      "pnl": -10505.0,
-      "pnl_pct": -1.18
+      "pnl": -14980.0,
+      "pnl_pct": -1.68
     },
     {
       "ticker": "033780",
@@ -147,7 +147,7 @@
       "qty": 5,
       "entry_price": 174700.0,
       "entry_time": "2026-09-01T10:22:37",
-      "current_price": 174700.0,
+      "current_price": 174600.0,
       "tp": 176300.0,
       "sl": 174200.0,
       "tp_basis": "피벗고점",
@@ -165,8 +165,8 @@
       "reasons": [
         "음봉형 도지"
       ],
-      "pnl": -7862.0,
-      "pnl_pct": -0.9
+      "pnl": -8359.0,
+      "pnl_pct": -0.96
     },
     {
       "ticker": "003550",
@@ -174,7 +174,7 @@
       "qty": 8,
       "entry_price": 116200.0,
       "entry_time": "2026-09-01T10:22:37",
-      "current_price": 116400.0,
+      "current_price": 116300.0,
       "tp": 120300.0,
       "sl": 113400.0,
       "tp_basis": "피벗고점",
@@ -192,8 +192,35 @@
       "reasons": [
         "연속 양봉 2개 이상"
       ],
-      "pnl": -6775.0,
-      "pnl_pct": -0.73
+      "pnl": -7571.0,
+      "pnl_pct": -0.81
+    },
+    {
+      "ticker": "011210",
+      "name": "현대위아",
+      "qty": 16,
+      "entry_price": 58900.0,
+      "entry_time": "2026-09-01T10:24:27",
+      "current_price": 58600.0,
+      "tp": 59700.0,
+      "sl": 57100.0,
+      "tp_basis": "피벗고점",
+      "sl_basis": "피벗저점",
+      "pivot_high": 59700.0,
+      "pivot_low": 57100.0,
+      "best_reason": "1차 저점(58,700) 지지 후 재반등",
+      "timeframe": "15m",
+      "signal_time": "2026-09-01 09:45:00",
+      "signal_price": 58700.0,
+      "signal_rsi": 39.919785648897985,
+      "rebound_time": "2026-09-01 10:00:00",
+      "rebound_price": 58800.0,
+      "bars_after_signal": 1,
+      "reasons": [
+        "음봉형 도지"
+      ],
+      "pnl": -13255.0,
+      "pnl_pct": -1.41
     }
   ]
 }
