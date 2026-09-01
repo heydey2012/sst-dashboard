@@ -1,8 +1,25 @@
 {
   "timeframe": "4h",
   "timeframe_label": "4시간봉",
-  "last_updated": "2026-08-31T13:10:34",
+  "last_updated": "2026-09-01T13:10:22",
   "total_tickers": 98,
   "total_signals": 0,
-  "results": []
+  "results": [
+    {
+      "ticker": "010130",
+      "name": "고려아연",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "09/01 09:00",
+      "signal_price": 1244000.0,
+      "rebound_time": "09/01 13:00",
+      "rebound_price": 1243000.0,
+      "bars_after_signal": 1,
+      "reasons": [
+        "음봉형 도지"
+      ]
+    }
+  ]
 }
