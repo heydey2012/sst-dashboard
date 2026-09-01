@@ -1,10 +1,10 @@
 {
-  "last_updated": "2026-09-01T15:28:17",
+  "last_updated": "2026-09-01T15:30:24",
   "strategy_version": "legacy",
   "initial_capital": 10000000,
-  "current_capital": 9909142.0,
-  "return_pct": -0.91,
-  "profit_amount": -90858.0,
+  "current_capital": 9901087.0,
+  "return_pct": -0.99,
+  "profit_amount": -98913.0,
   "positions": [
     {
       "ticker": "042700",
@@ -66,7 +66,7 @@
       "qty": 15,
       "entry_price": 65500.0,
       "entry_time": "2026-09-01T09:53:29",
-      "current_price": 65800.0,
+      "current_price": 65500.0,
       "tp": 67400.0,
       "sl": 63700.0,
       "tp_basis": "피벗고점",
@@ -84,8 +84,8 @@
       "reasons": [
         "연속 양봉 2개 이상"
       ],
-      "pnl": -4367.0,
-      "pnl_pct": -0.44
+      "pnl": -8842.0,
+      "pnl_pct": -0.9
     },
     {
       "ticker": "064350",
@@ -169,33 +169,6 @@
       "pnl_pct": -0.79
     },
     {
-      "ticker": "003550",
-      "name": "LG",
-      "qty": 8,
-      "entry_price": 116200.0,
-      "entry_time": "2026-09-01T10:22:37",
-      "current_price": 120200.0,
-      "tp": 120300.0,
-      "sl": 113400.0,
-      "tp_basis": "피벗고점",
-      "sl_basis": "피벗저점",
-      "pivot_high": 120300.0,
-      "pivot_low": 113400.0,
-      "best_reason": "연속 양봉 2개 이상",
-      "timeframe": "15m",
-      "signal_time": "2026-09-01 10:00:00",
-      "signal_price": 115900.0,
-      "signal_rsi": 39.71114990172376,
-      "rebound_time": "2026-09-01 10:15:00",
-      "rebound_price": 116200.0,
-      "bars_after_signal": 1,
-      "reasons": [
-        "연속 양봉 2개 이상"
-      ],
-      "pnl": 23458.0,
-      "pnl_pct": 2.52
-    },
-    {
       "ticker": "011210",
       "name": "현대위아",
       "qty": 16,
@@ -255,7 +228,7 @@
       "qty": 11,
       "entry_price": 88800.0,
       "entry_time": "2026-09-01T10:39:34",
-      "current_price": 87600.0,
+      "current_price": 87200.0,
       "tp": 90800.0,
       "sl": 86600.0,
       "tp_basis": "피벗고점",
@@ -273,8 +246,8 @@
       "reasons": [
         "음봉형 도지"
       ],
-      "pnl": -21919.0,
-      "pnl_pct": -2.24
+      "pnl": -26294.0,
+      "pnl_pct": -2.69
     }
   ]
 }

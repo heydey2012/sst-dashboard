@@ -1,1 +1,16 @@
-[]
+[
+  {
+    "ticker": "003550",
+    "name": "LG",
+    "qty": 8,
+    "entry_price": 116200.0,
+    "entry_time": "2026-09-01T10:22:37",
+    "exit_price": 120300.0,
+    "exit_time": "2026-09-01T15:30:19",
+    "reason": "익절(TP 도달)",
+    "pnl": 24253.0,
+    "pnl_pct": 2.61,
+    "commission": 6622.0,
+    "tax": 1925.0
+  }
+]
