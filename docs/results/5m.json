@@ -1,7 +1,7 @@
 {
   "timeframe": "5m",
   "timeframe_label": "5분봉",
-  "last_updated": "2026-09-01T11:51:45",
+  "last_updated": "2026-09-01T11:56:51",
   "total_tickers": 98,
   "total_signals": 0,
   "results": [
@@ -89,8 +89,8 @@
       "ticker": "032830",
       "name": "삼성생명",
       "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
+      "best_signal": true,
+      "best_reason": "1차 저점(301,500) 지지 후 재반등",
       "has_active_entry": false,
       "signal_time": "09/01 09:05",
       "signal_price": 301500.0,
@@ -137,8 +137,8 @@
       "ticker": "034020",
       "name": "두산에너빌리티",
       "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
+      "best_signal": true,
+      "best_reason": "저점 이탈(81,100→80,300)했으나 RSI 다이버전스 동반 재반등 (RSI 31.6→33.8)",
       "has_active_entry": false,
       "signal_time": "09/01 09:10",
       "signal_price": 81200.0,
@@ -185,8 +185,8 @@
       "ticker": "066570",
       "name": "LG전자",
       "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
+      "best_signal": true,
+      "best_reason": "저점 이탈(206,000→203,500)했으나 RSI 다이버전스 동반 재반등 (RSI 30.9→36.8)",
       "has_active_entry": false,
       "signal_time": "09/01 09:25",
       "signal_price": 206000.0,
@@ -249,8 +249,8 @@
       "ticker": "267260",
       "name": "HD현대일렉트릭",
       "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
+      "best_signal": true,
+      "best_reason": "저점 이탈(750,000→740,000)했으나 RSI 다이버전스 동반 재반등 (RSI 22.3→30.2)",
       "has_active_entry": false,
       "signal_time": "09/01 09:35",
       "signal_price": 750000.0,
@@ -265,8 +265,8 @@
       "ticker": "298040",
       "name": "효성중공업",
       "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
+      "best_signal": true,
+      "best_reason": "1차 저점(2,876,000) 지지 후 재반등",
       "has_active_entry": false,
       "signal_time": "09/01 09:10",
       "signal_price": 2878000.0,
@@ -439,6 +439,22 @@
       ]
     },
     {
+      "ticker": "000100",
+      "name": "유한양행",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "09/01 11:40",
+      "signal_price": 82300.0,
+      "rebound_time": "09/01 11:50",
+      "rebound_price": 82700.0,
+      "bars_after_signal": 2,
+      "reasons": [
+        "연속 양봉 2개 이상"
+      ]
+    },
+    {
       "ticker": "078930",
       "name": "GS",
       "is_fresh": true,
@@ -500,6 +516,22 @@
       "bars_after_signal": 1,
       "reasons": [
         "전 봉(음봉)보다 몸통이 큰 양봉"
+      ]
+    },
+    {
+      "ticker": "010060",
+      "name": "OCI홀딩스",
+      "is_fresh": true,
+      "best_signal": true,
+      "best_reason": "1차 저점(262,500) 지지 후 재반등",
+      "has_active_entry": false,
+      "signal_time": "09/01 11:25",
+      "signal_price": 263000.0,
+      "rebound_time": "09/01 11:50",
+      "rebound_price": 263500.0,
+      "bars_after_signal": 5,
+      "reasons": [
+        "연속 양봉 2개 이상"
       ]
     },
     {
@@ -746,8 +778,8 @@
       "ticker": "064350",
       "name": "현대로템",
       "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
+      "best_signal": true,
+      "best_reason": "저점 이탈(132,100→129,200)했으나 RSI 다이버전스 동반 재반등 (RSI 19.3→17.8)",
       "has_active_entry": false,
       "signal_time": "09/01 09:15",
       "signal_price": 134200.0,
