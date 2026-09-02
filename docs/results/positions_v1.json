@@ -1,10 +1,10 @@
 {
-  "last_updated": "2026-09-02T09:10:13",
+  "last_updated": "2026-09-02T09:12:08",
   "strategy_version": "legacy",
   "initial_capital": 10000000,
-  "current_capital": 9661411.0,
-  "return_pct": -3.39,
-  "profit_amount": -338589.0,
+  "current_capital": 9673345.0,
+  "return_pct": -3.27,
+  "profit_amount": -326655.0,
   "positions": [
     {
       "ticker": "042700",
@@ -12,7 +12,7 @@
       "qty": 4,
       "entry_price": 214750.0,
       "entry_time": "2026-09-01T09:38:45",
-      "current_price": 207500.0,
+      "current_price": 208500.0,
       "tp": 225000.0,
       "sl": 205500.0,
       "tp_basis": "피벗고점",
@@ -30,8 +30,8 @@
       "reasons": [
         "연속 양봉 2개 이상"
       ],
-      "pnl": -36572.0,
-      "pnl_pct": -4.26
+      "pnl": -32594.0,
+      "pnl_pct": -3.79
     },
     {
       "ticker": "039030",
@@ -39,7 +39,7 @@
       "qty": 2,
       "entry_price": 396500.0,
       "entry_time": "2026-09-01T09:53:29",
-      "current_price": 385000.0,
+      "current_price": 389000.0,
       "tp": 406500.0,
       "sl": 375000.0,
       "tp_basis": "피벗고점",
@@ -57,8 +57,8 @@
       "reasons": [
         "음봉형 도지"
       ],
-      "pnl": -30010.0,
-      "pnl_pct": -3.78
+      "pnl": -22054.0,
+      "pnl_pct": -2.78
     }
   ]
 }
