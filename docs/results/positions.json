@@ -1,36 +1,11 @@
 {
-  "last_updated": "2026-09-02T10:58:08",
+  "last_updated": "2026-09-02T10:58:27",
   "strategy_version": "current",
   "initial_capital": 10000000,
-  "current_capital": 9419162.0,
-  "return_pct": -5.81,
-  "profit_amount": -580838.0,
+  "current_capital": 9418367.0,
+  "return_pct": -5.82,
+  "profit_amount": -581633.0,
   "positions": [
-    {
-      "ticker": "329180",
-      "name": "HD현대중공업",
-      "qty": 2,
-      "entry_price": 453000.0,
-      "entry_time": "2026-08-28T14:05:47",
-      "current_price": 431000.0,
-      "tp": 475000.0,
-      "sl": 431000.0,
-      "tp_basis": "피벗고점",
-      "sl_basis": "피벗고점 대비 1:1",
-      "pivot_high": 475000.0,
-      "pivot_low": 454500.0,
-      "best_reason": "음봉형 도지",
-      "timeframe": null,
-      "signal_time": null,
-      "signal_price": null,
-      "signal_rsi": null,
-      "rebound_time": null,
-      "rebound_price": null,
-      "bars_after_signal": null,
-      "reasons": [],
-      "pnl": -51912.0,
-      "pnl_pct": -5.73
-    },
     {
       "ticker": "042700",
       "name": "한미반도체",
@@ -62,7 +37,7 @@
       "qty": 5,
       "entry_price": 171300.0,
       "entry_time": "2026-08-31T09:24:20",
-      "current_price": 177500.0,
+      "current_price": 177700.0,
       "tp": 182000.0,
       "sl": 160600.0,
       "tp_basis": "피벗고점",
@@ -78,8 +53,8 @@
       "rebound_price": null,
       "bars_after_signal": null,
       "reasons": [],
-      "pnl": 23121.0,
-      "pnl_pct": 2.7
+      "pnl": 24116.0,
+      "pnl_pct": 2.82
     },
     {
       "ticker": "035420",
@@ -87,7 +62,7 @@
       "qty": 4,
       "entry_price": 214500.0,
       "entry_time": "2026-08-31T09:36:18",
-      "current_price": 210000.0,
+      "current_price": 209500.0,
       "tp": 221500.0,
       "sl": 207500.0,
       "tp_basis": "피벗고점",
@@ -103,8 +78,8 @@
       "rebound_price": null,
       "bars_after_signal": null,
       "reasons": [],
-      "pnl": -25623.0,
-      "pnl_pct": -2.99
+      "pnl": -27612.0,
+      "pnl_pct": -3.22
     },
     {
       "ticker": "010120",
@@ -112,7 +87,7 @@
       "qty": 4,
       "entry_price": 205250.0,
       "entry_time": "2026-08-31T09:36:21",
-      "current_price": 198400.0,
+      "current_price": 198200.0,
       "tp": 217500.0,
       "sl": 193000.0,
       "tp_basis": "피벗고점",
@@ -128,35 +103,8 @@
       "rebound_price": null,
       "bars_after_signal": null,
       "reasons": [],
-      "pnl": -34638.0,
-      "pnl_pct": -4.22
-    },
-    {
-      "ticker": "012330",
-      "name": "현대모비스",
-      "qty": 2,
-      "entry_price": 439000.0,
-      "entry_time": "2026-09-01T11:50:56",
-      "current_price": 417000.0,
-      "tp": 458000.0,
-      "sl": 420000.0,
-      "tp_basis": "피벗고점",
-      "sl_basis": "피벗고점 대비 1:1",
-      "pivot_high": 458000.0,
-      "pivot_low": 443500.0,
-      "best_reason": "저점 이탈(439,500→439,000)했으나 RSI 다이버전스 동반 재반등 (RSI 27.0→26.4)",
-      "timeframe": "15m",
-      "signal_time": "2026-09-01 10:45:00",
-      "signal_price": 439500.0,
-      "signal_rsi": 27.046386927806097,
-      "rebound_time": "2026-09-01 11:00:00",
-      "rebound_price": 439500.0,
-      "bars_after_signal": 1,
-      "reasons": [
-        "음봉형 도지"
-      ],
-      "pnl": -51660.0,
-      "pnl_pct": -5.88
+      "pnl": -35434.0,
+      "pnl_pct": -4.32
     },
     {
       "ticker": "034020",
@@ -191,7 +139,7 @@
       "qty": 2,
       "entry_price": 485000.0,
       "entry_time": "2026-09-02T09:37:36",
-      "current_price": 486000.0,
+      "current_price": 486500.0,
       "tp": 492500.0,
       "sl": 480500.0,
       "tp_basis": "피벗고점",
@@ -209,35 +157,8 @@
       "reasons": [
         "연속 양봉 2개 이상"
       ],
-      "pnl": -6741.0,
-      "pnl_pct": -0.69
-    },
-    {
-      "ticker": "241560",
-      "name": "두산밥캣",
-      "qty": 16,
-      "entry_price": 61800.0,
-      "entry_time": "2026-09-02T09:38:33",
-      "current_price": 60800.0,
-      "tp": 62400.0,
-      "sl": 61200.0,
-      "tp_basis": "피벗고점",
-      "sl_basis": "피벗고점 대비 1:1",
-      "pivot_high": 62400.0,
-      "pivot_low": 62000.0,
-      "best_reason": "1차 저점(61,200) 지지 후 재반등",
-      "timeframe": "15m",
-      "signal_time": "2026-09-02 09:00:00",
-      "signal_price": 61200.0,
-      "signal_rsi": 25.303997075363128,
-      "rebound_time": "2026-09-02 09:15:00",
-      "rebound_price": 61600.0,
-      "bars_after_signal": 1,
-      "reasons": [
-        "연속 양봉 2개 이상"
-      ],
-      "pnl": -24811.0,
-      "pnl_pct": -2.51
+      "pnl": -5746.0,
+      "pnl_pct": -0.59
     },
     {
       "ticker": "005930",

@@ -362,5 +362,47 @@
     "pnl_pct": -1.17,
     "commission": 5180.0,
     "tax": 1478.0
+  },
+  {
+    "ticker": "329180",
+    "name": "HD현대중공업",
+    "qty": 2,
+    "entry_price": 453000.0,
+    "entry_time": "2026-08-28T14:05:47",
+    "exit_price": 431000.0,
+    "exit_time": "2026-09-02T10:58:08",
+    "reason": "손절(SL 도달)",
+    "pnl": -51912.0,
+    "pnl_pct": -5.73,
+    "commission": 6188.0,
+    "tax": 1724.0
+  },
+  {
+    "ticker": "012330",
+    "name": "현대모비스",
+    "qty": 2,
+    "entry_price": 439000.0,
+    "entry_time": "2026-09-01T11:50:56",
+    "exit_price": 417000.0,
+    "exit_time": "2026-09-02T10:58:14",
+    "reason": "손절(SL 도달)",
+    "pnl": -51660.0,
+    "pnl_pct": -5.88,
+    "commission": 5992.0,
+    "tax": 1668.0
+  },
+  {
+    "ticker": "241560",
+    "name": "두산밥캣",
+    "qty": 16,
+    "entry_price": 61800.0,
+    "entry_time": "2026-09-02T09:38:33",
+    "exit_price": 60800.0,
+    "exit_time": "2026-09-02T10:58:25",
+    "reason": "손절(SL 도달)",
+    "pnl": -24811.0,
+    "pnl_pct": -2.51,
+    "commission": 6866.0,
+    "tax": 1946.0
   }
 ]
