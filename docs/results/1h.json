@@ -1,48 +1,48 @@
 {
   "timeframe": "1h",
   "timeframe_label": "1시간봉",
-  "last_updated": "2026-09-02T11:22:55",
+  "last_updated": "2026-09-02T12:10:22",
   "total_tickers": 98,
-  "total_signals": 8,
+  "total_signals": 13,
   "results": [
     {
       "ticker": "066570",
       "name": "LG전자",
       "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
-      "has_active_entry": true,
+      "best_signal": true,
+      "best_reason": "1차 저점(199,600) 지지 후 재반등",
+      "has_active_entry": false,
       "signal_time": "09/02 10:00",
       "signal_price": 199600.0,
       "rebound_time": "09/02 11:00",
-      "rebound_price": 200500.0,
+      "rebound_price": 201000.0,
       "bars_after_signal": 1,
       "reasons": [
         "전 봉(음봉)보다 몸통이 큰 양봉"
       ]
     },
     {
-      "ticker": "010060",
-      "name": "OCI홀딩스",
+      "ticker": "011200",
+      "name": "HMM",
       "is_fresh": true,
       "best_signal": false,
       "best_reason": "",
       "has_active_entry": false,
-      "signal_time": "09/02 10:00",
-      "signal_price": 244000.0,
-      "rebound_time": "09/02 11:00",
-      "rebound_price": 246500.0,
+      "signal_time": "09/02 11:00",
+      "signal_price": 20600.0,
+      "rebound_time": "09/02 12:00",
+      "rebound_price": 20600.0,
       "bars_after_signal": 1,
       "reasons": [
-        "연속 양봉 2개 이상"
+        "음봉형 도지"
       ]
     },
     {
       "ticker": "214150",
       "name": "클래시스",
       "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
+      "best_signal": true,
+      "best_reason": "1차 저점(32,350) 지지 후 재반등",
       "has_active_entry": false,
       "signal_time": "09/02 09:00",
       "signal_price": 32350.0,
