@@ -1,10 +1,10 @@
 {
-  "last_updated": "2026-09-02T09:20:11",
+  "last_updated": "2026-09-02T09:22:15",
   "strategy_version": "legacy",
   "initial_capital": 10000000,
-  "current_capital": 9686273.0,
-  "return_pct": -3.14,
-  "profit_amount": -313727.0,
+  "current_capital": 9686877.0,
+  "return_pct": -3.13,
+  "profit_amount": -313123.0,
   "positions": [
     {
       "ticker": "042700",
@@ -12,7 +12,7 @@
       "qty": 4,
       "entry_price": 214750.0,
       "entry_time": "2026-09-01T09:38:45",
-      "current_price": 210500.0,
+      "current_price": 211500.0,
       "tp": 225000.0,
       "sl": 205500.0,
       "tp_basis": "피벗고점",
@@ -30,8 +30,8 @@
       "reasons": [
         "연속 양봉 2개 이상"
       ],
-      "pnl": -24638.0,
-      "pnl_pct": -2.87
+      "pnl": -20660.0,
+      "pnl_pct": -2.41
     },
     {
       "ticker": "039030",
@@ -39,7 +39,7 @@
       "qty": 2,
       "entry_price": 396500.0,
       "entry_time": "2026-09-01T09:53:29",
-      "current_price": 391500.0,
+      "current_price": 397500.0,
       "tp": 406500.0,
       "sl": 375000.0,
       "tp_basis": "피벗고점",
@@ -57,8 +57,62 @@
       "reasons": [
         "음봉형 도지"
       ],
-      "pnl": -17082.0,
-      "pnl_pct": -2.15
+      "pnl": -5148.0,
+      "pnl_pct": -0.65
+    },
+    {
+      "ticker": "010120",
+      "name": "LS ELECTRIC",
+      "qty": 4,
+      "entry_price": 202000.0,
+      "entry_time": "2026-09-02T09:21:24",
+      "current_price": 201750.0,
+      "tp": 208000.0,
+      "sl": 199500.0,
+      "tp_basis": "피벗고점",
+      "sl_basis": "피벗저점",
+      "pivot_high": 208000.0,
+      "pivot_low": 199500.0,
+      "best_reason": "연속 양봉 2개 이상",
+      "timeframe": "15m",
+      "signal_time": "2026-09-02 09:00:00",
+      "signal_price": 198100.0,
+      "signal_rsi": 34.263758600609094,
+      "rebound_time": "2026-09-02 09:15:00",
+      "rebound_price": 202000.0,
+      "bars_after_signal": 1,
+      "reasons": [
+        "연속 양봉 2개 이상"
+      ],
+      "pnl": -8266.0,
+      "pnl_pct": -1.02
+    },
+    {
+      "ticker": "005490",
+      "name": "POSCO홀딩스",
+      "qty": 2,
+      "entry_price": 336000.0,
+      "entry_time": "2026-09-02T09:21:38",
+      "current_price": 335500.0,
+      "tp": 351000.0,
+      "sl": 329500.0,
+      "tp_basis": "피벗고점",
+      "sl_basis": "피벗저점",
+      "pivot_high": 351000.0,
+      "pivot_low": 329500.0,
+      "best_reason": "연속 양봉 2개 이상",
+      "timeframe": "15m",
+      "signal_time": "2026-09-02 09:00:00",
+      "signal_price": 335000.0,
+      "signal_rsi": 31.77243758101075,
+      "rebound_time": "2026-09-02 09:15:00",
+      "rebound_price": 336000.0,
+      "bars_after_signal": 1,
+      "reasons": [
+        "연속 양봉 2개 이상"
+      ],
+      "pnl": -7042.0,
+      "pnl_pct": -1.05
     }
   ]
 }
