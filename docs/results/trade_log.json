@@ -404,5 +404,19 @@
     "pnl_pct": -2.51,
     "commission": 6866.0,
     "tax": 1946.0
+  },
+  {
+    "ticker": "128940",
+    "name": "한미약품",
+    "qty": 2,
+    "entry_price": 485000.0,
+    "entry_time": "2026-09-02T09:37:36",
+    "exit_price": 495000.0,
+    "exit_time": "2026-09-02T11:20:07",
+    "reason": "익절(TP 도달)",
+    "pnl": 11160.0,
+    "pnl_pct": 1.15,
+    "commission": 6860.0,
+    "tax": 1980.0
   }
 ]

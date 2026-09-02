@@ -1,10 +1,10 @@
 {
-  "last_updated": "2026-09-02T11:04:07",
+  "last_updated": "2026-09-02T11:20:12",
   "strategy_version": "current",
   "initial_capital": 10000000,
-  "current_capital": 9423736.0,
-  "return_pct": -5.76,
-  "profit_amount": -576264.0,
+  "current_capital": 9436223.0,
+  "return_pct": -5.64,
+  "profit_amount": -563777.0,
   "positions": [
     {
       "ticker": "042700",
@@ -12,7 +12,7 @@
       "qty": 4,
       "entry_price": 212000.0,
       "entry_time": "2026-08-31T09:23:48",
-      "current_price": 211500.0,
+      "current_price": 214000.0,
       "tp": 223500.0,
       "sl": 200500.0,
       "tp_basis": "피벗고점",
@@ -28,8 +28,8 @@
       "rebound_price": null,
       "bars_after_signal": null,
       "reasons": [],
-      "pnl": -9621.0,
-      "pnl_pct": -1.13
+      "pnl": 324.0,
+      "pnl_pct": 0.04
     },
     {
       "ticker": "036930",
@@ -37,7 +37,7 @@
       "qty": 5,
       "entry_price": 171300.0,
       "entry_time": "2026-08-31T09:24:20",
-      "current_price": 178100.0,
+      "current_price": 179600.0,
       "tp": 182000.0,
       "sl": 160600.0,
       "tp_basis": "피벗고점",
@@ -53,8 +53,8 @@
       "rebound_price": null,
       "bars_after_signal": null,
       "reasons": [],
-      "pnl": 26104.0,
-      "pnl_pct": 3.05
+      "pnl": 33563.0,
+      "pnl_pct": 3.92
     },
     {
       "ticker": "035420",
@@ -87,7 +87,7 @@
       "qty": 4,
       "entry_price": 205250.0,
       "entry_time": "2026-08-31T09:36:21",
-      "current_price": 198400.0,
+      "current_price": 198800.0,
       "tp": 217500.0,
       "sl": 193000.0,
       "tp_basis": "피벗고점",
@@ -103,8 +103,8 @@
       "rebound_price": null,
       "bars_after_signal": null,
       "reasons": [],
-      "pnl": -34638.0,
-      "pnl_pct": -4.22
+      "pnl": -33047.0,
+      "pnl_pct": -4.03
     },
     {
       "ticker": "034020",
@@ -112,7 +112,7 @@
       "qty": 12,
       "entry_price": 79200.0,
       "entry_time": "2026-09-02T09:35:42",
-      "current_price": 77900.0,
+      "current_price": 78000.0,
       "tp": 83400.0,
       "sl": 75000.0,
       "tp_basis": "피벗고점",
@@ -130,35 +130,8 @@
       "reasons": [
         "전 봉(음봉)보다 몸통이 큰 양봉"
       ],
-      "pnl": -24068.0,
-      "pnl_pct": -2.53
-    },
-    {
-      "ticker": "128940",
-      "name": "한미약품",
-      "qty": 2,
-      "entry_price": 485000.0,
-      "entry_time": "2026-09-02T09:37:36",
-      "current_price": 489000.0,
-      "tp": 492500.0,
-      "sl": 480500.0,
-      "tp_basis": "피벗고점",
-      "sl_basis": "피벗저점",
-      "pivot_high": 492500.0,
-      "pivot_low": 480500.0,
-      "best_reason": "1차 저점(481,500) 지지 후 재반등",
-      "timeframe": "15m",
-      "signal_time": "2026-09-02 09:00:00",
-      "signal_price": 481500.0,
-      "signal_rsi": 38.0355079632043,
-      "rebound_time": "2026-09-02 09:15:00",
-      "rebound_price": 483500.0,
-      "bars_after_signal": 1,
-      "reasons": [
-        "연속 양봉 2개 이상"
-      ],
-      "pnl": -774.0,
-      "pnl_pct": -0.08
+      "pnl": -22874.0,
+      "pnl_pct": -2.41
     },
     {
       "ticker": "005930",
@@ -166,7 +139,7 @@
       "qty": 3,
       "entry_price": 255000.0,
       "entry_time": "2026-09-02T10:05:20",
-      "current_price": 252500.0,
+      "current_price": 253250.0,
       "tp": 260500.0,
       "sl": 248750.0,
       "tp_basis": "피벗고점",
@@ -184,8 +157,116 @@
       "reasons": [
         "전 봉(음봉)보다 몸통이 큰 양봉"
       ],
-      "pnl": -14344.0,
-      "pnl_pct": -1.88
+      "pnl": -12106.0,
+      "pnl_pct": -1.58
+    },
+    {
+      "ticker": "329180",
+      "name": "HD현대중공업",
+      "qty": 2,
+      "entry_price": 429500.0,
+      "entry_time": "2026-09-02T11:18:30",
+      "current_price": 430500.0,
+      "tp": 454000.0,
+      "sl": 405000.0,
+      "tp_basis": "피벗고점",
+      "sl_basis": "피벗고점 대비 1:1",
+      "pivot_high": 454000.0,
+      "pivot_low": 439500.0,
+      "best_reason": "저점 이탈(430,000→429,500)했으나 RSI 다이버전스 동반 재반등 (RSI 29.0→28.4)",
+      "timeframe": "15m",
+      "signal_time": "2026-09-02 10:45:00",
+      "signal_price": 430000.0,
+      "signal_rsi": 29.028324564063652,
+      "rebound_time": "2026-09-02 11:00:00",
+      "rebound_price": 430000.0,
+      "bars_after_signal": 1,
+      "reasons": [
+        "음봉형 도지"
+      ],
+      "pnl": -5742.0,
+      "pnl_pct": -0.67
+    },
+    {
+      "ticker": "066570",
+      "name": "LG전자",
+      "qty": 4,
+      "entry_price": 201000.0,
+      "entry_time": "2026-09-02T11:18:59",
+      "current_price": 200000.0,
+      "tp": 207500.0,
+      "sl": 194500.0,
+      "tp_basis": "피벗고점",
+      "sl_basis": "피벗고점 대비 1:1",
+      "pivot_high": 207500.0,
+      "pivot_low": 203500.0,
+      "best_reason": "1차 저점(199,100) 지지 후 재반등",
+      "timeframe": "15m",
+      "signal_time": "2026-09-02 09:00:00",
+      "signal_price": 199100.0,
+      "signal_rsi": 29.486080419434444,
+      "rebound_time": "2026-09-02 09:30:00",
+      "rebound_price": 201000.0,
+      "bars_after_signal": 2,
+      "reasons": [
+        "연속 양봉 2개 이상"
+      ],
+      "pnl": -11214.0,
+      "pnl_pct": -1.39
+    },
+    {
+      "ticker": "000810",
+      "name": "삼성화재",
+      "qty": 1,
+      "entry_price": 657000.0,
+      "entry_time": "2026-09-02T11:19:01",
+      "current_price": 658000.0,
+      "tp": 677000.0,
+      "sl": 637000.0,
+      "tp_basis": "피벗고점",
+      "sl_basis": "피벗고점 대비 1:1",
+      "pivot_high": 677000.0,
+      "pivot_low": 663000.0,
+      "best_reason": "저점 이탈(660,000→657,000)했으나 RSI 다이버전스 동반 재반등 (RSI 34.7→35.5)",
+      "timeframe": "15m",
+      "signal_time": "2026-09-02 09:00:00",
+      "signal_price": 660000.0,
+      "signal_rsi": 34.697461326227426,
+      "rebound_time": "2026-09-02 09:30:00",
+      "rebound_price": 666000.0,
+      "bars_after_signal": 2,
+      "reasons": [
+        "연속 양봉 2개 이상"
+      ],
+      "pnl": -4918.0,
+      "pnl_pct": -0.75
+    },
+    {
+      "ticker": "004020",
+      "name": "현대제철",
+      "qty": 33,
+      "entry_price": 30000.0,
+      "entry_time": "2026-09-02T11:20:11",
+      "current_price": null,
+      "tp": 31050.0,
+      "sl": 28950.0,
+      "tp_basis": "피벗고점",
+      "sl_basis": "피벗고점 대비 1:1",
+      "pivot_high": 31050.0,
+      "pivot_low": 30500.0,
+      "best_reason": "저점 이탈(29,800→29,600)했으나 RSI 다이버전스 동반 재반등 (RSI 29.7→29.4)",
+      "timeframe": "15m",
+      "signal_time": "2026-09-02 10:00:00",
+      "signal_price": 29800.0,
+      "signal_rsi": 29.668886672167247,
+      "rebound_time": "2026-09-02 10:15:00",
+      "rebound_price": 29950.0,
+      "bars_after_signal": 1,
+      "reasons": [
+        "연속 양봉 2개 이상"
+      ],
+      "pnl": null,
+      "pnl_pct": null
     }
   ]
 }
