@@ -1,10 +1,10 @@
 {
-  "last_updated": "2026-09-02T10:58:27",
+  "last_updated": "2026-09-02T11:00:06",
   "strategy_version": "current",
   "initial_capital": 10000000,
-  "current_capital": 9418367.0,
-  "return_pct": -5.82,
-  "profit_amount": -581633.0,
+  "current_capital": 9427664.0,
+  "return_pct": -5.72,
+  "profit_amount": -572336.0,
   "positions": [
     {
       "ticker": "042700",
@@ -12,7 +12,7 @@
       "qty": 4,
       "entry_price": 212000.0,
       "entry_time": "2026-08-31T09:23:48",
-      "current_price": 211500.0,
+      "current_price": 212000.0,
       "tp": 223500.0,
       "sl": 200500.0,
       "tp_basis": "피벗고점",
@@ -28,8 +28,8 @@
       "rebound_price": null,
       "bars_after_signal": null,
       "reasons": [],
-      "pnl": -9621.0,
-      "pnl_pct": -1.13
+      "pnl": -7632.0,
+      "pnl_pct": -0.9
     },
     {
       "ticker": "036930",
@@ -37,7 +37,7 @@
       "qty": 5,
       "entry_price": 171300.0,
       "entry_time": "2026-08-31T09:24:20",
-      "current_price": 177700.0,
+      "current_price": 177900.0,
       "tp": 182000.0,
       "sl": 160600.0,
       "tp_basis": "피벗고점",
@@ -53,8 +53,8 @@
       "rebound_price": null,
       "bars_after_signal": null,
       "reasons": [],
-      "pnl": 24116.0,
-      "pnl_pct": 2.82
+      "pnl": 25110.0,
+      "pnl_pct": 2.93
     },
     {
       "ticker": "035420",
@@ -62,7 +62,7 @@
       "qty": 4,
       "entry_price": 214500.0,
       "entry_time": "2026-08-31T09:36:18",
-      "current_price": 209500.0,
+      "current_price": 210000.0,
       "tp": 221500.0,
       "sl": 207500.0,
       "tp_basis": "피벗고점",
@@ -78,8 +78,8 @@
       "rebound_price": null,
       "bars_after_signal": null,
       "reasons": [],
-      "pnl": -27612.0,
-      "pnl_pct": -3.22
+      "pnl": -25623.0,
+      "pnl_pct": -2.99
     },
     {
       "ticker": "010120",
@@ -87,7 +87,7 @@
       "qty": 4,
       "entry_price": 205250.0,
       "entry_time": "2026-08-31T09:36:21",
-      "current_price": 198200.0,
+      "current_price": 198600.0,
       "tp": 217500.0,
       "sl": 193000.0,
       "tp_basis": "피벗고점",
@@ -103,8 +103,8 @@
       "rebound_price": null,
       "bars_after_signal": null,
       "reasons": [],
-      "pnl": -35434.0,
-      "pnl_pct": -4.32
+      "pnl": -33843.0,
+      "pnl_pct": -4.12
     },
     {
       "ticker": "034020",
@@ -139,7 +139,7 @@
       "qty": 2,
       "entry_price": 485000.0,
       "entry_time": "2026-09-02T09:37:36",
-      "current_price": 486500.0,
+      "current_price": 487500.0,
       "tp": 492500.0,
       "sl": 480500.0,
       "tp_basis": "피벗고점",
@@ -157,8 +157,8 @@
       "reasons": [
         "연속 양봉 2개 이상"
       ],
-      "pnl": -5746.0,
-      "pnl_pct": -0.59
+      "pnl": -3758.0,
+      "pnl_pct": -0.39
     },
     {
       "ticker": "005930",
@@ -166,7 +166,7 @@
       "qty": 3,
       "entry_price": 255000.0,
       "entry_time": "2026-09-02T10:05:20",
-      "current_price": 252500.0,
+      "current_price": 252750.0,
       "tp": 260500.0,
       "sl": 248750.0,
       "tp_basis": "피벗고점",
@@ -184,8 +184,8 @@
       "reasons": [
         "전 봉(음봉)보다 몸통이 큰 양봉"
       ],
-      "pnl": -14344.0,
-      "pnl_pct": -1.88
+      "pnl": -13598.0,
+      "pnl_pct": -1.78
     }
   ]
 }
