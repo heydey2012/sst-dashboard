@@ -82,5 +82,19 @@
     "pnl_pct": -5.94,
     "commission": 6664.0,
     "tax": 1855.0
+  },
+  {
+    "ticker": "058470",
+    "name": "리노공업",
+    "qty": 15,
+    "entry_price": 65500.0,
+    "entry_time": "2026-09-01T09:53:29",
+    "exit_price": 63600.0,
+    "exit_time": "2026-09-02T09:02:11",
+    "reason": "손절(SL 도달)",
+    "pnl": -37186.0,
+    "pnl_pct": -3.78,
+    "commission": 6778.0,
+    "tax": 1908.0
   }
 ]
