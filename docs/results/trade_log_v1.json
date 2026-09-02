@@ -138,5 +138,19 @@
     "pnl_pct": -2.53,
     "commission": 6363.0,
     "tax": 1803.0
+  },
+  {
+    "ticker": "039030",
+    "name": "이오테크닉스",
+    "qty": 2,
+    "entry_price": 396500.0,
+    "entry_time": "2026-09-01T09:53:29",
+    "exit_price": 407000.0,
+    "exit_time": "2026-09-02T10:18:11",
+    "reason": "익절(TP 도달)",
+    "pnl": 13748.0,
+    "pnl_pct": 1.73,
+    "commission": 5624.0,
+    "tax": 1628.0
   }
 ]
