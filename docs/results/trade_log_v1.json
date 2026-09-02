@@ -180,5 +180,19 @@
     "pnl_pct": 2.4,
     "commission": 6853.0,
     "tax": 1990.0
+  },
+  {
+    "ticker": "005490",
+    "name": "POSCO홀딩스",
+    "qty": 2,
+    "entry_price": 336000.0,
+    "entry_time": "2026-09-02T09:21:38",
+    "exit_price": 329500.0,
+    "exit_time": "2026-09-02T11:32:18",
+    "reason": "손절(SL 도달)",
+    "pnl": -18976.0,
+    "pnl_pct": -2.82,
+    "commission": 4658.0,
+    "tax": 1318.0
   }
 ]
