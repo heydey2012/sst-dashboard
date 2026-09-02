@@ -1,10 +1,10 @@
 {
-  "last_updated": "2026-09-02T09:18:08",
+  "last_updated": "2026-09-02T09:20:06",
   "strategy_version": "current",
   "initial_capital": 10000000,
-  "current_capital": 9516417.0,
-  "return_pct": -4.84,
-  "profit_amount": -483583.0,
+  "current_capital": 9507962.0,
+  "return_pct": -4.92,
+  "profit_amount": -492038.0,
   "positions": [
     {
       "ticker": "329180",
@@ -37,7 +37,7 @@
       "qty": 4,
       "entry_price": 212000.0,
       "entry_time": "2026-08-31T09:23:48",
-      "current_price": 211000.0,
+      "current_price": 210500.0,
       "tp": 223500.0,
       "sl": 199280.0,
       "tp_basis": "피벗고점",
@@ -53,8 +53,8 @@
       "rebound_price": null,
       "bars_after_signal": null,
       "reasons": [],
-      "pnl": -11610.0,
-      "pnl_pct": -1.37
+      "pnl": -13599.0,
+      "pnl_pct": -1.6
     },
     {
       "ticker": "036930",
@@ -62,7 +62,7 @@
       "qty": 5,
       "entry_price": 171300.0,
       "entry_time": "2026-08-31T09:24:20",
-      "current_price": 172200.0,
+      "current_price": 171900.0,
       "tp": 182000.0,
       "sl": 161022.0,
       "tp_basis": "피벗고점",
@@ -78,8 +78,8 @@
       "rebound_price": null,
       "bars_after_signal": null,
       "reasons": [],
-      "pnl": -3233.0,
-      "pnl_pct": -0.38
+      "pnl": -4725.0,
+      "pnl_pct": -0.55
     },
     {
       "ticker": "035420",
@@ -112,7 +112,7 @@
       "qty": 4,
       "entry_price": 205250.0,
       "entry_time": "2026-08-31T09:36:21",
-      "current_price": 200500.0,
+      "current_price": 200000.0,
       "tp": 217500.0,
       "sl": 192935.0,
       "tp_basis": "피벗고점",
@@ -128,8 +128,8 @@
       "rebound_price": null,
       "bars_after_signal": null,
       "reasons": [],
-      "pnl": -26284.0,
-      "pnl_pct": -3.2
+      "pnl": -28274.0,
+      "pnl_pct": -3.44
     },
     {
       "ticker": "012330",
@@ -137,7 +137,7 @@
       "qty": 2,
       "entry_price": 439000.0,
       "entry_time": "2026-09-01T11:50:56",
-      "current_price": 425000.0,
+      "current_price": 423500.0,
       "tp": 458000.0,
       "sl": 412660.0,
       "tp_basis": "피벗고점",
@@ -155,8 +155,8 @@
       "reasons": [
         "음봉형 도지"
       ],
-      "pnl": -35748.0,
-      "pnl_pct": -4.07
+      "pnl": -38732.0,
+      "pnl_pct": -4.41
     }
   ]
 }
