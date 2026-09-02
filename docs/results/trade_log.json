@@ -320,5 +320,19 @@
     "pnl_pct": -2.31,
     "commission": 6109.0,
     "tax": 1733.0
+  },
+  {
+    "ticker": "011210",
+    "name": "현대위아",
+    "qty": 17,
+    "entry_price": 58600.0,
+    "entry_time": "2026-09-01T12:54:12",
+    "exit_price": 56800.0,
+    "exit_time": "2026-09-02T09:02:06",
+    "reason": "손절(SL 도달)",
+    "pnl": -39398.0,
+    "pnl_pct": -3.95,
+    "commission": 6866.0,
+    "tax": 1931.0
   }
 ]
