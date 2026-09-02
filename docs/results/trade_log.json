@@ -334,5 +334,19 @@
     "pnl_pct": -3.95,
     "commission": 6866.0,
     "tax": 1931.0
+  },
+  {
+    "ticker": "024110",
+    "name": "기업은행",
+    "qty": 48,
+    "entry_price": 20800.0,
+    "entry_time": "2026-09-02T09:36:59",
+    "exit_price": 20900.0,
+    "exit_time": "2026-09-02T09:38:10",
+    "reason": "익절(TP 도달)",
+    "pnl": -4212.0,
+    "pnl_pct": -0.42,
+    "commission": 7006.0,
+    "tax": 2006.0
   }
 ]
