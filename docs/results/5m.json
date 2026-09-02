@@ -1,10 +1,106 @@
 {
   "timeframe": "5m",
   "timeframe_label": "5분봉",
-  "last_updated": "2026-09-02T09:06:49",
+  "last_updated": "2026-09-02T09:12:22",
   "total_tickers": 98,
-  "total_signals": 77,
+  "total_signals": 70,
   "results": [
+    {
+      "ticker": "028260",
+      "name": "삼성물산",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "09/02 09:00",
+      "signal_price": 386000.0,
+      "rebound_time": "09/02 09:05",
+      "rebound_price": 392500.0,
+      "bars_after_signal": 1,
+      "reasons": [
+        "연속 양봉 2개 이상"
+      ]
+    },
+    {
+      "ticker": "024110",
+      "name": "기업은행",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "09/02 09:00",
+      "signal_price": 20650.0,
+      "rebound_time": "09/02 09:05",
+      "rebound_price": 20800.0,
+      "bars_after_signal": 1,
+      "reasons": [
+        "연속 양봉 2개 이상"
+      ]
+    },
+    {
+      "ticker": "033780",
+      "name": "KT&G",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "09/02 09:00",
+      "signal_price": 173600.0,
+      "rebound_time": "09/02 09:05",
+      "rebound_price": 173500.0,
+      "bars_after_signal": 1,
+      "reasons": [
+        "음봉형 도지"
+      ]
+    },
+    {
+      "ticker": "003490",
+      "name": "대한항공",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "09/02 09:00",
+      "signal_price": 27900.0,
+      "rebound_time": "09/02 09:05",
+      "rebound_price": 28400.0,
+      "bars_after_signal": 1,
+      "reasons": [
+        "전 봉(음봉)보다 몸통이 큰 양봉"
+      ]
+    },
+    {
+      "ticker": "039030",
+      "name": "이오테크닉스",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "09/02 09:00",
+      "signal_price": 381500.0,
+      "rebound_time": "09/02 09:05",
+      "rebound_price": 388500.0,
+      "bars_after_signal": 1,
+      "reasons": [
+        "전 봉(음봉)보다 몸통이 큰 양봉"
+      ]
+    },
+    {
+      "ticker": "240810",
+      "name": "원익IPS",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "09/02 09:00",
+      "signal_price": 107000.0,
+      "rebound_time": "09/02 09:05",
+      "rebound_price": 108500.0,
+      "bars_after_signal": 1,
+      "reasons": [
+        "연속 양봉 2개 이상"
+      ]
+    },
     {
       "ticker": "036930",
       "name": "주성엔지니어링",
@@ -15,8 +111,72 @@
       "signal_time": "09/02 09:00",
       "signal_price": 168700.0,
       "rebound_time": "09/02 09:05",
-      "rebound_price": 169100.0,
+      "rebound_price": 169700.0,
       "bars_after_signal": 1,
+      "reasons": [
+        "연속 양봉 2개 이상"
+      ]
+    },
+    {
+      "ticker": "326030",
+      "name": "SK바이오팜",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "09/02 09:05",
+      "signal_price": 87400.0,
+      "rebound_time": "09/02 09:10",
+      "rebound_price": 87900.0,
+      "bars_after_signal": 1,
+      "reasons": [
+        "연속 양봉 2개 이상"
+      ]
+    },
+    {
+      "ticker": "145020",
+      "name": "휴젤",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "09/02 09:05",
+      "signal_price": 239000.0,
+      "rebound_time": "09/02 09:10",
+      "rebound_price": 240500.0,
+      "bars_after_signal": 1,
+      "reasons": [
+        "연속 양봉 2개 이상"
+      ]
+    },
+    {
+      "ticker": "008930",
+      "name": "한미사이언스",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "09/02 09:05",
+      "signal_price": 45300.0,
+      "rebound_time": "09/02 09:10",
+      "rebound_price": 45500.0,
+      "bars_after_signal": 1,
+      "reasons": [
+        "연속 양봉 2개 이상"
+      ]
+    },
+    {
+      "ticker": "012750",
+      "name": "에스원",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "09/02 09:00",
+      "signal_price": 80100.0,
+      "rebound_time": "09/02 09:10",
+      "rebound_price": 80800.0,
+      "bars_after_signal": 2,
       "reasons": [
         "연속 양봉 2개 이상"
       ]
