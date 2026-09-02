@@ -1,10 +1,10 @@
 {
-  "last_updated": "2026-09-02T11:02:06",
+  "last_updated": "2026-09-02T11:04:07",
   "strategy_version": "current",
   "initial_capital": 10000000,
-  "current_capital": 9430698.0,
-  "return_pct": -5.69,
-  "profit_amount": -569302.0,
+  "current_capital": 9423736.0,
+  "return_pct": -5.76,
+  "profit_amount": -576264.0,
   "positions": [
     {
       "ticker": "042700",
@@ -12,7 +12,7 @@
       "qty": 4,
       "entry_price": 212000.0,
       "entry_time": "2026-08-31T09:23:48",
-      "current_price": 212000.0,
+      "current_price": 211500.0,
       "tp": 223500.0,
       "sl": 200500.0,
       "tp_basis": "피벗고점",
@@ -28,8 +28,8 @@
       "rebound_price": null,
       "bars_after_signal": null,
       "reasons": [],
-      "pnl": -7632.0,
-      "pnl_pct": -0.9
+      "pnl": -9621.0,
+      "pnl_pct": -1.13
     },
     {
       "ticker": "036930",
@@ -37,7 +37,7 @@
       "qty": 5,
       "entry_price": 171300.0,
       "entry_time": "2026-08-31T09:24:20",
-      "current_price": 178700.0,
+      "current_price": 178100.0,
       "tp": 182000.0,
       "sl": 160600.0,
       "tp_basis": "피벗고점",
@@ -53,8 +53,8 @@
       "rebound_price": null,
       "bars_after_signal": null,
       "reasons": [],
-      "pnl": 29088.0,
-      "pnl_pct": 3.4
+      "pnl": 26104.0,
+      "pnl_pct": 3.05
     },
     {
       "ticker": "035420",
@@ -87,7 +87,7 @@
       "qty": 4,
       "entry_price": 205250.0,
       "entry_time": "2026-08-31T09:36:21",
-      "current_price": 198600.0,
+      "current_price": 198400.0,
       "tp": 217500.0,
       "sl": 193000.0,
       "tp_basis": "피벗고점",
@@ -103,8 +103,8 @@
       "rebound_price": null,
       "bars_after_signal": null,
       "reasons": [],
-      "pnl": -33843.0,
-      "pnl_pct": -4.12
+      "pnl": -34638.0,
+      "pnl_pct": -4.22
     },
     {
       "ticker": "034020",
@@ -112,7 +112,7 @@
       "qty": 12,
       "entry_price": 79200.0,
       "entry_time": "2026-09-02T09:35:42",
-      "current_price": 78000.0,
+      "current_price": 77900.0,
       "tp": 83400.0,
       "sl": 75000.0,
       "tp_basis": "피벗고점",
@@ -130,8 +130,8 @@
       "reasons": [
         "전 봉(음봉)보다 몸통이 큰 양봉"
       ],
-      "pnl": -22874.0,
-      "pnl_pct": -2.41
+      "pnl": -24068.0,
+      "pnl_pct": -2.53
     },
     {
       "ticker": "128940",
