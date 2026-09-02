@@ -348,5 +348,19 @@
     "pnl_pct": -0.42,
     "commission": 7006.0,
     "tax": 2006.0
+  },
+  {
+    "ticker": "267260",
+    "name": "HD현대일렉트릭",
+    "qty": 1,
+    "entry_price": 741000.0,
+    "entry_time": "2026-09-02T09:36:30",
+    "exit_price": 739000.0,
+    "exit_time": "2026-09-02T09:42:08",
+    "reason": "손절(SL 도달)",
+    "pnl": -8658.0,
+    "pnl_pct": -1.17,
+    "commission": 5180.0,
+    "tax": 1478.0
   }
 ]
