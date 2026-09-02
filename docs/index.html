@@ -138,6 +138,13 @@
     background:var(--red); color:#fff; opacity:0.85;
   }
   .liquidate-btn:hover{ opacity:1; }
+  .portfolio-stats-row{ display:flex; justify-content:space-between; align-items:flex-end; gap:12px; flex-wrap:wrap; }
+  .liquidate-all-btn{
+    display:inline-block; padding:6px 14px; border-radius:999px;
+    font-size:12px; font-weight:700; text-decoration:none; white-space:nowrap;
+    background:var(--red); color:#fff; opacity:0.9;
+  }
+  .liquidate-all-btn:hover{ opacity:1; }
   .mini-btn{
     padding:4px 10px; border-radius:999px; border:1px solid var(--line);
     background:var(--panel); color:var(--muted); font-size:11px; font-weight:700; cursor:pointer;
@@ -467,6 +474,13 @@ function liquidateUrl(ticker, name) {
   return `https://github.com/${REPO}/issues/new?title=${title}&body=${body}`;
 }
 
+function liquidateAllUrl(count) {
+  const vLabel = versionInfo().label;
+  const title = encodeURIComponent(`청산전체:${vLabel}`);
+  const body = encodeURIComponent(`대시보드에서 요청한 전체 강제 매도입니다.\n버전: ${vLabel}\n대상: 보유 중인 ${count}개 종목 전체\n\n이 이슈를 그대로 "Submit new issue"로 등록하면, 다음 자동 점검 주기(최대 3분 이내)에 보유 종목 전체가 시장가로 매도됩니다.`);
+  return `https://github.com/${REPO}/issues/new?title=${title}&body=${body}`;
+}
+
 function renderPortfolio(data) {
   const el = document.getElementById("portfolio");
   const vLabel = versionInfo().label;
@@ -479,8 +493,11 @@ function renderPortfolio(data) {
   const hasCapital = data.current_capital !== null && data.current_capital !== undefined;
   const profitClass = (data.profit_amount || 0) >= 0 ? "pos" : "neg";
   const sign = (data.profit_amount || 0) >= 0 ? "+" : "";
+  const positions = data.positions || [];
+  lastPositions = positions;
 
   let html = `<div class="portfolio-title">🧪 모의투자 현황 [${vLabel}]${vNote} · 시세 기준 ${timeAgo(data.last_updated)} (1분마다 자동 갱신)</div>`;
+  html += `<div class="portfolio-stats-row">`;
   html += `<div class="portfolio-stats">`;
   html += `<div><div class="stat-label">초기 자금</div><div class="stat-value">₩${data.initial_capital.toLocaleString()}</div></div>`;
   html += `<div><div class="stat-label">현재 자금</div><div class="stat-value">${hasCapital ? "₩" + data.current_capital.toLocaleString() : "조회 실패"}</div></div>`;
@@ -489,9 +506,11 @@ function renderPortfolio(data) {
     html += `<div><div class="stat-label">수익금</div><div class="stat-value ${profitClass}">${sign}₩${data.profit_amount.toLocaleString()}</div></div>`;
   }
   html += `</div>`;
+  if (positions.length > 0) {
+    html += `<a class="liquidate-all-btn" href="${liquidateAllUrl(positions.length)}" target="_blank" rel="noopener">🚨 전체 강제 청산 (${positions.length}건)</a>`;
+  }
+  html += `</div>`;
 
-  const positions = data.positions || [];
-  lastPositions = positions;
   if (positions.length === 0) {
     html += `<div class="no-positions">현재 보유 중인 포지션이 없습니다.</div>`;
   } else {
