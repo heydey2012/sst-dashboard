@@ -1,10 +1,26 @@
 {
   "timeframe": "15m",
   "timeframe_label": "15분봉",
-  "last_updated": "2026-09-02T09:40:01",
+  "last_updated": "2026-09-02T09:54:41",
   "total_tickers": 98,
-  "total_signals": 16,
+  "total_signals": 18,
   "results": [
+    {
+      "ticker": "005930",
+      "name": "삼성전자",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "09/02 09:15",
+      "signal_price": 252500.0,
+      "rebound_time": "09/02 09:30",
+      "rebound_price": 254250.0,
+      "bars_after_signal": 1,
+      "reasons": [
+        "전 봉(음봉)보다 몸통이 큰 양봉"
+      ]
+    },
     {
       "ticker": "009150",
       "name": "삼성전기",
@@ -43,7 +59,7 @@
       "is_fresh": true,
       "best_signal": false,
       "best_reason": "",
-      "has_active_entry": true,
+      "has_active_entry": false,
       "signal_time": "09/02 09:15",
       "signal_price": 424000.0,
       "rebound_time": "09/02 09:30",
@@ -51,22 +67,6 @@
       "bars_after_signal": 1,
       "reasons": [
         "전 봉(음봉)보다 몸통이 큰 양봉"
-      ]
-    },
-    {
-      "ticker": "034730",
-      "name": "SK",
-      "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
-      "has_active_entry": false,
-      "signal_time": "09/02 09:15",
-      "signal_price": 558000.0,
-      "rebound_time": "09/02 09:30",
-      "rebound_price": 560000.0,
-      "bars_after_signal": 1,
-      "reasons": [
-        "연속 양봉 2개 이상"
       ]
     },
     {
@@ -95,7 +95,7 @@
       "signal_time": "09/02 09:00",
       "signal_price": 199100.0,
       "rebound_time": "09/02 09:30",
-      "rebound_price": 201500.0,
+      "rebound_price": 201000.0,
       "bars_after_signal": 2,
       "reasons": [
         "연속 양봉 2개 이상"
@@ -127,26 +127,10 @@
       "signal_time": "09/02 09:00",
       "signal_price": 660000.0,
       "rebound_time": "09/02 09:30",
-      "rebound_price": 660000.0,
+      "rebound_price": 666000.0,
       "bars_after_signal": 2,
       "reasons": [
-        "음봉형 도지"
-      ]
-    },
-    {
-      "ticker": "267260",
-      "name": "HD현대일렉트릭",
-      "is_fresh": true,
-      "best_signal": true,
-      "best_reason": "1차 저점(737,000) 지지 후 재반등",
-      "has_active_entry": false,
-      "signal_time": "09/02 09:00",
-      "signal_price": 737000.0,
-      "rebound_time": "09/02 09:15",
-      "rebound_price": 741000.0,
-      "bars_after_signal": 1,
-      "reasons": [
-        "전 봉(음봉)보다 몸통이 큰 양봉"
+        "연속 양봉 2개 이상"
       ]
     },
     {
@@ -166,11 +150,59 @@
       ]
     },
     {
+      "ticker": "005490",
+      "name": "POSCO홀딩스",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "09/02 09:30",
+      "signal_price": 334000.0,
+      "rebound_time": "09/02 09:45",
+      "rebound_price": 334000.0,
+      "bars_after_signal": 1,
+      "reasons": [
+        "음봉형 도지"
+      ]
+    },
+    {
+      "ticker": "015760",
+      "name": "한국전력",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "09/02 09:30",
+      "signal_price": 31800.0,
+      "rebound_time": "09/02 09:45",
+      "rebound_price": 31850.0,
+      "bars_after_signal": 1,
+      "reasons": [
+        "연속 양봉 2개 이상"
+      ]
+    },
+    {
+      "ticker": "011200",
+      "name": "HMM",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "09/02 09:00",
+      "signal_price": 20750.0,
+      "rebound_time": "09/02 09:45",
+      "rebound_price": 20800.0,
+      "bars_after_signal": 3,
+      "reasons": [
+        "음봉형 도지"
+      ]
+    },
+    {
       "ticker": "024110",
       "name": "기업은행",
       "is_fresh": true,
-      "best_signal": true,
-      "best_reason": "1차 저점(20,650) 지지 후 재반등",
+      "best_signal": false,
+      "best_reason": "",
       "has_active_entry": false,
       "signal_time": "09/02 09:00",
       "signal_price": 20650.0,
@@ -179,6 +211,22 @@
       "bars_after_signal": 1,
       "reasons": [
         "연속 양봉 2개 이상"
+      ]
+    },
+    {
+      "ticker": "097950",
+      "name": "CJ제일제당",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "09/02 09:15",
+      "signal_price": 183600.0,
+      "rebound_time": "09/02 09:45",
+      "rebound_price": 183900.0,
+      "bars_after_signal": 2,
+      "reasons": [
+        "전 봉(음봉)보다 몸통이 큰 양봉"
       ]
     },
     {
@@ -203,7 +251,7 @@
       "is_fresh": true,
       "best_signal": false,
       "best_reason": "",
-      "has_active_entry": true,
+      "has_active_entry": false,
       "signal_time": "09/02 09:15",
       "signal_price": 33750.0,
       "rebound_time": "09/02 09:30",
@@ -223,10 +271,10 @@
       "signal_time": "09/02 09:15",
       "signal_price": 92100.0,
       "rebound_time": "09/02 09:30",
-      "rebound_price": 92600.0,
+      "rebound_price": 92100.0,
       "bars_after_signal": 1,
       "reasons": [
-        "전 봉(음봉)보다 몸통이 큰 양봉"
+        "음봉형 도지"
       ]
     },
     {
@@ -243,6 +291,22 @@
       "bars_after_signal": 1,
       "reasons": [
         "연속 양봉 2개 이상"
+      ]
+    },
+    {
+      "ticker": "004990",
+      "name": "롯데지주",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "09/02 09:15",
+      "signal_price": 24050.0,
+      "rebound_time": "09/02 09:30",
+      "rebound_price": 24050.0,
+      "bars_after_signal": 1,
+      "reasons": [
+        "음봉형 도지"
       ]
     },
     {
@@ -303,8 +367,24 @@
       "signal_time": "09/02 09:15",
       "signal_price": 131000.0,
       "rebound_time": "09/02 09:30",
-      "rebound_price": 132300.0,
+      "rebound_price": 132500.0,
       "bars_after_signal": 1,
+      "reasons": [
+        "연속 양봉 2개 이상"
+      ]
+    },
+    {
+      "ticker": "000120",
+      "name": "CJ대한통운",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "09/02 09:15",
+      "signal_price": 72400.0,
+      "rebound_time": "09/02 09:45",
+      "rebound_price": 72600.0,
+      "bars_after_signal": 2,
       "reasons": [
         "연속 양봉 2개 이상"
       ]
@@ -334,11 +414,11 @@
       "has_active_entry": false,
       "signal_time": "09/02 09:00",
       "signal_price": 37750.0,
-      "rebound_time": "09/02 09:30",
-      "rebound_price": 38000.0,
-      "bars_after_signal": 2,
+      "rebound_time": "09/02 09:45",
+      "rebound_price": 38050.0,
+      "bars_after_signal": 3,
       "reasons": [
-        "연속 양봉 2개 이상"
+        "전 봉(음봉)보다 몸통이 큰 양봉"
       ]
     },
     {
@@ -367,7 +447,7 @@
       "signal_time": "09/02 09:15",
       "signal_price": 91100.0,
       "rebound_time": "09/02 09:30",
-      "rebound_price": 91300.0,
+      "rebound_price": 91200.0,
       "bars_after_signal": 1,
       "reasons": [
         "연속 양봉 2개 이상"
@@ -379,11 +459,11 @@
       "is_fresh": true,
       "best_signal": false,
       "best_reason": "",
-      "has_active_entry": true,
+      "has_active_entry": false,
       "signal_time": "09/02 09:15",
       "signal_price": 329000.0,
       "rebound_time": "09/02 09:30",
-      "rebound_price": 331000.0,
+      "rebound_price": 332000.0,
       "bars_after_signal": 1,
       "reasons": [
         "전 봉(음봉)보다 몸통이 큰 양봉"
@@ -406,6 +486,22 @@
       ]
     },
     {
+      "ticker": "326030",
+      "name": "SK바이오팜",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "09/02 09:15",
+      "signal_price": 87600.0,
+      "rebound_time": "09/02 09:45",
+      "rebound_price": 87800.0,
+      "bars_after_signal": 2,
+      "reasons": [
+        "음봉형 도지"
+      ]
+    },
+    {
       "ticker": "039490",
       "name": "키움증권",
       "is_fresh": true,
@@ -415,26 +511,10 @@
       "signal_time": "09/02 09:00",
       "signal_price": 274500.0,
       "rebound_time": "09/02 09:30",
-      "rebound_price": 279500.0,
+      "rebound_price": 278500.0,
       "bars_after_signal": 2,
       "reasons": [
         "연속 양봉 2개 이상"
-      ]
-    },
-    {
-      "ticker": "010140",
-      "name": "삼성중공업",
-      "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
-      "has_active_entry": false,
-      "signal_time": "09/02 09:15",
-      "signal_price": 20250.0,
-      "rebound_time": "09/02 09:30",
-      "rebound_price": 20300.0,
-      "bars_after_signal": 1,
-      "reasons": [
-        "음봉형 도지"
       ]
     },
     {
@@ -454,17 +534,17 @@
       ]
     },
     {
-      "ticker": "259960",
-      "name": "크래프톤",
+      "ticker": "036570",
+      "name": "엔씨소프트",
       "is_fresh": true,
       "best_signal": false,
       "best_reason": "",
       "has_active_entry": false,
-      "signal_time": "09/02 09:15",
-      "signal_price": 225500.0,
+      "signal_time": "09/02 09:00",
+      "signal_price": 220500.0,
       "rebound_time": "09/02 09:30",
-      "rebound_price": 225500.0,
-      "bars_after_signal": 1,
+      "rebound_price": 220500.0,
+      "bars_after_signal": 2,
       "reasons": [
         "음봉형 도지"
       ]
