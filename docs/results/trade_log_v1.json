@@ -96,5 +96,19 @@
     "pnl_pct": -3.78,
     "commission": 6778.0,
     "tax": 1908.0
+  },
+  {
+    "ticker": "064350",
+    "name": "현대로템",
+    "qty": 7,
+    "entry_price": 133500.0,
+    "entry_time": "2026-09-01T10:10:07",
+    "exit_price": 125300.0,
+    "exit_time": "2026-09-02T09:04:08",
+    "reason": "손절(SL 도달)",
+    "pnl": -65495.0,
+    "pnl_pct": -7.01,
+    "commission": 6341.0,
+    "tax": 1754.0
   }
 ]
