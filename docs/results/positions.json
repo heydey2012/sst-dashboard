@@ -1,10 +1,10 @@
 {
-  "last_updated": "2026-09-02T12:56:11",
+  "last_updated": "2026-09-02T12:58:12",
   "strategy_version": "current",
   "initial_capital": 10000000,
-  "current_capital": 9370825.0,
-  "return_pct": -6.29,
-  "profit_amount": -629175.0,
+  "current_capital": 9365603.0,
+  "return_pct": -6.34,
+  "profit_amount": -634397.0,
   "positions": [
     {
       "ticker": "042700",
@@ -12,7 +12,7 @@
       "qty": 4,
       "entry_price": 212000.0,
       "entry_time": "2026-08-31T09:23:48",
-      "current_price": 214500.0,
+      "current_price": 215000.0,
       "tp": 223500.0,
       "sl": 200500.0,
       "tp_basis": "피벗고점",
@@ -28,8 +28,8 @@
       "rebound_price": null,
       "bars_after_signal": null,
       "reasons": [],
-      "pnl": 2313.0,
-      "pnl_pct": 0.27
+      "pnl": 4302.0,
+      "pnl_pct": 0.51
     },
     {
       "ticker": "036930",
@@ -37,7 +37,7 @@
       "qty": 5,
       "entry_price": 171300.0,
       "entry_time": "2026-08-31T09:24:20",
-      "current_price": 175300.0,
+      "current_price": 175200.0,
       "tp": 182000.0,
       "sl": 160600.0,
       "tp_basis": "피벗고점",
@@ -53,8 +53,8 @@
       "rebound_price": null,
       "bars_after_signal": null,
       "reasons": [],
-      "pnl": 12182.0,
-      "pnl_pct": 1.42
+      "pnl": 11684.0,
+      "pnl_pct": 1.36
     },
     {
       "ticker": "035420",
@@ -87,7 +87,7 @@
       "qty": 4,
       "entry_price": 205250.0,
       "entry_time": "2026-08-31T09:36:21",
-      "current_price": 196500.0,
+      "current_price": 196400.0,
       "tp": 217500.0,
       "sl": 193000.0,
       "tp_basis": "피벗고점",
@@ -103,8 +103,8 @@
       "rebound_price": null,
       "bars_after_signal": null,
       "reasons": [],
-      "pnl": -42196.0,
-      "pnl_pct": -5.14
+      "pnl": -42594.0,
+      "pnl_pct": -5.19
     },
     {
       "ticker": "034020",
@@ -112,7 +112,7 @@
       "qty": 12,
       "entry_price": 79200.0,
       "entry_time": "2026-09-02T09:35:42",
-      "current_price": 77300.0,
+      "current_price": 77200.0,
       "tp": 83400.0,
       "sl": 75000.0,
       "tp_basis": "피벗고점",
@@ -130,8 +130,8 @@
       "reasons": [
         "전 봉(음봉)보다 몸통이 큰 양봉"
       ],
-      "pnl": -31228.0,
-      "pnl_pct": -3.29
+      "pnl": -32422.0,
+      "pnl_pct": -3.41
     },
     {
       "ticker": "005930",
@@ -139,7 +139,7 @@
       "qty": 3,
       "entry_price": 255000.0,
       "entry_time": "2026-09-02T10:05:20",
-      "current_price": 251000.0,
+      "current_price": 250500.0,
       "tp": 260500.0,
       "sl": 248750.0,
       "tp_basis": "피벗고점",
@@ -157,8 +157,8 @@
       "reasons": [
         "전 봉(음봉)보다 몸통이 큰 양봉"
       ],
-      "pnl": -18819.0,
-      "pnl_pct": -2.46
+      "pnl": -20311.0,
+      "pnl_pct": -2.66
     },
     {
       "ticker": "329180",
@@ -166,7 +166,7 @@
       "qty": 2,
       "entry_price": 429500.0,
       "entry_time": "2026-09-02T11:18:30",
-      "current_price": 427000.0,
+      "current_price": 426500.0,
       "tp": 454000.0,
       "sl": 405000.0,
       "tp_basis": "피벗고점",
@@ -184,8 +184,8 @@
       "reasons": [
         "음봉형 도지"
       ],
-      "pnl": -12704.0,
-      "pnl_pct": -1.48
+      "pnl": -13698.0,
+      "pnl_pct": -1.59
     },
     {
       "ticker": "066570",
@@ -220,7 +220,7 @@
       "qty": 1,
       "entry_price": 657000.0,
       "entry_time": "2026-09-02T11:19:01",
-      "current_price": 655000.0,
+      "current_price": 654000.0,
       "tp": 677000.0,
       "sl": 637000.0,
       "tp_basis": "피벗고점",
@@ -238,8 +238,8 @@
       "reasons": [
         "연속 양봉 2개 이상"
       ],
-      "pnl": -7902.0,
-      "pnl_pct": -1.2
+      "pnl": -8896.0,
+      "pnl_pct": -1.35
     },
     {
       "ticker": "004020",
@@ -247,7 +247,7 @@
       "qty": 33,
       "entry_price": 30000.0,
       "entry_time": "2026-09-02T11:20:11",
-      "current_price": 29850.0,
+      "current_price": 29800.0,
       "tp": 31050.0,
       "sl": 28950.0,
       "tp_basis": "피벗고점",
@@ -265,8 +265,8 @@
       "reasons": [
         "연속 양봉 2개 이상"
       ],
-      "pnl": -13833.0,
-      "pnl_pct": -1.4
+      "pnl": -15474.0,
+      "pnl_pct": -1.56
     }
   ]
 }
