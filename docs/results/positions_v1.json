@@ -1,10 +1,10 @@
 {
-  "last_updated": "2026-09-02T09:22:15",
+  "last_updated": "2026-09-02T09:24:17",
   "strategy_version": "legacy",
   "initial_capital": 10000000,
-  "current_capital": 9686877.0,
-  "return_pct": -3.13,
-  "profit_amount": -313123.0,
+  "current_capital": 9644893.0,
+  "return_pct": -3.55,
+  "profit_amount": -355107.0,
   "positions": [
     {
       "ticker": "042700",
@@ -66,7 +66,7 @@
       "qty": 4,
       "entry_price": 202000.0,
       "entry_time": "2026-09-02T09:21:24",
-      "current_price": 201750.0,
+      "current_price": 202500.0,
       "tp": 208000.0,
       "sl": 199500.0,
       "tp_basis": "피벗고점",
@@ -84,8 +84,8 @@
       "reasons": [
         "연속 양봉 2개 이상"
       ],
-      "pnl": -8266.0,
-      "pnl_pct": -1.02
+      "pnl": -5283.0,
+      "pnl_pct": -0.65
     },
     {
       "ticker": "005490",
@@ -93,7 +93,7 @@
       "qty": 2,
       "entry_price": 336000.0,
       "entry_time": "2026-09-02T09:21:38",
-      "current_price": 335500.0,
+      "current_price": 335000.0,
       "tp": 351000.0,
       "sl": 329500.0,
       "tp_basis": "피벗고점",
@@ -111,8 +111,171 @@
       "reasons": [
         "연속 양봉 2개 이상"
       ],
-      "pnl": -7042.0,
-      "pnl_pct": -1.05
+      "pnl": -8037.0,
+      "pnl_pct": -1.2
+    },
+    {
+      "ticker": "128940",
+      "name": "한미약품",
+      "qty": 2,
+      "entry_price": 481500.0,
+      "entry_time": "2026-09-02T09:22:34",
+      "current_price": 482500.0,
+      "tp": 495500.0,
+      "sl": 478000.0,
+      "tp_basis": "피벗고점",
+      "sl_basis": "피벗저점",
+      "pivot_high": 495500.0,
+      "pivot_low": 478000.0,
+      "best_reason": "양봉형 도지, 연속 양봉 2개 이상",
+      "timeframe": "15m",
+      "signal_time": "2026-09-02 09:00:00",
+      "signal_price": 481500.0,
+      "signal_rsi": 38.0355079632043,
+      "rebound_time": "2026-09-02 09:15:00",
+      "rebound_price": 481500.0,
+      "bars_after_signal": 1,
+      "reasons": [
+        "양봉형 도지",
+        "연속 양봉 2개 이상"
+      ],
+      "pnl": -6678.0,
+      "pnl_pct": -0.69
+    },
+    {
+      "ticker": "011780",
+      "name": "금호석유",
+      "qty": 7,
+      "entry_price": 129300.0,
+      "entry_time": "2026-09-02T09:23:08",
+      "current_price": 129300.0,
+      "tp": 134500.0,
+      "sl": 125700.0,
+      "tp_basis": "피벗고점",
+      "sl_basis": "피벗저점",
+      "pivot_high": 134500.0,
+      "pivot_low": 125700.0,
+      "best_reason": "연속 양봉 2개 이상",
+      "timeframe": "15m",
+      "signal_time": "2026-09-02 09:00:00",
+      "signal_price": 128100.0,
+      "signal_rsi": 36.32469611201886,
+      "rebound_time": "2026-09-02 09:15:00",
+      "rebound_price": 129300.0,
+      "bars_after_signal": 1,
+      "reasons": [
+        "연속 양봉 2개 이상"
+      ],
+      "pnl": -8146.0,
+      "pnl_pct": -0.9
+    },
+    {
+      "ticker": "004990",
+      "name": "롯데지주",
+      "qty": 41,
+      "entry_price": 24100.0,
+      "entry_time": "2026-09-02T09:23:08",
+      "current_price": 24100.0,
+      "tp": 24300.0,
+      "sl": 23900.0,
+      "tp_basis": "피벗고점",
+      "sl_basis": "피벗저점",
+      "pivot_high": 24300.0,
+      "pivot_low": 23900.0,
+      "best_reason": "연속 양봉 2개 이상",
+      "timeframe": "15m",
+      "signal_time": "2026-09-02 09:00:00",
+      "signal_price": 24050.0,
+      "signal_rsi": 43.377688205064466,
+      "rebound_time": "2026-09-02 09:15:00",
+      "rebound_price": 24100.0,
+      "bars_after_signal": 1,
+      "reasons": [
+        "연속 양봉 2개 이상"
+      ],
+      "pnl": -8893.0,
+      "pnl_pct": -0.9
+    },
+    {
+      "ticker": "096770",
+      "name": "SK이노베이션",
+      "qty": 7,
+      "entry_price": 135300.0,
+      "entry_time": "2026-09-02T09:23:24",
+      "current_price": 135400.0,
+      "tp": 138500.0,
+      "sl": 133100.0,
+      "tp_basis": "피벗고점",
+      "sl_basis": "피벗저점",
+      "pivot_high": 138500.0,
+      "pivot_low": 133100.0,
+      "best_reason": "전 봉(음봉)보다 몸통이 큰 양봉",
+      "timeframe": "15m",
+      "signal_time": "2026-09-02 09:00:00",
+      "signal_price": 131500.0,
+      "signal_rsi": 41.23908688309019,
+      "rebound_time": "2026-09-02 09:15:00",
+      "rebound_price": 135300.0,
+      "bars_after_signal": 1,
+      "reasons": [
+        "전 봉(음봉)보다 몸통이 큰 양봉"
+      ],
+      "pnl": -7828.0,
+      "pnl_pct": -0.83
+    },
+    {
+      "ticker": "006260",
+      "name": "LS",
+      "qty": 3,
+      "entry_price": 305500.0,
+      "entry_time": "2026-09-02T09:23:24",
+      "current_price": 306500.0,
+      "tp": 312000.0,
+      "sl": 300500.0,
+      "tp_basis": "피벗고점",
+      "sl_basis": "피벗저점",
+      "pivot_high": 312000.0,
+      "pivot_low": 300500.0,
+      "best_reason": "전 봉(음봉)보다 몸통이 큰 양봉",
+      "timeframe": "15m",
+      "signal_time": "2026-09-02 09:00:00",
+      "signal_price": 297000.0,
+      "signal_rsi": 29.97585581843532,
+      "rebound_time": "2026-09-02 09:15:00",
+      "rebound_price": 305500.0,
+      "bars_after_signal": 1,
+      "reasons": [
+        "전 봉(음봉)보다 몸통이 큰 양봉"
+      ],
+      "pnl": -5265.0,
+      "pnl_pct": -0.57
+    },
+    {
+      "ticker": "058470",
+      "name": "리노공업",
+      "qty": 15,
+      "entry_price": 64100.0,
+      "entry_time": "2026-09-02T09:24:01",
+      "current_price": 64200.0,
+      "tp": 67400.0,
+      "sl": 60254.0,
+      "tp_basis": "피벗고점",
+      "sl_basis": "고정 6%",
+      "pivot_high": 67400.0,
+      "pivot_low": 64900.0,
+      "best_reason": "연속 양봉 2개 이상",
+      "timeframe": "15m",
+      "signal_time": "2026-09-02 09:00:00",
+      "signal_price": 63800.0,
+      "signal_rsi": 30.596681795774046,
+      "rebound_time": "2026-09-02 09:15:00",
+      "rebound_price": 64100.0,
+      "bars_after_signal": 1,
+      "reasons": [
+        "연속 양봉 2개 이상"
+      ],
+      "pnl": -7162.0,
+      "pnl_pct": -0.74
     }
   ]
 }
