@@ -1,26 +1,10 @@
 {
   "timeframe": "5m",
   "timeframe_label": "5분봉",
-  "last_updated": "2026-09-02T09:31:34",
+  "last_updated": "2026-09-02T09:36:37",
   "total_tickers": 98,
-  "total_signals": 21,
+  "total_signals": 14,
   "results": [
-    {
-      "ticker": "005930",
-      "name": "삼성전자",
-      "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
-      "has_active_entry": false,
-      "signal_time": "09/02 09:20",
-      "signal_price": 253500.0,
-      "rebound_time": "09/02 09:25",
-      "rebound_price": 253250.0,
-      "bars_after_signal": 1,
-      "reasons": [
-        "음봉형 도지"
-      ]
-    },
     {
       "ticker": "000660",
       "name": "SK하이닉스",
@@ -73,8 +57,8 @@
       "ticker": "012450",
       "name": "한화에어로스페이스",
       "is_fresh": true,
-      "best_signal": true,
-      "best_reason": "1차 저점(1,041,000) 지지 후 재반등",
+      "best_signal": false,
+      "best_reason": "",
       "has_active_entry": false,
       "signal_time": "09/02 09:05",
       "signal_price": 1041000.0,
@@ -102,11 +86,27 @@
       ]
     },
     {
-      "ticker": "034020",
-      "name": "두산에너빌리티",
+      "ticker": "000270",
+      "name": "기아",
       "is_fresh": true,
       "best_signal": false,
       "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "09/02 09:25",
+      "signal_price": 126900.0,
+      "rebound_time": "09/02 09:30",
+      "rebound_price": 127200.0,
+      "bars_after_signal": 1,
+      "reasons": [
+        "연속 양봉 2개 이상"
+      ]
+    },
+    {
+      "ticker": "034020",
+      "name": "두산에너빌리티",
+      "is_fresh": true,
+      "best_signal": true,
+      "best_reason": "1차 저점(78,800) 지지 후 재반등",
       "has_active_entry": false,
       "signal_time": "09/02 09:15",
       "signal_price": 78800.0,
@@ -153,13 +153,13 @@
       "ticker": "086790",
       "name": "하나금융지주",
       "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
-      "has_active_entry": true,
+      "best_signal": true,
+      "best_reason": "1차 저점(136,500) 지지 후 재반등",
+      "has_active_entry": false,
       "signal_time": "09/02 09:20",
       "signal_price": 136500.0,
       "rebound_time": "09/02 09:25",
-      "rebound_price": 136700.0,
+      "rebound_price": 137400.0,
       "bars_after_signal": 1,
       "reasons": [
         "전 봉(음봉)보다 몸통이 큰 양봉"
@@ -201,8 +201,8 @@
       "ticker": "010120",
       "name": "LS ELECTRIC",
       "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
+      "best_signal": true,
+      "best_reason": "1차 저점(200,000) 지지 후 재반등",
       "has_active_entry": false,
       "signal_time": "09/02 09:15",
       "signal_price": 200000.0,
@@ -233,8 +233,8 @@
       "ticker": "005490",
       "name": "POSCO홀딩스",
       "is_fresh": true,
-      "best_signal": true,
-      "best_reason": "1차 저점(334,500) 지지 후 재반등",
+      "best_signal": false,
+      "best_reason": "",
       "has_active_entry": false,
       "signal_time": "09/02 09:10",
       "signal_price": 335000.0,
@@ -262,35 +262,51 @@
       ]
     },
     {
-      "ticker": "030200",
-      "name": "KT",
+      "ticker": "035720",
+      "name": "카카오",
       "is_fresh": true,
       "best_signal": false,
       "best_reason": "",
-      "has_active_entry": true,
-      "signal_time": "09/02 09:20",
-      "signal_price": 53200.0,
+      "has_active_entry": false,
+      "signal_time": "09/02 09:05",
+      "signal_price": 36050.0,
       "rebound_time": "09/02 09:25",
-      "rebound_price": 53500.0,
-      "bars_after_signal": 1,
+      "rebound_price": 36200.0,
+      "bars_after_signal": 4,
+      "reasons": [
+        "음봉형 도지"
+      ]
+    },
+    {
+      "ticker": "015760",
+      "name": "한국전력",
+      "is_fresh": true,
+      "best_signal": true,
+      "best_reason": "1차 저점(31,600) 지지 후 재반등",
+      "has_active_entry": false,
+      "signal_time": "09/02 09:15",
+      "signal_price": 31700.0,
+      "rebound_time": "09/02 09:25",
+      "rebound_price": 31700.0,
+      "bars_after_signal": 2,
       "reasons": [
         "전 봉(음봉)보다 몸통이 큰 양봉"
       ]
     },
     {
-      "ticker": "018260",
-      "name": "삼성에스디에스",
+      "ticker": "030200",
+      "name": "KT",
       "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
+      "best_signal": true,
+      "best_reason": "1차 저점(53,200) 지지 후 재반등",
       "has_active_entry": false,
       "signal_time": "09/02 09:20",
-      "signal_price": 234000.0,
+      "signal_price": 53200.0,
       "rebound_time": "09/02 09:25",
-      "rebound_price": 234500.0,
+      "rebound_price": 53400.0,
       "bars_after_signal": 1,
       "reasons": [
-        "음봉형 도지"
+        "전 봉(음봉)보다 몸통이 큰 양봉"
       ]
     },
     {
@@ -339,6 +355,38 @@
       "bars_after_signal": 2,
       "reasons": [
         "음봉형 도지"
+      ]
+    },
+    {
+      "ticker": "090430",
+      "name": "아모레퍼시픽",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "09/02 09:25",
+      "signal_price": 143100.0,
+      "rebound_time": "09/02 09:30",
+      "rebound_price": 144000.0,
+      "bars_after_signal": 1,
+      "reasons": [
+        "연속 양봉 2개 이상"
+      ]
+    },
+    {
+      "ticker": "033780",
+      "name": "KT&G",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "09/02 09:05",
+      "signal_price": 173400.0,
+      "rebound_time": "09/02 09:10",
+      "rebound_price": 173800.0,
+      "bars_after_signal": 1,
+      "reasons": [
+        "전 봉(음봉)보다 몸통이 큰 양봉"
       ]
     },
     {
@@ -409,9 +457,9 @@
       "ticker": "078930",
       "name": "GS",
       "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
-      "has_active_entry": true,
+      "best_signal": true,
+      "best_reason": "1차 저점(121,500) 지지 후 재반등",
+      "has_active_entry": false,
       "signal_time": "09/02 09:20",
       "signal_price": 121500.0,
       "rebound_time": "09/02 09:25",
@@ -419,6 +467,38 @@
       "bars_after_signal": 1,
       "reasons": [
         "연속 양봉 2개 이상"
+      ]
+    },
+    {
+      "ticker": "006800",
+      "name": "미래에셋증권",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": true,
+      "signal_time": "09/02 09:25",
+      "signal_price": 33750.0,
+      "rebound_time": "09/02 09:30",
+      "rebound_price": 33900.0,
+      "bars_after_signal": 1,
+      "reasons": [
+        "전 봉(음봉)보다 몸통이 큰 양봉"
+      ]
+    },
+    {
+      "ticker": "017670",
+      "name": "SK텔레콤",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "09/02 09:25",
+      "signal_price": 92100.0,
+      "rebound_time": "09/02 09:30",
+      "rebound_price": 92100.0,
+      "bars_after_signal": 1,
+      "reasons": [
+        "음봉형 도지"
       ]
     },
     {
@@ -441,8 +521,8 @@
       "ticker": "004990",
       "name": "롯데지주",
       "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
+      "best_signal": true,
+      "best_reason": "1차 저점(24,050) 지지 후 재반등",
       "has_active_entry": false,
       "signal_time": "09/02 09:10",
       "signal_price": 24050.0,
@@ -489,8 +569,8 @@
       "ticker": "086280",
       "name": "현대글로비스",
       "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
+      "best_signal": true,
+      "best_reason": "1차 저점(200,250) 지지 후 재반등",
       "has_active_entry": false,
       "signal_time": "09/02 09:20",
       "signal_price": 200250.0,
@@ -505,8 +585,8 @@
       "ticker": "011790",
       "name": "SKC",
       "is_fresh": true,
-      "best_signal": true,
-      "best_reason": "1차 저점(85,400) 지지 후 재반등",
+      "best_signal": false,
+      "best_reason": "",
       "has_active_entry": false,
       "signal_time": "09/02 09:15",
       "signal_price": 85400.0,
@@ -713,8 +793,8 @@
       "ticker": "357780",
       "name": "솔브레인",
       "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
+      "best_signal": true,
+      "best_reason": "저점 이탈(329,500→329,000)했으나 RSI 다이버전스 동반 재반등 (RSI 28.5→29.4)",
       "has_active_entry": false,
       "signal_time": "09/02 09:10",
       "signal_price": 329500.0,
@@ -761,8 +841,8 @@
       "ticker": "326030",
       "name": "SK바이오팜",
       "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
+      "best_signal": true,
+      "best_reason": "1차 저점(87,400) 지지 후 재반등",
       "has_active_entry": false,
       "signal_time": "09/02 09:05",
       "signal_price": 87400.0,
@@ -790,6 +870,22 @@
       ]
     },
     {
+      "ticker": "039490",
+      "name": "키움증권",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "09/02 09:25",
+      "signal_price": 275000.0,
+      "rebound_time": "09/02 09:35",
+      "rebound_price": 277500.0,
+      "bars_after_signal": 2,
+      "reasons": [
+        "음봉형 도지"
+      ]
+    },
+    {
       "ticker": "008930",
       "name": "한미사이언스",
       "is_fresh": true,
@@ -806,11 +902,43 @@
       ]
     },
     {
-      "ticker": "064350",
-      "name": "현대로템",
+      "ticker": "011210",
+      "name": "현대위아",
       "is_fresh": true,
       "best_signal": false,
       "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "09/02 09:25",
+      "signal_price": 56700.0,
+      "rebound_time": "09/02 09:35",
+      "rebound_price": 57100.0,
+      "bars_after_signal": 2,
+      "reasons": [
+        "음봉형 도지"
+      ]
+    },
+    {
+      "ticker": "010140",
+      "name": "삼성중공업",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "09/02 09:30",
+      "signal_price": 20250.0,
+      "rebound_time": "09/02 09:35",
+      "rebound_price": 20300.0,
+      "bars_after_signal": 1,
+      "reasons": [
+        "음봉형 도지"
+      ]
+    },
+    {
+      "ticker": "064350",
+      "name": "현대로템",
+      "is_fresh": true,
+      "best_signal": true,
+      "best_reason": "1차 저점(126,600) 지지 후 재반등",
       "has_active_entry": false,
       "signal_time": "09/02 09:15",
       "signal_price": 126600.0,
@@ -905,8 +1033,8 @@
       "ticker": "036570",
       "name": "엔씨소프트",
       "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
+      "best_signal": true,
+      "best_reason": "1차 저점(220,500) 지지 후 재반등",
       "has_active_entry": false,
       "signal_time": "09/02 09:10",
       "signal_price": 220500.0,
@@ -921,8 +1049,8 @@
       "ticker": "293490",
       "name": "카카오게임즈",
       "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
+      "best_signal": true,
+      "best_reason": "저점 이탈(9,550→9,370)했으나 RSI 다이버전스 동반 재반등 (RSI 24.7→23.9)",
       "has_active_entry": false,
       "signal_time": "09/02 09:05",
       "signal_price": 9550.0,
