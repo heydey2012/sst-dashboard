@@ -152,5 +152,19 @@
     "pnl_pct": 1.73,
     "commission": 5624.0,
     "tax": 1628.0
+  },
+  {
+    "ticker": "004990",
+    "name": "롯데지주",
+    "qty": 41,
+    "entry_price": 24100.0,
+    "entry_time": "2026-09-02T09:23:08",
+    "exit_price": 23900.0,
+    "exit_time": "2026-09-02T10:38:18",
+    "reason": "손절(SL 도달)",
+    "pnl": -17048.0,
+    "pnl_pct": -1.73,
+    "commission": 6888.0,
+    "tax": 1960.0
   }
 ]
