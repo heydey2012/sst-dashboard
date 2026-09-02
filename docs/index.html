@@ -476,7 +476,8 @@ function liquidateUrl(ticker, name) {
 
 function liquidateAllUrl(count) {
   const vLabel = versionInfo().label;
-  const title = encodeURIComponent(`청산전체:${vLabel}`);
+  const vTag = currentVersion === "legacy" ? "구버전" : "신버전";
+  const title = encodeURIComponent(`청산전체:${vTag}`);
   const body = encodeURIComponent(`대시보드에서 요청한 전체 강제 매도입니다.\n버전: ${vLabel}\n대상: 보유 중인 ${count}개 종목 전체\n\n이 이슈를 그대로 "Submit new issue"로 등록하면, 다음 자동 점검 주기(최대 3분 이내)에 보유 종목 전체가 시장가로 매도됩니다.`);
   return `https://github.com/${REPO}/issues/new?title=${title}&body=${body}`;
 }
