@@ -1,9 +1,9 @@
 {
   "timeframe": "5m",
   "timeframe_label": "5분봉",
-  "last_updated": "2026-09-03T13:12:28",
+  "last_updated": "2026-09-03T13:21:39",
   "total_tickers": 98,
-  "total_signals": 1,
+  "total_signals": 3,
   "results": [
     {
       "ticker": "373220",
@@ -278,22 +278,6 @@
       ]
     },
     {
-      "ticker": "138040",
-      "name": "메리츠금융지주",
-      "is_fresh": true,
-      "best_signal": true,
-      "best_reason": "1차 저점(135,100) 지지 후 재반등",
-      "has_active_entry": false,
-      "signal_time": "09/03 10:45",
-      "signal_price": 135100.0,
-      "rebound_time": "09/03 10:50",
-      "rebound_price": 135100.0,
-      "bars_after_signal": 1,
-      "reasons": [
-        "음봉형 도지"
-      ]
-    },
-    {
       "ticker": "010950",
       "name": "S-Oil",
       "is_fresh": true,
@@ -495,7 +479,7 @@
       "signal_time": "09/03 13:00",
       "signal_price": 130900.0,
       "rebound_time": "09/03 13:10",
-      "rebound_price": 131500.0,
+      "rebound_price": 131600.0,
       "bars_after_signal": 2,
       "reasons": [
         "연속 양봉 2개 이상"
@@ -598,22 +582,6 @@
       ]
     },
     {
-      "ticker": "008930",
-      "name": "한미사이언스",
-      "is_fresh": true,
-      "best_signal": true,
-      "best_reason": "1차 저점(51,200) 지지 후 재반등",
-      "has_active_entry": false,
-      "signal_time": "09/03 10:30",
-      "signal_price": 51200.0,
-      "rebound_time": "09/03 10:35",
-      "rebound_price": 52400.0,
-      "bars_after_signal": 1,
-      "reasons": [
-        "전 봉(음봉)보다 몸통이 큰 양봉"
-      ]
-    },
-    {
       "ticker": "000880",
       "name": "한화",
       "is_fresh": true,
@@ -633,8 +601,8 @@
       "ticker": "012750",
       "name": "에스원",
       "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
+      "best_signal": true,
+      "best_reason": "1차 저점(81,000) 지지 후 재반등",
       "has_active_entry": false,
       "signal_time": "09/03 12:55",
       "signal_price": 81000.0,
