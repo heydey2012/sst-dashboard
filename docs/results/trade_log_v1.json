@@ -250,5 +250,33 @@
     "pnl_pct": -3.46,
     "commission": 6290.0,
     "tax": 1774.0
+  },
+  {
+    "ticker": "005930",
+    "name": "삼성전자",
+    "qty": 3,
+    "entry_price": 255000.0,
+    "entry_time": "2026-09-02T10:05:22",
+    "exit_price": 244000.0,
+    "exit_time": "2026-09-03T14:27:02",
+    "reason": "손절(SL 도달)",
+    "pnl": -39704.0,
+    "pnl_pct": -5.19,
+    "commission": 5240.0,
+    "tax": 1464.0
+  },
+  {
+    "ticker": "001040",
+    "name": "CJ",
+    "qty": 7,
+    "entry_price": 129900.0,
+    "entry_time": "2026-09-02T10:38:23",
+    "exit_price": 127100.0,
+    "exit_time": "2026-09-03T14:27:05",
+    "reason": "손절(SL 도달)",
+    "pnl": -27676.0,
+    "pnl_pct": -3.04,
+    "commission": 6296.0,
+    "tax": 1779.0
   }
 ]
