@@ -208,5 +208,19 @@
     "pnl_pct": -3.69,
     "commission": 6537.0,
     "tax": 1841.0
+  },
+  {
+    "ticker": "011780",
+    "name": "금호석유",
+    "qty": 7,
+    "entry_price": 129300.0,
+    "entry_time": "2026-09-02T09:23:08",
+    "exit_price": 134600.0,
+    "exit_time": "2026-09-03T09:48:11",
+    "reason": "익절(TP 도달)",
+    "pnl": 28750.0,
+    "pnl_pct": 3.18,
+    "commission": 6466.0,
+    "tax": 1884.0
   }
 ]
