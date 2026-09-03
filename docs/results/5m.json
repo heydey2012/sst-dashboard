@@ -1,21 +1,133 @@
 {
   "timeframe": "5m",
   "timeframe_label": "5분봉",
-  "last_updated": "2026-09-03T09:13:35",
+  "last_updated": "2026-09-03T09:21:34",
   "total_tickers": 98,
-  "total_signals": 5,
+  "total_signals": 4,
   "results": [
+    {
+      "ticker": "329180",
+      "name": "HD현대중공업",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "09/03 09:05",
+      "signal_price": 414500.0,
+      "rebound_time": "09/03 09:10",
+      "rebound_price": 416500.0,
+      "bars_after_signal": 1,
+      "reasons": [
+        "전 봉(음봉)보다 몸통이 큰 양봉"
+      ]
+    },
+    {
+      "ticker": "010950",
+      "name": "S-Oil",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "09/03 09:05",
+      "signal_price": 145800.0,
+      "rebound_time": "09/03 09:10",
+      "rebound_price": 145700.0,
+      "bars_after_signal": 1,
+      "reasons": [
+        "음봉형 도지"
+      ]
+    },
+    {
+      "ticker": "051900",
+      "name": "LG생활건강",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "09/03 09:05",
+      "signal_price": 292000.0,
+      "rebound_time": "09/03 09:15",
+      "rebound_price": 293000.0,
+      "bars_after_signal": 2,
+      "reasons": [
+        "음봉형 도지"
+      ]
+    },
+    {
+      "ticker": "078930",
+      "name": "GS",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": true,
+      "signal_time": "09/03 09:10",
+      "signal_price": 117800.0,
+      "rebound_time": "09/03 09:15",
+      "rebound_price": 118500.0,
+      "bars_after_signal": 1,
+      "reasons": [
+        "전 봉(음봉)보다 몸통이 큰 양봉"
+      ]
+    },
+    {
+      "ticker": "017670",
+      "name": "SK텔레콤",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": true,
+      "signal_time": "09/03 09:10",
+      "signal_price": 88200.0,
+      "rebound_time": "09/03 09:15",
+      "rebound_price": 89000.0,
+      "bars_after_signal": 1,
+      "reasons": [
+        "전 봉(음봉)보다 몸통이 큰 양봉"
+      ]
+    },
+    {
+      "ticker": "010060",
+      "name": "OCI홀딩스",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": true,
+      "signal_time": "09/03 09:10",
+      "signal_price": 222500.0,
+      "rebound_time": "09/03 09:15",
+      "rebound_price": 226500.0,
+      "bars_after_signal": 1,
+      "reasons": [
+        "전 봉(음봉)보다 몸통이 큰 양봉"
+      ]
+    },
+    {
+      "ticker": "240810",
+      "name": "원익IPS",
+      "is_fresh": true,
+      "best_signal": true,
+      "best_reason": "1차 저점(108,400) 지지 후 재반등",
+      "has_active_entry": false,
+      "signal_time": "09/03 09:10",
+      "signal_price": 108400.0,
+      "rebound_time": "09/03 09:15",
+      "rebound_price": 108500.0,
+      "bars_after_signal": 1,
+      "reasons": [
+        "양봉형 도지"
+      ]
+    },
     {
       "ticker": "000880",
       "name": "한화",
       "is_fresh": true,
       "best_signal": false,
       "best_reason": "",
-      "has_active_entry": true,
+      "has_active_entry": false,
       "signal_time": "09/03 09:05",
       "signal_price": 123400.0,
       "rebound_time": "09/03 09:10",
-      "rebound_price": 124400.0,
+      "rebound_price": 125200.0,
       "bars_after_signal": 1,
       "reasons": [
         "전 봉(음봉)보다 몸통이 큰 양봉"
