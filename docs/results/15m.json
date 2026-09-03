@@ -1,9 +1,9 @@
 {
   "timeframe": "15m",
   "timeframe_label": "15분봉",
-  "last_updated": "2026-09-03T14:10:28",
+  "last_updated": "2026-09-03T14:39:25",
   "total_tickers": 98,
-  "total_signals": 2,
+  "total_signals": 34,
   "results": [
     {
       "ticker": "010950",
@@ -51,6 +51,38 @@
       "bars_after_signal": 2,
       "reasons": [
         "연속 양봉 2개 이상"
+      ]
+    },
+    {
+      "ticker": "000120",
+      "name": "CJ대한통운",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "09/03 14:15",
+      "signal_price": 72600.0,
+      "rebound_time": "09/03 14:30",
+      "rebound_price": 72600.0,
+      "bars_after_signal": 1,
+      "reasons": [
+        "음봉형 도지"
+      ]
+    },
+    {
+      "ticker": "214150",
+      "name": "클래시스",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "09/03 14:15",
+      "signal_price": 31650.0,
+      "rebound_time": "09/03 14:30",
+      "rebound_price": 31650.0,
+      "bars_after_signal": 1,
+      "reasons": [
+        "음봉형 도지"
       ]
     },
     {
