@@ -1,9 +1,9 @@
 {
   "timeframe": "5m",
   "timeframe_label": "5분봉",
-  "last_updated": "2026-09-03T10:57:11",
+  "last_updated": "2026-09-03T11:20:45",
   "total_tickers": 98,
-  "total_signals": 4,
+  "total_signals": 1,
   "results": [
     {
       "ticker": "329180",
@@ -54,11 +54,27 @@
       ]
     },
     {
+      "ticker": "032640",
+      "name": "LG유플러스",
+      "is_fresh": true,
+      "best_signal": true,
+      "best_reason": "1차 저점(14,930) 지지 후 재반등",
+      "has_active_entry": false,
+      "signal_time": "09/03 10:55",
+      "signal_price": 14930.0,
+      "rebound_time": "09/03 11:05",
+      "rebound_price": 14950.0,
+      "bars_after_signal": 2,
+      "reasons": [
+        "음봉형 도지"
+      ]
+    },
+    {
       "ticker": "018260",
       "name": "삼성에스디에스",
       "is_fresh": true,
       "best_signal": true,
-      "best_reason": "저점 이탈(227,500→226,000)했으나 RSI 다이버전스 동반 재반등 (RSI 22.1→32.3)",
+      "best_reason": "저점 이탈(227,500→225,500)했으나 RSI 다이버전스 동반 재반등 (RSI 22.1→32.3)",
       "has_active_entry": false,
       "signal_time": "09/03 09:25",
       "signal_price": 227500.0,
@@ -89,8 +105,8 @@
       "ticker": "138040",
       "name": "메리츠금융지주",
       "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
+      "best_signal": true,
+      "best_reason": "1차 저점(134,600) 지지 후 재반등",
       "has_active_entry": false,
       "signal_time": "09/03 10:30",
       "signal_price": 134600.0,
@@ -137,8 +153,8 @@
       "ticker": "033780",
       "name": "KT&G",
       "is_fresh": true,
-      "best_signal": true,
-      "best_reason": "저점 이탈(175,600→175,400)했으나 RSI 다이버전스 동반 재반등 (RSI 45.9→44.1)",
+      "best_signal": false,
+      "best_reason": "",
       "has_active_entry": false,
       "signal_time": "09/03 10:30",
       "signal_price": 175600.0,
@@ -147,6 +163,54 @@
       "bars_after_signal": 1,
       "reasons": [
         "음봉형 도지"
+      ]
+    },
+    {
+      "ticker": "003550",
+      "name": "LG",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "09/03 10:50",
+      "signal_price": 119000.0,
+      "rebound_time": "09/03 10:55",
+      "rebound_price": 118900.0,
+      "bars_after_signal": 1,
+      "reasons": [
+        "음봉형 도지"
+      ]
+    },
+    {
+      "ticker": "047810",
+      "name": "한국항공우주",
+      "is_fresh": true,
+      "best_signal": true,
+      "best_reason": "1차 저점(123,600) 지지 후 재반등",
+      "has_active_entry": false,
+      "signal_time": "09/03 11:05",
+      "signal_price": 123600.0,
+      "rebound_time": "09/03 11:10",
+      "rebound_price": 124000.0,
+      "bars_after_signal": 1,
+      "reasons": [
+        "연속 양봉 2개 이상"
+      ]
+    },
+    {
+      "ticker": "000100",
+      "name": "유한양행",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "09/03 10:50",
+      "signal_price": 82700.0,
+      "rebound_time": "09/03 11:00",
+      "rebound_price": 82800.0,
+      "bars_after_signal": 2,
+      "reasons": [
+        "연속 양봉 2개 이상"
       ]
     },
     {
@@ -169,16 +233,16 @@
       "ticker": "006800",
       "name": "미래에셋증권",
       "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
+      "best_signal": true,
+      "best_reason": "1차 저점(32,600) 지지 후 재반등",
       "has_active_entry": false,
-      "signal_time": "09/03 10:50",
-      "signal_price": 32650.0,
-      "rebound_time": "09/03 10:55",
-      "rebound_price": 32650.0,
+      "signal_time": "09/03 10:55",
+      "signal_price": 32600.0,
+      "rebound_time": "09/03 11:00",
+      "rebound_price": 32800.0,
       "bars_after_signal": 1,
       "reasons": [
-        "음봉형 도지"
+        "전 봉(음봉)보다 몸통이 큰 양봉"
       ]
     },
     {
@@ -195,6 +259,22 @@
       "bars_after_signal": 2,
       "reasons": [
         "연속 양봉 2개 이상"
+      ]
+    },
+    {
+      "ticker": "004990",
+      "name": "롯데지주",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "09/03 10:55",
+      "signal_price": 24525.0,
+      "rebound_time": "09/03 11:00",
+      "rebound_price": 24700.0,
+      "bars_after_signal": 1,
+      "reasons": [
+        "전 봉(음봉)보다 몸통이 큰 양봉"
       ]
     },
     {
@@ -246,11 +326,43 @@
       ]
     },
     {
+      "ticker": "000120",
+      "name": "CJ대한통운",
+      "is_fresh": true,
+      "best_signal": true,
+      "best_reason": "1차 저점(72,700) 지지 후 재반등",
+      "has_active_entry": false,
+      "signal_time": "09/03 10:55",
+      "signal_price": 72700.0,
+      "rebound_time": "09/03 11:00",
+      "rebound_price": 72900.0,
+      "bars_after_signal": 1,
+      "reasons": [
+        "전 봉(음봉)보다 몸통이 큰 양봉"
+      ]
+    },
+    {
+      "ticker": "302440",
+      "name": "SK바이오사이언스",
+      "is_fresh": true,
+      "best_signal": true,
+      "best_reason": "1차 저점(38,050) 지지 후 재반등",
+      "has_active_entry": false,
+      "signal_time": "09/03 10:50",
+      "signal_price": 38050.0,
+      "rebound_time": "09/03 10:55",
+      "rebound_price": 38150.0,
+      "bars_after_signal": 1,
+      "reasons": [
+        "전 봉(음봉)보다 몸통이 큰 양봉"
+      ]
+    },
+    {
       "ticker": "240810",
       "name": "원익IPS",
       "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
+      "best_signal": true,
+      "best_reason": "1차 저점(106,200) 지지 후 재반등",
       "has_active_entry": false,
       "signal_time": "09/03 09:35",
       "signal_price": 106700.0,
@@ -281,8 +393,8 @@
       "ticker": "008930",
       "name": "한미사이언스",
       "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
+      "best_signal": true,
+      "best_reason": "1차 저점(51,200) 지지 후 재반등",
       "has_active_entry": false,
       "signal_time": "09/03 10:30",
       "signal_price": 51200.0,
@@ -307,6 +419,54 @@
       "bars_after_signal": 1,
       "reasons": [
         "전 봉(음봉)보다 몸통이 큰 양봉"
+      ]
+    },
+    {
+      "ticker": "352820",
+      "name": "하이브",
+      "is_fresh": true,
+      "best_signal": true,
+      "best_reason": "1차 저점(176,700) 지지 후 재반등",
+      "has_active_entry": false,
+      "signal_time": "09/03 10:55",
+      "signal_price": 176700.0,
+      "rebound_time": "09/03 11:05",
+      "rebound_price": 177200.0,
+      "bars_after_signal": 2,
+      "reasons": [
+        "연속 양봉 2개 이상"
+      ]
+    },
+    {
+      "ticker": "036570",
+      "name": "엔씨소프트",
+      "is_fresh": true,
+      "best_signal": true,
+      "best_reason": "1차 저점(218,000) 지지 후 재반등",
+      "has_active_entry": false,
+      "signal_time": "09/03 10:55",
+      "signal_price": 218000.0,
+      "rebound_time": "09/03 11:00",
+      "rebound_price": 218000.0,
+      "bars_after_signal": 1,
+      "reasons": [
+        "음봉형 도지"
+      ]
+    },
+    {
+      "ticker": "251270",
+      "name": "넷마블",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "09/03 10:50",
+      "signal_price": 37550.0,
+      "rebound_time": "09/03 11:10",
+      "rebound_price": 37500.0,
+      "bars_after_signal": 4,
+      "reasons": [
+        "음봉형 도지"
       ]
     }
   ]
