@@ -1,7 +1,7 @@
 {
   "timeframe": "5m",
   "timeframe_label": "5분봉",
-  "last_updated": "2026-09-03T13:56:43",
+  "last_updated": "2026-09-03T14:01:32",
   "total_tickers": 98,
   "total_signals": 1,
   "results": [
@@ -361,8 +361,8 @@
       "ticker": "003550",
       "name": "LG",
       "is_fresh": true,
-      "best_signal": true,
-      "best_reason": "1차 저점(118,900) 지지 후 재반등",
+      "best_signal": false,
+      "best_reason": "",
       "has_active_entry": false,
       "signal_time": "09/03 10:50",
       "signal_price": 119000.0,
@@ -534,22 +534,6 @@
       ]
     },
     {
-      "ticker": "006260",
-      "name": "LS",
-      "is_fresh": true,
-      "best_signal": true,
-      "best_reason": "1차 저점(289,000) 지지 후 재반등",
-      "has_active_entry": false,
-      "signal_time": "09/03 09:15",
-      "signal_price": 290500.0,
-      "rebound_time": "09/03 09:30",
-      "rebound_price": 291500.0,
-      "bars_after_signal": 3,
-      "reasons": [
-        "전 봉(음봉)보다 몸통이 큰 양봉"
-      ]
-    },
-    {
       "ticker": "000120",
       "name": "CJ대한통운",
       "is_fresh": true,
@@ -630,6 +614,22 @@
       ]
     },
     {
+      "ticker": "008930",
+      "name": "한미사이언스",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "09/03 13:25",
+      "signal_price": 51500.0,
+      "rebound_time": "09/03 14:00",
+      "rebound_price": 51500.0,
+      "bars_after_signal": 7,
+      "reasons": [
+        "음봉형 도지"
+      ]
+    },
+    {
       "ticker": "000880",
       "name": "한화",
       "is_fresh": true,
@@ -682,7 +682,7 @@
       "name": "엔씨소프트",
       "is_fresh": true,
       "best_signal": true,
-      "best_reason": "저점 이탈(218,000→217,000)했으나 RSI 다이버전스 동반 재반등 (RSI 36.3→38.0)",
+      "best_reason": "저점 이탈(218,000→216,500)했으나 RSI 다이버전스 동반 재반등 (RSI 36.3→35.2)",
       "has_active_entry": false,
       "signal_time": "09/03 10:55",
       "signal_price": 218000.0,
