@@ -1,7 +1,7 @@
 {
   "timeframe": "5m",
   "timeframe_label": "5분봉",
-  "last_updated": "2026-09-03T12:21:40",
+  "last_updated": "2026-09-03T12:27:02",
   "total_tickers": 98,
   "total_signals": 0,
   "results": [
@@ -217,8 +217,8 @@
       "ticker": "032640",
       "name": "LG유플러스",
       "is_fresh": true,
-      "best_signal": true,
-      "best_reason": "1차 저점(14,930) 지지 후 재반등",
+      "best_signal": false,
+      "best_reason": "",
       "has_active_entry": false,
       "signal_time": "09/03 10:55",
       "signal_price": 14930.0,
