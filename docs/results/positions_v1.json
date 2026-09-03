@@ -1,10 +1,10 @@
 {
-  "last_updated": "2026-09-03T10:58:16",
+  "last_updated": "2026-09-03T11:00:16",
   "strategy_version": "legacy",
   "initial_capital": 10000000,
-  "current_capital": 9586614.0,
-  "return_pct": -4.13,
-  "profit_amount": -413386.0,
+  "current_capital": 9590692.0,
+  "return_pct": -4.09,
+  "profit_amount": -409308.0,
   "positions": [
     {
       "ticker": "042700",
@@ -12,7 +12,7 @@
       "qty": 4,
       "entry_price": 214750.0,
       "entry_time": "2026-09-01T09:38:45",
-      "current_price": 209500.0,
+      "current_price": 210000.0,
       "tp": 225000.0,
       "sl": 205500.0,
       "tp_basis": "피벗고점",
@@ -30,8 +30,8 @@
       "reasons": [
         "연속 양봉 2개 이상"
       ],
-      "pnl": -28616.0,
-      "pnl_pct": -3.33
+      "pnl": -26626.0,
+      "pnl_pct": -3.1
     },
     {
       "ticker": "058470",
@@ -39,7 +39,7 @@
       "qty": 15,
       "entry_price": 64100.0,
       "entry_time": "2026-09-02T09:24:01",
-      "current_price": 64100.0,
+      "current_price": 64200.0,
       "tp": 67400.0,
       "sl": 60800.0,
       "tp_basis": "피벗고점",
@@ -57,8 +57,8 @@
       "reasons": [
         "연속 양봉 2개 이상"
       ],
-      "pnl": -8654.0,
-      "pnl_pct": -0.9
+      "pnl": -7162.0,
+      "pnl_pct": -0.74
     },
     {
       "ticker": "005930",
@@ -93,7 +93,7 @@
       "qty": 12,
       "entry_price": 78700.0,
       "entry_time": "2026-09-02T10:05:56",
-      "current_price": 78100.0,
+      "current_price": 77900.0,
       "tp": 83600.0,
       "sl": 73800.0,
       "tp_basis": "피벗고점",
@@ -111,8 +111,8 @@
       "reasons": [
         "전 봉(음봉)보다 몸통이 큰 양봉"
       ],
-      "pnl": -15660.0,
-      "pnl_pct": -1.66
+      "pnl": -18047.0,
+      "pnl_pct": -1.91
     },
     {
       "ticker": "012330",
@@ -120,7 +120,7 @@
       "qty": 2,
       "entry_price": 422000.0,
       "entry_time": "2026-09-02T10:20:56",
-      "current_price": 421000.0,
+      "current_price": 420000.0,
       "tp": 460000.0,
       "sl": 384000.0,
       "tp_basis": "피벗고점",
@@ -138,8 +138,8 @@
       "reasons": [
         "전 봉(음봉)보다 몸통이 큰 양봉"
       ],
-      "pnl": -9585.0,
-      "pnl_pct": -1.14
+      "pnl": -11574.0,
+      "pnl_pct": -1.37
     },
     {
       "ticker": "001040",
@@ -147,7 +147,7 @@
       "qty": 7,
       "entry_price": 129900.0,
       "entry_time": "2026-09-02T10:38:23",
-      "current_price": 128400.0,
+      "current_price": 128700.0,
       "tp": 135800.0,
       "sl": 127100.0,
       "tp_basis": "피벗고점",
@@ -165,8 +165,8 @@
       "reasons": [
         "연속 양봉 2개 이상"
       ],
-      "pnl": -18626.0,
-      "pnl_pct": -2.05
+      "pnl": -16538.0,
+      "pnl_pct": -1.82
     },
     {
       "ticker": "005380",
@@ -174,7 +174,7 @@
       "qty": 2,
       "entry_price": 378500.0,
       "entry_time": "2026-09-02T11:35:14",
-      "current_price": 381000.0,
+      "current_price": 380500.0,
       "tp": 401000.0,
       "sl": 356000.0,
       "tp_basis": "피벗고점",
@@ -192,8 +192,8 @@
       "reasons": [
         "음봉형 도지"
       ],
-      "pnl": -1840.0,
-      "pnl_pct": -0.24
+      "pnl": -2835.0,
+      "pnl_pct": -0.37
     },
     {
       "ticker": "032830",
@@ -201,7 +201,7 @@
       "qty": 3,
       "entry_price": 295000.0,
       "entry_time": "2026-09-02T11:35:28",
-      "current_price": 301000.0,
+      "current_price": 302500.0,
       "tp": 310500.0,
       "sl": 279500.0,
       "tp_basis": "피벗고점",
@@ -219,8 +219,8 @@
       "reasons": [
         "음봉형 도지"
       ],
-      "pnl": 9936.0,
-      "pnl_pct": 1.12
+      "pnl": 14411.0,
+      "pnl_pct": 1.63
     },
     {
       "ticker": "010950",
@@ -228,7 +228,7 @@
       "qty": 6,
       "entry_price": 151700.0,
       "entry_time": "2026-09-03T09:37:17",
-      "current_price": 152300.0,
+      "current_price": 152200.0,
       "tp": 155400.0,
       "sl": 147900.0,
       "tp_basis": "피벗고점",
@@ -246,8 +246,8 @@
       "reasons": [
         "전 봉(음봉)보다 몸통이 큰 양봉"
       ],
-      "pnl": -4612.0,
-      "pnl_pct": -0.51
+      "pnl": -5208.0,
+      "pnl_pct": -0.57
     },
     {
       "ticker": "361610",
