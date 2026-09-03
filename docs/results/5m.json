@@ -1,9 +1,9 @@
 {
   "timeframe": "5m",
   "timeframe_label": "5분봉",
-  "last_updated": "2026-09-03T09:21:34",
+  "last_updated": "2026-09-03T09:26:47",
   "total_tickers": 98,
-  "total_signals": 4,
+  "total_signals": 3,
   "results": [
     {
       "ticker": "329180",
@@ -57,13 +57,29 @@
       "ticker": "078930",
       "name": "GS",
       "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
-      "has_active_entry": true,
+      "best_signal": true,
+      "best_reason": "1차 저점(117,800) 지지 후 재반등",
+      "has_active_entry": false,
       "signal_time": "09/03 09:10",
       "signal_price": 117800.0,
       "rebound_time": "09/03 09:15",
       "rebound_price": 118500.0,
+      "bars_after_signal": 1,
+      "reasons": [
+        "전 봉(음봉)보다 몸통이 큰 양봉"
+      ]
+    },
+    {
+      "ticker": "006800",
+      "name": "미래에셋증권",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": true,
+      "signal_time": "09/03 09:15",
+      "signal_price": 32450.0,
+      "rebound_time": "09/03 09:20",
+      "rebound_price": 32600.0,
       "bars_after_signal": 1,
       "reasons": [
         "전 봉(음봉)보다 몸통이 큰 양봉"
@@ -75,14 +91,30 @@
       "is_fresh": true,
       "best_signal": false,
       "best_reason": "",
-      "has_active_entry": true,
+      "has_active_entry": false,
       "signal_time": "09/03 09:10",
       "signal_price": 88200.0,
-      "rebound_time": "09/03 09:15",
-      "rebound_price": 89000.0,
-      "bars_after_signal": 1,
+      "rebound_time": "09/03 09:20",
+      "rebound_price": 89100.0,
+      "bars_after_signal": 2,
       "reasons": [
-        "전 봉(음봉)보다 몸통이 큰 양봉"
+        "연속 양봉 2개 이상"
+      ]
+    },
+    {
+      "ticker": "361610",
+      "name": "SK아이이테크놀로지",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "09/03 09:10",
+      "signal_price": 15260.0,
+      "rebound_time": "09/03 09:20",
+      "rebound_price": 15370.0,
+      "bars_after_signal": 2,
+      "reasons": [
+        "연속 양봉 2개 이상"
       ]
     },
     {
@@ -91,22 +123,38 @@
       "is_fresh": true,
       "best_signal": false,
       "best_reason": "",
-      "has_active_entry": true,
+      "has_active_entry": false,
       "signal_time": "09/03 09:10",
       "signal_price": 222500.0,
       "rebound_time": "09/03 09:15",
-      "rebound_price": 226500.0,
+      "rebound_price": 226000.0,
       "bars_after_signal": 1,
       "reasons": [
         "전 봉(음봉)보다 몸통이 큰 양봉"
       ]
     },
     {
+      "ticker": "006260",
+      "name": "LS",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "09/03 09:15",
+      "signal_price": 290500.0,
+      "rebound_time": "09/03 09:25",
+      "rebound_price": 290500.0,
+      "bars_after_signal": 2,
+      "reasons": [
+        "음봉형 도지"
+      ]
+    },
+    {
       "ticker": "240810",
       "name": "원익IPS",
       "is_fresh": true,
-      "best_signal": true,
-      "best_reason": "1차 저점(108,400) 지지 후 재반등",
+      "best_signal": false,
+      "best_reason": "",
       "has_active_entry": false,
       "signal_time": "09/03 09:10",
       "signal_price": 108400.0,
@@ -121,8 +169,8 @@
       "ticker": "000880",
       "name": "한화",
       "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
+      "best_signal": true,
+      "best_reason": "1차 저점(123,400) 지지 후 재반등",
       "has_active_entry": false,
       "signal_time": "09/03 09:05",
       "signal_price": 123400.0,
