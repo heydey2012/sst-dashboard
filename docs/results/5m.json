@@ -1,7 +1,7 @@
 {
   "timeframe": "5m",
   "timeframe_label": "5분봉",
-  "last_updated": "2026-09-03T09:56:32",
+  "last_updated": "2026-09-03T10:01:33",
   "total_tickers": 98,
   "total_signals": 0,
   "results": [
@@ -25,8 +25,8 @@
       "ticker": "034730",
       "name": "SK",
       "is_fresh": true,
-      "best_signal": true,
-      "best_reason": "1차 저점(539,000) 지지 후 재반등",
+      "best_signal": false,
+      "best_reason": "",
       "has_active_entry": false,
       "signal_time": "09/03 09:15",
       "signal_price": 539000.0,
@@ -193,6 +193,22 @@
       "rebound_time": "09/03 09:30",
       "rebound_price": 291500.0,
       "bars_after_signal": 3,
+      "reasons": [
+        "전 봉(음봉)보다 몸통이 큰 양봉"
+      ]
+    },
+    {
+      "ticker": "240810",
+      "name": "원익IPS",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "09/03 09:35",
+      "signal_price": 106700.0,
+      "rebound_time": "09/03 10:00",
+      "rebound_price": 106600.0,
+      "bars_after_signal": 5,
       "reasons": [
         "전 봉(음봉)보다 몸통이 큰 양봉"
       ]
