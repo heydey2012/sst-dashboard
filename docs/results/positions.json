@@ -1,10 +1,10 @@
 {
-  "last_updated": "2026-09-03T11:30:06",
+  "last_updated": "2026-09-03T11:32:08",
   "strategy_version": "current",
   "initial_capital": 10000000,
-  "current_capital": 9435368.0,
-  "return_pct": -5.65,
-  "profit_amount": -564632.0,
+  "current_capital": 9439246.0,
+  "return_pct": -5.61,
+  "profit_amount": -560754.0,
   "positions": [
     {
       "ticker": "042700",
@@ -12,7 +12,7 @@
       "qty": 4,
       "entry_price": 212000.0,
       "entry_time": "2026-08-31T09:23:48",
-      "current_price": 210000.0,
+      "current_price": 210500.0,
       "tp": 223500.0,
       "sl": 200500.0,
       "tp_basis": "피벗고점",
@@ -28,8 +28,8 @@
       "rebound_price": null,
       "bars_after_signal": null,
       "reasons": [],
-      "pnl": -15588.0,
-      "pnl_pct": -1.84
+      "pnl": -13599.0,
+      "pnl_pct": -1.6
     },
     {
       "ticker": "036930",
@@ -37,7 +37,7 @@
       "qty": 5,
       "entry_price": 171300.0,
       "entry_time": "2026-08-31T09:24:20",
-      "current_price": 170600.0,
+      "current_price": 170700.0,
       "tp": 182000.0,
       "sl": 160600.0,
       "tp_basis": "피벗고점",
@@ -53,8 +53,8 @@
       "rebound_price": null,
       "bars_after_signal": null,
       "reasons": [],
-      "pnl": -11189.0,
-      "pnl_pct": -1.31
+      "pnl": -10692.0,
+      "pnl_pct": -1.25
     },
     {
       "ticker": "035420",
@@ -87,7 +87,7 @@
       "qty": 12,
       "entry_price": 79200.0,
       "entry_time": "2026-09-02T09:35:42",
-      "current_price": 79100.0,
+      "current_price": 79300.0,
       "tp": 83400.0,
       "sl": 75000.0,
       "tp_basis": "피벗고점",
@@ -105,8 +105,8 @@
       "reasons": [
         "전 봉(음봉)보다 몸통이 큰 양봉"
       ],
-      "pnl": -9747.0,
-      "pnl_pct": -1.03
+      "pnl": -7360.0,
+      "pnl_pct": -0.77
     },
     {
       "ticker": "005930",
@@ -168,7 +168,7 @@
       "qty": 4,
       "entry_price": 201000.0,
       "entry_time": "2026-09-02T11:18:59",
-      "current_price": 202750.0,
+      "current_price": 202500.0,
       "tp": 207500.0,
       "sl": 194500.0,
       "tp_basis": "피벗고점",
@@ -186,8 +186,8 @@
       "reasons": [
         "연속 양봉 2개 이상"
       ],
-      "pnl": -274.0,
-      "pnl_pct": -0.03
+      "pnl": -1269.0,
+      "pnl_pct": -0.16
     }
   ]
 }
