@@ -474,5 +474,19 @@
     "pnl_pct": -4.15,
     "commission": 5908.0,
     "tax": 1660.0
+  },
+  {
+    "ticker": "005930",
+    "name": "삼성전자",
+    "qty": 3,
+    "entry_price": 255000.0,
+    "entry_time": "2026-09-02T10:05:20",
+    "exit_price": 248500.0,
+    "exit_time": "2026-09-03T14:16:06",
+    "reason": "손절(SL 도달)",
+    "pnl": -26278.0,
+    "pnl_pct": -3.44,
+    "commission": 5287.0,
+    "tax": 1491.0
   }
 ]
