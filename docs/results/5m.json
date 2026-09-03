@@ -1,9 +1,9 @@
 {
   "timeframe": "5m",
   "timeframe_label": "5분봉",
-  "last_updated": "2026-09-03T10:27:00",
+  "last_updated": "2026-09-03T10:36:53",
   "total_tickers": 98,
-  "total_signals": 1,
+  "total_signals": 4,
   "results": [
     {
       "ticker": "329180",
