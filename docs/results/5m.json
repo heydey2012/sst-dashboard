@@ -1,9 +1,9 @@
 {
   "timeframe": "5m",
   "timeframe_label": "5분봉",
-  "last_updated": "2026-09-03T12:56:59",
+  "last_updated": "2026-09-03T13:06:57",
   "total_tickers": 98,
-  "total_signals": 1,
+  "total_signals": 2,
   "results": [
     {
       "ticker": "373220",
@@ -185,8 +185,8 @@
       "ticker": "035720",
       "name": "카카오",
       "is_fresh": true,
-      "best_signal": true,
-      "best_reason": "1차 저점(35,750) 지지 후 재반등",
+      "best_signal": false,
+      "best_reason": "",
       "has_active_entry": false,
       "signal_time": "09/03 10:55",
       "signal_price": 35750.0,
@@ -620,21 +620,21 @@
       "best_signal": false,
       "best_reason": "",
       "has_active_entry": false,
-      "signal_time": "09/03 10:35",
-      "signal_price": 81200.0,
-      "rebound_time": "09/03 10:50",
-      "rebound_price": 81500.0,
-      "bars_after_signal": 3,
+      "signal_time": "09/03 12:55",
+      "signal_price": 81000.0,
+      "rebound_time": "09/03 13:00",
+      "rebound_price": 81200.0,
+      "bars_after_signal": 1,
       "reasons": [
-        "음봉형 도지"
+        "전 봉(음봉)보다 몸통이 큰 양봉"
       ]
     },
     {
       "ticker": "352820",
       "name": "하이브",
       "is_fresh": true,
-      "best_signal": true,
-      "best_reason": "저점 이탈(176,700→176,300)했으나 RSI 다이버전스 동반 재반등 (RSI 38.8→37.5)",
+      "best_signal": false,
+      "best_reason": "",
       "has_active_entry": false,
       "signal_time": "09/03 10:55",
       "signal_price": 176700.0,
