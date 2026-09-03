@@ -446,5 +446,19 @@
     "pnl_pct": -6.84,
     "commission": 5576.0,
     "tax": 1544.0
+  },
+  {
+    "ticker": "004020",
+    "name": "현대제철",
+    "qty": 33,
+    "entry_price": 30000.0,
+    "entry_time": "2026-09-02T11:20:11",
+    "exit_price": 31200.0,
+    "exit_time": "2026-09-03T09:44:08",
+    "reason": "익절(TP 도달)",
+    "pnl": 30472.0,
+    "pnl_pct": 3.08,
+    "commission": 7069.0,
+    "tax": 2059.0
   }
 ]
