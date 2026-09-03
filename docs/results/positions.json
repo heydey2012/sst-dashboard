@@ -1,10 +1,10 @@
 {
-  "last_updated": "2026-09-03T11:38:08",
+  "last_updated": "2026-09-03T11:40:12",
   "strategy_version": "current",
   "initial_capital": 10000000,
-  "current_capital": 9436013.0,
-  "return_pct": -5.64,
-  "profit_amount": -563987.0,
+  "current_capital": 9421785.0,
+  "return_pct": -5.78,
+  "profit_amount": -578215.0,
   "positions": [
     {
       "ticker": "042700",
@@ -62,7 +62,7 @@
       "qty": 4,
       "entry_price": 214500.0,
       "entry_time": "2026-08-31T09:36:18",
-      "current_price": 209000.0,
+      "current_price": 208500.0,
       "tp": 221500.0,
       "sl": 207500.0,
       "tp_basis": "피벗고점",
@@ -78,8 +78,8 @@
       "rebound_price": null,
       "bars_after_signal": null,
       "reasons": [],
-      "pnl": -29601.0,
-      "pnl_pct": -3.45
+      "pnl": -31590.0,
+      "pnl_pct": -3.68
     },
     {
       "ticker": "034020",
@@ -87,7 +87,7 @@
       "qty": 12,
       "entry_price": 79200.0,
       "entry_time": "2026-09-02T09:35:42",
-      "current_price": 79300.0,
+      "current_price": 79400.0,
       "tp": 83400.0,
       "sl": 75000.0,
       "tp_basis": "피벗고점",
@@ -105,8 +105,8 @@
       "reasons": [
         "전 봉(음봉)보다 몸통이 큰 양봉"
       ],
-      "pnl": -7360.0,
-      "pnl_pct": -0.77
+      "pnl": -6167.0,
+      "pnl_pct": -0.65
     },
     {
       "ticker": "005930",
@@ -141,7 +141,7 @@
       "qty": 2,
       "entry_price": 429500.0,
       "entry_time": "2026-09-02T11:18:30",
-      "current_price": 434500.0,
+      "current_price": 433500.0,
       "tp": 454000.0,
       "sl": 405000.0,
       "tp_basis": "피벗고점",
@@ -159,8 +159,8 @@
       "reasons": [
         "음봉형 도지"
       ],
-      "pnl": 2214.0,
-      "pnl_pct": 0.26
+      "pnl": 225.0,
+      "pnl_pct": 0.03
     },
     {
       "ticker": "066570",
@@ -168,7 +168,7 @@
       "qty": 4,
       "entry_price": 201000.0,
       "entry_time": "2026-09-02T11:18:59",
-      "current_price": 202250.0,
+      "current_price": 202000.0,
       "tp": 207500.0,
       "sl": 194500.0,
       "tp_basis": "피벗고점",
@@ -186,8 +186,35 @@
       "reasons": [
         "연속 양봉 2개 이상"
       ],
-      "pnl": -2264.0,
-      "pnl_pct": -0.28
+      "pnl": -3258.0,
+      "pnl_pct": -0.41
+    },
+    {
+      "ticker": "240810",
+      "name": "원익IPS",
+      "qty": 9,
+      "entry_price": 106900.0,
+      "entry_time": "2026-09-03T11:38:43",
+      "current_price": 106700.0,
+      "tp": 111100.0,
+      "sl": 102700.0,
+      "tp_basis": "피벗고점",
+      "sl_basis": "피벗고점 대비 1:1",
+      "pivot_high": 111100.0,
+      "pivot_low": 109400.0,
+      "best_reason": "1차 저점(106,200) 지지 후 재반등",
+      "timeframe": "15m",
+      "signal_time": "2026-09-03 09:45:00",
+      "signal_price": 106200.0,
+      "signal_rsi": 28.0071774139971,
+      "rebound_time": "2026-09-03 10:00:00",
+      "rebound_price": 108400.0,
+      "bars_after_signal": 1,
+      "reasons": [
+        "전 봉(음봉)보다 몸통이 큰 양봉"
+      ],
+      "pnl": -10449.0,
+      "pnl_pct": -1.09
     }
   ]
 }
