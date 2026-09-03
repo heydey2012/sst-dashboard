@@ -1,10 +1,10 @@
 {
-  "last_updated": "2026-09-03T13:32:11",
+  "last_updated": "2026-09-03T13:34:05",
   "strategy_version": "current",
   "initial_capital": 10000000,
-  "current_capital": 9474493.0,
-  "return_pct": -5.26,
-  "profit_amount": -525507.0,
+  "current_capital": 9475289.0,
+  "return_pct": -5.25,
+  "profit_amount": -524711.0,
   "positions": [
     {
       "ticker": "042700",
@@ -37,7 +37,7 @@
       "qty": 5,
       "entry_price": 171300.0,
       "entry_time": "2026-08-31T09:24:20",
-      "current_price": 172200.0,
+      "current_price": 172300.0,
       "tp": 182000.0,
       "sl": 160600.0,
       "tp_basis": "피벗고점",
@@ -53,8 +53,8 @@
       "rebound_price": null,
       "bars_after_signal": null,
       "reasons": [],
-      "pnl": -3233.0,
-      "pnl_pct": -0.38
+      "pnl": -2736.0,
+      "pnl_pct": -0.32
     },
     {
       "ticker": "035420",
@@ -87,7 +87,7 @@
       "qty": 12,
       "entry_price": 79200.0,
       "entry_time": "2026-09-02T09:35:42",
-      "current_price": 80900.0,
+      "current_price": 80800.0,
       "tp": 83400.0,
       "sl": 75000.0,
       "tp_basis": "피벗고점",
@@ -105,8 +105,8 @@
       "reasons": [
         "전 봉(음봉)보다 몸통이 큰 양봉"
       ],
-      "pnl": 11734.0,
-      "pnl_pct": 1.23
+      "pnl": 10541.0,
+      "pnl_pct": 1.11
     },
     {
       "ticker": "005930",
@@ -141,7 +141,7 @@
       "qty": 2,
       "entry_price": 429500.0,
       "entry_time": "2026-09-02T11:18:30",
-      "current_price": 440500.0,
+      "current_price": 440250.0,
       "tp": 454000.0,
       "sl": 405000.0,
       "tp_basis": "피벗고점",
@@ -159,8 +159,8 @@
       "reasons": [
         "음봉형 도지"
       ],
-      "pnl": 14148.0,
-      "pnl_pct": 1.65
+      "pnl": 13651.0,
+      "pnl_pct": 1.59
     },
     {
       "ticker": "066570",
@@ -168,7 +168,7 @@
       "qty": 4,
       "entry_price": 201000.0,
       "entry_time": "2026-09-02T11:18:59",
-      "current_price": 202500.0,
+      "current_price": 203000.0,
       "tp": 207500.0,
       "sl": 194500.0,
       "tp_basis": "피벗고점",
@@ -186,8 +186,8 @@
       "reasons": [
         "연속 양봉 2개 이상"
       ],
-      "pnl": -1269.0,
-      "pnl_pct": -0.16
+      "pnl": 720.0,
+      "pnl_pct": 0.09
     },
     {
       "ticker": "240810",
