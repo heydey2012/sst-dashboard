@@ -1,9 +1,9 @@
 {
   "timeframe": "5m",
   "timeframe_label": "5분봉",
-  "last_updated": "2026-09-03T10:21:32",
+  "last_updated": "2026-09-03T10:27:00",
   "total_tickers": 98,
-  "total_signals": 0,
+  "total_signals": 1,
   "results": [
     {
       "ticker": "329180",
@@ -57,8 +57,8 @@
       "ticker": "018260",
       "name": "삼성에스디에스",
       "is_fresh": true,
-      "best_signal": true,
-      "best_reason": "1차 저점(227,500) 지지 후 재반등",
+      "best_signal": false,
+      "best_reason": "",
       "has_active_entry": false,
       "signal_time": "09/03 09:25",
       "signal_price": 227500.0,
