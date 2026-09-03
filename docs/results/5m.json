@@ -1,10 +1,26 @@
 {
   "timeframe": "5m",
   "timeframe_label": "5분봉",
-  "last_updated": "2026-09-03T11:46:34",
+  "last_updated": "2026-09-03T11:51:34",
   "total_tickers": 98,
   "total_signals": 0,
   "results": [
+    {
+      "ticker": "373220",
+      "name": "LG에너지솔루션",
+      "is_fresh": true,
+      "best_signal": true,
+      "best_reason": "1차 저점(361,000) 지지 후 재반등",
+      "has_active_entry": false,
+      "signal_time": "09/03 10:55",
+      "signal_price": 361000.0,
+      "rebound_time": "09/03 11:05",
+      "rebound_price": 361500.0,
+      "bars_after_signal": 2,
+      "reasons": [
+        "음봉형 도지"
+      ]
+    },
     {
       "ticker": "329180",
       "name": "HD현대중공업",
@@ -86,6 +102,22 @@
       ]
     },
     {
+      "ticker": "005490",
+      "name": "POSCO홀딩스",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "09/03 10:55",
+      "signal_price": 339000.0,
+      "rebound_time": "09/03 11:10",
+      "rebound_price": 341500.0,
+      "bars_after_signal": 3,
+      "reasons": [
+        "전 봉(음봉)보다 몸통이 큰 양봉"
+      ]
+    },
+    {
       "ticker": "010130",
       "name": "고려아연",
       "is_fresh": true,
@@ -96,6 +128,22 @@
       "signal_price": 1185000.0,
       "rebound_time": "09/03 09:30",
       "rebound_price": 1188000.0,
+      "bars_after_signal": 2,
+      "reasons": [
+        "음봉형 도지"
+      ]
+    },
+    {
+      "ticker": "051910",
+      "name": "LG화학",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "09/03 10:55",
+      "signal_price": 284000.0,
+      "rebound_time": "09/03 11:05",
+      "rebound_price": 285000.0,
       "bars_after_signal": 2,
       "reasons": [
         "음봉형 도지"
@@ -153,8 +201,8 @@
       "ticker": "018260",
       "name": "삼성에스디에스",
       "is_fresh": true,
-      "best_signal": true,
-      "best_reason": "저점 이탈(227,500→225,500)했으나 RSI 다이버전스 동반 재반등 (RSI 22.1→32.3)",
+      "best_signal": false,
+      "best_reason": "",
       "has_active_entry": false,
       "signal_time": "09/03 09:25",
       "signal_price": 227500.0,
@@ -163,6 +211,22 @@
       "bars_after_signal": 2,
       "reasons": [
         "연속 양봉 2개 이상"
+      ]
+    },
+    {
+      "ticker": "011200",
+      "name": "HMM",
+      "is_fresh": true,
+      "best_signal": true,
+      "best_reason": "1차 저점(21,300) 지지 후 재반등",
+      "has_active_entry": false,
+      "signal_time": "09/03 10:55",
+      "signal_price": 21300.0,
+      "rebound_time": "09/03 11:05",
+      "rebound_price": 21350.0,
+      "bars_after_signal": 2,
+      "reasons": [
+        "음봉형 도지"
       ]
     },
     {
@@ -265,8 +329,8 @@
       "ticker": "003550",
       "name": "LG",
       "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
+      "best_signal": true,
+      "best_reason": "1차 저점(118,900) 지지 후 재반등",
       "has_active_entry": false,
       "signal_time": "09/03 10:50",
       "signal_price": 119000.0,
@@ -353,6 +417,22 @@
       "rebound_time": "09/03 09:20",
       "rebound_price": 89100.0,
       "bars_after_signal": 2,
+      "reasons": [
+        "연속 양봉 2개 이상"
+      ]
+    },
+    {
+      "ticker": "011780",
+      "name": "금호석유",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "09/03 11:00",
+      "signal_price": 134200.0,
+      "rebound_time": "09/03 11:05",
+      "rebound_price": 134500.0,
+      "bars_after_signal": 1,
       "reasons": [
         "연속 양봉 2개 이상"
       ]
@@ -457,8 +537,8 @@
       "ticker": "240810",
       "name": "원익IPS",
       "is_fresh": true,
-      "best_signal": true,
-      "best_reason": "1차 저점(106,200) 지지 후 재반등",
+      "best_signal": false,
+      "best_reason": "",
       "has_active_entry": false,
       "signal_time": "09/03 09:35",
       "signal_price": 106700.0,
