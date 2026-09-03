@@ -1,9 +1,9 @@
 {
   "timeframe": "5m",
   "timeframe_label": "5분봉",
-  "last_updated": "2026-09-03T10:51:34",
+  "last_updated": "2026-09-03T10:57:11",
   "total_tickers": 98,
-  "total_signals": 5,
+  "total_signals": 4,
   "results": [
     {
       "ticker": "329180",
@@ -25,8 +25,8 @@
       "ticker": "034730",
       "name": "SK",
       "is_fresh": true,
-      "best_signal": true,
-      "best_reason": "1차 저점(539,000) 지지 후 재반등",
+      "best_signal": false,
+      "best_reason": "",
       "has_active_entry": false,
       "signal_time": "09/03 09:15",
       "signal_price": 539000.0,
@@ -57,8 +57,8 @@
       "ticker": "018260",
       "name": "삼성에스디에스",
       "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
+      "best_signal": true,
+      "best_reason": "저점 이탈(227,500→226,000)했으나 RSI 다이버전스 동반 재반등 (RSI 22.1→32.3)",
       "has_active_entry": false,
       "signal_time": "09/03 09:25",
       "signal_price": 227500.0,
@@ -73,8 +73,8 @@
       "ticker": "316140",
       "name": "우리금융지주",
       "is_fresh": true,
-      "best_signal": true,
-      "best_reason": "1차 저점(34,700) 지지 후 재반등",
+      "best_signal": false,
+      "best_reason": "",
       "has_active_entry": false,
       "signal_time": "09/03 10:35",
       "signal_price": 34700.0,
@@ -137,8 +137,8 @@
       "ticker": "033780",
       "name": "KT&G",
       "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
+      "best_signal": true,
+      "best_reason": "저점 이탈(175,600→175,400)했으나 RSI 다이버전스 동반 재반등 (RSI 45.9→44.1)",
       "has_active_entry": false,
       "signal_time": "09/03 10:30",
       "signal_price": 175600.0,
@@ -163,6 +163,22 @@
       "bars_after_signal": 1,
       "reasons": [
         "전 봉(음봉)보다 몸통이 큰 양봉"
+      ]
+    },
+    {
+      "ticker": "006800",
+      "name": "미래에셋증권",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "09/03 10:50",
+      "signal_price": 32650.0,
+      "rebound_time": "09/03 10:55",
+      "rebound_price": 32650.0,
+      "bars_after_signal": 1,
+      "reasons": [
+        "음봉형 도지"
       ]
     },
     {
@@ -249,8 +265,8 @@
       "ticker": "039490",
       "name": "키움증권",
       "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
+      "best_signal": true,
+      "best_reason": "1차 저점(268,000) 지지 후 재반등",
       "has_active_entry": false,
       "signal_time": "09/03 09:15",
       "signal_price": 268500.0,
