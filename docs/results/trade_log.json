@@ -418,5 +418,19 @@
     "pnl_pct": 1.15,
     "commission": 6860.0,
     "tax": 1980.0
+  },
+  {
+    "ticker": "000810",
+    "name": "삼성화재",
+    "qty": 1,
+    "entry_price": 657000.0,
+    "entry_time": "2026-09-02T11:19:01",
+    "exit_price": 679000.0,
+    "exit_time": "2026-09-03T09:16:12",
+    "reason": "익절(TP 도달)",
+    "pnl": 15966.0,
+    "pnl_pct": 2.43,
+    "commission": 4676.0,
+    "tax": 1358.0
   }
 ]
