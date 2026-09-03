@@ -1,10 +1,10 @@
 {
-  "last_updated": "2026-09-03T09:30:21",
+  "last_updated": "2026-09-03T09:32:25",
   "strategy_version": "legacy",
   "initial_capital": 10000000,
-  "current_capital": 9535204.0,
-  "return_pct": -4.65,
-  "profit_amount": -464796.0,
+  "current_capital": 9561357.0,
+  "return_pct": -4.39,
+  "profit_amount": -438643.0,
   "positions": [
     {
       "ticker": "042700",
@@ -39,7 +39,7 @@
       "qty": 7,
       "entry_price": 129300.0,
       "entry_time": "2026-09-02T09:23:08",
-      "current_price": 128900.0,
+      "current_price": 129300.0,
       "tp": 134500.0,
       "sl": 125700.0,
       "tp_basis": "피벗고점",
@@ -57,8 +57,8 @@
       "reasons": [
         "연속 양봉 2개 이상"
       ],
-      "pnl": -10931.0,
-      "pnl_pct": -1.21
+      "pnl": -8146.0,
+      "pnl_pct": -0.9
     },
     {
       "ticker": "058470",
@@ -66,7 +66,7 @@
       "qty": 15,
       "entry_price": 64100.0,
       "entry_time": "2026-09-02T09:24:01",
-      "current_price": 64500.0,
+      "current_price": 64600.0,
       "tp": 67400.0,
       "sl": 60800.0,
       "tp_basis": "피벗고점",
@@ -84,8 +84,8 @@
       "reasons": [
         "연속 양봉 2개 이상"
       ],
-      "pnl": -2686.0,
-      "pnl_pct": -0.28
+      "pnl": -1195.0,
+      "pnl_pct": -0.12
     },
     {
       "ticker": "005930",
@@ -93,7 +93,7 @@
       "qty": 3,
       "entry_price": 255000.0,
       "entry_time": "2026-09-02T10:05:22",
-      "current_price": 251500.0,
+      "current_price": 252000.0,
       "tp": 261500.0,
       "sl": 246000.0,
       "tp_basis": "피벗고점",
@@ -111,8 +111,8 @@
       "reasons": [
         "전 봉(음봉)보다 몸통이 큰 양봉"
       ],
-      "pnl": -17327.0,
-      "pnl_pct": -2.27
+      "pnl": -15836.0,
+      "pnl_pct": -2.07
     },
     {
       "ticker": "034020",
@@ -120,7 +120,7 @@
       "qty": 12,
       "entry_price": 78700.0,
       "entry_time": "2026-09-02T10:05:56",
-      "current_price": 76200.0,
+      "current_price": 76400.0,
       "tp": 83600.0,
       "sl": 73800.0,
       "tp_basis": "피벗고점",
@@ -138,8 +138,8 @@
       "reasons": [
         "전 봉(음봉)보다 몸통이 큰 양봉"
       ],
-      "pnl": -38335.0,
-      "pnl_pct": -4.06
+      "pnl": -35948.0,
+      "pnl_pct": -3.81
     },
     {
       "ticker": "012330",
@@ -147,7 +147,7 @@
       "qty": 2,
       "entry_price": 422000.0,
       "entry_time": "2026-09-02T10:20:56",
-      "current_price": 417000.0,
+      "current_price": 418500.0,
       "tp": 460000.0,
       "sl": 384000.0,
       "tp_basis": "피벗고점",
@@ -165,8 +165,8 @@
       "reasons": [
         "전 봉(음봉)보다 몸통이 큰 양봉"
       ],
-      "pnl": -17541.0,
-      "pnl_pct": -2.08
+      "pnl": -14558.0,
+      "pnl_pct": -1.72
     },
     {
       "ticker": "001040",
@@ -174,7 +174,7 @@
       "qty": 7,
       "entry_price": 129900.0,
       "entry_time": "2026-09-02T10:38:23",
-      "current_price": 128900.0,
+      "current_price": 129700.0,
       "tp": 135800.0,
       "sl": 127100.0,
       "tp_basis": "피벗고점",
@@ -192,8 +192,8 @@
       "reasons": [
         "연속 양봉 2개 이상"
       ],
-      "pnl": -15145.0,
-      "pnl_pct": -1.67
+      "pnl": -9576.0,
+      "pnl_pct": -1.05
     },
     {
       "ticker": "005380",
@@ -201,7 +201,7 @@
       "qty": 2,
       "entry_price": 378500.0,
       "entry_time": "2026-09-02T11:35:14",
-      "current_price": 377000.0,
+      "current_price": 378000.0,
       "tp": 401000.0,
       "sl": 356000.0,
       "tp_basis": "피벗고점",
@@ -219,8 +219,8 @@
       "reasons": [
         "음봉형 도지"
       ],
-      "pnl": -9796.0,
-      "pnl_pct": -1.29
+      "pnl": -7808.0,
+      "pnl_pct": -1.03
     },
     {
       "ticker": "032830",
@@ -228,7 +228,7 @@
       "qty": 3,
       "entry_price": 295000.0,
       "entry_time": "2026-09-02T11:35:28",
-      "current_price": 304000.0,
+      "current_price": 306500.0,
       "tp": 310500.0,
       "sl": 279500.0,
       "tp_basis": "피벗고점",
@@ -246,8 +246,8 @@
       "reasons": [
         "음봉형 도지"
       ],
-      "pnl": 18886.0,
-      "pnl_pct": 2.13
+      "pnl": 26345.0,
+      "pnl_pct": 2.98
     }
   ]
 }
