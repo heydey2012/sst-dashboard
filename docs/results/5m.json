@@ -1,7 +1,7 @@
 {
   "timeframe": "5m",
   "timeframe_label": "5분봉",
-  "last_updated": "2026-09-03T11:31:35",
+  "last_updated": "2026-09-03T11:36:47",
   "total_tickers": 98,
   "total_signals": 0,
   "results": [
@@ -67,6 +67,22 @@
       "bars_after_signal": 2,
       "reasons": [
         "음봉형 도지"
+      ]
+    },
+    {
+      "ticker": "015760",
+      "name": "한국전력",
+      "is_fresh": true,
+      "best_signal": true,
+      "best_reason": "1차 저점(32,150) 지지 후 재반등",
+      "has_active_entry": false,
+      "signal_time": "09/03 10:45",
+      "signal_price": 32150.0,
+      "rebound_time": "09/03 11:00",
+      "rebound_price": 32300.0,
+      "bars_after_signal": 3,
+      "reasons": [
+        "전 봉(음봉)보다 몸통이 큰 양봉"
       ]
     },
     {
