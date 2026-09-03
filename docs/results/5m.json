@@ -1,9 +1,9 @@
 {
   "timeframe": "5m",
   "timeframe_label": "5분봉",
-  "last_updated": "2026-09-03T12:51:33",
+  "last_updated": "2026-09-03T12:56:59",
   "total_tickers": 98,
-  "total_signals": 0,
+  "total_signals": 1,
   "results": [
     {
       "ticker": "373220",
@@ -249,8 +249,8 @@
       "ticker": "011200",
       "name": "HMM",
       "is_fresh": true,
-      "best_signal": true,
-      "best_reason": "1차 저점(21,300) 지지 후 재반등",
+      "best_signal": false,
+      "best_reason": "",
       "has_active_entry": false,
       "signal_time": "09/03 10:55",
       "signal_price": 21300.0,
@@ -403,22 +403,6 @@
       "bars_after_signal": 2,
       "reasons": [
         "연속 양봉 2개 이상"
-      ]
-    },
-    {
-      "ticker": "078930",
-      "name": "GS",
-      "is_fresh": true,
-      "best_signal": true,
-      "best_reason": "1차 저점(117,800) 지지 후 재반등",
-      "has_active_entry": false,
-      "signal_time": "09/03 09:10",
-      "signal_price": 117800.0,
-      "rebound_time": "09/03 09:15",
-      "rebound_price": 118500.0,
-      "bars_after_signal": 1,
-      "reasons": [
-        "전 봉(음봉)보다 몸통이 큰 양봉"
       ]
     },
     {
@@ -633,8 +617,8 @@
       "ticker": "012750",
       "name": "에스원",
       "is_fresh": true,
-      "best_signal": true,
-      "best_reason": "1차 저점(81,200) 지지 후 재반등",
+      "best_signal": false,
+      "best_reason": "",
       "has_active_entry": false,
       "signal_time": "09/03 10:35",
       "signal_price": 81200.0,
