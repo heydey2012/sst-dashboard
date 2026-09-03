@@ -1,9 +1,9 @@
 {
   "timeframe": "5m",
   "timeframe_label": "5분봉",
-  "last_updated": "2026-09-03T13:21:39",
+  "last_updated": "2026-09-03T13:26:52",
   "total_tickers": 98,
-  "total_signals": 3,
+  "total_signals": 1,
   "results": [
     {
       "ticker": "373220",
@@ -249,8 +249,8 @@
       "ticker": "011200",
       "name": "HMM",
       "is_fresh": true,
-      "best_signal": true,
-      "best_reason": "1차 저점(21,300) 지지 후 재반등",
+      "best_signal": false,
+      "best_reason": "",
       "has_active_entry": false,
       "signal_time": "09/03 10:55",
       "signal_price": 21300.0,
@@ -281,8 +281,8 @@
       "ticker": "010950",
       "name": "S-Oil",
       "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
+      "best_signal": true,
+      "best_reason": "1차 저점(145,700) 지지 후 재반등",
       "has_active_entry": false,
       "signal_time": "09/03 09:05",
       "signal_price": 145800.0,
@@ -550,6 +550,22 @@
       ]
     },
     {
+      "ticker": "214150",
+      "name": "클래시스",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "09/03 13:20",
+      "signal_price": 32150.0,
+      "rebound_time": "09/03 13:25",
+      "rebound_price": 32200.0,
+      "bars_after_signal": 1,
+      "reasons": [
+        "음봉형 도지"
+      ]
+    },
+    {
       "ticker": "240810",
       "name": "원익IPS",
       "is_fresh": true,
@@ -602,7 +618,7 @@
       "name": "에스원",
       "is_fresh": true,
       "best_signal": true,
-      "best_reason": "1차 저점(81,000) 지지 후 재반등",
+      "best_reason": "저점 이탈(81,000→80,900)했으나 RSI 다이버전스 동반 재반등 (RSI 36.4→36.1)",
       "has_active_entry": false,
       "signal_time": "09/03 12:55",
       "signal_price": 81000.0,
