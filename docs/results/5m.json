@@ -1,9 +1,9 @@
 {
   "timeframe": "5m",
   "timeframe_label": "5분봉",
-  "last_updated": "2026-09-03T13:26:52",
+  "last_updated": "2026-09-03T13:31:36",
   "total_tickers": 98,
-  "total_signals": 1,
+  "total_signals": 0,
   "results": [
     {
       "ticker": "373220",
@@ -473,8 +473,8 @@
       "ticker": "096770",
       "name": "SK이노베이션",
       "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
+      "best_signal": true,
+      "best_reason": "1차 저점(130,900) 지지 후 재반등",
       "has_active_entry": false,
       "signal_time": "09/03 13:00",
       "signal_price": 130900.0,
@@ -558,9 +558,9 @@
       "has_active_entry": false,
       "signal_time": "09/03 13:20",
       "signal_price": 32150.0,
-      "rebound_time": "09/03 13:25",
-      "rebound_price": 32200.0,
-      "bars_after_signal": 1,
+      "rebound_time": "09/03 13:30",
+      "rebound_price": 32100.0,
+      "bars_after_signal": 2,
       "reasons": [
         "음봉형 도지"
       ]
@@ -595,6 +595,22 @@
       "bars_after_signal": 3,
       "reasons": [
         "전 봉(음봉)보다 몸통이 큰 양봉"
+      ]
+    },
+    {
+      "ticker": "008930",
+      "name": "한미사이언스",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "09/03 13:25",
+      "signal_price": 51500.0,
+      "rebound_time": "09/03 13:30",
+      "rebound_price": 51500.0,
+      "bars_after_signal": 1,
+      "reasons": [
+        "음봉형 도지"
       ]
     },
     {
