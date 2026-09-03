@@ -194,5 +194,19 @@
     "pnl_pct": -2.82,
     "commission": 4658.0,
     "tax": 1318.0
+  },
+  {
+    "ticker": "096770",
+    "name": "SK이노베이션",
+    "qty": 7,
+    "entry_price": 135300.0,
+    "entry_time": "2026-09-02T09:23:24",
+    "exit_price": 131500.0,
+    "exit_time": "2026-09-03T09:00:19",
+    "reason": "손절(SL 도달)",
+    "pnl": -34978.0,
+    "pnl_pct": -3.69,
+    "commission": 6537.0,
+    "tax": 1841.0
   }
 ]
