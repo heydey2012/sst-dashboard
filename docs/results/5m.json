@@ -1,7 +1,7 @@
 {
   "timeframe": "5m",
   "timeframe_label": "5분봉",
-  "last_updated": "2026-09-03T09:26:47",
+  "last_updated": "2026-09-03T09:31:34",
   "total_tickers": 98,
   "total_signals": 3,
   "results": [
@@ -19,6 +19,22 @@
       "bars_after_signal": 1,
       "reasons": [
         "전 봉(음봉)보다 몸통이 큰 양봉"
+      ]
+    },
+    {
+      "ticker": "034730",
+      "name": "SK",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "09/03 09:15",
+      "signal_price": 539000.0,
+      "rebound_time": "09/03 09:25",
+      "rebound_price": 539000.0,
+      "bars_after_signal": 2,
+      "reasons": [
+        "음봉형 도지"
       ]
     },
     {
@@ -41,8 +57,8 @@
       "ticker": "051900",
       "name": "LG생활건강",
       "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
+      "best_signal": true,
+      "best_reason": "1차 저점(292,000) 지지 후 재반등",
       "has_active_entry": false,
       "signal_time": "09/03 09:05",
       "signal_price": 292000.0,
@@ -75,7 +91,7 @@
       "is_fresh": true,
       "best_signal": false,
       "best_reason": "",
-      "has_active_entry": true,
+      "has_active_entry": false,
       "signal_time": "09/03 09:15",
       "signal_price": 32450.0,
       "rebound_time": "09/03 09:20",
@@ -134,35 +150,19 @@
       ]
     },
     {
-      "ticker": "006260",
-      "name": "LS",
+      "ticker": "039490",
+      "name": "키움증권",
       "is_fresh": true,
       "best_signal": false,
       "best_reason": "",
       "has_active_entry": false,
       "signal_time": "09/03 09:15",
-      "signal_price": 290500.0,
-      "rebound_time": "09/03 09:25",
-      "rebound_price": 290500.0,
-      "bars_after_signal": 2,
+      "signal_price": 268500.0,
+      "rebound_time": "09/03 09:30",
+      "rebound_price": 268000.0,
+      "bars_after_signal": 3,
       "reasons": [
         "음봉형 도지"
-      ]
-    },
-    {
-      "ticker": "240810",
-      "name": "원익IPS",
-      "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
-      "has_active_entry": false,
-      "signal_time": "09/03 09:10",
-      "signal_price": 108400.0,
-      "rebound_time": "09/03 09:15",
-      "rebound_price": 108500.0,
-      "bars_after_signal": 1,
-      "reasons": [
-        "양봉형 도지"
       ]
     },
     {
