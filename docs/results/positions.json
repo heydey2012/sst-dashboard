@@ -1,10 +1,10 @@
 {
-  "last_updated": "2026-09-03T09:50:08",
+  "last_updated": "2026-09-03T09:52:11",
   "strategy_version": "current",
   "initial_capital": 10000000,
-  "current_capital": 9380023.0,
-  "return_pct": -6.2,
-  "profit_amount": -619977.0,
+  "current_capital": 9382211.0,
+  "return_pct": -6.18,
+  "profit_amount": -617789.0,
   "positions": [
     {
       "ticker": "042700",
@@ -37,7 +37,7 @@
       "qty": 5,
       "entry_price": 171300.0,
       "entry_time": "2026-08-31T09:24:20",
-      "current_price": 169000.0,
+      "current_price": 169200.0,
       "tp": 182000.0,
       "sl": 160600.0,
       "tp_basis": "피벗고점",
@@ -53,8 +53,8 @@
       "rebound_price": null,
       "bars_after_signal": null,
       "reasons": [],
-      "pnl": -19145.0,
-      "pnl_pct": -2.24
+      "pnl": -18151.0,
+      "pnl_pct": -2.12
     },
     {
       "ticker": "035420",
@@ -87,7 +87,7 @@
       "qty": 12,
       "entry_price": 79200.0,
       "entry_time": "2026-09-02T09:35:42",
-      "current_price": 76900.0,
+      "current_price": 77000.0,
       "tp": 83400.0,
       "sl": 75000.0,
       "tp_basis": "피벗고점",
@@ -105,8 +105,8 @@
       "reasons": [
         "전 봉(음봉)보다 몸통이 큰 양봉"
       ],
-      "pnl": -36002.0,
-      "pnl_pct": -3.79
+      "pnl": -34808.0,
+      "pnl_pct": -3.66
     },
     {
       "ticker": "005930",
