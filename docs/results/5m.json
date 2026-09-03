@@ -1,7 +1,7 @@
 {
   "timeframe": "5m",
   "timeframe_label": "5분봉",
-  "last_updated": "2026-09-03T12:06:50",
+  "last_updated": "2026-09-03T12:12:05",
   "total_tickers": 98,
   "total_signals": 0,
   "results": [
@@ -329,8 +329,8 @@
       "ticker": "051900",
       "name": "LG생활건강",
       "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
+      "best_signal": true,
+      "best_reason": "1차 저점(292,000) 지지 후 재반등",
       "has_active_entry": false,
       "signal_time": "09/03 09:05",
       "signal_price": 292000.0,
