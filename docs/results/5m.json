@@ -1,16 +1,16 @@
 {
   "timeframe": "5m",
   "timeframe_label": "5분봉",
-  "last_updated": "2026-09-03T09:31:34",
+  "last_updated": "2026-09-03T09:36:41",
   "total_tickers": 98,
-  "total_signals": 3,
+  "total_signals": 0,
   "results": [
     {
       "ticker": "329180",
       "name": "HD현대중공업",
       "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
+      "best_signal": true,
+      "best_reason": "1차 저점(414,500) 지지 후 재반등",
       "has_active_entry": false,
       "signal_time": "09/03 09:05",
       "signal_price": 414500.0,
@@ -32,6 +32,22 @@
       "signal_price": 539000.0,
       "rebound_time": "09/03 09:25",
       "rebound_price": 539000.0,
+      "bars_after_signal": 2,
+      "reasons": [
+        "음봉형 도지"
+      ]
+    },
+    {
+      "ticker": "010130",
+      "name": "고려아연",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "09/03 09:20",
+      "signal_price": 1185000.0,
+      "rebound_time": "09/03 09:30",
+      "rebound_price": 1188000.0,
       "bars_after_signal": 2,
       "reasons": [
         "음봉형 도지"
@@ -89,8 +105,8 @@
       "ticker": "006800",
       "name": "미래에셋증권",
       "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
+      "best_signal": true,
+      "best_reason": "1차 저점(32,450) 지지 후 재반등",
       "has_active_entry": false,
       "signal_time": "09/03 09:15",
       "signal_price": 32450.0,
@@ -105,8 +121,8 @@
       "ticker": "017670",
       "name": "SK텔레콤",
       "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
+      "best_signal": true,
+      "best_reason": "1차 저점(88,200) 지지 후 재반등",
       "has_active_entry": false,
       "signal_time": "09/03 09:10",
       "signal_price": 88200.0,
@@ -150,6 +166,22 @@
       ]
     },
     {
+      "ticker": "006260",
+      "name": "LS",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "09/03 09:15",
+      "signal_price": 290500.0,
+      "rebound_time": "09/03 09:30",
+      "rebound_price": 292000.0,
+      "bars_after_signal": 3,
+      "reasons": [
+        "전 봉(음봉)보다 몸통이 큰 양봉"
+      ]
+    },
+    {
       "ticker": "039490",
       "name": "키움증권",
       "is_fresh": true,
@@ -159,10 +191,10 @@
       "signal_time": "09/03 09:15",
       "signal_price": 268500.0,
       "rebound_time": "09/03 09:30",
-      "rebound_price": 268000.0,
+      "rebound_price": 271000.0,
       "bars_after_signal": 3,
       "reasons": [
-        "음봉형 도지"
+        "전 봉(음봉)보다 몸통이 큰 양봉"
       ]
     },
     {
