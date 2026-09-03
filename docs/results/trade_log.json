@@ -432,5 +432,19 @@
     "pnl_pct": 2.43,
     "commission": 4676.0,
     "tax": 1358.0
+  },
+  {
+    "ticker": "010120",
+    "name": "LS ELECTRIC",
+    "qty": 4,
+    "entry_price": 205250.0,
+    "entry_time": "2026-08-31T09:36:21",
+    "exit_price": 193000.0,
+    "exit_time": "2026-09-03T09:20:05",
+    "reason": "손절(SL 도달)",
+    "pnl": -56120.0,
+    "pnl_pct": -6.84,
+    "commission": 5576.0,
+    "tax": 1544.0
   }
 ]
