@@ -334,5 +334,19 @@
     "pnl_pct": 4.77,
     "commission": 6184.0,
     "tax": 1816.0
+  },
+  {
+    "ticker": "055550",
+    "name": "신한지주",
+    "qty": 8,
+    "entry_price": 112400.0,
+    "entry_time": "2026-09-04T10:20:54",
+    "exit_price": 110100.0,
+    "exit_time": "2026-09-04T13:50:20",
+    "reason": "손절(SL 도달)",
+    "pnl": -26392.0,
+    "pnl_pct": -2.94,
+    "commission": 6230.0,
+    "tax": 1762.0
   }
 ]
