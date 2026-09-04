@@ -1,9 +1,9 @@
 {
   "timeframe": "5m",
   "timeframe_label": "5분봉",
-  "last_updated": "2026-09-04T13:26:38",
+  "last_updated": "2026-09-04T13:31:34",
   "total_tickers": 98,
-  "total_signals": 1,
+  "total_signals": 0,
   "results": [
     {
       "ticker": "028260",
@@ -121,8 +121,8 @@
       "ticker": "138040",
       "name": "메리츠금융지주",
       "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
+      "best_signal": true,
+      "best_reason": "저점 이탈(135,100→134,000)했으나 RSI 다이버전스 동반 재반등 (RSI 33.4→32.0)",
       "has_active_entry": false,
       "signal_time": "09/04 09:50",
       "signal_price": 135100.0,
