@@ -1,7 +1,7 @@
 {
   "timeframe": "5m",
   "timeframe_label": "5분봉",
-  "last_updated": "2026-09-04T10:36:35",
+  "last_updated": "2026-09-04T10:41:51",
   "total_tickers": 98,
   "total_signals": 0,
   "results": [
@@ -25,8 +25,8 @@
       "ticker": "055550",
       "name": "신한지주",
       "is_fresh": true,
-      "best_signal": true,
-      "best_reason": "1차 저점(111,200) 지지 후 재반등",
+      "best_signal": false,
+      "best_reason": "",
       "has_active_entry": false,
       "signal_time": "09/04 09:40",
       "signal_price": 111400.0,
@@ -86,11 +86,27 @@
       ]
     },
     {
+      "ticker": "011200",
+      "name": "HMM",
+      "is_fresh": true,
+      "best_signal": true,
+      "best_reason": "1차 저점(21,200) 지지 후 재반등",
+      "has_active_entry": false,
+      "signal_time": "09/04 10:25",
+      "signal_price": 21200.0,
+      "rebound_time": "09/04 10:30",
+      "rebound_price": 21250.0,
+      "bars_after_signal": 1,
+      "reasons": [
+        "음봉형 도지"
+      ]
+    },
+    {
       "ticker": "316140",
       "name": "우리금융지주",
       "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
+      "best_signal": true,
+      "best_reason": "1차 저점(33,650) 지지 후 재반등",
       "has_active_entry": false,
       "signal_time": "09/04 10:00",
       "signal_price": 33650.0,
@@ -137,8 +153,8 @@
       "ticker": "097950",
       "name": "CJ제일제당",
       "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
+      "best_signal": true,
+      "best_reason": "1차 저점(183,400) 지지 후 재반등",
       "has_active_entry": false,
       "signal_time": "09/04 09:45",
       "signal_price": 183400.0,
@@ -256,6 +272,22 @@
       "signal_price": 20950.0,
       "rebound_time": "09/04 09:30",
       "rebound_price": 20950.0,
+      "bars_after_signal": 3,
+      "reasons": [
+        "음봉형 도지"
+      ]
+    },
+    {
+      "ticker": "293490",
+      "name": "카카오게임즈",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "09/04 10:25",
+      "signal_price": 8950.0,
+      "rebound_time": "09/04 10:40",
+      "rebound_price": 8930.0,
       "bars_after_signal": 3,
       "reasons": [
         "음봉형 도지"
