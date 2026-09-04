@@ -1,7 +1,7 @@
 {
   "timeframe": "15m",
   "timeframe_label": "15분봉",
-  "last_updated": "2026-09-04T12:55:11",
+  "last_updated": "2026-09-04T13:10:53",
   "total_tickers": 98,
   "total_signals": 0,
   "results": [
@@ -81,6 +81,22 @@
       "rebound_time": "09/04 09:45",
       "rebound_price": 197300.0,
       "bars_after_signal": 1,
+      "reasons": [
+        "전 봉(음봉)보다 몸통이 큰 양봉"
+      ]
+    },
+    {
+      "ticker": "011780",
+      "name": "금호석유",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "09/04 11:30",
+      "signal_price": 125600.0,
+      "rebound_time": "09/04 13:00",
+      "rebound_price": 126400.0,
+      "bars_after_signal": 6,
       "reasons": [
         "전 봉(음봉)보다 몸통이 큰 양봉"
       ]
