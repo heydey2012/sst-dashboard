@@ -1,7 +1,7 @@
 {
   "timeframe": "5m",
   "timeframe_label": "5분봉",
-  "last_updated": "2026-09-04T12:01:35",
+  "last_updated": "2026-09-04T12:39:05",
   "total_tickers": 98,
   "total_signals": 0,
   "results": [
@@ -106,7 +106,7 @@
       "name": "우리금융지주",
       "is_fresh": true,
       "best_signal": true,
-      "best_reason": "1차 저점(33,650) 지지 후 재반등",
+      "best_reason": "저점 이탈(33,650→33,600)했으나 RSI 다이버전스 동반 재반등 (RSI 26.4→34.0)",
       "has_active_entry": false,
       "signal_time": "09/04 10:00",
       "signal_price": 33650.0,
@@ -225,22 +225,6 @@
       "rebound_time": "09/04 10:15",
       "rebound_price": 437000.0,
       "bars_after_signal": 1,
-      "reasons": [
-        "전 봉(음봉)보다 몸통이 큰 양봉"
-      ]
-    },
-    {
-      "ticker": "058470",
-      "name": "리노공업",
-      "is_fresh": true,
-      "best_signal": true,
-      "best_reason": "1차 저점(65,300) 지지 후 재반등",
-      "has_active_entry": false,
-      "signal_time": "09/04 10:05",
-      "signal_price": 65300.0,
-      "rebound_time": "09/04 10:20",
-      "rebound_price": 65600.0,
-      "bars_after_signal": 3,
       "reasons": [
         "전 봉(음봉)보다 몸통이 큰 양봉"
       ]
