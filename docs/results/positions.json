@@ -1,10 +1,10 @@
 {
-  "last_updated": "2026-09-04T10:38:07",
+  "last_updated": "2026-09-04T10:40:07",
   "strategy_version": "current",
   "initial_capital": 10000000,
-  "current_capital": 9494331.0,
-  "return_pct": -5.06,
-  "profit_amount": -505669.0,
+  "current_capital": 9482264.0,
+  "return_pct": -5.18,
+  "profit_amount": -517736.0,
   "positions": [
     {
       "ticker": "036930",
@@ -12,7 +12,7 @@
       "qty": 5,
       "entry_price": 171300.0,
       "entry_time": "2026-08-31T09:24:20",
-      "current_price": 173900.0,
+      "current_price": 173300.0,
       "tp": 182000.0,
       "sl": 160600.0,
       "tp_basis": "피벗고점",
@@ -28,8 +28,8 @@
       "rebound_price": null,
       "bars_after_signal": null,
       "reasons": [],
-      "pnl": 5220.0,
-      "pnl_pct": 0.61
+      "pnl": 2236.0,
+      "pnl_pct": 0.26
     },
     {
       "ticker": "034020",
@@ -64,7 +64,7 @@
       "qty": 2,
       "entry_price": 429500.0,
       "entry_time": "2026-09-02T11:18:30",
-      "current_price": 440000.0,
+      "current_price": 439500.0,
       "tp": 454000.0,
       "sl": 405000.0,
       "tp_basis": "피벗고점",
@@ -82,8 +82,8 @@
       "reasons": [
         "음봉형 도지"
       ],
-      "pnl": 13154.0,
-      "pnl_pct": 1.53
+      "pnl": 12159.0,
+      "pnl_pct": 1.42
     },
     {
       "ticker": "066570",
@@ -145,7 +145,7 @@
       "qty": 8,
       "entry_price": 112400.0,
       "entry_time": "2026-09-04T10:20:53",
-      "current_price": 111300.0,
+      "current_price": 111400.0,
       "tp": 115400.0,
       "sl": 110400.0,
       "tp_basis": "피벗고점",
@@ -163,8 +163,35 @@
       "reasons": [
         "연속 양봉 2개 이상"
       ],
-      "pnl": -16844.0,
-      "pnl_pct": -1.87
+      "pnl": -16049.0,
+      "pnl_pct": -1.78
+    },
+    {
+      "ticker": "010140",
+      "name": "삼성중공업",
+      "qty": 47,
+      "entry_price": 21000.0,
+      "entry_time": "2026-09-04T10:39:14",
+      "current_price": 21000.0,
+      "tp": 21800.0,
+      "sl": 19940.0,
+      "tp_basis": "피벗고점",
+      "sl_basis": "피벗저점",
+      "pivot_high": 21800.0,
+      "pivot_low": 19940.0,
+      "best_reason": "1차 저점(20,850) 지지 후 재반등",
+      "timeframe": "15m",
+      "signal_time": "2026-09-04 10:00:00",
+      "signal_price": 20850.0,
+      "signal_rsi": 39.81861500546722,
+      "rebound_time": "2026-09-04 10:15:00",
+      "rebound_price": 21000.0,
+      "bars_after_signal": 1,
+      "reasons": [
+        "전 봉(음봉)보다 몸통이 큰 양봉"
+      ],
+      "pnl": -8883.0,
+      "pnl_pct": -0.9
     }
   ]
 }
