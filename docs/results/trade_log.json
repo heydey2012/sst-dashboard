@@ -488,5 +488,19 @@
     "pnl_pct": -3.44,
     "commission": 5287.0,
     "tax": 1491.0
+  },
+  {
+    "ticker": "042700",
+    "name": "한미반도체",
+    "qty": 4,
+    "entry_price": 212000.0,
+    "entry_time": "2026-08-31T09:23:48",
+    "exit_price": 223500.0,
+    "exit_time": "2026-09-04T09:18:01",
+    "reason": "익절(TP 도달)",
+    "pnl": 38115.0,
+    "pnl_pct": 4.49,
+    "commission": 6097.0,
+    "tax": 1788.0
   }
 ]
