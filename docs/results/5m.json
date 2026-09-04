@@ -1,9 +1,9 @@
 {
   "timeframe": "5m",
   "timeframe_label": "5분봉",
-  "last_updated": "2026-09-04T09:51:47",
+  "last_updated": "2026-09-04T09:56:33",
   "total_tickers": 98,
-  "total_signals": 4,
+  "total_signals": 3,
   "results": [
     {
       "ticker": "028260",
@@ -19,6 +19,22 @@
       "bars_after_signal": 2,
       "reasons": [
         "연속 양봉 2개 이상"
+      ]
+    },
+    {
+      "ticker": "055550",
+      "name": "신한지주",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "09/04 09:40",
+      "signal_price": 111400.0,
+      "rebound_time": "09/04 09:50",
+      "rebound_price": 111200.0,
+      "bars_after_signal": 2,
+      "reasons": [
+        "음봉형 도지"
       ]
     },
     {
@@ -38,17 +54,17 @@
       ]
     },
     {
-      "ticker": "051900",
-      "name": "LG생활건강",
+      "ticker": "214150",
+      "name": "클래시스",
       "is_fresh": true,
       "best_signal": false,
       "best_reason": "",
       "has_active_entry": false,
-      "signal_time": "09/04 09:40",
-      "signal_price": 286500.0,
-      "rebound_time": "09/04 09:45",
-      "rebound_price": 287000.0,
-      "bars_after_signal": 1,
+      "signal_time": "09/04 09:45",
+      "signal_price": 31200.0,
+      "rebound_time": "09/04 09:55",
+      "rebound_price": 31250.0,
+      "bars_after_signal": 2,
       "reasons": [
         "음봉형 도지"
       ]
