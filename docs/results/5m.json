@@ -1,9 +1,9 @@
 {
   "timeframe": "5m",
   "timeframe_label": "5분봉",
-  "last_updated": "2026-09-04T09:56:33",
+  "last_updated": "2026-09-04T10:01:37",
   "total_tickers": 98,
-  "total_signals": 3,
+  "total_signals": 2,
   "results": [
     {
       "ticker": "028260",
@@ -38,6 +38,22 @@
       ]
     },
     {
+      "ticker": "086790",
+      "name": "하나금융지주",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "09/04 09:40",
+      "signal_price": 136700.0,
+      "rebound_time": "09/04 09:55",
+      "rebound_price": 136300.0,
+      "bars_after_signal": 3,
+      "reasons": [
+        "음봉형 도지"
+      ]
+    },
+    {
       "ticker": "000810",
       "name": "삼성화재",
       "is_fresh": true,
@@ -54,17 +70,65 @@
       ]
     },
     {
-      "ticker": "214150",
-      "name": "클래시스",
+      "ticker": "030200",
+      "name": "KT",
+      "is_fresh": true,
+      "best_signal": true,
+      "best_reason": "1차 저점(53,500) 지지 후 재반등",
+      "has_active_entry": false,
+      "signal_time": "09/04 09:45",
+      "signal_price": 53500.0,
+      "rebound_time": "09/04 09:50",
+      "rebound_price": 53500.0,
+      "bars_after_signal": 1,
+      "reasons": [
+        "음봉형 도지"
+      ]
+    },
+    {
+      "ticker": "097950",
+      "name": "CJ제일제당",
       "is_fresh": true,
       "best_signal": false,
       "best_reason": "",
       "has_active_entry": false,
       "signal_time": "09/04 09:45",
-      "signal_price": 31200.0,
+      "signal_price": 183400.0,
       "rebound_time": "09/04 09:55",
-      "rebound_price": 31250.0,
+      "rebound_price": 184100.0,
       "bars_after_signal": 2,
+      "reasons": [
+        "연속 양봉 2개 이상"
+      ]
+    },
+    {
+      "ticker": "051900",
+      "name": "LG생활건강",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "09/04 09:40",
+      "signal_price": 286500.0,
+      "rebound_time": "09/04 09:55",
+      "rebound_price": 288500.0,
+      "bars_after_signal": 3,
+      "reasons": [
+        "전 봉(음봉)보다 몸통이 큰 양봉"
+      ]
+    },
+    {
+      "ticker": "357780",
+      "name": "솔브레인",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "09/04 09:55",
+      "signal_price": 319500.0,
+      "rebound_time": "09/04 10:00",
+      "rebound_price": 320500.0,
+      "bars_after_signal": 1,
       "reasons": [
         "음봉형 도지"
       ]
