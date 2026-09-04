@@ -1,7 +1,7 @@
 {
   "timeframe": "15m",
   "timeframe_label": "15분봉",
-  "last_updated": "2026-09-04T10:39:45",
+  "last_updated": "2026-09-04T10:55:05",
   "total_tickers": 98,
   "total_signals": 0,
   "results": [
@@ -54,11 +54,27 @@
       ]
     },
     {
-      "ticker": "005830",
-      "name": "DB손해보험",
+      "ticker": "000810",
+      "name": "삼성화재",
       "is_fresh": true,
       "best_signal": false,
       "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "09/04 09:45",
+      "signal_price": 663000.0,
+      "rebound_time": "09/04 10:30",
+      "rebound_price": 664000.0,
+      "bars_after_signal": 3,
+      "reasons": [
+        "전 봉(음봉)보다 몸통이 큰 양봉"
+      ]
+    },
+    {
+      "ticker": "005830",
+      "name": "DB손해보험",
+      "is_fresh": true,
+      "best_signal": true,
+      "best_reason": "1차 저점(196,200) 지지 후 재반등",
       "has_active_entry": false,
       "signal_time": "09/04 09:30",
       "signal_price": 196200.0,
@@ -73,8 +89,8 @@
       "ticker": "010140",
       "name": "삼성중공업",
       "is_fresh": true,
-      "best_signal": true,
-      "best_reason": "1차 저점(20,850) 지지 후 재반등",
+      "best_signal": false,
+      "best_reason": "",
       "has_active_entry": false,
       "signal_time": "09/04 10:00",
       "signal_price": 20850.0,
