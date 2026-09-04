@@ -1,9 +1,9 @@
 {
   "timeframe": "5m",
   "timeframe_label": "5분봉",
-  "last_updated": "2026-09-04T10:06:52",
+  "last_updated": "2026-09-04T10:12:08",
   "total_tickers": 98,
-  "total_signals": 1,
+  "total_signals": 2,
   "results": [
     {
       "ticker": "028260",
@@ -73,8 +73,8 @@
       "ticker": "030200",
       "name": "KT",
       "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
+      "best_signal": true,
+      "best_reason": "저점 이탈(53,500→53,400)했으나 RSI 다이버전스 동반 재반등 (RSI 41.6→40.4)",
       "has_active_entry": false,
       "signal_time": "09/04 09:45",
       "signal_price": 53500.0,
@@ -105,8 +105,8 @@
       "ticker": "097950",
       "name": "CJ제일제당",
       "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
+      "best_signal": true,
+      "best_reason": "1차 저점(183,400) 지지 후 재반등",
       "has_active_entry": false,
       "signal_time": "09/04 09:45",
       "signal_price": 183400.0,
@@ -129,6 +129,22 @@
       "rebound_time": "09/04 09:55",
       "rebound_price": 289000.0,
       "bars_after_signal": 3,
+      "reasons": [
+        "전 봉(음봉)보다 몸통이 큰 양봉"
+      ]
+    },
+    {
+      "ticker": "004990",
+      "name": "롯데지주",
+      "is_fresh": true,
+      "best_signal": true,
+      "best_reason": "1차 저점(24,600) 지지 후 재반등",
+      "has_active_entry": false,
+      "signal_time": "09/04 09:40",
+      "signal_price": 24600.0,
+      "rebound_time": "09/04 10:00",
+      "rebound_price": 24700.0,
+      "bars_after_signal": 4,
       "reasons": [
         "전 봉(음봉)보다 몸통이 큰 양봉"
       ]
