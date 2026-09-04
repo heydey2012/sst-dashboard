@@ -1,21 +1,53 @@
 {
   "timeframe": "15m",
   "timeframe_label": "15분봉",
-  "last_updated": "2026-09-04T10:10:35",
+  "last_updated": "2026-09-04T10:24:52",
   "total_tickers": 98,
-  "total_signals": 2,
+  "total_signals": 0,
   "results": [
+    {
+      "ticker": "105560",
+      "name": "KB금융",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "09/04 09:30",
+      "signal_price": 172600.0,
+      "rebound_time": "09/04 10:00",
+      "rebound_price": 173100.0,
+      "bars_after_signal": 2,
+      "reasons": [
+        "음봉형 도지"
+      ]
+    },
     {
       "ticker": "028260",
       "name": "삼성물산",
       "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
+      "best_signal": true,
+      "best_reason": "1차 저점(354,500) 지지 후 재반등",
       "has_active_entry": false,
       "signal_time": "09/04 09:00",
       "signal_price": 354500.0,
       "rebound_time": "09/04 09:30",
       "rebound_price": 360000.0,
+      "bars_after_signal": 2,
+      "reasons": [
+        "연속 양봉 2개 이상"
+      ]
+    },
+    {
+      "ticker": "055550",
+      "name": "신한지주",
+      "is_fresh": true,
+      "best_signal": true,
+      "best_reason": "1차 저점(111,400) 지지 후 재반등",
+      "has_active_entry": false,
+      "signal_time": "09/04 09:30",
+      "signal_price": 111400.0,
+      "rebound_time": "09/04 10:00",
+      "rebound_price": 112000.0,
       "bars_after_signal": 2,
       "reasons": [
         "연속 양봉 2개 이상"
@@ -32,6 +64,22 @@
       "signal_price": 196200.0,
       "rebound_time": "09/04 09:45",
       "rebound_price": 197300.0,
+      "bars_after_signal": 1,
+      "reasons": [
+        "전 봉(음봉)보다 몸통이 큰 양봉"
+      ]
+    },
+    {
+      "ticker": "010140",
+      "name": "삼성중공업",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": true,
+      "signal_time": "09/04 10:00",
+      "signal_price": 20850.0,
+      "rebound_time": "09/04 10:15",
+      "rebound_price": 21050.0,
       "bars_after_signal": 1,
       "reasons": [
         "전 봉(음봉)보다 몸통이 큰 양봉"
