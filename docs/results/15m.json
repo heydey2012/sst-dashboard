@@ -1,10 +1,26 @@
 {
   "timeframe": "15m",
   "timeframe_label": "15분봉",
-  "last_updated": "2026-09-04T12:42:30",
+  "last_updated": "2026-09-04T12:55:11",
   "total_tickers": 98,
   "total_signals": 0,
   "results": [
+    {
+      "ticker": "105560",
+      "name": "KB금융",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "09/04 09:30",
+      "signal_price": 172600.0,
+      "rebound_time": "09/04 10:00",
+      "rebound_price": 173100.0,
+      "bars_after_signal": 2,
+      "reasons": [
+        "음봉형 도지"
+      ]
+    },
     {
       "ticker": "028260",
       "name": "삼성물산",
@@ -16,6 +32,22 @@
       "signal_price": 354500.0,
       "rebound_time": "09/04 09:30",
       "rebound_price": 360000.0,
+      "bars_after_signal": 2,
+      "reasons": [
+        "연속 양봉 2개 이상"
+      ]
+    },
+    {
+      "ticker": "055550",
+      "name": "신한지주",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "09/04 09:30",
+      "signal_price": 111400.0,
+      "rebound_time": "09/04 10:00",
+      "rebound_price": 112000.0,
       "bars_after_signal": 2,
       "reasons": [
         "연속 양봉 2개 이상"
@@ -51,22 +83,6 @@
       "bars_after_signal": 1,
       "reasons": [
         "전 봉(음봉)보다 몸통이 큰 양봉"
-      ]
-    },
-    {
-      "ticker": "011780",
-      "name": "금호석유",
-      "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
-      "has_active_entry": false,
-      "signal_time": "09/04 11:30",
-      "signal_price": 125600.0,
-      "rebound_time": "09/04 12:30",
-      "rebound_price": 125500.0,
-      "bars_after_signal": 4,
-      "reasons": [
-        "연속 양봉 2개 이상"
       ]
     },
     {
