@@ -502,5 +502,19 @@
     "pnl_pct": 4.49,
     "commission": 6097.0,
     "tax": 1788.0
+  },
+  {
+    "ticker": "240810",
+    "name": "원익IPS",
+    "qty": 9,
+    "entry_price": 106900.0,
+    "entry_time": "2026-09-03T11:38:43",
+    "exit_price": 111200.0,
+    "exit_time": "2026-09-04T10:36:05",
+    "reason": "익절(TP 도달)",
+    "pnl": 29828.0,
+    "pnl_pct": 3.1,
+    "commission": 6870.0,
+    "tax": 2002.0
   }
 ]
