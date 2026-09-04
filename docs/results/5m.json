@@ -1,9 +1,9 @@
 {
   "timeframe": "5m",
   "timeframe_label": "5분봉",
-  "last_updated": "2026-09-04T12:46:37",
+  "last_updated": "2026-09-04T12:51:44",
   "total_tickers": 98,
-  "total_signals": 1,
+  "total_signals": 0,
   "results": [
     {
       "ticker": "028260",
@@ -25,8 +25,8 @@
       "ticker": "055550",
       "name": "신한지주",
       "is_fresh": true,
-      "best_signal": true,
-      "best_reason": "저점 이탈(111,200→111,100)했으나 RSI 다이버전스 동반 재반등 (RSI 26.9→38.0)",
+      "best_signal": false,
+      "best_reason": "",
       "has_active_entry": false,
       "signal_time": "09/04 09:40",
       "signal_price": 111400.0,
@@ -41,8 +41,8 @@
       "ticker": "086790",
       "name": "하나금융지주",
       "is_fresh": true,
-      "best_signal": true,
-      "best_reason": "저점 이탈(136,200→135,800)했으나 RSI 다이버전스 동반 재반등 (RSI 26.4→36.0)",
+      "best_signal": false,
+      "best_reason": "",
       "has_active_entry": false,
       "signal_time": "09/04 09:40",
       "signal_price": 136700.0,
@@ -105,8 +105,8 @@
       "ticker": "316140",
       "name": "우리금융지주",
       "is_fresh": true,
-      "best_signal": true,
-      "best_reason": "저점 이탈(33,650→33,500)했으나 RSI 다이버전스 동반 재반등 (RSI 26.4→34.8)",
+      "best_signal": false,
+      "best_reason": "",
       "has_active_entry": false,
       "signal_time": "09/04 10:00",
       "signal_price": 33650.0,
@@ -291,6 +291,22 @@
       "bars_after_signal": 3,
       "reasons": [
         "음봉형 도지"
+      ]
+    },
+    {
+      "ticker": "000880",
+      "name": "한화",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": true,
+      "signal_time": "09/04 12:45",
+      "signal_price": 136000.0,
+      "rebound_time": "09/04 12:50",
+      "rebound_price": 136100.0,
+      "bars_after_signal": 1,
+      "reasons": [
+        "전 봉(음봉)보다 몸통이 큰 양봉"
       ]
     },
     {
