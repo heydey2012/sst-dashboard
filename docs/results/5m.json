@@ -1,7 +1,7 @@
 {
   "timeframe": "5m",
   "timeframe_label": "5분봉",
-  "last_updated": "2026-09-04T13:43:43",
+  "last_updated": "2026-09-04T13:51:35",
   "total_tickers": 98,
   "total_signals": 0,
   "results": [
@@ -201,8 +201,8 @@
       "ticker": "004990",
       "name": "롯데지주",
       "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
+      "best_signal": true,
+      "best_reason": "1차 저점(24,600) 지지 후 재반등",
       "has_active_entry": false,
       "signal_time": "09/04 09:40",
       "signal_price": 24600.0,
@@ -313,14 +313,14 @@
       "ticker": "259960",
       "name": "크래프톤",
       "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
+      "best_signal": true,
+      "best_reason": "1차 저점(215,500) 지지 후 재반등",
       "has_active_entry": false,
       "signal_time": "09/04 13:15",
       "signal_price": 216000.0,
-      "rebound_time": "09/04 13:40",
-      "rebound_price": 215500.0,
-      "bars_after_signal": 5,
+      "rebound_time": "09/04 13:45",
+      "rebound_price": 216000.0,
+      "bars_after_signal": 6,
       "reasons": [
         "음봉형 도지"
       ]
