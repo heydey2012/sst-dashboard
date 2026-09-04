@@ -1,7 +1,7 @@
 {
   "timeframe": "5m",
   "timeframe_label": "5분봉",
-  "last_updated": "2026-09-04T12:51:44",
+  "last_updated": "2026-09-04T12:57:02",
   "total_tickers": 98,
   "total_signals": 0,
   "results": [
@@ -41,8 +41,8 @@
       "ticker": "086790",
       "name": "하나금융지주",
       "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
+      "best_signal": true,
+      "best_reason": "저점 이탈(136,200→135,700)했으나 RSI 다이버전스 동반 재반등 (RSI 26.4→34.8)",
       "has_active_entry": false,
       "signal_time": "09/04 09:40",
       "signal_price": 136700.0,
@@ -299,11 +299,11 @@
       "is_fresh": true,
       "best_signal": false,
       "best_reason": "",
-      "has_active_entry": true,
+      "has_active_entry": false,
       "signal_time": "09/04 12:45",
       "signal_price": 136000.0,
       "rebound_time": "09/04 12:50",
-      "rebound_price": 136100.0,
+      "rebound_price": 136500.0,
       "bars_after_signal": 1,
       "reasons": [
         "전 봉(음봉)보다 몸통이 큰 양봉"
