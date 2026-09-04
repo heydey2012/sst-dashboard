@@ -292,5 +292,19 @@
     "pnl_pct": 1.02,
     "commission": 6670.0,
     "tax": 1924.0
+  },
+  {
+    "ticker": "010950",
+    "name": "S-Oil",
+    "qty": 6,
+    "entry_price": 147700.0,
+    "entry_time": "2026-09-03T13:07:28",
+    "exit_price": 155200.0,
+    "exit_time": "2026-09-04T09:02:15",
+    "reason": "익절(TP 도달)",
+    "pnl": 36777.0,
+    "pnl_pct": 4.15,
+    "commission": 6361.0,
+    "tax": 1862.0
   }
 ]
