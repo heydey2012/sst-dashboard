@@ -1,9 +1,9 @@
 {
   "timeframe": "5m",
   "timeframe_label": "5분봉",
-  "last_updated": "2026-09-04T09:46:34",
+  "last_updated": "2026-09-04T09:51:47",
   "total_tickers": 98,
-  "total_signals": 5,
+  "total_signals": 4,
   "results": [
     {
       "ticker": "028260",
@@ -38,11 +38,27 @@
       ]
     },
     {
+      "ticker": "051900",
+      "name": "LG생활건강",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "09/04 09:40",
+      "signal_price": 286500.0,
+      "rebound_time": "09/04 09:45",
+      "rebound_price": 287000.0,
+      "bars_after_signal": 1,
+      "reasons": [
+        "음봉형 도지"
+      ]
+    },
+    {
       "ticker": "010140",
       "name": "삼성중공업",
       "is_fresh": true,
       "best_signal": true,
-      "best_reason": "저점 이탈(20,900→20,800)했으나 RSI 다이버전스 동반 재반등 (RSI 31.8→30.6)",
+      "best_reason": "저점 이탈(20,900→20,750)했으나 RSI 다이버전스 동반 재반등 (RSI 31.8→29.3)",
       "has_active_entry": false,
       "signal_time": "09/04 09:15",
       "signal_price": 20950.0,
