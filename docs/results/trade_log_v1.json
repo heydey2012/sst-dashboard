@@ -278,5 +278,19 @@
     "pnl_pct": -3.04,
     "commission": 6296.0,
     "tax": 1779.0
+  },
+  {
+    "ticker": "000120",
+    "name": "CJ대한통운",
+    "qty": 13,
+    "entry_price": 72600.0,
+    "entry_time": "2026-09-03T14:30:13",
+    "exit_price": 74000.0,
+    "exit_time": "2026-09-04T09:00:19",
+    "reason": "익절(TP 도달)",
+    "pnl": 9606.0,
+    "pnl_pct": 1.02,
+    "commission": 6670.0,
+    "tax": 1924.0
   }
 ]
