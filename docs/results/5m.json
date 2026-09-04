@@ -1,7 +1,7 @@
 {
   "timeframe": "5m",
   "timeframe_label": "5분봉",
-  "last_updated": "2026-09-04T11:56:40",
+  "last_updated": "2026-09-04T12:01:35",
   "total_tickers": 98,
   "total_signals": 0,
   "results": [
@@ -41,8 +41,8 @@
       "ticker": "086790",
       "name": "하나금융지주",
       "is_fresh": true,
-      "best_signal": true,
-      "best_reason": "1차 저점(136,200) 지지 후 재반등",
+      "best_signal": false,
+      "best_reason": "",
       "has_active_entry": false,
       "signal_time": "09/04 09:40",
       "signal_price": 136700.0,
