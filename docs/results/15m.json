@@ -1,9 +1,9 @@
 {
   "timeframe": "15m",
   "timeframe_label": "15분봉",
-  "last_updated": "2026-09-04T09:54:42",
+  "last_updated": "2026-09-04T10:10:35",
   "total_tickers": 98,
-  "total_signals": 5,
+  "total_signals": 2,
   "results": [
     {
       "ticker": "028260",
@@ -19,6 +19,22 @@
       "bars_after_signal": 2,
       "reasons": [
         "연속 양봉 2개 이상"
+      ]
+    },
+    {
+      "ticker": "005830",
+      "name": "DB손해보험",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "09/04 09:30",
+      "signal_price": 196200.0,
+      "rebound_time": "09/04 09:45",
+      "rebound_price": 197300.0,
+      "bars_after_signal": 1,
+      "reasons": [
+        "전 봉(음봉)보다 몸통이 큰 양봉"
       ]
     }
   ]
