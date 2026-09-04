@@ -1,10 +1,10 @@
 {
-  "last_updated": "2026-09-04T14:06:09",
+  "last_updated": "2026-09-04T14:08:10",
   "strategy_version": "current",
   "initial_capital": 10000000,
-  "current_capital": 9457911.0,
-  "return_pct": -5.42,
-  "profit_amount": -542089.0,
+  "current_capital": 9451447.0,
+  "return_pct": -5.49,
+  "profit_amount": -548553.0,
   "positions": [
     {
       "ticker": "036930",
@@ -12,7 +12,7 @@
       "qty": 5,
       "entry_price": 171300.0,
       "entry_time": "2026-08-31T09:24:20",
-      "current_price": 178400.0,
+      "current_price": 178350.0,
       "tp": 182000.0,
       "sl": 160600.0,
       "tp_basis": "피벗고점",
@@ -28,8 +28,8 @@
       "rebound_price": null,
       "bars_after_signal": null,
       "reasons": [],
-      "pnl": 27596.0,
-      "pnl_pct": 3.22
+      "pnl": 27348.0,
+      "pnl_pct": 3.19
     },
     {
       "ticker": "034020",
@@ -64,7 +64,7 @@
       "qty": 2,
       "entry_price": 429500.0,
       "entry_time": "2026-09-02T11:18:30",
-      "current_price": 435000.0,
+      "current_price": 434500.0,
       "tp": 454000.0,
       "sl": 405000.0,
       "tp_basis": "피벗고점",
@@ -82,8 +82,8 @@
       "reasons": [
         "음봉형 도지"
       ],
-      "pnl": 3208.0,
-      "pnl_pct": 0.37
+      "pnl": 2214.0,
+      "pnl_pct": 0.26
     },
     {
       "ticker": "066570",
@@ -118,7 +118,7 @@
       "qty": 2,
       "entry_price": 360000.0,
       "entry_time": "2026-09-04T10:20:51",
-      "current_price": 367000.0,
+      "current_price": 367500.0,
       "tp": 385500.0,
       "sl": 334500.0,
       "tp_basis": "피벗고점",
@@ -136,8 +136,8 @@
       "reasons": [
         "연속 양봉 2개 이상"
       ],
-      "pnl": 7443.0,
-      "pnl_pct": 1.03
+      "pnl": 8438.0,
+      "pnl_pct": 1.17
     },
     {
       "ticker": "010140",
@@ -145,7 +145,7 @@
       "qty": 47,
       "entry_price": 21000.0,
       "entry_time": "2026-09-04T10:39:14",
-      "current_price": 21000.0,
+      "current_price": 21050.0,
       "tp": 21800.0,
       "sl": 19940.0,
       "tp_basis": "피벗고점",
@@ -163,8 +163,8 @@
       "reasons": [
         "전 봉(음봉)보다 몸통이 큰 양봉"
       ],
-      "pnl": -8883.0,
-      "pnl_pct": -0.9
+      "pnl": -6546.0,
+      "pnl_pct": -0.66
     },
     {
       "ticker": "005830",
@@ -172,7 +172,7 @@
       "qty": 5,
       "entry_price": 197200.0,
       "entry_time": "2026-09-04T10:52:42",
-      "current_price": 194700.0,
+      "current_price": 194300.0,
       "tp": 207500.0,
       "sl": 190300.0,
       "tp_basis": "피벗고점",
@@ -190,8 +190,8 @@
       "reasons": [
         "전 봉(음봉)보다 몸통이 큰 양봉"
       ],
-      "pnl": -21305.0,
-      "pnl_pct": -2.16
+      "pnl": -23294.0,
+      "pnl_pct": -2.36
     },
     {
       "ticker": "105560",
@@ -199,7 +199,7 @@
       "qty": 5,
       "entry_price": 174000.0,
       "entry_time": "2026-09-04T11:35:33",
-      "current_price": 172000.0,
+      "current_price": 171800.0,
       "tp": 180400.0,
       "sl": 169000.0,
       "tp_basis": "피벗고점",
@@ -217,8 +217,8 @@
       "reasons": [
         "음봉형 도지"
       ],
-      "pnl": -17775.0,
-      "pnl_pct": -2.04
+      "pnl": -18770.0,
+      "pnl_pct": -2.16
     },
     {
       "ticker": "000810",
@@ -226,7 +226,7 @@
       "qty": 1,
       "entry_price": 663000.0,
       "entry_time": "2026-09-04T11:36:17",
-      "current_price": 663000.0,
+      "current_price": 661000.0,
       "tp": 704000.0,
       "sl": 630000.0,
       "tp_basis": "피벗고점",
@@ -244,8 +244,8 @@
       "reasons": [
         "전 봉(음봉)보다 몸통이 큰 양봉"
       ],
-      "pnl": -5967.0,
-      "pnl_pct": -0.9
+      "pnl": -7956.0,
+      "pnl_pct": -1.2
     },
     {
       "ticker": "055550",
@@ -253,7 +253,7 @@
       "qty": 9,
       "entry_price": 110400.0,
       "entry_time": "2026-09-04T14:05:50",
-      "current_price": 110500.0,
+      "current_price": 110100.0,
       "tp": 115400.0,
       "sl": 105400.0,
       "tp_basis": "피벗고점",
@@ -271,8 +271,8 @@
       "reasons": [
         "연속 양봉 2개 이상"
       ],
-      "pnl": -8047.0,
-      "pnl_pct": -0.81
+      "pnl": -11628.0,
+      "pnl_pct": -1.17
     }
   ]
 }
