@@ -1,9 +1,9 @@
 {
   "timeframe": "5m",
   "timeframe_label": "5분봉",
-  "last_updated": "2026-09-04T13:21:49",
+  "last_updated": "2026-09-04T13:26:38",
   "total_tickers": 98,
-  "total_signals": 0,
+  "total_signals": 1,
   "results": [
     {
       "ticker": "028260",
@@ -41,8 +41,8 @@
       "ticker": "086790",
       "name": "하나금융지주",
       "is_fresh": true,
-      "best_signal": true,
-      "best_reason": "저점 이탈(136,200→135,400)했으나 RSI 다이버전스 동반 재반등 (RSI 26.4→32.2)",
+      "best_signal": false,
+      "best_reason": "",
       "has_active_entry": false,
       "signal_time": "09/04 09:40",
       "signal_price": 136700.0,
