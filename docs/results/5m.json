@@ -1,10 +1,58 @@
 {
   "timeframe": "5m",
   "timeframe_label": "5분봉",
-  "last_updated": "2026-09-07T10:41:45",
+  "last_updated": "2026-09-07T10:46:38",
   "total_tickers": 98,
   "total_signals": 0,
   "results": [
+    {
+      "ticker": "207940",
+      "name": "삼성바이오로직스",
+      "is_fresh": true,
+      "best_signal": true,
+      "best_reason": "1차 저점(1,447,000) 지지 후 재반등",
+      "has_active_entry": false,
+      "signal_time": "09/07 10:15",
+      "signal_price": 1447000.0,
+      "rebound_time": "09/07 10:35",
+      "rebound_price": 1448000.0,
+      "bars_after_signal": 4,
+      "reasons": [
+        "음봉형 도지"
+      ]
+    },
+    {
+      "ticker": "012450",
+      "name": "한화에어로스페이스",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "09/07 10:25",
+      "signal_price": 1031000.0,
+      "rebound_time": "09/07 10:40",
+      "rebound_price": 1033000.0,
+      "bars_after_signal": 3,
+      "reasons": [
+        "음봉형 도지"
+      ]
+    },
+    {
+      "ticker": "329180",
+      "name": "HD현대중공업",
+      "is_fresh": true,
+      "best_signal": true,
+      "best_reason": "1차 저점(437,000) 지지 후 재반등",
+      "has_active_entry": false,
+      "signal_time": "09/07 10:20",
+      "signal_price": 437000.0,
+      "rebound_time": "09/07 10:25",
+      "rebound_price": 437000.0,
+      "bars_after_signal": 1,
+      "reasons": [
+        "음봉형 도지"
+      ]
+    },
     {
       "ticker": "015760",
       "name": "한국전력",
@@ -249,8 +297,8 @@
       "ticker": "326030",
       "name": "SK바이오팜",
       "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
+      "best_signal": true,
+      "best_reason": "저점 이탈(84,900→84,800)했으나 RSI 다이버전스 동반 재반등 (RSI 24.8→34.8)",
       "has_active_entry": false,
       "signal_time": "09/07 09:20",
       "signal_price": 84900.0,
@@ -313,8 +361,8 @@
       "ticker": "000880",
       "name": "한화",
       "is_fresh": true,
-      "best_signal": true,
-      "best_reason": "1차 저점(136,700) 지지 후 재반등",
+      "best_signal": false,
+      "best_reason": "",
       "has_active_entry": false,
       "signal_time": "09/07 10:00",
       "signal_price": 136700.0,
