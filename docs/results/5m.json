@@ -1,10 +1,26 @@
 {
   "timeframe": "5m",
   "timeframe_label": "5분봉",
-  "last_updated": "2026-09-07T10:27:02",
+  "last_updated": "2026-09-07T10:36:38",
   "total_tickers": 98,
   "total_signals": 1,
   "results": [
+    {
+      "ticker": "207940",
+      "name": "삼성바이오로직스",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "09/07 10:15",
+      "signal_price": 1447000.0,
+      "rebound_time": "09/07 10:30",
+      "rebound_price": 1448000.0,
+      "bars_after_signal": 3,
+      "reasons": [
+        "음봉형 도지"
+      ]
+    },
     {
       "ticker": "015760",
       "name": "한국전력",
@@ -73,8 +89,8 @@
       "ticker": "097950",
       "name": "CJ제일제당",
       "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
+      "best_signal": true,
+      "best_reason": "저점 이탈(182,300→181,800)했으나 RSI 다이버전스 동반 재반등 (RSI 27.1→30.5)",
       "has_active_entry": false,
       "signal_time": "09/07 09:20",
       "signal_price": 182300.0,
@@ -153,8 +169,8 @@
       "ticker": "000100",
       "name": "유한양행",
       "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
+      "best_signal": true,
+      "best_reason": "저점 이탈(80,700→80,600)했으나 RSI 다이버전스 동반 재반등 (RSI 26.3→35.9)",
       "has_active_entry": false,
       "signal_time": "09/07 09:20",
       "signal_price": 80700.0,
@@ -182,11 +198,27 @@
       ]
     },
     {
+      "ticker": "086280",
+      "name": "현대글로비스",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "09/07 10:15",
+      "signal_price": 209000.0,
+      "rebound_time": "09/07 10:25",
+      "rebound_price": 209000.0,
+      "bars_after_signal": 2,
+      "reasons": [
+        "음봉형 도지"
+      ]
+    },
+    {
       "ticker": "001040",
       "name": "CJ",
       "is_fresh": true,
       "best_signal": true,
-      "best_reason": "저점 이탈(129,500→129,400)했으나 RSI 다이버전스 동반 재반등 (RSI 34.3→34.8)",
+      "best_reason": "저점 이탈(129,500→129,300)했으나 RSI 다이버전스 동반 재반등 (RSI 34.3→34.8)",
       "has_active_entry": false,
       "signal_time": "09/07 09:55",
       "signal_price": 129600.0,
@@ -256,6 +288,22 @@
       "signal_price": 21050.0,
       "rebound_time": "09/07 09:30",
       "rebound_price": 21300.0,
+      "bars_after_signal": 2,
+      "reasons": [
+        "연속 양봉 2개 이상"
+      ]
+    },
+    {
+      "ticker": "064350",
+      "name": "현대로템",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "09/07 10:25",
+      "signal_price": 125600.0,
+      "rebound_time": "09/07 10:35",
+      "rebound_price": 126000.0,
       "bars_after_signal": 2,
       "reasons": [
         "연속 양봉 2개 이상"
