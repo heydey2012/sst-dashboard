@@ -1,10 +1,10 @@
 {
-  "last_updated": "2026-09-07T13:44:26",
+  "last_updated": "2026-09-07T13:46:25",
   "strategy_version": "legacy",
   "initial_capital": 10000000,
-  "current_capital": 9883141.0,
-  "return_pct": -1.17,
-  "profit_amount": -116859.0,
+  "current_capital": 9882286.0,
+  "return_pct": -1.18,
+  "profit_amount": -117714.0,
   "positions": [
     {
       "ticker": "012330",
@@ -66,7 +66,7 @@
       "qty": 62,
       "entry_price": 15900.0,
       "entry_time": "2026-09-03T11:52:50",
-      "current_price": 16320.0,
+      "current_price": 16340.0,
       "tp": 16470.0,
       "sl": 15220.0,
       "tp_basis": "피벗고점",
@@ -84,8 +84,8 @@
       "reasons": [
         "전 봉(음봉)보다 몸통이 큰 양봉"
       ],
-      "pnl": 17025.0,
-      "pnl_pct": 1.73
+      "pnl": 18258.0,
+      "pnl_pct": 1.85
     },
     {
       "ticker": "028260",
@@ -120,7 +120,7 @@
       "qty": 5,
       "entry_price": 197100.0,
       "entry_time": "2026-09-04T10:08:12",
-      "current_price": 192300.0,
+      "current_price": 192200.0,
       "tp": 208000.0,
       "sl": 190300.0,
       "tp_basis": "피벗고점",
@@ -138,8 +138,8 @@
       "reasons": [
         "전 봉(음봉)보다 몸통이 큰 양봉"
       ],
-      "pnl": -32738.0,
-      "pnl_pct": -3.32
+      "pnl": -33235.0,
+      "pnl_pct": -3.37
     },
     {
       "ticker": "105560",
@@ -174,7 +174,7 @@
       "qty": 9,
       "entry_price": 110200.0,
       "entry_time": "2026-09-04T13:50:43",
-      "current_price": 113900.0,
+      "current_price": 113800.0,
       "tp": 115900.0,
       "sl": 104500.0,
       "tp_basis": "피벗고점",
@@ -192,8 +192,8 @@
       "reasons": [
         "연속 양봉 2개 이상"
       ],
-      "pnl": 24191.0,
-      "pnl_pct": 2.44
+      "pnl": 23296.0,
+      "pnl_pct": 2.35
     },
     {
       "ticker": "128940",
@@ -255,7 +255,7 @@
       "qty": 7,
       "entry_price": 132300.0,
       "entry_time": "2026-09-07T11:07:36",
-      "current_price": 132700.0,
+      "current_price": 132600.0,
       "tp": 138800.0,
       "sl": 125800.0,
       "tp_basis": "피벗고점",
@@ -273,8 +273,8 @@
       "reasons": [
         "연속 양봉 2개 이상"
       ],
-      "pnl": -5550.0,
-      "pnl_pct": -0.6
+      "pnl": -6246.0,
+      "pnl_pct": -0.67
     }
   ]
 }
