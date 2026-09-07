@@ -376,5 +376,19 @@
     "pnl_pct": 5.67,
     "commission": 6829.0,
     "tax": 2014.0
+  },
+  {
+    "ticker": "032830",
+    "name": "삼성생명",
+    "qty": 3,
+    "entry_price": 295000.0,
+    "entry_time": "2026-09-02T11:35:28",
+    "exit_price": 310500.0,
+    "exit_time": "2026-09-07T10:50:12",
+    "reason": "익절(TP 도달)",
+    "pnl": 38279.0,
+    "pnl_pct": 4.33,
+    "commission": 6358.0,
+    "tax": 1863.0
   }
 ]
