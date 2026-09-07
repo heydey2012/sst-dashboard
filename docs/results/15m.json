@@ -1,7 +1,7 @@
 {
   "timeframe": "15m",
   "timeframe_label": "15분봉",
-  "last_updated": "2026-09-07T11:24:57",
+  "last_updated": "2026-09-07T11:40:22",
   "total_tickers": 98,
   "total_signals": 0,
   "results": [
@@ -9,8 +9,8 @@
       "ticker": "012450",
       "name": "한화에어로스페이스",
       "is_fresh": true,
-      "best_signal": true,
-      "best_reason": "1차 저점(1,032,000) 지지 후 재반등",
+      "best_signal": false,
+      "best_reason": "",
       "has_active_entry": false,
       "signal_time": "09/07 10:45",
       "signal_price": 1032000.0,
