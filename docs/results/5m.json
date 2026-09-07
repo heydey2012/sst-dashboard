@@ -1,7 +1,7 @@
 {
   "timeframe": "5m",
   "timeframe_label": "5분봉",
-  "last_updated": "2026-09-07T12:27:00",
+  "last_updated": "2026-09-07T12:36:53",
   "total_tickers": 98,
   "total_signals": 0,
   "results": [
@@ -320,6 +320,22 @@
       "signal_price": 459000.0,
       "rebound_time": "09/07 10:35",
       "rebound_price": 461000.0,
+      "bars_after_signal": 1,
+      "reasons": [
+        "전 봉(음봉)보다 몸통이 큰 양봉"
+      ]
+    },
+    {
+      "ticker": "000990",
+      "name": "DB하이텍",
+      "is_fresh": true,
+      "best_signal": true,
+      "best_reason": "1차 저점(99,700) 지지 후 재반등",
+      "has_active_entry": false,
+      "signal_time": "09/07 12:25",
+      "signal_price": 99700.0,
+      "rebound_time": "09/07 12:30",
+      "rebound_price": 100000.0,
       "bars_after_signal": 1,
       "reasons": [
         "전 봉(음봉)보다 몸통이 큰 양봉"
