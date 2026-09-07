@@ -1,9 +1,9 @@
 {
   "timeframe": "5m",
   "timeframe_label": "5분봉",
-  "last_updated": "2026-09-07T12:07:08",
+  "last_updated": "2026-09-07T12:16:35",
   "total_tickers": 98,
-  "total_signals": 1,
+  "total_signals": 0,
   "results": [
     {
       "ticker": "207940",
@@ -25,8 +25,8 @@
       "ticker": "012450",
       "name": "한화에어로스페이스",
       "is_fresh": true,
-      "best_signal": true,
-      "best_reason": "1차 저점(1,030,000) 지지 후 재반등",
+      "best_signal": false,
+      "best_reason": "",
       "has_active_entry": false,
       "signal_time": "09/07 10:25",
       "signal_price": 1031000.0,
@@ -73,8 +73,8 @@
       "ticker": "015760",
       "name": "한국전력",
       "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
+      "best_signal": true,
+      "best_reason": "저점 이탈(31,950→31,900)했으나 RSI 다이버전스 동반 재반등 (RSI 29.0→32.9)",
       "has_active_entry": false,
       "signal_time": "09/07 09:20",
       "signal_price": 31950.0,
@@ -83,6 +83,22 @@
       "bars_after_signal": 1,
       "reasons": [
         "전 봉(음봉)보다 몸통이 큰 양봉"
+      ]
+    },
+    {
+      "ticker": "032640",
+      "name": "LG유플러스",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "09/07 12:00",
+      "signal_price": 14880.0,
+      "rebound_time": "09/07 12:10",
+      "rebound_price": 14920.0,
+      "bars_after_signal": 2,
+      "reasons": [
+        "음봉형 도지"
       ]
     },
     {
@@ -361,8 +377,8 @@
       "ticker": "010140",
       "name": "삼성중공업",
       "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
+      "best_signal": true,
+      "best_reason": "저점 이탈(21,050→21,000)했으나 RSI 다이버전스 동반 재반등 (RSI 39.6→37.9)",
       "has_active_entry": false,
       "signal_time": "09/07 09:20",
       "signal_price": 21050.0,
@@ -390,11 +406,27 @@
       ]
     },
     {
-      "ticker": "293490",
-      "name": "카카오게임즈",
+      "ticker": "000880",
+      "name": "한화",
       "is_fresh": true,
       "best_signal": false,
       "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "09/07 12:05",
+      "signal_price": 135200.0,
+      "rebound_time": "09/07 12:15",
+      "rebound_price": 136100.0,
+      "bars_after_signal": 2,
+      "reasons": [
+        "연속 양봉 2개 이상"
+      ]
+    },
+    {
+      "ticker": "293490",
+      "name": "카카오게임즈",
+      "is_fresh": true,
+      "best_signal": true,
+      "best_reason": "저점 이탈(8,865→8,860)했으나 RSI 다이버전스 동반 재반등 (RSI 24.6→35.5)",
       "has_active_entry": false,
       "signal_time": "09/07 09:15",
       "signal_price": 8865.0,
