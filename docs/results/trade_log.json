@@ -530,5 +530,47 @@
     "pnl_pct": -2.67,
     "commission": 6238.0,
     "tax": 1766.0
+  },
+  {
+    "ticker": "036930",
+    "name": "주성엔지니어링",
+    "qty": 5,
+    "entry_price": 171300.0,
+    "entry_time": "2026-08-31T09:24:20",
+    "exit_price": 185400.0,
+    "exit_time": "2026-09-07T09:38:53",
+    "reason": "익절(TP 도달)",
+    "pnl": 62404.0,
+    "pnl_pct": 7.29,
+    "commission": 6242.0,
+    "tax": 1854.0
+  },
+  {
+    "ticker": "034020",
+    "name": "두산에너빌리티",
+    "qty": 12,
+    "entry_price": 79200.0,
+    "entry_time": "2026-09-02T09:35:42",
+    "exit_price": 84200.0,
+    "exit_time": "2026-09-07T09:38:55",
+    "reason": "익절(TP 도달)",
+    "pnl": 51116.0,
+    "pnl_pct": 5.38,
+    "commission": 6863.0,
+    "tax": 2021.0
+  },
+  {
+    "ticker": "066570",
+    "name": "LG전자",
+    "qty": 4,
+    "entry_price": 201000.0,
+    "entry_time": "2026-09-02T11:18:59",
+    "exit_price": 221500.0,
+    "exit_time": "2026-09-07T09:38:57",
+    "reason": "익절(TP 도달)",
+    "pnl": 74313.0,
+    "pnl_pct": 9.24,
+    "commission": 5915.0,
+    "tax": 1772.0
   }
 ]
