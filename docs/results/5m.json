@@ -1,7 +1,7 @@
 {
   "timeframe": "5m",
   "timeframe_label": "5분봉",
-  "last_updated": "2026-09-07T13:27:04",
+  "last_updated": "2026-09-07T13:36:38",
   "total_tickers": 98,
   "total_signals": 0,
   "results": [
@@ -339,6 +339,22 @@
       "bars_after_signal": 1,
       "reasons": [
         "전 봉(음봉)보다 몸통이 큰 양봉"
+      ]
+    },
+    {
+      "ticker": "036930",
+      "name": "주성엔지니어링",
+      "is_fresh": true,
+      "best_signal": true,
+      "best_reason": "1차 저점(185,300) 지지 후 재반등",
+      "has_active_entry": false,
+      "signal_time": "09/07 12:45",
+      "signal_price": 185300.0,
+      "rebound_time": "09/07 12:50",
+      "rebound_price": 185300.0,
+      "bars_after_signal": 1,
+      "reasons": [
+        "음봉형 도지"
       ]
     },
     {
