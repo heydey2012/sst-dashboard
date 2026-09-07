@@ -390,5 +390,19 @@
     "pnl_pct": 4.33,
     "commission": 6358.0,
     "tax": 1863.0
+  },
+  {
+    "ticker": "090430",
+    "name": "아모레퍼시픽",
+    "qty": 7,
+    "entry_price": 140400.0,
+    "entry_time": "2026-09-07T10:07:33",
+    "exit_price": 139900.0,
+    "exit_time": "2026-09-07T10:58:22",
+    "reason": "손절(SL 도달)",
+    "pnl": -12326.0,
+    "pnl_pct": -1.25,
+    "commission": 6867.0,
+    "tax": 1959.0
   }
 ]
