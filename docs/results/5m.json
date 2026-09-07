@@ -1,7 +1,7 @@
 {
   "timeframe": "5m",
   "timeframe_label": "5분봉",
-  "last_updated": "2026-09-07T12:51:36",
+  "last_updated": "2026-09-07T12:56:37",
   "total_tickers": 98,
   "total_signals": 0,
   "results": [
@@ -329,8 +329,8 @@
       "ticker": "000990",
       "name": "DB하이텍",
       "is_fresh": true,
-      "best_signal": true,
-      "best_reason": "1차 저점(99,700) 지지 후 재반등",
+      "best_signal": false,
+      "best_reason": "",
       "has_active_entry": false,
       "signal_time": "09/07 12:25",
       "signal_price": 99700.0,
