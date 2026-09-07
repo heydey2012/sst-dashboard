@@ -348,5 +348,33 @@
     "pnl_pct": -2.94,
     "commission": 6230.0,
     "tax": 1762.0
+  },
+  {
+    "ticker": "058470",
+    "name": "리노공업",
+    "qty": 15,
+    "entry_price": 64100.0,
+    "entry_time": "2026-09-02T09:24:01",
+    "exit_price": 68600.0,
+    "exit_time": "2026-09-07T09:39:04",
+    "reason": "익절(TP 도달)",
+    "pnl": 58475.0,
+    "pnl_pct": 6.08,
+    "commission": 6967.0,
+    "tax": 2058.0
+  },
+  {
+    "ticker": "034020",
+    "name": "두산에너빌리티",
+    "qty": 12,
+    "entry_price": 78700.0,
+    "entry_time": "2026-09-02T10:05:56",
+    "exit_price": 83900.0,
+    "exit_time": "2026-09-07T09:39:05",
+    "reason": "익절(TP 도달)",
+    "pnl": 53557.0,
+    "pnl_pct": 5.67,
+    "commission": 6829.0,
+    "tax": 2014.0
   }
 ]
