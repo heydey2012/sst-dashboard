@@ -1,26 +1,10 @@
 {
   "timeframe": "5m",
   "timeframe_label": "5분봉",
-  "last_updated": "2026-09-07T10:36:38",
+  "last_updated": "2026-09-07T10:41:45",
   "total_tickers": 98,
-  "total_signals": 1,
+  "total_signals": 0,
   "results": [
-    {
-      "ticker": "207940",
-      "name": "삼성바이오로직스",
-      "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
-      "has_active_entry": false,
-      "signal_time": "09/07 10:15",
-      "signal_price": 1447000.0,
-      "rebound_time": "09/07 10:30",
-      "rebound_price": 1448000.0,
-      "bars_after_signal": 3,
-      "reasons": [
-        "음봉형 도지"
-      ]
-    },
     {
       "ticker": "015760",
       "name": "한국전력",
@@ -218,7 +202,7 @@
       "name": "CJ",
       "is_fresh": true,
       "best_signal": true,
-      "best_reason": "저점 이탈(129,500→129,300)했으나 RSI 다이버전스 동반 재반등 (RSI 34.3→34.8)",
+      "best_reason": "저점 이탈(129,500→129,400)했으나 RSI 다이버전스 동반 재반등 (RSI 34.3→34.8)",
       "has_active_entry": false,
       "signal_time": "09/07 09:55",
       "signal_price": 129600.0,
@@ -243,6 +227,22 @@
       "bars_after_signal": 2,
       "reasons": [
         "연속 양봉 2개 이상"
+      ]
+    },
+    {
+      "ticker": "039030",
+      "name": "이오테크닉스",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "09/07 10:30",
+      "signal_price": 459000.0,
+      "rebound_time": "09/07 10:35",
+      "rebound_price": 461000.0,
+      "bars_after_signal": 1,
+      "reasons": [
+        "전 봉(음봉)보다 몸통이 큰 양봉"
       ]
     },
     {
@@ -297,8 +297,8 @@
       "ticker": "064350",
       "name": "현대로템",
       "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
+      "best_signal": true,
+      "best_reason": "1차 저점(125,600) 지지 후 재반등",
       "has_active_entry": false,
       "signal_time": "09/07 10:25",
       "signal_price": 125600.0,
