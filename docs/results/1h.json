@@ -1,9 +1,9 @@
 {
   "timeframe": "1h",
   "timeframe_label": "1시간봉",
-  "last_updated": "2026-09-04T13:10:30",
+  "last_updated": "2026-09-07T10:10:10",
   "total_tickers": 98,
-  "total_signals": 0,
+  "total_signals": 1,
   "results": [
     {
       "ticker": "011780",
@@ -11,14 +11,14 @@
       "is_fresh": true,
       "best_signal": false,
       "best_reason": "",
-      "has_active_entry": true,
-      "signal_time": "09/04 12:00",
-      "signal_price": 124600.0,
-      "rebound_time": "09/04 13:00",
-      "rebound_price": 126400.0,
+      "has_active_entry": false,
+      "signal_time": "09/07 09:00",
+      "signal_price": 124300.0,
+      "rebound_time": "09/07 10:00",
+      "rebound_price": 124400.0,
       "bars_after_signal": 1,
       "reasons": [
-        "전 봉(음봉)보다 몸통이 큰 양봉"
+        "음봉형 도지"
       ]
     }
   ]
