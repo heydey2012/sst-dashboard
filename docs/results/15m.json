@@ -1,7 +1,7 @@
 {
   "timeframe": "15m",
   "timeframe_label": "15분봉",
-  "last_updated": "2026-09-07T10:54:54",
+  "last_updated": "2026-09-07T11:10:42",
   "total_tickers": 98,
   "total_signals": 0,
   "results": [
@@ -11,14 +11,30 @@
       "is_fresh": true,
       "best_signal": false,
       "best_reason": "",
-      "has_active_entry": true,
-      "signal_time": "09/07 10:30",
-      "signal_price": 1030000.0,
-      "rebound_time": "09/07 10:45",
-      "rebound_price": 1034000.0,
+      "has_active_entry": false,
+      "signal_time": "09/07 10:45",
+      "signal_price": 1032000.0,
+      "rebound_time": "09/07 11:00",
+      "rebound_price": 1032000.0,
       "bars_after_signal": 1,
       "reasons": [
-        "전 봉(음봉)보다 몸통이 큰 양봉"
+        "음봉형 도지"
+      ]
+    },
+    {
+      "ticker": "138040",
+      "name": "메리츠금융지주",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "09/07 10:00",
+      "signal_price": 132100.0,
+      "rebound_time": "09/07 11:00",
+      "rebound_price": 132300.0,
+      "bars_after_signal": 4,
+      "reasons": [
+        "연속 양봉 2개 이상"
       ]
     },
     {
