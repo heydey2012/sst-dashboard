@@ -1,7 +1,7 @@
 {
   "timeframe": "5m",
   "timeframe_label": "5분봉",
-  "last_updated": "2026-09-07T12:01:36",
+  "last_updated": "2026-09-07T12:07:08",
   "total_tickers": 98,
   "total_signals": 1,
   "results": [
@@ -9,8 +9,8 @@
       "ticker": "207940",
       "name": "삼성바이오로직스",
       "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
+      "best_signal": true,
+      "best_reason": "1차 저점(1,447,000) 지지 후 재반등",
       "has_active_entry": false,
       "signal_time": "09/07 10:15",
       "signal_price": 1447000.0,
@@ -218,7 +218,7 @@
       "name": "유한양행",
       "is_fresh": true,
       "best_signal": true,
-      "best_reason": "저점 이탈(80,700→80,300)했으나 RSI 다이버전스 동반 재반등 (RSI 26.3→33.2)",
+      "best_reason": "저점 이탈(80,700→80,200)했으나 RSI 다이버전스 동반 재반등 (RSI 26.3→30.4)",
       "has_active_entry": false,
       "signal_time": "09/07 09:20",
       "signal_price": 80700.0,
@@ -330,7 +330,7 @@
       "name": "SK바이오팜",
       "is_fresh": true,
       "best_signal": true,
-      "best_reason": "저점 이탈(84,900→84,800)했으나 RSI 다이버전스 동반 재반등 (RSI 24.8→34.8)",
+      "best_reason": "저점 이탈(84,900→84,700)했으나 RSI 다이버전스 동반 재반등 (RSI 24.8→37.4)",
       "has_active_entry": false,
       "signal_time": "09/07 09:20",
       "signal_price": 84900.0,
@@ -361,8 +361,8 @@
       "ticker": "010140",
       "name": "삼성중공업",
       "is_fresh": true,
-      "best_signal": true,
-      "best_reason": "저점 이탈(21,050→21,000)했으나 RSI 다이버전스 동반 재반등 (RSI 39.6→37.9)",
+      "best_signal": false,
+      "best_reason": "",
       "has_active_entry": false,
       "signal_time": "09/07 09:20",
       "signal_price": 21050.0,
@@ -387,22 +387,6 @@
       "bars_after_signal": 2,
       "reasons": [
         "연속 양봉 2개 이상"
-      ]
-    },
-    {
-      "ticker": "000880",
-      "name": "한화",
-      "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
-      "has_active_entry": false,
-      "signal_time": "09/07 10:00",
-      "signal_price": 136700.0,
-      "rebound_time": "09/07 10:05",
-      "rebound_price": 137600.0,
-      "bars_after_signal": 1,
-      "reasons": [
-        "전 봉(음봉)보다 몸통이 큰 양봉"
       ]
     },
     {
