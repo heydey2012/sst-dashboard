@@ -1,7 +1,7 @@
 {
   "timeframe": "15m",
   "timeframe_label": "15분봉",
-  "last_updated": "2026-09-07T11:10:42",
+  "last_updated": "2026-09-07T11:24:57",
   "total_tickers": 98,
   "total_signals": 0,
   "results": [
@@ -9,14 +9,30 @@
       "ticker": "012450",
       "name": "한화에어로스페이스",
       "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
+      "best_signal": true,
+      "best_reason": "1차 저점(1,032,000) 지지 후 재반등",
       "has_active_entry": false,
       "signal_time": "09/07 10:45",
       "signal_price": 1032000.0,
       "rebound_time": "09/07 11:00",
       "rebound_price": 1032000.0,
       "bars_after_signal": 1,
+      "reasons": [
+        "음봉형 도지"
+      ]
+    },
+    {
+      "ticker": "009540",
+      "name": "HD한국조선해양",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "09/07 10:30",
+      "signal_price": 344000.0,
+      "rebound_time": "09/07 11:00",
+      "rebound_price": 345000.0,
+      "bars_after_signal": 2,
       "reasons": [
         "음봉형 도지"
       ]
@@ -31,7 +47,7 @@
       "signal_time": "09/07 10:00",
       "signal_price": 132100.0,
       "rebound_time": "09/07 11:00",
-      "rebound_price": 132300.0,
+      "rebound_price": 132800.0,
       "bars_after_signal": 4,
       "reasons": [
         "연속 양봉 2개 이상"
@@ -73,8 +89,8 @@
       "ticker": "326030",
       "name": "SK바이오팜",
       "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
+      "best_signal": true,
+      "best_reason": "1차 저점(84,800) 지지 후 재반등",
       "has_active_entry": false,
       "signal_time": "09/07 09:30",
       "signal_price": 84900.0,
