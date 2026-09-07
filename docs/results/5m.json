@@ -1,7 +1,7 @@
 {
   "timeframe": "5m",
   "timeframe_label": "5분봉",
-  "last_updated": "2026-09-07T12:56:37",
+  "last_updated": "2026-09-07T13:01:36",
   "total_tickers": 98,
   "total_signals": 0,
   "results": [
@@ -345,8 +345,8 @@
       "ticker": "326030",
       "name": "SK바이오팜",
       "is_fresh": true,
-      "best_signal": true,
-      "best_reason": "저점 이탈(84,900→84,700)했으나 RSI 다이버전스 동반 재반등 (RSI 24.8→37.4)",
+      "best_signal": false,
+      "best_reason": "",
       "has_active_entry": false,
       "signal_time": "09/07 09:20",
       "signal_price": 84900.0,
