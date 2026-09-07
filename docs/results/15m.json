@@ -1,32 +1,16 @@
 {
   "timeframe": "15m",
   "timeframe_label": "15분봉",
-  "last_updated": "2026-09-07T10:25:26",
+  "last_updated": "2026-09-07T10:39:49",
   "total_tickers": 98,
-  "total_signals": 0,
+  "total_signals": 1,
   "results": [
-    {
-      "ticker": "138040",
-      "name": "메리츠금융지주",
-      "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
-      "has_active_entry": true,
-      "signal_time": "09/07 10:00",
-      "signal_price": 132100.0,
-      "rebound_time": "09/07 10:15",
-      "rebound_price": 132800.0,
-      "bars_after_signal": 1,
-      "reasons": [
-        "전 봉(음봉)보다 몸통이 큰 양봉"
-      ]
-    },
     {
       "ticker": "090430",
       "name": "아모레퍼시픽",
       "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
+      "best_signal": true,
+      "best_reason": "1차 저점(139,500) 지지 후 재반등",
       "has_active_entry": false,
       "signal_time": "09/07 09:30",
       "signal_price": 139500.0,
@@ -54,16 +38,32 @@
       ]
     },
     {
+      "ticker": "326030",
+      "name": "SK바이오팜",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "09/07 09:30",
+      "signal_price": 84900.0,
+      "rebound_time": "09/07 10:30",
+      "rebound_price": 84800.0,
+      "bars_after_signal": 4,
+      "reasons": [
+        "음봉형 도지"
+      ]
+    },
+    {
       "ticker": "008930",
       "name": "한미사이언스",
       "is_fresh": true,
       "best_signal": false,
       "best_reason": "",
-      "has_active_entry": true,
+      "has_active_entry": false,
       "signal_time": "09/07 10:00",
       "signal_price": 50300.0,
       "rebound_time": "09/07 10:15",
-      "rebound_price": 50600.0,
+      "rebound_price": 50900.0,
       "bars_after_signal": 1,
       "reasons": [
         "전 봉(음봉)보다 몸통이 큰 양봉"
