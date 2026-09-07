@@ -1,7 +1,7 @@
 {
   "timeframe": "5m",
   "timeframe_label": "5분봉",
-  "last_updated": "2026-09-07T11:06:56",
+  "last_updated": "2026-09-07T11:12:42",
   "total_tickers": 98,
   "total_signals": 0,
   "results": [
@@ -73,8 +73,8 @@
       "ticker": "015760",
       "name": "한국전력",
       "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
+      "best_signal": true,
+      "best_reason": "1차 저점(31,950) 지지 후 재반등",
       "has_active_entry": false,
       "signal_time": "09/07 09:20",
       "signal_price": 31950.0,
