@@ -1,7 +1,7 @@
 {
   "timeframe": "5m",
   "timeframe_label": "5분봉",
-  "last_updated": "2026-09-07T12:16:35",
+  "last_updated": "2026-09-07T12:21:35",
   "total_tickers": 98,
   "total_signals": 0,
   "results": [
@@ -234,7 +234,7 @@
       "name": "유한양행",
       "is_fresh": true,
       "best_signal": true,
-      "best_reason": "저점 이탈(80,700→80,200)했으나 RSI 다이버전스 동반 재반등 (RSI 26.3→30.4)",
+      "best_reason": "저점 이탈(80,700→80,100)했으나 RSI 다이버전스 동반 재반등 (RSI 26.3→30.5)",
       "has_active_entry": false,
       "signal_time": "09/07 09:20",
       "signal_price": 80700.0,
@@ -409,13 +409,13 @@
       "ticker": "000880",
       "name": "한화",
       "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
+      "best_signal": true,
+      "best_reason": "1차 저점(135,200) 지지 후 재반등",
       "has_active_entry": false,
       "signal_time": "09/07 12:05",
       "signal_price": 135200.0,
       "rebound_time": "09/07 12:15",
-      "rebound_price": 136100.0,
+      "rebound_price": 136400.0,
       "bars_after_signal": 2,
       "reasons": [
         "연속 양봉 2개 이상"
