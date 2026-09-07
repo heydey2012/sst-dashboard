@@ -1,120 +1,56 @@
 {
   "timeframe": "15m",
   "timeframe_label": "15분봉",
-  "last_updated": "2026-09-04T15:46:16",
+  "last_updated": "2026-09-07T10:10:02",
   "total_tickers": 98,
   "total_signals": 0,
   "results": [
     {
-      "ticker": "105560",
-      "name": "KB금융",
+      "ticker": "090430",
+      "name": "아모레퍼시픽",
       "is_fresh": true,
       "best_signal": true,
-      "best_reason": "저점 이탈(172,600→171,400)했으나 RSI 다이버전스 동반 재반등 (RSI 34.1→33.9)",
+      "best_reason": "1차 저점(139,500) 지지 후 재반등",
       "has_active_entry": false,
-      "signal_time": "09/04 09:30",
-      "signal_price": 172600.0,
-      "rebound_time": "09/04 10:00",
-      "rebound_price": 173100.0,
+      "signal_time": "09/07 09:30",
+      "signal_price": 139500.0,
+      "rebound_time": "09/07 09:45",
+      "rebound_price": 140000.0,
+      "bars_after_signal": 1,
+      "reasons": [
+        "전 봉(음봉)보다 몸통이 큰 양봉"
+      ]
+    },
+    {
+      "ticker": "128940",
+      "name": "한미약품",
+      "is_fresh": true,
+      "best_signal": true,
+      "best_reason": "1차 저점(461,000) 지지 후 재반등",
+      "has_active_entry": false,
+      "signal_time": "09/07 09:30",
+      "signal_price": 461000.0,
+      "rebound_time": "09/07 09:45",
+      "rebound_price": 462000.0,
+      "bars_after_signal": 1,
+      "reasons": [
+        "연속 양봉 2개 이상"
+      ]
+    },
+    {
+      "ticker": "326030",
+      "name": "SK바이오팜",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "09/07 09:30",
+      "signal_price": 84900.0,
+      "rebound_time": "09/07 10:00",
+      "rebound_price": 84900.0,
       "bars_after_signal": 2,
       "reasons": [
         "음봉형 도지"
-      ]
-    },
-    {
-      "ticker": "028260",
-      "name": "삼성물산",
-      "is_fresh": true,
-      "best_signal": true,
-      "best_reason": "1차 저점(354,500) 지지 후 재반등",
-      "has_active_entry": false,
-      "signal_time": "09/04 09:00",
-      "signal_price": 354500.0,
-      "rebound_time": "09/04 09:30",
-      "rebound_price": 360000.0,
-      "bars_after_signal": 2,
-      "reasons": [
-        "연속 양봉 2개 이상"
-      ]
-    },
-    {
-      "ticker": "055550",
-      "name": "신한지주",
-      "is_fresh": true,
-      "best_signal": true,
-      "best_reason": "저점 이탈(111,400→110,100)했으나 RSI 다이버전스 동반 재반등 (RSI 33.5→32.0)",
-      "has_active_entry": false,
-      "signal_time": "09/04 09:30",
-      "signal_price": 111400.0,
-      "rebound_time": "09/04 10:00",
-      "rebound_price": 112000.0,
-      "bars_after_signal": 2,
-      "reasons": [
-        "연속 양봉 2개 이상"
-      ]
-    },
-    {
-      "ticker": "000810",
-      "name": "삼성화재",
-      "is_fresh": true,
-      "best_signal": true,
-      "best_reason": "1차 저점(658,000) 지지 후 재반등",
-      "has_active_entry": false,
-      "signal_time": "09/04 09:45",
-      "signal_price": 663000.0,
-      "rebound_time": "09/04 10:30",
-      "rebound_price": 664000.0,
-      "bars_after_signal": 3,
-      "reasons": [
-        "전 봉(음봉)보다 몸통이 큰 양봉"
-      ]
-    },
-    {
-      "ticker": "005830",
-      "name": "DB손해보험",
-      "is_fresh": true,
-      "best_signal": true,
-      "best_reason": "저점 이탈(196,200→194,500)했으나 RSI 다이버전스 동반 재반등 (RSI 34.8→33.9)",
-      "has_active_entry": false,
-      "signal_time": "09/04 09:30",
-      "signal_price": 196200.0,
-      "rebound_time": "09/04 09:45",
-      "rebound_price": 197300.0,
-      "bars_after_signal": 1,
-      "reasons": [
-        "전 봉(음봉)보다 몸통이 큰 양봉"
-      ]
-    },
-    {
-      "ticker": "011780",
-      "name": "금호석유",
-      "is_fresh": true,
-      "best_signal": true,
-      "best_reason": "1차 저점(124,600) 지지 후 재반등",
-      "has_active_entry": false,
-      "signal_time": "09/04 11:30",
-      "signal_price": 125600.0,
-      "rebound_time": "09/04 13:00",
-      "rebound_price": 126500.0,
-      "bars_after_signal": 6,
-      "reasons": [
-        "전 봉(음봉)보다 몸통이 큰 양봉"
-      ]
-    },
-    {
-      "ticker": "010140",
-      "name": "삼성중공업",
-      "is_fresh": true,
-      "best_signal": true,
-      "best_reason": "1차 저점(20,850) 지지 후 재반등",
-      "has_active_entry": false,
-      "signal_time": "09/04 10:00",
-      "signal_price": 20850.0,
-      "rebound_time": "09/04 10:15",
-      "rebound_price": 21000.0,
-      "bars_after_signal": 1,
-      "reasons": [
-        "전 봉(음봉)보다 몸통이 큰 양봉"
       ]
     }
   ]
