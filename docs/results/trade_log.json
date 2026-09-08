@@ -670,5 +670,19 @@
     "pnl_pct": -1.03,
     "commission": 5436.0,
     "tax": 1552.0
+  },
+  {
+    "ticker": "373220",
+    "name": "LG에너지솔루션",
+    "qty": 2,
+    "entry_price": 358000.0,
+    "entry_time": "2026-09-08T10:20:37",
+    "exit_price": 352500.0,
+    "exit_time": "2026-09-08T13:34:08",
+    "reason": "손절(SL 도달)",
+    "pnl": -17384.0,
+    "pnl_pct": -2.43,
+    "commission": 4974.0,
+    "tax": 1410.0
   }
 ]
