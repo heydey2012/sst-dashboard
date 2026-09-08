@@ -656,5 +656,19 @@
     "pnl_pct": 6.56,
     "commission": 5229.0,
     "tax": 1548.0
+  },
+  {
+    "ticker": "005380",
+    "name": "현대차",
+    "qty": 2,
+    "entry_price": 388500.0,
+    "entry_time": "2026-09-08T10:20:22",
+    "exit_price": 388000.0,
+    "exit_time": "2026-09-08T13:24:10",
+    "reason": "손절(SL 도달)",
+    "pnl": -7988.0,
+    "pnl_pct": -1.03,
+    "commission": 5436.0,
+    "tax": 1552.0
   }
 ]
