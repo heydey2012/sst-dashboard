@@ -1,9 +1,9 @@
 {
   "timeframe": "5m",
   "timeframe_label": "5분봉",
-  "last_updated": "2026-09-08T13:01:37",
+  "last_updated": "2026-09-08T13:06:56",
   "total_tickers": 98,
-  "total_signals": 0,
+  "total_signals": 2,
   "results": [
     {
       "ticker": "009150",
@@ -73,8 +73,8 @@
       "ticker": "068270",
       "name": "셀트리온",
       "is_fresh": true,
-      "best_signal": true,
-      "best_reason": "저점 이탈(183,900→183,600)했으나 RSI 다이버전스 동반 재반등 (RSI 26.1→35.0)",
+      "best_signal": false,
+      "best_reason": "",
       "has_active_entry": false,
       "signal_time": "09/08 09:55",
       "signal_price": 183900.0,
@@ -217,8 +217,8 @@
       "ticker": "298040",
       "name": "효성중공업",
       "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
+      "best_signal": true,
+      "best_reason": "1차 저점(2,921,000) 지지 후 재반등",
       "has_active_entry": false,
       "signal_time": "09/08 10:00",
       "signal_price": 2921000.0,
@@ -313,8 +313,8 @@
       "ticker": "138040",
       "name": "메리츠금융지주",
       "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
+      "best_signal": true,
+      "best_reason": "1차 저점(131,700) 지지 후 재반등",
       "has_active_entry": false,
       "signal_time": "09/08 09:30",
       "signal_price": 131700.0,
@@ -339,22 +339,6 @@
       "bars_after_signal": 2,
       "reasons": [
         "연속 양봉 2개 이상"
-      ]
-    },
-    {
-      "ticker": "003550",
-      "name": "LG",
-      "is_fresh": true,
-      "best_signal": true,
-      "best_reason": "1차 저점(122,700) 지지 후 재반등",
-      "has_active_entry": false,
-      "signal_time": "09/08 09:00",
-      "signal_price": 122700.0,
-      "rebound_time": "09/08 09:20",
-      "rebound_price": 123800.0,
-      "bars_after_signal": 4,
-      "reasons": [
-        "전 봉(음봉)보다 몸통이 큰 양봉"
       ]
     },
     {
@@ -441,8 +425,8 @@
       "ticker": "001040",
       "name": "CJ",
       "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
+      "best_signal": true,
+      "best_reason": "1차 저점(131,500) 지지 후 재반등",
       "has_active_entry": false,
       "signal_time": "09/08 09:55",
       "signal_price": 131500.0,
@@ -463,10 +447,10 @@
       "signal_time": "09/08 12:55",
       "signal_price": 73800.0,
       "rebound_time": "09/08 13:00",
-      "rebound_price": 73800.0,
+      "rebound_price": 74000.0,
       "bars_after_signal": 1,
       "reasons": [
-        "음봉형 도지"
+        "전 봉(음봉)보다 몸통이 큰 양봉"
       ]
     },
     {
@@ -586,7 +570,7 @@
       "name": "현대위아",
       "is_fresh": true,
       "best_signal": true,
-      "best_reason": "1차 저점(57,300) 지지 후 재반등",
+      "best_reason": "저점 이탈(57,300→57,200)했으나 RSI 다이버전스 동반 재반등 (RSI 28.4→33.5)",
       "has_active_entry": false,
       "signal_time": "09/08 10:00",
       "signal_price": 57300.0,
