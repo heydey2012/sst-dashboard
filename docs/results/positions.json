@@ -1,10 +1,10 @@
 {
-  "last_updated": "2026-09-08T09:38:05",
+  "last_updated": "2026-09-08T09:40:04",
   "strategy_version": "current",
   "initial_capital": 10000000,
-  "current_capital": 9810316.0,
-  "return_pct": -1.9,
-  "profit_amount": -189684.0,
+  "current_capital": 9809321.0,
+  "return_pct": -1.91,
+  "profit_amount": -190679.0,
   "positions": [
     {
       "ticker": "105560",
@@ -66,7 +66,7 @@
       "qty": 2,
       "entry_price": 463500.0,
       "entry_time": "2026-09-07T10:07:32",
-      "current_price": 476000.0,
+      "current_price": 475500.0,
       "tp": 485500.0,
       "sl": 455000.0,
       "tp_basis": "피벗고점",
@@ -84,8 +84,8 @@
       "reasons": [
         "연속 양봉 2개 이상"
       ],
-      "pnl": 16520.0,
-      "pnl_pct": 1.78
+      "pnl": 15525.0,
+      "pnl_pct": 1.67
     },
     {
       "ticker": "326030",
