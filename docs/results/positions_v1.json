@@ -1,10 +1,10 @@
 {
-  "last_updated": "2026-09-08T14:06:32",
+  "last_updated": "2026-09-08T14:08:23",
   "strategy_version": "legacy",
   "initial_capital": 10000000,
-  "current_capital": 9793707.0,
-  "return_pct": -2.06,
-  "profit_amount": -206293.0,
+  "current_capital": 9786798.0,
+  "return_pct": -2.13,
+  "profit_amount": -213202.0,
   "positions": [
     {
       "ticker": "012330",
@@ -120,7 +120,7 @@
       "qty": 11,
       "entry_price": 84800.0,
       "entry_time": "2026-09-07T10:54:15",
-      "current_price": 83900.0,
+      "current_price": 84000.0,
       "tp": 86700.0,
       "sl": 82900.0,
       "tp_basis": "피벗고점",
@@ -138,8 +138,8 @@
       "reasons": [
         "음봉형 도지"
       ],
-      "pnl": -18241.0,
-      "pnl_pct": -1.96
+      "pnl": -17147.0,
+      "pnl_pct": -1.84
     },
     {
       "ticker": "138040",
@@ -147,7 +147,7 @@
       "qty": 7,
       "entry_price": 132300.0,
       "entry_time": "2026-09-07T11:07:36",
-      "current_price": 131800.0,
+      "current_price": 131900.0,
       "tp": 138800.0,
       "sl": 125800.0,
       "tp_basis": "피벗고점",
@@ -165,8 +165,8 @@
       "reasons": [
         "연속 양봉 2개 이상"
       ],
-      "pnl": -11816.0,
-      "pnl_pct": -1.28
+      "pnl": -11120.0,
+      "pnl_pct": -1.2
     },
     {
       "ticker": "010060",
@@ -248,6 +248,33 @@
       ],
       "pnl": -7330.0,
       "pnl_pct": -1.04
+    },
+    {
+      "ticker": "035720",
+      "name": "카카오",
+      "qty": 27,
+      "entry_price": 35800.0,
+      "entry_time": "2026-09-08T14:06:57",
+      "current_price": 35800.0,
+      "tp": 36900.0,
+      "sl": 35700.0,
+      "tp_basis": "피벗고점",
+      "sl_basis": "피벗저점",
+      "pivot_high": 36900.0,
+      "pivot_low": 35700.0,
+      "best_reason": "저점 이탈(35,800→35,750)했으나 RSI 다이버전스 동반 재반등 (RSI 37.8→38.4)",
+      "timeframe": "15m",
+      "signal_time": "2026-09-08 10:30:00",
+      "signal_price": 35900.0,
+      "signal_rsi": 37.846268294898735,
+      "rebound_time": "2026-09-08 12:00:00",
+      "rebound_price": 35800.0,
+      "bars_after_signal": 6,
+      "reasons": [
+        "음봉형 도지"
+      ],
+      "pnl": -8699.0,
+      "pnl_pct": -0.9
     }
   ]
 }
