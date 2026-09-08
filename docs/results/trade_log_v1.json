@@ -488,5 +488,19 @@
     "pnl_pct": -1.96,
     "commission": 6888.0,
     "tax": 1958.0
+  },
+  {
+    "ticker": "003550",
+    "name": "LG",
+    "qty": 8,
+    "entry_price": 124100.0,
+    "entry_time": "2026-09-08T09:37:28",
+    "exit_price": 122200.0,
+    "exit_time": "2026-09-08T13:42:20",
+    "reason": "손절(SL 도달)",
+    "pnl": -24052.0,
+    "pnl_pct": -2.42,
+    "commission": 6896.0,
+    "tax": 1955.0
   }
 ]
