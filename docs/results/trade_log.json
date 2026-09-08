@@ -642,5 +642,19 @@
     "pnl_pct": -4.53,
     "commission": 6776.0,
     "tax": 1900.0
+  },
+  {
+    "ticker": "028260",
+    "name": "삼성물산",
+    "qty": 2,
+    "entry_price": 360000.0,
+    "entry_time": "2026-09-04T10:20:51",
+    "exit_price": 387000.0,
+    "exit_time": "2026-09-08T09:16:01",
+    "reason": "익절(TP 도달)",
+    "pnl": 47223.0,
+    "pnl_pct": 6.56,
+    "commission": 5229.0,
+    "tax": 1548.0
   }
 ]

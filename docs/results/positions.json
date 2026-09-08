@@ -1,45 +1,18 @@
 {
-  "last_updated": "2026-09-08T09:14:04",
+  "last_updated": "2026-09-08T09:16:07",
   "strategy_version": "current",
   "initial_capital": 10000000,
-  "current_capital": 9829510.0,
-  "return_pct": -1.7,
-  "profit_amount": -170490.0,
+  "current_capital": 9826427.0,
+  "return_pct": -1.74,
+  "profit_amount": -173573.0,
   "positions": [
-    {
-      "ticker": "028260",
-      "name": "삼성물산",
-      "qty": 2,
-      "entry_price": 360000.0,
-      "entry_time": "2026-09-04T10:20:51",
-      "current_price": 385000.0,
-      "tp": 385500.0,
-      "sl": 334500.0,
-      "tp_basis": "피벗고점",
-      "sl_basis": "피벗고점 대비 1:1",
-      "pivot_high": 385500.0,
-      "pivot_low": 373500.0,
-      "best_reason": "1차 저점(354,500) 지지 후 재반등",
-      "timeframe": "15m",
-      "signal_time": "2026-09-04 09:00:00",
-      "signal_price": 354500.0,
-      "signal_rsi": 24.793062152507034,
-      "rebound_time": "2026-09-04 09:30:00",
-      "rebound_price": 360000.0,
-      "bars_after_signal": 2,
-      "reasons": [
-        "연속 양봉 2개 이상"
-      ],
-      "pnl": 43245.0,
-      "pnl_pct": 6.01
-    },
     {
       "ticker": "105560",
       "name": "KB금융",
       "qty": 5,
       "entry_price": 174000.0,
       "entry_time": "2026-09-04T11:35:33",
-      "current_price": 177100.0,
+      "current_price": 176700.0,
       "tp": 180400.0,
       "sl": 169000.0,
       "tp_basis": "피벗고점",
@@ -57,8 +30,8 @@
       "reasons": [
         "음봉형 도지"
       ],
-      "pnl": 7585.0,
-      "pnl_pct": 0.87
+      "pnl": 5596.0,
+      "pnl_pct": 0.64
     },
     {
       "ticker": "000810",
@@ -93,7 +66,7 @@
       "qty": 2,
       "entry_price": 463500.0,
       "entry_time": "2026-09-07T10:07:32",
-      "current_price": 476500.0,
+      "current_price": 474500.0,
       "tp": 485500.0,
       "sl": 455000.0,
       "tp_basis": "피벗고점",
@@ -111,8 +84,8 @@
       "reasons": [
         "연속 양봉 2개 이상"
       ],
-      "pnl": 17514.0,
-      "pnl_pct": 1.89
+      "pnl": 13536.0,
+      "pnl_pct": 1.46
     },
     {
       "ticker": "326030",
@@ -120,7 +93,7 @@
       "qty": 11,
       "entry_price": 85000.0,
       "entry_time": "2026-09-07T11:24:16",
-      "current_price": 84900.0,
+      "current_price": 84800.0,
       "tp": 86600.0,
       "sl": 83400.0,
       "tp_basis": "피벗고점",
@@ -138,8 +111,8 @@
       "reasons": [
         "음봉형 도지"
       ],
-      "pnl": -9509.0,
-      "pnl_pct": -1.02
+      "pnl": -10603.0,
+      "pnl_pct": -1.13
     }
   ]
 }
