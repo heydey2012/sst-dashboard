@@ -1,10 +1,10 @@
 {
-  "last_updated": "2026-09-08T12:38:23",
+  "last_updated": "2026-09-08T12:40:20",
   "strategy_version": "legacy",
   "initial_capital": 10000000,
-  "current_capital": 9843853.0,
-  "return_pct": -1.56,
-  "profit_amount": -156147.0,
+  "current_capital": 9842757.0,
+  "return_pct": -1.57,
+  "profit_amount": -157243.0,
   "positions": [
     {
       "ticker": "012330",
@@ -39,7 +39,7 @@
       "qty": 2,
       "entry_price": 378500.0,
       "entry_time": "2026-09-02T11:35:14",
-      "current_price": 389500.0,
+      "current_price": 390000.0,
       "tp": 401000.0,
       "sl": 356000.0,
       "tp_basis": "피벗고점",
@@ -57,8 +57,8 @@
       "reasons": [
         "음봉형 도지"
       ],
-      "pnl": 15066.0,
-      "pnl_pct": 1.99
+      "pnl": 16060.0,
+      "pnl_pct": 2.12
     },
     {
       "ticker": "105560",
@@ -66,7 +66,7 @@
       "qty": 5,
       "entry_price": 173600.0,
       "entry_time": "2026-09-04T10:20:38",
-      "current_price": 175500.0,
+      "current_price": 175300.0,
       "tp": 180700.0,
       "sl": 168700.0,
       "tp_basis": "피벗고점",
@@ -84,8 +84,8 @@
       "reasons": [
         "음봉형 도지"
       ],
-      "pnl": 1636.0,
-      "pnl_pct": 0.19
+      "pnl": 641.0,
+      "pnl_pct": 0.07
     },
     {
       "ticker": "128940",
@@ -93,7 +93,7 @@
       "qty": 2,
       "entry_price": 463500.0,
       "entry_time": "2026-09-07T10:07:33",
-      "current_price": 466500.0,
+      "current_price": 467000.0,
       "tp": 486500.0,
       "sl": 451000.0,
       "tp_basis": "피벗고점",
@@ -111,8 +111,8 @@
       "reasons": [
         "연속 양봉 2개 이상"
       ],
-      "pnl": -2376.0,
-      "pnl_pct": -0.26
+      "pnl": -1382.0,
+      "pnl_pct": -0.15
     },
     {
       "ticker": "326030",
@@ -147,7 +147,7 @@
       "qty": 7,
       "entry_price": 132300.0,
       "entry_time": "2026-09-07T11:07:36",
-      "current_price": 132600.0,
+      "current_price": 132300.0,
       "tp": 138800.0,
       "sl": 125800.0,
       "tp_basis": "피벗고점",
@@ -165,8 +165,8 @@
       "reasons": [
         "연속 양봉 2개 이상"
       ],
-      "pnl": -6246.0,
-      "pnl_pct": -0.67
+      "pnl": -8335.0,
+      "pnl_pct": -0.9
     },
     {
       "ticker": "003550",
