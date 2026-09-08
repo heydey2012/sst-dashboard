@@ -1,9 +1,9 @@
 {
   "timeframe": "5m",
   "timeframe_label": "5분봉",
-  "last_updated": "2026-09-08T09:31:36",
+  "last_updated": "2026-09-08T09:36:43",
   "total_tickers": 98,
-  "total_signals": 11,
+  "total_signals": 8,
   "results": [
     {
       "ticker": "009150",
@@ -11,11 +11,11 @@
       "is_fresh": true,
       "best_signal": false,
       "best_reason": "",
-      "has_active_entry": true,
+      "has_active_entry": false,
       "signal_time": "09/08 09:20",
       "signal_price": 1426000.0,
       "rebound_time": "09/08 09:25",
-      "rebound_price": 1429000.0,
+      "rebound_price": 1432000.0,
       "bars_after_signal": 1,
       "reasons": [
         "전 봉(음봉)보다 몸통이 큰 양봉"
@@ -30,9 +30,25 @@
       "has_active_entry": false,
       "signal_time": "09/08 09:10",
       "signal_price": 389500.0,
-      "rebound_time": "09/08 09:25",
-      "rebound_price": 389500.0,
-      "bars_after_signal": 3,
+      "rebound_time": "09/08 09:30",
+      "rebound_price": 390000.0,
+      "bars_after_signal": 4,
+      "reasons": [
+        "전 봉(음봉)보다 몸통이 큰 양봉"
+      ]
+    },
+    {
+      "ticker": "035420",
+      "name": "NAVER",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "09/08 09:25",
+      "signal_price": 215500.0,
+      "rebound_time": "09/08 09:30",
+      "rebound_price": 216000.0,
+      "bars_after_signal": 1,
       "reasons": [
         "음봉형 도지"
       ]
@@ -57,13 +73,29 @@
       "ticker": "018260",
       "name": "삼성에스디에스",
       "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
+      "best_signal": true,
+      "best_reason": "1차 저점(238,000) 지지 후 재반등",
       "has_active_entry": false,
       "signal_time": "09/08 09:20",
       "signal_price": 238000.0,
       "rebound_time": "09/08 09:25",
-      "rebound_price": 239000.0,
+      "rebound_price": 238500.0,
+      "bars_after_signal": 1,
+      "reasons": [
+        "연속 양봉 2개 이상"
+      ]
+    },
+    {
+      "ticker": "138040",
+      "name": "메리츠금융지주",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "09/08 09:25",
+      "signal_price": 131500.0,
+      "rebound_time": "09/08 09:30",
+      "rebound_price": 131800.0,
       "bars_after_signal": 1,
       "reasons": [
         "연속 양봉 2개 이상"
@@ -86,27 +118,11 @@
       ]
     },
     {
-      "ticker": "036570",
-      "name": "엔씨소프트",
-      "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
-      "has_active_entry": true,
-      "signal_time": "09/08 09:25",
-      "signal_price": 217000.0,
-      "rebound_time": "09/08 09:30",
-      "rebound_price": 218000.0,
-      "bars_after_signal": 1,
-      "reasons": [
-        "전 봉(음봉)보다 몸통이 큰 양봉"
-      ]
-    },
-    {
       "ticker": "293490",
       "name": "카카오게임즈",
       "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
+      "best_signal": true,
+      "best_reason": "1차 저점(8,770) 지지 후 재반등",
       "has_active_entry": false,
       "signal_time": "09/08 09:25",
       "signal_price": 8770.0,
