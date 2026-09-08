@@ -1,9 +1,9 @@
 {
   "timeframe": "5m",
   "timeframe_label": "5분봉",
-  "last_updated": "2026-09-08T13:06:56",
+  "last_updated": "2026-09-08T13:12:41",
   "total_tickers": 98,
-  "total_signals": 2,
+  "total_signals": 1,
   "results": [
     {
       "ticker": "009150",
@@ -169,8 +169,8 @@
       "ticker": "009540",
       "name": "HD한국조선해양",
       "is_fresh": true,
-      "best_signal": true,
-      "best_reason": "1차 저점(350,000) 지지 후 재반등",
+      "best_signal": false,
+      "best_reason": "",
       "has_active_entry": false,
       "signal_time": "09/08 10:05",
       "signal_price": 350000.0,
@@ -217,8 +217,8 @@
       "ticker": "298040",
       "name": "효성중공업",
       "is_fresh": true,
-      "best_signal": true,
-      "best_reason": "1차 저점(2,921,000) 지지 후 재반등",
+      "best_signal": false,
+      "best_reason": "",
       "has_active_entry": false,
       "signal_time": "09/08 10:00",
       "signal_price": 2921000.0,
@@ -361,30 +361,14 @@
       "ticker": "078930",
       "name": "GS",
       "is_fresh": true,
-      "best_signal": true,
-      "best_reason": "저점 이탈(124,300→123,900)했으나 RSI 다이버전스 동반 재반등 (RSI 39.5→37.0)",
+      "best_signal": false,
+      "best_reason": "",
       "has_active_entry": false,
       "signal_time": "09/08 09:55",
       "signal_price": 124500.0,
       "rebound_time": "09/08 10:30",
       "rebound_price": 124300.0,
       "bars_after_signal": 7,
-      "reasons": [
-        "음봉형 도지"
-      ]
-    },
-    {
-      "ticker": "017670",
-      "name": "SK텔레콤",
-      "is_fresh": true,
-      "best_signal": true,
-      "best_reason": "1차 저점(92,900) 지지 후 재반등",
-      "has_active_entry": false,
-      "signal_time": "09/08 09:25",
-      "signal_price": 92900.0,
-      "rebound_time": "09/08 09:35",
-      "rebound_price": 93100.0,
-      "bars_after_signal": 2,
       "reasons": [
         "음봉형 도지"
       ]
@@ -441,8 +425,8 @@
       "ticker": "000120",
       "name": "CJ대한통운",
       "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
+      "best_signal": true,
+      "best_reason": "1차 저점(73,800) 지지 후 재반등",
       "has_active_entry": false,
       "signal_time": "09/08 12:55",
       "signal_price": 73800.0,
