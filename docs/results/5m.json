@@ -1,10 +1,26 @@
 {
   "timeframe": "5m",
   "timeframe_label": "5분봉",
-  "last_updated": "2026-09-08T09:16:34",
+  "last_updated": "2026-09-08T09:21:52",
   "total_tickers": 98,
-  "total_signals": 9,
+  "total_signals": 12,
   "results": [
+    {
+      "ticker": "003550",
+      "name": "LG",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "09/08 09:00",
+      "signal_price": 122700.0,
+      "rebound_time": "09/08 09:15",
+      "rebound_price": 122900.0,
+      "bars_after_signal": 3,
+      "reasons": [
+        "음봉형 도지"
+      ]
+    },
     {
       "ticker": "293490",
       "name": "카카오게임즈",
