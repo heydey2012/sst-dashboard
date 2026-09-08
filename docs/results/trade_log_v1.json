@@ -404,5 +404,19 @@
     "pnl_pct": -1.25,
     "commission": 6867.0,
     "tax": 1959.0
+  },
+  {
+    "ticker": "361610",
+    "name": "SK아이이테크놀로지",
+    "qty": 62,
+    "entry_price": 15900.0,
+    "entry_time": "2026-09-03T11:52:50",
+    "exit_price": 16560.0,
+    "exit_time": "2026-09-08T09:02:17",
+    "reason": "익절(TP 도달)",
+    "pnl": 31823.0,
+    "pnl_pct": 3.23,
+    "commission": 7044.0,
+    "tax": 2053.0
   }
 ]
