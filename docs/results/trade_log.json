@@ -600,5 +600,33 @@
     "pnl_pct": 3.36,
     "commission": 7057.0,
     "tax": 2059.0
+  },
+  {
+    "ticker": "055550",
+    "name": "신한지주",
+    "qty": 9,
+    "entry_price": 110400.0,
+    "entry_time": "2026-09-04T14:05:50",
+    "exit_price": 116000.0,
+    "exit_time": "2026-09-08T09:04:06",
+    "reason": "익절(TP 도달)",
+    "pnl": 41180.0,
+    "pnl_pct": 4.14,
+    "commission": 7132.0,
+    "tax": 2088.0
+  },
+  {
+    "ticker": "090430",
+    "name": "아모레퍼시픽",
+    "qty": 7,
+    "entry_price": 140400.0,
+    "entry_time": "2026-09-07T10:07:30",
+    "exit_price": 145100.0,
+    "exit_time": "2026-09-08T09:04:07",
+    "reason": "익절(TP 도달)",
+    "pnl": 23874.0,
+    "pnl_pct": 2.43,
+    "commission": 6995.0,
+    "tax": 2031.0
   }
 ]
