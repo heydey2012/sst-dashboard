@@ -474,5 +474,19 @@
     "pnl_pct": -1.36,
     "commission": 6062.0,
     "tax": 1728.0
+  },
+  {
+    "ticker": "032640",
+    "name": "LG유플러스",
+    "qty": 66,
+    "entry_price": 14990.0,
+    "entry_time": "2026-09-08T09:51:43",
+    "exit_price": 14830.0,
+    "exit_time": "2026-09-08T13:10:19",
+    "reason": "손절(SL 도달)",
+    "pnl": -19406.0,
+    "pnl_pct": -1.96,
+    "commission": 6888.0,
+    "tax": 1958.0
   }
 ]
