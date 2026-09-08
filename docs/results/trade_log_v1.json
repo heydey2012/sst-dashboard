@@ -502,5 +502,19 @@
     "pnl_pct": -2.42,
     "commission": 6896.0,
     "tax": 1955.0
+  },
+  {
+    "ticker": "357780",
+    "name": "솔브레인",
+    "qty": 2,
+    "entry_price": 335500.0,
+    "entry_time": "2026-09-08T13:10:29",
+    "exit_price": 330000.0,
+    "exit_time": "2026-09-08T14:06:30",
+    "reason": "손절(SL 도달)",
+    "pnl": -16978.0,
+    "pnl_pct": -2.53,
+    "commission": 4658.0,
+    "tax": 1320.0
   }
 ]
