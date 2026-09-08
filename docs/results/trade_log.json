@@ -572,5 +572,33 @@
     "pnl_pct": 9.24,
     "commission": 5915.0,
     "tax": 1772.0
+  },
+  {
+    "ticker": "329180",
+    "name": "HD현대중공업",
+    "qty": 2,
+    "entry_price": 429500.0,
+    "entry_time": "2026-09-02T11:18:30",
+    "exit_price": 457000.0,
+    "exit_time": "2026-09-08T09:02:01",
+    "reason": "익절(TP 도달)",
+    "pnl": 46966.0,
+    "pnl_pct": 5.47,
+    "commission": 6206.0,
+    "tax": 1828.0
+  },
+  {
+    "ticker": "010140",
+    "name": "삼성중공업",
+    "qty": 47,
+    "entry_price": 21000.0,
+    "entry_time": "2026-09-04T10:39:14",
+    "exit_price": 21900.0,
+    "exit_time": "2026-09-08T09:02:04",
+    "reason": "익절(TP 도달)",
+    "pnl": 33184.0,
+    "pnl_pct": 3.36,
+    "commission": 7057.0,
+    "tax": 2059.0
   }
 ]
