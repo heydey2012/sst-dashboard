@@ -628,5 +628,19 @@
     "pnl_pct": 2.43,
     "commission": 6995.0,
     "tax": 2031.0
+  },
+  {
+    "ticker": "005830",
+    "name": "DB손해보험",
+    "qty": 5,
+    "entry_price": 197200.0,
+    "entry_time": "2026-09-04T10:52:42",
+    "exit_price": 190000.0,
+    "exit_time": "2026-09-08T09:12:01",
+    "reason": "손절(SL 도달)",
+    "pnl": -44676.0,
+    "pnl_pct": -4.53,
+    "commission": 6776.0,
+    "tax": 1900.0
   }
 ]
