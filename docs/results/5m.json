@@ -1,7 +1,7 @@
 {
   "timeframe": "5m",
   "timeframe_label": "5분봉",
-  "last_updated": "2026-09-08T12:56:38",
+  "last_updated": "2026-09-08T13:01:37",
   "total_tickers": 98,
   "total_signals": 0,
   "results": [
@@ -42,7 +42,7 @@
       "name": "LG에너지솔루션",
       "is_fresh": true,
       "best_signal": true,
-      "best_reason": "1차 저점(354,500) 지지 후 재반등",
+      "best_reason": "저점 이탈(354,500→354,000)했으나 RSI 다이버전스 동반 재반등 (RSI 31.5→28.6)",
       "has_active_entry": false,
       "signal_time": "09/08 09:20",
       "signal_price": 354500.0,
@@ -74,7 +74,7 @@
       "name": "셀트리온",
       "is_fresh": true,
       "best_signal": true,
-      "best_reason": "저점 이탈(183,900→183,700)했으나 RSI 다이버전스 동반 재반등 (RSI 26.1→28.6)",
+      "best_reason": "저점 이탈(183,900→183,600)했으나 RSI 다이버전스 동반 재반등 (RSI 26.1→35.0)",
       "has_active_entry": false,
       "signal_time": "09/08 09:55",
       "signal_price": 183900.0,
@@ -217,8 +217,8 @@
       "ticker": "298040",
       "name": "효성중공업",
       "is_fresh": true,
-      "best_signal": true,
-      "best_reason": "1차 저점(2,921,000) 지지 후 재반등",
+      "best_signal": false,
+      "best_reason": "",
       "has_active_entry": false,
       "signal_time": "09/08 10:00",
       "signal_price": 2921000.0,
@@ -297,8 +297,8 @@
       "ticker": "011200",
       "name": "HMM",
       "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
+      "best_signal": true,
+      "best_reason": "저점 이탈(21,150→21,100)했으나 RSI 다이버전스 동반 재반등 (RSI 34.5→37.5)",
       "has_active_entry": false,
       "signal_time": "09/08 09:55",
       "signal_price": 21150.0,
@@ -313,8 +313,8 @@
       "ticker": "138040",
       "name": "메리츠금융지주",
       "is_fresh": true,
-      "best_signal": true,
-      "best_reason": "1차 저점(131,700) 지지 후 재반등",
+      "best_signal": false,
+      "best_reason": "",
       "has_active_entry": false,
       "signal_time": "09/08 09:30",
       "signal_price": 131700.0,
@@ -441,8 +441,8 @@
       "ticker": "001040",
       "name": "CJ",
       "is_fresh": true,
-      "best_signal": true,
-      "best_reason": "1차 저점(131,500) 지지 후 재반등",
+      "best_signal": false,
+      "best_reason": "",
       "has_active_entry": false,
       "signal_time": "09/08 09:55",
       "signal_price": 131500.0,
@@ -451,6 +451,22 @@
       "bars_after_signal": 3,
       "reasons": [
         "전 봉(음봉)보다 몸통이 큰 양봉"
+      ]
+    },
+    {
+      "ticker": "000120",
+      "name": "CJ대한통운",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "09/08 12:55",
+      "signal_price": 73800.0,
+      "rebound_time": "09/08 13:00",
+      "rebound_price": 73800.0,
+      "bars_after_signal": 1,
+      "reasons": [
+        "음봉형 도지"
       ]
     },
     {
