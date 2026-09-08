@@ -460,5 +460,19 @@
     "pnl_pct": 6.71,
     "commission": 5226.0,
     "tax": 1548.0
+  },
+  {
+    "ticker": "035420",
+    "name": "NAVER",
+    "qty": 4,
+    "entry_price": 217000.0,
+    "entry_time": "2026-09-08T09:51:16",
+    "exit_price": 216000.0,
+    "exit_time": "2026-09-08T09:58:12",
+    "reason": "손절(SL 도달)",
+    "pnl": -11790.0,
+    "pnl_pct": -1.36,
+    "commission": 6062.0,
+    "tax": 1728.0
   }
 ]
