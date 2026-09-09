@@ -1,10 +1,10 @@
 {
-  "last_updated": "2026-09-09T12:38:19",
+  "last_updated": "2026-09-09T12:40:21",
   "strategy_version": "legacy",
   "initial_capital": 10000000,
-  "current_capital": 9702523.0,
+  "current_capital": 9703020.0,
   "return_pct": -2.97,
-  "profit_amount": -297477.0,
+  "profit_amount": -296980.0,
   "positions": [
     {
       "ticker": "012330",
@@ -12,7 +12,7 @@
       "qty": 2,
       "entry_price": 422000.0,
       "entry_time": "2026-09-02T10:20:56",
-      "current_price": 418000.0,
+      "current_price": 418500.0,
       "tp": 460000.0,
       "sl": 384000.0,
       "tp_basis": "피벗고점",
@@ -30,8 +30,8 @@
       "reasons": [
         "전 봉(음봉)보다 몸통이 큰 양봉"
       ],
-      "pnl": -15552.0,
-      "pnl_pct": -1.84
+      "pnl": -14558.0,
+      "pnl_pct": -1.72
     },
     {
       "ticker": "005380",
@@ -147,7 +147,7 @@
       "qty": 2,
       "entry_price": 352000.0,
       "entry_time": "2026-09-08T13:50:29",
-      "current_price": 352000.0,
+      "current_price": 351500.0,
       "tp": 370000.0,
       "sl": 334000.0,
       "tp_basis": "피벗고점",
@@ -165,8 +165,8 @@
       "reasons": [
         "전 봉(음봉)보다 몸통이 큰 양봉"
       ],
-      "pnl": -6336.0,
-      "pnl_pct": -0.9
+      "pnl": -7330.0,
+      "pnl_pct": -1.04
     },
     {
       "ticker": "028260",
@@ -174,7 +174,7 @@
       "qty": 2,
       "entry_price": 378500.0,
       "entry_time": "2026-09-09T09:35:43",
-      "current_price": 383000.0,
+      "current_price": 382500.0,
       "tp": 401000.0,
       "sl": 352500.0,
       "tp_basis": "피벗고점",
@@ -192,8 +192,8 @@
       "reasons": [
         "음봉형 도지"
       ],
-      "pnl": 2138.0,
-      "pnl_pct": 0.28
+      "pnl": 1143.0,
+      "pnl_pct": 0.15
     },
     {
       "ticker": "041510",
@@ -255,7 +255,7 @@
       "qty": 3,
       "entry_price": 305000.0,
       "entry_time": "2026-09-09T10:05:36",
-      "current_price": 303000.0,
+      "current_price": 303500.0,
       "tp": 319500.0,
       "sl": 290500.0,
       "tp_basis": "피벗고점",
@@ -273,8 +273,8 @@
       "reasons": [
         "음봉형 도지"
       ],
-      "pnl": -14202.0,
-      "pnl_pct": -1.55
+      "pnl": -12710.0,
+      "pnl_pct": -1.39
     }
   ]
 }
