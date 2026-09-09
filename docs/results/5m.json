@@ -1,10 +1,26 @@
 {
   "timeframe": "5m",
   "timeframe_label": "5분봉",
-  "last_updated": "2026-09-09T09:26:35",
+  "last_updated": "2026-09-09T09:31:35",
   "total_tickers": 98,
-  "total_signals": 5,
+  "total_signals": 1,
   "results": [
+    {
+      "ticker": "055550",
+      "name": "신한지주",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "09/09 09:10",
+      "signal_price": 110600.0,
+      "rebound_time": "09/09 09:20",
+      "rebound_price": 110800.0,
+      "bars_after_signal": 2,
+      "reasons": [
+        "음봉형 도지"
+      ]
+    },
     {
       "ticker": "068270",
       "name": "셀트리온",
@@ -25,24 +41,24 @@
       "ticker": "086790",
       "name": "하나금융지주",
       "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
+      "best_signal": true,
+      "best_reason": "1차 저점(135,100) 지지 후 재반등",
       "has_active_entry": false,
       "signal_time": "09/09 09:10",
       "signal_price": 135100.0,
       "rebound_time": "09/09 09:20",
-      "rebound_price": 135400.0,
+      "rebound_price": 135500.0,
       "bars_after_signal": 2,
       "reasons": [
-        "음봉형 도지"
+        "연속 양봉 2개 이상"
       ]
     },
     {
       "ticker": "010950",
       "name": "S-Oil",
       "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
+      "best_signal": true,
+      "best_reason": "1차 저점(158,300) 지지 후 재반등",
       "has_active_entry": false,
       "signal_time": "09/09 09:05",
       "signal_price": 158300.0,
@@ -51,6 +67,38 @@
       "bars_after_signal": 1,
       "reasons": [
         "전 봉(음봉)보다 몸통이 큰 양봉"
+      ]
+    },
+    {
+      "ticker": "090430",
+      "name": "아모레퍼시픽",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "09/09 09:15",
+      "signal_price": 137600.0,
+      "rebound_time": "09/09 09:20",
+      "rebound_price": 137600.0,
+      "bars_after_signal": 1,
+      "reasons": [
+        "음봉형 도지"
+      ]
+    },
+    {
+      "ticker": "128940",
+      "name": "한미약품",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "09/09 09:15",
+      "signal_price": 463000.0,
+      "rebound_time": "09/09 09:25",
+      "rebound_price": 465000.0,
+      "bars_after_signal": 2,
+      "reasons": [
+        "연속 양봉 2개 이상"
       ]
     },
     {
@@ -78,11 +126,11 @@
       "has_active_entry": false,
       "signal_time": "09/09 09:00",
       "signal_price": 78800.0,
-      "rebound_time": "09/09 09:20",
-      "rebound_price": 78700.0,
-      "bars_after_signal": 4,
+      "rebound_time": "09/09 09:25",
+      "rebound_price": 79000.0,
+      "bars_after_signal": 5,
       "reasons": [
-        "음봉형 도지"
+        "연속 양봉 2개 이상"
       ]
     },
     {
@@ -102,11 +150,27 @@
       ]
     },
     {
+      "ticker": "001040",
+      "name": "CJ",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "09/09 09:25",
+      "signal_price": 127300.0,
+      "rebound_time": "09/09 09:30",
+      "rebound_price": 127200.0,
+      "bars_after_signal": 1,
+      "reasons": [
+        "음봉형 도지"
+      ]
+    },
+    {
       "ticker": "196170",
       "name": "알테오젠",
       "is_fresh": true,
       "best_signal": true,
-      "best_reason": "저점 이탈(271,500→271,000)했으나 RSI 다이버전스 동반 재반등 (RSI 21.1→28.4)",
+      "best_reason": "저점 이탈(271,500→269,500)했으나 RSI 다이버전스 동반 재반등 (RSI 21.1→25.4)",
       "has_active_entry": false,
       "signal_time": "09/09 09:00",
       "signal_price": 271500.0,
@@ -169,16 +233,16 @@
       "ticker": "352820",
       "name": "하이브",
       "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
+      "best_signal": true,
+      "best_reason": "1차 저점(177,800) 지지 후 재반등",
       "has_active_entry": false,
       "signal_time": "09/09 09:10",
       "signal_price": 178000.0,
       "rebound_time": "09/09 09:25",
-      "rebound_price": 177900.0,
+      "rebound_price": 178200.0,
       "bars_after_signal": 3,
       "reasons": [
-        "음봉형 도지"
+        "연속 양봉 2개 이상"
       ]
     },
     {
@@ -191,10 +255,10 @@
       "signal_time": "09/09 09:15",
       "signal_price": 79700.0,
       "rebound_time": "09/09 09:25",
-      "rebound_price": 80500.0,
+      "rebound_price": 80600.0,
       "bars_after_signal": 2,
       "reasons": [
-        "음봉형 도지"
+        "연속 양봉 2개 이상"
       ]
     },
     {
@@ -227,6 +291,22 @@
       "bars_after_signal": 1,
       "reasons": [
         "음봉형 도지"
+      ]
+    },
+    {
+      "ticker": "251270",
+      "name": "넷마블",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "09/09 09:20",
+      "signal_price": 35000.0,
+      "rebound_time": "09/09 09:30",
+      "rebound_price": 35100.0,
+      "bars_after_signal": 2,
+      "reasons": [
+        "연속 양봉 2개 이상"
       ]
     }
   ]
