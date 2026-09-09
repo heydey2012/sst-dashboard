@@ -1,16 +1,16 @@
 {
   "timeframe": "5m",
   "timeframe_label": "5분봉",
-  "last_updated": "2026-09-09T12:56:36",
+  "last_updated": "2026-09-09T13:01:41",
   "total_tickers": 98,
-  "total_signals": 2,
+  "total_signals": 0,
   "results": [
     {
       "ticker": "402340",
       "name": "SK스퀘어",
       "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
+      "best_signal": true,
+      "best_reason": "저점 이탈(1,133,000→1,129,000)했으나 RSI 다이버전스 동반 재반등 (RSI 39.4→37.2)",
       "has_active_entry": false,
       "signal_time": "09/09 12:20",
       "signal_price": 1133000.0,
@@ -83,6 +83,22 @@
       "bars_after_signal": 2,
       "reasons": [
         "연속 양봉 2개 이상"
+      ]
+    },
+    {
+      "ticker": "000810",
+      "name": "삼성화재",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "09/09 12:45",
+      "signal_price": 642000.0,
+      "rebound_time": "09/09 12:55",
+      "rebound_price": 643000.0,
+      "bars_after_signal": 2,
+      "reasons": [
+        "전 봉(음봉)보다 몸통이 큰 양봉"
       ]
     },
     {
@@ -257,6 +273,22 @@
       "rebound_time": "09/09 09:45",
       "rebound_price": 126200.0,
       "bars_after_signal": 4,
+      "reasons": [
+        "음봉형 도지"
+      ]
+    },
+    {
+      "ticker": "196170",
+      "name": "알테오젠",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "09/09 12:50",
+      "signal_price": 276500.0,
+      "rebound_time": "09/09 13:00",
+      "rebound_price": 277000.0,
+      "bars_after_signal": 2,
       "reasons": [
         "음봉형 도지"
       ]
