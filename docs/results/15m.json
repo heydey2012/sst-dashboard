@@ -1,9 +1,9 @@
 {
   "timeframe": "15m",
   "timeframe_label": "15분봉",
-  "last_updated": "2026-09-09T10:09:59",
+  "last_updated": "2026-09-09T10:24:47",
   "total_tickers": 98,
-  "total_signals": 7,
+  "total_signals": 4,
   "results": [
     {
       "ticker": "005930",
@@ -25,8 +25,8 @@
       "ticker": "032830",
       "name": "삼성생명",
       "is_fresh": true,
-      "best_signal": true,
-      "best_reason": "1차 저점(303,000) 지지 후 재반등",
+      "best_signal": false,
+      "best_reason": "",
       "has_active_entry": false,
       "signal_time": "09/09 09:15",
       "signal_price": 303000.0,
@@ -70,6 +70,22 @@
       ]
     },
     {
+      "ticker": "033780",
+      "name": "KT&G",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": true,
+      "signal_time": "09/09 10:00",
+      "signal_price": 167500.0,
+      "rebound_time": "09/09 10:15",
+      "rebound_price": 167600.0,
+      "bars_after_signal": 1,
+      "reasons": [
+        "전 봉(음봉)보다 몸통이 큰 양봉"
+      ]
+    },
+    {
       "ticker": "001040",
       "name": "CJ",
       "is_fresh": true,
@@ -99,6 +115,22 @@
       "bars_after_signal": 2,
       "reasons": [
         "연속 양봉 2개 이상"
+      ]
+    },
+    {
+      "ticker": "041510",
+      "name": "에스엠",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "09/09 09:45",
+      "signal_price": 80900.0,
+      "rebound_time": "09/09 10:15",
+      "rebound_price": 80900.0,
+      "bars_after_signal": 2,
+      "reasons": [
+        "전 봉(음봉)보다 몸통이 큰 양봉"
       ]
     },
     {
