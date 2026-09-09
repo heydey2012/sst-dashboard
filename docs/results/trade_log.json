@@ -796,5 +796,19 @@
     "pnl_pct": -2.4,
     "commission": 6002.0,
     "tax": 1702.0
+  },
+  {
+    "ticker": "010060",
+    "name": "OCI홀딩스",
+    "qty": 4,
+    "entry_price": 213500.0,
+    "entry_time": "2026-09-08T10:08:55",
+    "exit_price": 224500.0,
+    "exit_time": "2026-09-09T10:00:04",
+    "reason": "익절(TP 도달)",
+    "pnl": 36072.0,
+    "pnl_pct": 4.22,
+    "commission": 6132.0,
+    "tax": 1796.0
   }
 ]
