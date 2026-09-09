@@ -1,7 +1,7 @@
 {
   "timeframe": "5m",
   "timeframe_label": "5분봉",
-  "last_updated": "2026-09-09T12:07:04",
+  "last_updated": "2026-09-09T12:16:35",
   "total_tickers": 98,
   "total_signals": 0,
   "results": [
@@ -51,6 +51,22 @@
       "bars_after_signal": 2,
       "reasons": [
         "연속 양봉 2개 이상"
+      ]
+    },
+    {
+      "ticker": "267260",
+      "name": "HD현대일렉트릭",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "09/09 12:05",
+      "signal_price": 752000.0,
+      "rebound_time": "09/09 12:10",
+      "rebound_price": 753000.0,
+      "bars_after_signal": 1,
+      "reasons": [
+        "음봉형 도지"
       ]
     },
     {
