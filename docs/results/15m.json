@@ -1,7 +1,7 @@
 {
   "timeframe": "15m",
   "timeframe_label": "15분봉",
-  "last_updated": "2026-09-09T10:55:10",
+  "last_updated": "2026-09-09T11:10:39",
   "total_tickers": 98,
   "total_signals": 0,
   "results": [
@@ -54,22 +54,6 @@
       ]
     },
     {
-      "ticker": "055550",
-      "name": "신한지주",
-      "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
-      "has_active_entry": false,
-      "signal_time": "09/09 09:45",
-      "signal_price": 110000.0,
-      "rebound_time": "09/09 10:45",
-      "rebound_price": 110100.0,
-      "bars_after_signal": 4,
-      "reasons": [
-        "음봉형 도지"
-      ]
-    },
-    {
       "ticker": "035420",
       "name": "NAVER",
       "is_fresh": true,
@@ -102,6 +86,22 @@
       ]
     },
     {
+      "ticker": "097950",
+      "name": "CJ제일제당",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "09/09 10:30",
+      "signal_price": 181500.0,
+      "rebound_time": "09/09 11:00",
+      "rebound_price": 181800.0,
+      "bars_after_signal": 2,
+      "reasons": [
+        "연속 양봉 2개 이상"
+      ]
+    },
+    {
       "ticker": "033780",
       "name": "KT&G",
       "is_fresh": true,
@@ -114,6 +114,23 @@
       "rebound_price": 167600.0,
       "bars_after_signal": 1,
       "reasons": [
+        "연속 양봉 2개 이상"
+      ]
+    },
+    {
+      "ticker": "078930",
+      "name": "GS",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "09/09 10:30",
+      "signal_price": 117500.0,
+      "rebound_time": "09/09 11:00",
+      "rebound_price": 118100.0,
+      "bars_after_signal": 2,
+      "reasons": [
+        "양봉형 도지",
         "연속 양봉 2개 이상"
       ]
     },
@@ -217,8 +234,8 @@
       "ticker": "293490",
       "name": "카카오게임즈",
       "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
+      "best_signal": true,
+      "best_reason": "저점 이탈(8,860→8,840)했으나 RSI 다이버전스 동반 재반등 (RSI 37.4→38.1)",
       "has_active_entry": false,
       "signal_time": "09/09 09:15",
       "signal_price": 8860.0,
