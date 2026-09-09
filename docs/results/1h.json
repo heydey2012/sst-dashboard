@@ -1,16 +1,16 @@
 {
   "timeframe": "1h",
   "timeframe_label": "1시간봉",
-  "last_updated": "2026-09-09T12:10:07",
+  "last_updated": "2026-09-09T13:10:19",
   "total_tickers": 98,
-  "total_signals": 2,
+  "total_signals": 1,
   "results": [
     {
       "ticker": "055550",
       "name": "신한지주",
       "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
+      "best_signal": true,
+      "best_reason": "1차 저점(109,900) 지지 후 재반등",
       "has_active_entry": false,
       "signal_time": "09/09 10:00",
       "signal_price": 109900.0,
@@ -38,6 +38,22 @@
       ]
     },
     {
+      "ticker": "035420",
+      "name": "NAVER",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "09/09 09:00",
+      "signal_price": 211000.0,
+      "rebound_time": "09/09 13:00",
+      "rebound_price": 210500.0,
+      "bars_after_signal": 4,
+      "reasons": [
+        "음봉형 도지"
+      ]
+    },
+    {
       "ticker": "066570",
       "name": "LG전자",
       "is_fresh": true,
@@ -51,6 +67,22 @@
       "bars_after_signal": 2,
       "reasons": [
         "연속 양봉 2개 이상"
+      ]
+    },
+    {
+      "ticker": "030200",
+      "name": "KT",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "09/09 12:00",
+      "signal_price": 53500.0,
+      "rebound_time": "09/09 13:00",
+      "rebound_price": 53600.0,
+      "bars_after_signal": 1,
+      "reasons": [
+        "음봉형 도지"
       ]
     },
     {
@@ -143,8 +175,24 @@
       "signal_time": "09/09 10:00",
       "signal_price": 72600.0,
       "rebound_time": "09/09 12:00",
-      "rebound_price": 72700.0,
+      "rebound_price": 73100.0,
       "bars_after_signal": 2,
+      "reasons": [
+        "연속 양봉 2개 이상"
+      ]
+    },
+    {
+      "ticker": "122870",
+      "name": "와이지엔터테인먼트",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "09/09 12:00",
+      "signal_price": 42400.0,
+      "rebound_time": "09/09 13:00",
+      "rebound_price": 42450.0,
+      "bars_after_signal": 1,
       "reasons": [
         "음봉형 도지"
       ]
