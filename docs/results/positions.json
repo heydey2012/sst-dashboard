@@ -1,10 +1,10 @@
 {
-  "last_updated": "2026-09-09T09:00:11",
+  "last_updated": "2026-09-09T09:02:07",
   "strategy_version": "current",
   "initial_capital": 10000000,
-  "current_capital": 9603979.0,
-  "return_pct": -3.96,
-  "profit_amount": -396021.0,
+  "current_capital": 9575336.0,
+  "return_pct": -4.25,
+  "profit_amount": -424664.0,
   "positions": [
     {
       "ticker": "105560",
@@ -39,7 +39,7 @@
       "qty": 1,
       "entry_price": 663000.0,
       "entry_time": "2026-09-04T11:36:17",
-      "current_price": 647000.0,
+      "current_price": 654000.0,
       "tp": 704000.0,
       "sl": 630000.0,
       "tp_basis": "피벗고점",
@@ -57,8 +57,8 @@
       "reasons": [
         "전 봉(음봉)보다 몸통이 큰 양봉"
       ],
-      "pnl": -21879.0,
-      "pnl_pct": -3.3
+      "pnl": -14918.0,
+      "pnl_pct": -2.25
     },
     {
       "ticker": "128940",
@@ -66,7 +66,7 @@
       "qty": 2,
       "entry_price": 463500.0,
       "entry_time": "2026-09-07T10:07:32",
-      "current_price": 471000.0,
+      "current_price": 463000.0,
       "tp": 485500.0,
       "sl": 455000.0,
       "tp_basis": "피벗고점",
@@ -84,8 +84,8 @@
       "reasons": [
         "연속 양봉 2개 이상"
       ],
-      "pnl": 6574.0,
-      "pnl_pct": 0.71
+      "pnl": -9338.0,
+      "pnl_pct": -1.01
     },
     {
       "ticker": "010060",
@@ -93,7 +93,7 @@
       "qty": 4,
       "entry_price": 213500.0,
       "entry_time": "2026-09-08T10:08:55",
-      "current_price": 215500.0,
+      "current_price": 217000.0,
       "tp": 224500.0,
       "sl": 202500.0,
       "tp_basis": "피벗고점",
@@ -111,8 +111,8 @@
       "reasons": [
         "음봉형 도지"
       ],
-      "pnl": 270.0,
-      "pnl_pct": 0.03
+      "pnl": 6237.0,
+      "pnl_pct": 0.73
     },
     {
       "ticker": "035420",
@@ -120,7 +120,7 @@
       "qty": 4,
       "entry_price": 216000.0,
       "entry_time": "2026-09-08T10:36:11",
-      "current_price": 214500.0,
+      "current_price": 213500.0,
       "tp": 219000.0,
       "sl": 213000.0,
       "tp_basis": "피벗고점",
@@ -138,35 +138,8 @@
       "reasons": [
         "전 봉(음봉)보다 몸통이 큰 양봉"
       ],
-      "pnl": -13743.0,
-      "pnl_pct": -1.59
-    },
-    {
-      "ticker": "196170",
-      "name": "알테오젠",
-      "qty": 3,
-      "entry_price": 279500.0,
-      "entry_time": "2026-09-08T10:38:24",
-      "current_price": 277000.0,
-      "tp": 289500.0,
-      "sl": 269500.0,
-      "tp_basis": "피벗고점",
-      "sl_basis": "피벗고점 대비 1:1",
-      "pivot_high": 289500.0,
-      "pivot_low": 285500.0,
-      "best_reason": "1차 저점(277,000) 지지 후 재반등",
-      "timeframe": "15m",
-      "signal_time": "2026-09-08 09:45:00",
-      "signal_price": 277000.0,
-      "signal_rsi": 22.894458966860782,
-      "rebound_time": "2026-09-08 10:00:00",
-      "rebound_price": 279500.0,
-      "bars_after_signal": 1,
-      "reasons": [
-        "전 봉(음봉)보다 몸통이 큰 양봉"
-      ],
-      "pnl": -15005.0,
-      "pnl_pct": -1.79
+      "pnl": -17721.0,
+      "pnl_pct": -2.05
     },
     {
       "ticker": "011210",
@@ -174,7 +147,7 @@
       "qty": 17,
       "entry_price": 57200.0,
       "entry_time": "2026-09-08T13:54:17",
-      "current_price": 56300.0,
+      "current_price": 56600.0,
       "tp": 58500.0,
       "sl": 55900.0,
       "tp_basis": "피벗고점",
@@ -192,35 +165,8 @@
       "reasons": [
         "전 봉(음봉)보다 몸통이 큰 양봉"
       ],
-      "pnl": -23967.0,
-      "pnl_pct": -2.46
-    },
-    {
-      "ticker": "316140",
-      "name": "우리금융지주",
-      "qty": 29,
-      "entry_price": 34050.0,
-      "entry_time": "2026-09-08T14:07:10",
-      "current_price": 34050.0,
-      "tp": 34600.0,
-      "sl": 33950.0,
-      "tp_basis": "피벗고점",
-      "sl_basis": "피벗저점",
-      "pivot_high": 34600.0,
-      "pivot_low": 33950.0,
-      "best_reason": "1차 저점(33,950) 지지 후 재반등",
-      "timeframe": "15m",
-      "signal_time": "2026-09-08 10:00:00",
-      "signal_price": 33950.0,
-      "signal_rsi": 48.22457663021569,
-      "rebound_time": "2026-09-08 10:30:00",
-      "rebound_price": 34100.0,
-      "bars_after_signal": 2,
-      "reasons": [
-        "연속 양봉 2개 이상"
-      ],
-      "pnl": -8887.0,
-      "pnl_pct": -0.9
+      "pnl": -18896.0,
+      "pnl_pct": -1.94
     }
   ]
 }

@@ -754,5 +754,33 @@
     "pnl_pct": -4.91,
     "commission": 6798.0,
     "tax": 1902.0
+  },
+  {
+    "ticker": "196170",
+    "name": "알테오젠",
+    "qty": 3,
+    "entry_price": 279500.0,
+    "entry_time": "2026-09-08T10:38:24",
+    "exit_price": 269000.0,
+    "exit_time": "2026-09-09T09:02:04",
+    "reason": "손절(SL 도달)",
+    "pnl": -38873.0,
+    "pnl_pct": -4.64,
+    "commission": 5759.0,
+    "tax": 1614.0
+  },
+  {
+    "ticker": "316140",
+    "name": "우리금융지주",
+    "qty": 29,
+    "entry_price": 34050.0,
+    "entry_time": "2026-09-08T14:07:10",
+    "exit_price": 33950.0,
+    "exit_time": "2026-09-09T09:02:06",
+    "reason": "손절(SL 도달)",
+    "pnl": -11771.0,
+    "pnl_pct": -1.19,
+    "commission": 6902.0,
+    "tax": 1969.0
   }
 ]
