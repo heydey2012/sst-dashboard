@@ -572,5 +572,19 @@
     "pnl_pct": -2.56,
     "commission": 6336.0,
     "tax": 1795.0
+  },
+  {
+    "ticker": "138040",
+    "name": "메리츠금융지주",
+    "qty": 7,
+    "entry_price": 132300.0,
+    "entry_time": "2026-09-07T11:07:36",
+    "exit_price": 125600.0,
+    "exit_time": "2026-09-09T10:04:16",
+    "reason": "손절(SL 도달)",
+    "pnl": -54977.0,
+    "pnl_pct": -5.94,
+    "commission": 6319.0,
+    "tax": 1758.0
   }
 ]
