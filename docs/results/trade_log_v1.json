@@ -530,5 +530,19 @@
     "pnl_pct": -1.18,
     "commission": 6757.0,
     "tax": 1928.0
+  },
+  {
+    "ticker": "326030",
+    "name": "SK바이오팜",
+    "qty": 11,
+    "entry_price": 84800.0,
+    "entry_time": "2026-09-07T10:54:15",
+    "exit_price": 82800.0,
+    "exit_time": "2026-09-09T09:00:15",
+    "reason": "손절(SL 도달)",
+    "pnl": -30274.0,
+    "pnl_pct": -3.25,
+    "commission": 6453.0,
+    "tax": 1822.0
   }
 ]
