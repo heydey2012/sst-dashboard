@@ -1,10 +1,10 @@
 {
-  "last_updated": "2026-09-09T09:54:05",
+  "last_updated": "2026-09-09T09:56:06",
   "strategy_version": "current",
   "initial_capital": 10000000,
-  "current_capital": 9601294.0,
-  "return_pct": -3.99,
-  "profit_amount": -398706.0,
+  "current_capital": 9578599.0,
+  "return_pct": -4.21,
+  "profit_amount": -421401.0,
   "positions": [
     {
       "ticker": "105560",
@@ -12,7 +12,7 @@
       "qty": 5,
       "entry_price": 174000.0,
       "entry_time": "2026-09-04T11:35:33",
-      "current_price": 172500.0,
+      "current_price": 172300.0,
       "tp": 180400.0,
       "sl": 169000.0,
       "tp_basis": "피벗고점",
@@ -30,8 +30,8 @@
       "reasons": [
         "음봉형 도지"
       ],
-      "pnl": -15289.0,
-      "pnl_pct": -1.76
+      "pnl": -16283.0,
+      "pnl_pct": -1.87
     },
     {
       "ticker": "000810",
@@ -66,7 +66,7 @@
       "qty": 2,
       "entry_price": 463500.0,
       "entry_time": "2026-09-07T10:07:32",
-      "current_price": 471000.0,
+      "current_price": 470500.0,
       "tp": 485500.0,
       "sl": 455000.0,
       "tp_basis": "피벗고점",
@@ -84,8 +84,8 @@
       "reasons": [
         "연속 양봉 2개 이상"
       ],
-      "pnl": 6574.0,
-      "pnl_pct": 0.71
+      "pnl": 5580.0,
+      "pnl_pct": 0.6
     },
     {
       "ticker": "010060",
@@ -120,7 +120,7 @@
       "qty": 17,
       "entry_price": 57200.0,
       "entry_time": "2026-09-08T13:54:17",
-      "current_price": 56900.0,
+      "current_price": 56800.0,
       "tp": 58500.0,
       "sl": 55900.0,
       "tp_basis": "피벗고점",
@@ -138,8 +138,62 @@
       "reasons": [
         "전 봉(음봉)보다 몸통이 큰 양봉"
       ],
-      "pnl": -13824.0,
-      "pnl_pct": -1.42
+      "pnl": -15514.0,
+      "pnl_pct": -1.6
+    },
+    {
+      "ticker": "035900",
+      "name": "JYP Ent.",
+      "qty": 25,
+      "entry_price": 39300.0,
+      "entry_time": "2026-09-09T09:54:51",
+      "current_price": 39250.0,
+      "tp": 40100.0,
+      "sl": 38500.0,
+      "tp_basis": "피벗고점",
+      "sl_basis": "피벗고점 대비 1:1",
+      "pivot_high": 40100.0,
+      "pivot_low": 39900.0,
+      "best_reason": "1차 저점(39,200) 지지 후 재반등",
+      "timeframe": "15m",
+      "signal_time": "2026-09-09 09:15:00",
+      "signal_price": 39200.0,
+      "signal_rsi": 28.967103158525987,
+      "rebound_time": "2026-09-09 09:30:00",
+      "rebound_price": 39350.0,
+      "bars_after_signal": 1,
+      "reasons": [
+        "연속 양봉 2개 이상"
+      ],
+      "pnl": -10086.0,
+      "pnl_pct": -1.03
+    },
+    {
+      "ticker": "293490",
+      "name": "카카오게임즈",
+      "qty": 111,
+      "entry_price": 8940.0,
+      "entry_time": "2026-09-09T09:55:01",
+      "current_price": 8940.0,
+      "tp": 9100.0,
+      "sl": 8770.0,
+      "tp_basis": "피벗고점",
+      "sl_basis": "피벗저점",
+      "pivot_high": 9100.0,
+      "pivot_low": 8770.0,
+      "best_reason": "1차 저점(8,860) 지지 후 재반등",
+      "timeframe": "15m",
+      "signal_time": "2026-09-09 09:15:00",
+      "signal_price": 8860.0,
+      "signal_rsi": 37.42695971070552,
+      "rebound_time": "2026-09-09 09:30:00",
+      "rebound_price": 8930.0,
+      "bars_after_signal": 1,
+      "reasons": [
+        "전 봉(음봉)보다 몸통이 큰 양봉"
+      ],
+      "pnl": -8931.0,
+      "pnl_pct": -0.9
     }
   ]
 }
