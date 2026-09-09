@@ -1,10 +1,26 @@
 {
   "timeframe": "15m",
   "timeframe_label": "15분봉",
-  "last_updated": "2026-09-09T09:39:56",
+  "last_updated": "2026-09-09T09:55:03",
   "total_tickers": 98,
   "total_signals": 5,
   "results": [
+    {
+      "ticker": "032830",
+      "name": "삼성생명",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "09/09 09:15",
+      "signal_price": 303000.0,
+      "rebound_time": "09/09 09:30",
+      "rebound_price": 303000.0,
+      "bars_after_signal": 1,
+      "reasons": [
+        "음봉형 도지"
+      ]
+    },
     {
       "ticker": "028260",
       "name": "삼성물산",
@@ -22,16 +38,48 @@
       ]
     },
     {
-      "ticker": "041510",
-      "name": "에스엠",
+      "ticker": "035420",
+      "name": "NAVER",
       "is_fresh": true,
       "best_signal": false,
       "best_reason": "",
       "has_active_entry": false,
       "signal_time": "09/09 09:15",
-      "signal_price": 80600.0,
-      "rebound_time": "09/09 09:30",
-      "rebound_price": 81200.0,
+      "signal_price": 211000.0,
+      "rebound_time": "09/09 09:45",
+      "rebound_price": 211500.0,
+      "bars_after_signal": 2,
+      "reasons": [
+        "연속 양봉 2개 이상"
+      ]
+    },
+    {
+      "ticker": "196170",
+      "name": "알테오젠",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "09/09 09:15",
+      "signal_price": 269500.0,
+      "rebound_time": "09/09 09:45",
+      "rebound_price": 278000.0,
+      "bars_after_signal": 2,
+      "reasons": [
+        "연속 양봉 2개 이상"
+      ]
+    },
+    {
+      "ticker": "041510",
+      "name": "에스엠",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": true,
+      "signal_time": "09/09 09:30",
+      "signal_price": 80900.0,
+      "rebound_time": "09/09 09:45",
+      "rebound_price": 81300.0,
       "bars_after_signal": 1,
       "reasons": [
         "연속 양봉 2개 이상"
@@ -41,16 +89,16 @@
       "ticker": "035900",
       "name": "JYP Ent.",
       "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
+      "best_signal": true,
+      "best_reason": "1차 저점(39,200) 지지 후 재반등",
       "has_active_entry": false,
       "signal_time": "09/09 09:15",
       "signal_price": 39200.0,
       "rebound_time": "09/09 09:30",
-      "rebound_price": 39250.0,
+      "rebound_price": 39350.0,
       "bars_after_signal": 1,
       "reasons": [
-        "음봉형 도지"
+        "연속 양봉 2개 이상"
       ]
     },
     {
@@ -64,6 +112,22 @@
       "signal_price": 42900.0,
       "rebound_time": "09/09 09:15",
       "rebound_price": 43350.0,
+      "bars_after_signal": 1,
+      "reasons": [
+        "전 봉(음봉)보다 몸통이 큰 양봉"
+      ]
+    },
+    {
+      "ticker": "293490",
+      "name": "카카오게임즈",
+      "is_fresh": true,
+      "best_signal": true,
+      "best_reason": "1차 저점(8,860) 지지 후 재반등",
+      "has_active_entry": false,
+      "signal_time": "09/09 09:15",
+      "signal_price": 8860.0,
+      "rebound_time": "09/09 09:30",
+      "rebound_price": 8930.0,
       "bars_after_signal": 1,
       "reasons": [
         "전 봉(음봉)보다 몸통이 큰 양봉"
