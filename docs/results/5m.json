@@ -1,7 +1,7 @@
 {
   "timeframe": "5m",
   "timeframe_label": "5분봉",
-  "last_updated": "2026-09-09T13:01:41",
+  "last_updated": "2026-09-09T13:07:08",
   "total_tickers": 98,
   "total_signals": 0,
   "results": [
@@ -115,6 +115,22 @@
       "bars_after_signal": 1,
       "reasons": [
         "음봉형 도지"
+      ]
+    },
+    {
+      "ticker": "298040",
+      "name": "효성중공업",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "09/09 12:55",
+      "signal_price": 2917000.0,
+      "rebound_time": "09/09 13:00",
+      "rebound_price": 2925000.0,
+      "bars_after_signal": 1,
+      "reasons": [
+        "연속 양봉 2개 이상"
       ]
     },
     {
@@ -287,10 +303,10 @@
       "signal_time": "09/09 12:50",
       "signal_price": 276500.0,
       "rebound_time": "09/09 13:00",
-      "rebound_price": 277000.0,
+      "rebound_price": 277500.0,
       "bars_after_signal": 2,
       "reasons": [
-        "음봉형 도지"
+        "연속 양봉 2개 이상"
       ]
     },
     {
