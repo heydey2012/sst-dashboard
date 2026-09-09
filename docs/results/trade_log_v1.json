@@ -544,5 +544,33 @@
     "pnl_pct": -3.25,
     "commission": 6453.0,
     "tax": 1822.0
+  },
+  {
+    "ticker": "259960",
+    "name": "크래프톤",
+    "qty": 4,
+    "entry_price": 214500.0,
+    "entry_time": "2026-09-08T10:10:42",
+    "exit_price": 212500.0,
+    "exit_time": "2026-09-09T09:02:14",
+    "reason": "손절(SL 도달)",
+    "pnl": -15678.0,
+    "pnl_pct": -1.83,
+    "commission": 5978.0,
+    "tax": 1700.0
+  },
+  {
+    "ticker": "055550",
+    "name": "신한지주",
+    "qty": 8,
+    "entry_price": 114100.0,
+    "entry_time": "2026-09-08T14:20:49",
+    "exit_price": 112200.0,
+    "exit_time": "2026-09-09T09:02:17",
+    "reason": "손절(SL 도달)",
+    "pnl": -23332.0,
+    "pnl_pct": -2.56,
+    "commission": 6336.0,
+    "tax": 1795.0
   }
 ]
