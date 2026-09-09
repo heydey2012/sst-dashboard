@@ -726,5 +726,33 @@
     "pnl_pct": -1.51,
     "commission": 5722.0,
     "tax": 1630.0
+  },
+  {
+    "ticker": "326030",
+    "name": "SK바이오팜",
+    "qty": 11,
+    "entry_price": 85000.0,
+    "entry_time": "2026-09-07T11:24:16",
+    "exit_price": 82800.0,
+    "exit_time": "2026-09-09T09:00:05",
+    "reason": "손절(SL 도달)",
+    "pnl": -32482.0,
+    "pnl_pct": -3.47,
+    "commission": 6460.0,
+    "tax": 1822.0
+  },
+  {
+    "ticker": "003550",
+    "name": "LG",
+    "qty": 8,
+    "entry_price": 123900.0,
+    "entry_time": "2026-09-08T09:52:25",
+    "exit_price": 118900.0,
+    "exit_time": "2026-09-09T09:00:06",
+    "reason": "손절(SL 도달)",
+    "pnl": -48701.0,
+    "pnl_pct": -4.91,
+    "commission": 6798.0,
+    "tax": 1902.0
   }
 ]
