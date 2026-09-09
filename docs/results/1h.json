@@ -1,24 +1,40 @@
 {
   "timeframe": "1h",
   "timeframe_label": "1시간봉",
-  "last_updated": "2026-09-09T11:09:59",
+  "last_updated": "2026-09-09T12:10:07",
   "total_tickers": 98,
-  "total_signals": 7,
+  "total_signals": 2,
   "results": [
     {
-      "ticker": "035420",
-      "name": "NAVER",
+      "ticker": "055550",
+      "name": "신한지주",
       "is_fresh": true,
       "best_signal": false,
       "best_reason": "",
       "has_active_entry": false,
-      "signal_time": "09/09 09:00",
-      "signal_price": 211000.0,
+      "signal_time": "09/09 10:00",
+      "signal_price": 109900.0,
       "rebound_time": "09/09 11:00",
-      "rebound_price": 211500.0,
-      "bars_after_signal": 2,
+      "rebound_price": 111100.0,
+      "bars_after_signal": 1,
       "reasons": [
-        "음봉형 도지"
+        "전 봉(음봉)보다 몸통이 큰 양봉"
+      ]
+    },
+    {
+      "ticker": "086790",
+      "name": "하나금융지주",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "09/09 10:00",
+      "signal_price": 133500.0,
+      "rebound_time": "09/09 11:00",
+      "rebound_price": 134600.0,
+      "bars_after_signal": 1,
+      "reasons": [
+        "전 봉(음봉)보다 몸통이 큰 양봉"
       ]
     },
     {
@@ -31,7 +47,7 @@
       "signal_time": "09/09 09:00",
       "signal_price": 203500.0,
       "rebound_time": "09/09 11:00",
-      "rebound_price": 205750.0,
+      "rebound_price": 205000.0,
       "bars_after_signal": 2,
       "reasons": [
         "연속 양봉 2개 이상"
@@ -54,6 +70,22 @@
       ]
     },
     {
+      "ticker": "138040",
+      "name": "메리츠금융지주",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "09/09 10:00",
+      "signal_price": 125900.0,
+      "rebound_time": "09/09 11:00",
+      "rebound_price": 126500.0,
+      "bars_after_signal": 1,
+      "reasons": [
+        "전 봉(음봉)보다 몸통이 큰 양봉"
+      ]
+    },
+    {
       "ticker": "003550",
       "name": "LG",
       "is_fresh": true,
@@ -63,7 +95,23 @@
       "signal_time": "09/09 10:00",
       "signal_price": 118900.0,
       "rebound_time": "09/09 11:00",
-      "rebound_price": 119200.0,
+      "rebound_price": 119700.0,
+      "bars_after_signal": 1,
+      "reasons": [
+        "전 봉(음봉)보다 몸통이 큰 양봉"
+      ]
+    },
+    {
+      "ticker": "078930",
+      "name": "GS",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "09/09 10:00",
+      "signal_price": 118100.0,
+      "rebound_time": "09/09 11:00",
+      "rebound_price": 120000.0,
       "bars_after_signal": 1,
       "reasons": [
         "전 봉(음봉)보다 몸통이 큰 양봉"
@@ -79,10 +127,26 @@
       "signal_time": "09/09 09:00",
       "signal_price": 127000.0,
       "rebound_time": "09/09 11:00",
-      "rebound_price": 128650.0,
+      "rebound_price": 130300.0,
       "bars_after_signal": 2,
       "reasons": [
         "연속 양봉 2개 이상"
+      ]
+    },
+    {
+      "ticker": "000120",
+      "name": "CJ대한통운",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "09/09 10:00",
+      "signal_price": 72600.0,
+      "rebound_time": "09/09 12:00",
+      "rebound_price": 72700.0,
+      "bars_after_signal": 2,
+      "reasons": [
+        "음봉형 도지"
       ]
     },
     {
