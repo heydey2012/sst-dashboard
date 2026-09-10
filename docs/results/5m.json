@@ -1,9 +1,9 @@
 {
   "timeframe": "5m",
   "timeframe_label": "5분봉",
-  "last_updated": "2026-09-10T15:29:11",
+  "last_updated": "2026-09-10T15:37:17",
   "total_tickers": 98,
-  "total_signals": 2,
+  "total_signals": 10,
   "results": [
     {
       "ticker": "402340",
@@ -281,8 +281,8 @@
       "ticker": "042660",
       "name": "한화오션",
       "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
+      "best_signal": true,
+      "best_reason": "1차 저점(85,400) 지지 후 재반등",
       "has_active_entry": false,
       "signal_time": "09/10 14:55",
       "signal_price": 85400.0,
@@ -390,22 +390,6 @@
       ]
     },
     {
-      "ticker": "015760",
-      "name": "한국전력",
-      "is_fresh": true,
-      "best_signal": true,
-      "best_reason": "저점 이탈(32,800→32,450)했으나 RSI 다이버전스 동반 재반등 (RSI 18.5→23.5)",
-      "has_active_entry": false,
-      "signal_time": "09/10 09:00",
-      "signal_price": 32800.0,
-      "rebound_time": "09/10 09:10",
-      "rebound_price": 32900.0,
-      "bars_after_signal": 2,
-      "reasons": [
-        "음봉형 도지"
-      ]
-    },
-    {
       "ticker": "032640",
       "name": "LG유플러스",
       "is_fresh": true,
@@ -483,6 +467,22 @@
       "bars_after_signal": 3,
       "reasons": [
         "전 봉(음봉)보다 몸통이 큰 양봉"
+      ]
+    },
+    {
+      "ticker": "011170",
+      "name": "롯데케미칼",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "09/10 15:15",
+      "signal_price": 65700.0,
+      "rebound_time": "09/10 15:30",
+      "rebound_price": 65700.0,
+      "bars_after_signal": 1,
+      "reasons": [
+        "음봉형 도지"
       ]
     },
     {
@@ -595,22 +595,6 @@
       "bars_after_signal": 2,
       "reasons": [
         "연속 양봉 2개 이상"
-      ]
-    },
-    {
-      "ticker": "000100",
-      "name": "유한양행",
-      "is_fresh": true,
-      "best_signal": true,
-      "best_reason": "저점 이탈(78,800→78,000)했으나 RSI 다이버전스 동반 재반등 (RSI 22.2→19.5)",
-      "has_active_entry": false,
-      "signal_time": "09/10 09:15",
-      "signal_price": 78800.0,
-      "rebound_time": "09/10 09:20",
-      "rebound_price": 79200.0,
-      "bars_after_signal": 1,
-      "reasons": [
-        "전 봉(음봉)보다 몸통이 큰 양봉"
       ]
     },
     {
@@ -742,22 +726,6 @@
       ]
     },
     {
-      "ticker": "006260",
-      "name": "LS",
-      "is_fresh": true,
-      "best_signal": true,
-      "best_reason": "저점 이탈(320,000→311,500)했으나 RSI 다이버전스 동반 재반등 (RSI 22.6→19.8)",
-      "has_active_entry": false,
-      "signal_time": "09/10 09:10",
-      "signal_price": 320000.0,
-      "rebound_time": "09/10 09:15",
-      "rebound_price": 322000.0,
-      "bars_after_signal": 1,
-      "reasons": [
-        "전 봉(음봉)보다 몸통이 큰 양봉"
-      ]
-    },
-    {
       "ticker": "086280",
       "name": "현대글로비스",
       "is_fresh": true,
@@ -803,22 +771,6 @@
       "bars_after_signal": 2,
       "reasons": [
         "연속 양봉 2개 이상"
-      ]
-    },
-    {
-      "ticker": "000120",
-      "name": "CJ대한통운",
-      "is_fresh": true,
-      "best_signal": true,
-      "best_reason": "저점 이탈(72,300→71,200)했으나 RSI 다이버전스 동반 재반등 (RSI 29.2→26.8)",
-      "has_active_entry": false,
-      "signal_time": "09/10 09:05",
-      "signal_price": 72300.0,
-      "rebound_time": "09/10 09:10",
-      "rebound_price": 72400.0,
-      "bars_after_signal": 1,
-      "reasons": [
-        "전 봉(음봉)보다 몸통이 큰 양봉"
       ]
     },
     {
@@ -922,7 +874,7 @@
       "name": "원익IPS",
       "is_fresh": true,
       "best_signal": true,
-      "best_reason": "1차 저점(119,700) 지지 후 재반등",
+      "best_reason": "저점 이탈(119,700→118,800)했으나 RSI 다이버전스 동반 재반등 (RSI 32.7→36.2)",
       "has_active_entry": false,
       "signal_time": "09/10 13:35",
       "signal_price": 120400.0,
@@ -1030,22 +982,6 @@
       ]
     },
     {
-      "ticker": "039490",
-      "name": "키움증권",
-      "is_fresh": true,
-      "best_signal": true,
-      "best_reason": "저점 이탈(270,500→269,000)했으나 RSI 다이버전스 동반 재반등 (RSI 31.2→34.7)",
-      "has_active_entry": false,
-      "signal_time": "09/10 09:05",
-      "signal_price": 270500.0,
-      "rebound_time": "09/10 09:10",
-      "rebound_price": 273000.0,
-      "bars_after_signal": 1,
-      "reasons": [
-        "전 봉(음봉)보다 몸통이 큰 양봉"
-      ]
-    },
-    {
       "ticker": "008930",
       "name": "한미사이언스",
       "is_fresh": true,
@@ -1091,22 +1027,6 @@
       "bars_after_signal": 1,
       "reasons": [
         "연속 양봉 2개 이상"
-      ]
-    },
-    {
-      "ticker": "064350",
-      "name": "현대로템",
-      "is_fresh": true,
-      "best_signal": true,
-      "best_reason": "저점 이탈(122,700→120,400)했으나 RSI 다이버전스 동반 재반등 (RSI 19.9→22.2)",
-      "has_active_entry": false,
-      "signal_time": "09/10 09:00",
-      "signal_price": 122700.0,
-      "rebound_time": "09/10 09:10",
-      "rebound_price": 123600.0,
-      "bars_after_signal": 2,
-      "reasons": [
-        "음봉형 도지"
       ]
     },
     {
