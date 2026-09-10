@@ -1,56 +1,120 @@
 {
   "timeframe": "15m",
   "timeframe_label": "15분봉",
-  "last_updated": "2026-09-10T09:24:58",
+  "last_updated": "2026-09-10T09:39:54",
   "total_tickers": 98,
-  "total_signals": 4,
+  "total_signals": 12,
   "results": [
     {
       "ticker": "068270",
       "name": "셀트리온",
       "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
+      "best_signal": true,
+      "best_reason": "1차 저점(181,500) 지지 후 재반등",
       "has_active_entry": false,
       "signal_time": "09/10 09:00",
       "signal_price": 181500.0,
       "rebound_time": "09/10 09:15",
-      "rebound_price": 182400.0,
+      "rebound_price": 182700.0,
       "bars_after_signal": 1,
       "reasons": [
         "전 봉(음봉)보다 몸통이 큰 양봉"
       ]
     },
     {
-      "ticker": "010130",
-      "name": "고려아연",
+      "ticker": "000720",
+      "name": "현대건설",
       "is_fresh": true,
       "best_signal": false,
       "best_reason": "",
       "has_active_entry": false,
       "signal_time": "09/10 09:00",
-      "signal_price": 1213000.0,
+      "signal_price": 128200.0,
       "rebound_time": "09/10 09:15",
-      "rebound_price": 1215000.0,
+      "rebound_price": 129300.0,
       "bars_after_signal": 1,
+      "reasons": [
+        "전 봉(음봉)보다 몸통이 큰 양봉"
+      ]
+    },
+    {
+      "ticker": "010060",
+      "name": "OCI홀딩스",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "09/10 09:00",
+      "signal_price": 221000.0,
+      "rebound_time": "09/10 09:15",
+      "rebound_price": 224500.0,
+      "bars_after_signal": 1,
+      "reasons": [
+        "전 봉(음봉)보다 몸통이 큰 양봉"
+      ]
+    },
+    {
+      "ticker": "001040",
+      "name": "CJ",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "09/10 09:00",
+      "signal_price": 128000.0,
+      "rebound_time": "09/10 09:15",
+      "rebound_price": 128900.0,
+      "bars_after_signal": 1,
+      "reasons": [
+        "전 봉(음봉)보다 몸통이 큰 양봉"
+      ]
+    },
+    {
+      "ticker": "196170",
+      "name": "알테오젠",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "09/10 09:00",
+      "signal_price": 271500.0,
+      "rebound_time": "09/10 09:30",
+      "rebound_price": 272500.0,
+      "bars_after_signal": 2,
+      "reasons": [
+        "음봉형 도지"
+      ]
+    },
+    {
+      "ticker": "240810",
+      "name": "원익IPS",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "09/10 09:00",
+      "signal_price": 116600.0,
+      "rebound_time": "09/10 09:30",
+      "rebound_price": 117300.0,
+      "bars_after_signal": 2,
+      "reasons": [
+        "음봉형 도지"
+      ]
+    },
+    {
+      "ticker": "293490",
+      "name": "카카오게임즈",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "09/10 09:00",
+      "signal_price": 8630.0,
+      "rebound_time": "09/10 09:30",
+      "rebound_price": 8700.0,
+      "bars_after_signal": 2,
       "reasons": [
         "연속 양봉 2개 이상"
-      ]
-    },
-    {
-      "ticker": "006260",
-      "name": "LS",
-      "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
-      "has_active_entry": false,
-      "signal_time": "09/10 09:00",
-      "signal_price": 320000.0,
-      "rebound_time": "09/10 09:15",
-      "rebound_price": 324000.0,
-      "bars_after_signal": 1,
-      "reasons": [
-        "전 봉(음봉)보다 몸통이 큰 양봉"
       ]
     }
   ]
