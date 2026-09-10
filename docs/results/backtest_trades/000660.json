@@ -1,72 +1,32 @@
 [
   {
-    "entry_time": "2025-08-06T10:00:00",
-    "exit_time": "2025-08-11T14:00:00",
-    "avg_entry_price": 258375.0,
-    "exit_price": 266126.25,
-    "qty": 2,
-    "split_count": 2,
-    "pnl": 10766.0,
-    "pnl_pct": 2.08
-  },
-  {
-    "entry_time": "2025-08-14T10:00:00",
-    "exit_time": "2025-09-05T09:00:00",
-    "avg_entry_price": 262675.0,
-    "exit_price": 270555.25,
-    "qty": 10,
-    "split_count": 10,
-    "pnl": 54728.0,
-    "pnl_pct": 2.08
-  },
-  {
-    "entry_time": "2025-09-17T10:00:00",
-    "exit_time": "2025-09-18T09:45:00",
-    "avg_entry_price": 336875.0,
-    "exit_price": 346981.25,
-    "qty": 2,
-    "split_count": 2,
-    "pnl": 14038.0,
-    "pnl_pct": 2.08
-  },
-  {
-    "entry_time": "2025-09-19T10:15:00",
-    "exit_time": "2025-10-02T09:00:00",
-    "avg_entry_price": 350750.0,
-    "exit_price": 361272.5,
-    "qty": 6,
-    "split_count": 6,
-    "pnl": 43847.0,
-    "pnl_pct": 2.08
-  },
-  {
-    "entry_time": "2025-10-13T09:15:00",
-    "exit_time": "2025-10-14T09:00:00",
-    "avg_entry_price": 411416.6666666667,
-    "exit_price": 423759.1666666667,
+    "entry_time": "2025-09-01T10:00:00",
+    "exit_time": "2025-09-04T09:00:00",
+    "avg_entry_price": 257916.66666666666,
+    "exit_price": 265654.1666666667,
     "qty": 3,
     "split_count": 3,
-    "pnl": 25716.0,
+    "pnl": 16121.0,
     "pnl_pct": 2.08
   },
   {
-    "entry_time": "2025-10-14T13:45:00",
-    "exit_time": "2025-10-16T09:00:00",
-    "avg_entry_price": 413000.0,
-    "exit_price": 425390.0,
+    "entry_time": "2025-09-18T09:00:00",
+    "exit_time": "2025-09-23T12:00:00",
+    "avg_entry_price": 348000.0,
+    "exit_price": 358440.0,
     "qty": 1,
     "split_count": 1,
-    "pnl": 8605.0,
+    "pnl": 7251.0,
     "pnl_pct": 2.08
   },
   {
-    "entry_time": "2025-10-21T12:00:00",
-    "exit_time": "2025-10-24T09:45:00",
-    "avg_entry_price": 488750.0,
-    "exit_price": 503412.5,
-    "qty": 2,
-    "split_count": 2,
-    "pnl": 20366.0,
+    "entry_time": "2025-09-26T14:00:00",
+    "exit_time": "2025-09-29T11:00:00",
+    "avg_entry_price": 338000.0,
+    "exit_price": 348140.0,
+    "qty": 1,
+    "split_count": 1,
+    "pnl": 7042.0,
     "pnl_pct": 2.08
   }
 ]
