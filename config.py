@@ -118,9 +118,12 @@ BATCH_SIZE_BY_TIMEFRAME = {
 BATCH_SIZE = BATCH_SIZE_BY_TIMEFRAME.get(TIMEFRAME, 10)
 
 # ===== 모의투자 자동매매 설정 =====
+# 2026-09-10: 신버전/구버전 실시간 자동매매는 종료하고 98종목 5년 백테스트로 대체.
+# (leader.py의 trader/legacy_trader 생성, trader_watch.py의 청산 감시, force_liquidate_all.py가
+# 모두 이 플래그로 꺼짐. 코드/cron은 남겨두되 전부 조용히 no-op 처리됨)
 # 절대 실계좌에서 켜지 않도록 TraderAgent가 매 주문 전 kiwoom 클라이언트의
 # auth.mode == "demo" 인지 직접 확인합니다 (config 플래그와 무관하게 이중 안전장치).
-TRADER_ENABLED = True
+TRADER_ENABLED = False
 TRADER_TIMEFRAME = "15m"         # 이 타임프레임의 [강추] 신호만 자동매매 진입 트리거로 사용
 INITIAL_CAPITAL = 10_000_000     # 모의계좌 초기 자금 (대시보드 수익률 계산 기준)
 CAPITAL_PER_TRADE = 1_000_000    # 종목당 매수 금액 (원)
@@ -157,8 +160,8 @@ TRADING_END_DATE = "2026-09-30"
 # ~/Downloads/RSI_Spread_Pro_Strategy_v1.pine 포팅. 원본은 롱+숏이지만 국내 개인
 # 위탁계좌로 미국주식 공매도가 불가능해 롱 전용으로만 구현. 손절 없음 - 평단가
 # 대비 TQQQ_TP_PCT 도달 시 보유 수량 전체를 익절. 최대 TQQQ_SPLIT_COUNT회까지
-# 물타기(분할매수)하며, 회당 매수금액 = TQQQ_INITIAL_CAPITAL_KRW / TQQQ_SPLIT_COUNT
-# 를 진입 시점 환율로 환산해 사용. 신버전과 같은 키움 모의계좌로 실주문.
+# 물타기(분할매수)하며, 회당 매수금액 = TQQQ_INITIAL_CAPITAL_USD / TQQQ_SPLIT_COUNT.
+# 신버전과 같은 키움 모의계좌로 실주문.
 TQQQ_ENABLED = True
 TQQQ_TICKER = "TQQQ"
 TQQQ_EXCHANGE = "ND"              # 나스닥
@@ -169,7 +172,7 @@ TQQQ_TIMEFRAME = "5"              # 5분봉
 # 시뮬레이션. 키움 사이트에서 해외주식 모의투자를 재신청하면 False로 바꿔서
 # 실주문으로 전환.
 TQQQ_PAPER_MODE = True
-TQQQ_INITIAL_CAPITAL_KRW = 10_000_000
+TQQQ_INITIAL_CAPITAL_USD = 7_450  # 달러로 직접 시드 고정(원화 환산 안 함, 약 1000만원 상당)
 TQQQ_SPLIT_COUNT = 20
 TQQQ_TP_PCT = 0.03                # 평단가 대비 +3% 익절
 TQQQ_RSI_LENGTH = 14

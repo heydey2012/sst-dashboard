@@ -164,6 +164,19 @@
   .perf-sub{ font-size:11px; color:var(--muted-2); margin-top:8px; }
   .perf-hint{ font-size:11px; color:var(--muted-2); margin-top:2px; }
   .entries-modal .report-row{ font-size:12.5px; }
+  .bt-search{
+    width:100%; padding:8px 12px; border-radius:8px; border:1px solid var(--line);
+    font-size:13px; font-family:var(--sans); background:var(--bg); color:var(--text);
+    margin-bottom:12px; box-sizing:border-box;
+  }
+  .bt-row{
+    display:flex; justify-content:space-between; align-items:center; gap:10px;
+    padding:10px 0; border-top:1px solid var(--line); cursor:pointer;
+  }
+  .bt-row:first-of-type{ border-top:none; }
+  .bt-row:hover{ background:var(--bg); }
+  .bt-row-name{ font-size:13.5px; font-weight:700; }
+  .bt-row-sub{ font-size:11.5px; color:var(--muted); font-family:var(--mono); margin-top:2px; }
   .mini-btn{
     padding:4px 10px; border-radius:999px; border:1px solid var(--line);
     background:var(--panel); color:var(--muted); font-size:11px; font-weight:700; cursor:pointer;
@@ -194,6 +207,8 @@
 
   <div class="portfolio" id="portfolio"></div>
 
+  <div class="portfolio" id="backtestPanel"></div>
+
   <div class="modal-backdrop entries-modal" id="entriesBackdrop" style="display:none" onclick="if(event.target===this) closeEntries()">
     <div class="modal">
       <div class="modal-top">
@@ -201,6 +216,17 @@
         <button class="modal-close" onclick="closeEntries()">✕</button>
       </div>
       <div id="entriesBody"></div>
+    </div>
+  </div>
+
+  <div class="modal-backdrop" id="btTradesBackdrop" style="display:none" onclick="if(event.target===this) closeBtTrades()">
+    <div class="modal">
+      <div class="modal-top">
+        <div class="modal-title" id="btTradesTitle"></div>
+        <button class="modal-close" onclick="closeBtTrades()">✕</button>
+      </div>
+      <div class="report-total" id="btTradesTotal"></div>
+      <div id="btTradesBody"></div>
     </div>
   </div>
 
@@ -251,15 +277,12 @@ let current = "4h";
 const cache = {};
 
 // 새 전략이 추가되면 이 배열에 한 줄만 추가하면 대시보드 상단 카드/상세보기에 자동 반영됨.
+// 2026-09-10: 신버전/구버전 실시간 자동매매는 종료 - 98종목 5년 백테스트로 대체 (아래 별도 섹션).
 const STRATEGIES = [
-  { key: "current", label: "신버전", positionsFile: "positions.json", tradeLogFile: "trade_log.json",
-    currency: "KRW", note: "키움 모의계좌 실주문" },
-  { key: "legacy", label: "구버전(페이퍼)", positionsFile: "positions_v1.json", tradeLogFile: "trade_log_v1.json",
-    currency: "KRW", note: "가상매매(페이퍼)" },
   { key: "tqqq", label: "TQQQ 분할매수", positionsFile: "positions_tqqq.json", tradeLogFile: "trade_log_tqqq.json",
     currency: "USD", note: "키움 모의계좌 실주문 · 분할매수(최대 20회) · 평단가 익절만(손절 없음)" },
 ];
-let currentStrategy = "current";
+let currentStrategy = "tqqq";
 
 function strategyInfo(key) {
   return STRATEGIES.find(v => v.key === (key || currentStrategy));
@@ -613,11 +636,11 @@ function renderPortfolio(data) {
   let html = `<div class="portfolio-title">🧪 모의투자 현황 [${strat.label}] · ${noteText} · 시세 기준 ${timeAgo(data.last_updated)} (1분마다 자동 갱신)</div>`;
   html += `<div class="portfolio-stats-row">`;
   html += `<div class="portfolio-stats">`;
-  html += `<div><div class="stat-label">초기 자금</div><div class="stat-value">₩${data.initial_capital.toLocaleString()}</div></div>`;
-  html += `<div><div class="stat-label">현재 자금</div><div class="stat-value">${hasCapital ? "₩" + Math.round(data.current_capital).toLocaleString() : "조회 실패"}</div></div>`;
+  html += `<div><div class="stat-label">초기 자금</div><div class="stat-value">${fmtMoney(data.initial_capital, strat.currency)}</div></div>`;
+  html += `<div><div class="stat-label">현재 자금</div><div class="stat-value">${hasCapital ? fmtMoney(data.current_capital, strat.currency) : "조회 실패"}</div></div>`;
   if (hasCapital) {
     html += `<div><div class="stat-label">수익률</div><div class="stat-value ${profitClass}">${sign}${data.return_pct}%</div></div>`;
-    html += `<div><div class="stat-label">수익금</div><div class="stat-value ${profitClass}">${sign}₩${Math.round(data.profit_amount).toLocaleString()}</div></div>`;
+    html += `<div><div class="stat-label">수익금</div><div class="stat-value ${profitClass}">${sign}${fmtMoney(data.profit_amount, strat.currency)}</div></div>`;
   }
   html += `</div>`;
   if (positions.length > 0) {
@@ -807,13 +830,142 @@ async function refreshPortfolio() {
   renderPortfolio(await loadPositions());
 }
 
+// ------------------------------------------------------------------
+// 98종목 5년 백테스트 (신버전/구버전 실시간 자동매매를 대체)
+// ------------------------------------------------------------------
+let btTickers = [];
+let btQuery = "";
+
+async function loadBacktest() {
+  try {
+    const res = await fetch(`results/backtest_independent.json?t=${Date.now()}`);
+    if (!res.ok) return null;
+    return await res.json();
+  } catch (e) {
+    return null;
+  }
+}
+
+function fmtPeriod(iso) {
+  if (!iso) return "-";
+  const d = new Date(iso);
+  if (isNaN(d.getTime())) return iso;
+  return `${d.getFullYear()}.${String(d.getMonth() + 1).padStart(2, "0")}.${String(d.getDate()).padStart(2, "0")}`;
+}
+
+function setBtSearch(v) {
+  btQuery = v.trim().toLowerCase();
+  renderBtTable();
+}
+
+function renderBtTable() {
+  const body = document.getElementById("btTableBody");
+  if (!body) return;
+  let rows = btTickers;
+  if (btQuery) {
+    rows = rows.filter(t => t.name.toLowerCase().includes(btQuery) || t.ticker.includes(btQuery));
+  }
+  if (rows.length === 0) {
+    body.innerHTML = `<div class="report-empty">검색 조건에 맞는 종목이 없습니다.</div>`;
+    return;
+  }
+  body.innerHTML = rows.map(t => {
+    const cls = t.return_pct >= 0 ? "pos" : "neg";
+    const sign = t.return_pct >= 0 ? "+" : "";
+    return `
+      <div class="bt-row" onclick="showBtTrades('${t.ticker}')">
+        <div>
+          <div class="bt-row-name">[${escapeHtml(t.ticker)}] ${escapeHtml(t.name)}</div>
+          <div class="bt-row-sub">거래 ${t.n_trades}건 · 승률 ${t.win_rate_pct}% · 최종 ₩${Math.round(t.final_capital).toLocaleString()}</div>
+        </div>
+        <div class="pos-pnl">
+          <div class="pos-pnl-amt ${cls}">${sign}${t.return_pct}%</div>
+        </div>
+      </div>
+    `;
+  }).join("");
+}
+
+function renderBacktestPanel(data) {
+  const el = document.getElementById("backtestPanel");
+  if (!data) {
+    el.innerHTML = `<div class="portfolio-title">📊 98종목 백테스트</div><div class="no-positions">아직 백테스트 결과가 없습니다.</div>`;
+    return;
+  }
+  const s = data.summary;
+  btTickers = data.tickers || [];
+  const cls = s.total_return_pct >= 0 ? "pos" : "neg";
+  const sign = s.total_return_pct >= 0 ? "+" : "";
+
+  let html = `<div class="portfolio-title">📊 98종목 독립계좌 백테스트 (5분봉, 종목당 ₩${Math.round(s.initial_capital_per_ticker).toLocaleString()} 시드) · 데이터 ${fmtPeriod(s.data_from)} ~ ${fmtPeriod(s.data_to)} (5년치로 백필 진행 중, 갱신될 때마다 결과 자동 반영)</div>`;
+  html += `<div class="portfolio-stats">`;
+  html += `<div><div class="stat-label">총 초기자금(${s.tickers_used}종목)</div><div class="stat-value">₩${Math.round(s.total_initial_capital).toLocaleString()}</div></div>`;
+  html += `<div><div class="stat-label">총 최종자산</div><div class="stat-value">₩${Math.round(s.total_final_capital).toLocaleString()}</div></div>`;
+  html += `<div><div class="stat-label">전체 수익률</div><div class="stat-value ${cls}">${sign}${s.total_return_pct}%</div></div>`;
+  html += `<div><div class="stat-label">전체 승률</div><div class="stat-value">${s.overall_win_rate_pct}% (${s.total_trades}건)</div></div>`;
+  html += `</div>`;
+  html += `<input class="bt-search" placeholder="종목명 또는 종목코드 검색 (예: 삼성전자, 005930)" oninput="setBtSearch(this.value)">`;
+  html += `<div id="btTableBody"></div>`;
+  el.innerHTML = html;
+  renderBtTable();
+}
+
+async function refreshBacktest() {
+  renderBacktestPanel(await loadBacktest());
+}
+
+async function showBtTrades(ticker) {
+  const t = btTickers.find(x => x.ticker === ticker);
+  document.getElementById("btTradesTitle").textContent = `📈 [${ticker}] ${t ? t.name : ""} · 백테스트 거래내역`;
+  document.getElementById("btTradesTotal").innerHTML = "";
+  document.getElementById("btTradesBody").innerHTML = `<div class="report-empty">불러오는 중...</div>`;
+  document.getElementById("btTradesBackdrop").style.display = "flex";
+
+  let trades = [];
+  try {
+    const res = await fetch(`results/backtest_trades/${ticker}.json?t=${Date.now()}`);
+    if (res.ok) trades = await res.json();
+  } catch (e) { /* ignore */ }
+
+  if (trades.length === 0) {
+    document.getElementById("btTradesBody").innerHTML = `<div class="report-empty">거래 내역이 없습니다.</div>`;
+    return;
+  }
+
+  const totalPnl = trades.reduce((sum, x) => sum + (x.pnl || 0), 0);
+  const totalCls = totalPnl >= 0 ? "pos" : "neg";
+  document.getElementById("btTradesTotal").innerHTML =
+    `<span>전체 ${trades.length}건</span><span class="${totalCls}">${totalPnl >= 0 ? "+" : ""}₩${Math.round(totalPnl).toLocaleString()}</span>`;
+
+  document.getElementById("btTradesBody").innerHTML = trades.slice().reverse().map(x => {
+    const pnlCls = (x.pnl || 0) >= 0 ? "pos" : "neg";
+    const pnlSign = (x.pnl || 0) >= 0 ? "+" : "";
+    return `
+      <div class="report-row">
+        <div>
+          <div><b>${formatShortDateTime(x.entry_time)} → ${formatShortDateTime(x.exit_time)}</b><span class="report-status ${x.pnl >= 0 ? 'win' : 'loss'}">${escapeHtml(x.exit_reason)}</span></div>
+          <div class="pos-line">${x.qty}주 · 매수 ${x.entry_price.toLocaleString()} → 매도 ${x.exit_price.toLocaleString()}${x.best_signal ? ' · ⭐강추' : ''}</div>
+        </div>
+        <div class="pos-pnl">
+          <div class="pos-pnl-amt ${pnlCls}">${pnlSign}₩${Math.round(x.pnl).toLocaleString()}</div>
+          <div class="pos-pnl-pct ${pnlCls}">${pnlSign}${x.pnl_pct.toFixed(2)}%</div>
+        </div>
+      </div>
+    `;
+  }).join("");
+}
+
+function closeBtTrades() {
+  document.getElementById("btTradesBackdrop").style.display = "none";
+}
+
 async function refreshAll() {
   const btn = document.getElementById("refreshBtn");
   btn.disabled = true;
   btn.classList.add("spinning");
   btn.textContent = "↻ 불러오는 중...";
   cache[current] = null;
-  await Promise.all([render(), refreshPortfolio(), renderStrategyCards()]);
+  await Promise.all([render(), refreshPortfolio(), renderStrategyCards(), refreshBacktest()]);
   btn.disabled = false;
   btn.classList.remove("spinning");
   btn.textContent = "↻ 새로고침";
@@ -822,6 +974,7 @@ async function refreshAll() {
 render();
 renderStrategyCards();
 refreshPortfolio();
+refreshBacktest();
 setInterval(() => { cache[current] = null; render(); }, 60000); // 1분마다 자동 새로고침
 setInterval(refreshPortfolio, 60000);
 setInterval(renderStrategyCards, 60000);

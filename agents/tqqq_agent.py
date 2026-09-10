@@ -267,7 +267,7 @@ class TqqqAgent:
             return
 
         price, fx_rate = quote["price"], quote["fx_rate"]
-        usd_per_split = (config.TQQQ_INITIAL_CAPITAL_KRW / config.TQQQ_SPLIT_COUNT) / fx_rate
+        usd_per_split = config.TQQQ_INITIAL_CAPITAL_USD / config.TQQQ_SPLIT_COUNT
         qty = int(usd_per_split // price)
         if qty < 1:
             print(f"[TQQQ] 분할 금액(${usd_per_split:.2f})이 1주 가격(${price:.2f})보다 작아 진입 불가")
@@ -395,13 +395,13 @@ class TqqqAgent:
         pos = positions.get(config.TQQQ_TICKER)
 
         position_row = None
-        unrealized_krw = 0
+        unrealized_usd = 0
         if pos:
             pnl_usd = pnl_pct = None
-            if current_price is not None and current_fx is not None:
+            if current_price is not None:
                 pnl_usd = (current_price - pos["avg_price"]) * pos["qty"]
                 pnl_pct = (current_price - pos["avg_price"]) / pos["avg_price"] * 100
-                unrealized_krw = pnl_usd * current_fx
+                unrealized_usd = pnl_usd
             position_row = {
                 "ticker": config.TQQQ_TICKER,
                 "name": "TQQQ (프로셰어즈 3배 레버리지 나스닥100 ETF)",
@@ -420,20 +420,20 @@ class TqqqAgent:
             }
 
         trade_log = self._load_trade_log()
-        realized_krw = sum((t.get("pnl") or 0) * (t.get("fx_rate") or 0) for t in trade_log)
-        profit_amount_krw = round(unrealized_krw + realized_krw, 0)
-        current_capital_krw = config.TQQQ_INITIAL_CAPITAL_KRW + profit_amount_krw
-        return_pct = round(profit_amount_krw / config.TQQQ_INITIAL_CAPITAL_KRW * 100, 2)
+        realized_usd = sum((t.get("pnl") or 0) for t in trade_log)
+        profit_amount_usd = round(unrealized_usd + realized_usd, 2)
+        current_capital_usd = round(config.TQQQ_INITIAL_CAPITAL_USD + profit_amount_usd, 2)
+        return_pct = round(profit_amount_usd / config.TQQQ_INITIAL_CAPITAL_USD * 100, 2)
 
         payload = {
             "last_updated": datetime.now().isoformat(timespec="seconds"),
             "strategy_version": "tqqq",
             "paper_mode": self.paper,
             "currency": "USD",
-            "initial_capital": config.TQQQ_INITIAL_CAPITAL_KRW,
-            "current_capital": current_capital_krw,
+            "initial_capital": config.TQQQ_INITIAL_CAPITAL_USD,
+            "current_capital": current_capital_usd,
             "return_pct": return_pct,
-            "profit_amount": profit_amount_krw,
+            "profit_amount": profit_amount_usd,
             "positions": [position_row] if position_row else [],
         }
 
