@@ -2,7 +2,7 @@
   "summary": {
     "strategy": "RSI Spread Pro 분할매수(DCA) - RSI_Spread_Pro_Strategy_v1.pine 포팅, 평단가 -10% 손절 추가",
     "timeframe": "5m",
-    "generated_at": "2026-09-10T15:41:28",
+    "generated_at": "2026-09-10T15:43:47",
     "data_from": "2025-09-01T09:00:00",
     "data_to": "2026-09-10T15:30:00",
     "tickers_used": 98,
@@ -12,14 +12,60 @@
     "sl_pct": 0.1,
     "initial_capital_per_ticker": 10000000.0,
     "total_initial_capital": 980000000.0,
-    "total_final_capital": 949822437.0,
-    "total_return_pct": -3.08,
-    "total_trades": 3602,
-    "total_wins": 3069,
-    "overall_win_rate_pct": 85.2,
+    "total_final_capital": 953963943.0,
+    "total_return_pct": -2.66,
+    "total_trades": 3718,
+    "total_wins": 3180,
+    "overall_win_rate_pct": 85.53,
     "open_positions_count": 78
   },
   "tickers": [
+    {
+      "ticker": "003550",
+      "name": "LG",
+      "data_from": "2025-09-01T09:00:00",
+      "data_to": "2026-09-10T15:30:00",
+      "bars": 19383,
+      "initial_capital": 10000000.0,
+      "final_capital": 11468939.0,
+      "return_pct": 14.69,
+      "n_trades": 47,
+      "n_wins": 44,
+      "n_losses": 3,
+      "win_rate_pct": 93.62,
+      "avg_win": 41754.0,
+      "avg_loss": -98617.0,
+      "open_position": {
+        "split_count": 3,
+        "qty": 12,
+        "avg_price": 124033.3333,
+        "current_price": 118000.0,
+        "unrealized_pnl": -72400.0
+      }
+    },
+    {
+      "ticker": "033780",
+      "name": "KT&G",
+      "data_from": "2025-09-01T09:00:00",
+      "data_to": "2026-09-10T15:30:00",
+      "bars": 19395,
+      "initial_capital": 10000000.0,
+      "final_capital": 11187685.0,
+      "return_pct": 11.88,
+      "n_trades": 25,
+      "n_wins": 25,
+      "n_losses": 0,
+      "win_rate_pct": 100.0,
+      "avg_win": 58371.0,
+      "avg_loss": 0,
+      "open_position": {
+        "split_count": 20,
+        "qty": 40,
+        "avg_price": 175890.0,
+        "current_price": 169100.0,
+        "unrealized_pnl": -271600.0
+      }
+    },
     {
       "ticker": "105560",
       "name": "KB금융",
@@ -173,29 +219,6 @@
         "avg_price": 14919.5682,
         "current_price": 14760.0,
         "unrealized_pnl": -105315.0
-      }
-    },
-    {
-      "ticker": "003550",
-      "name": "LG",
-      "data_from": "2026-02-02T15:10:00",
-      "data_to": "2026-09-10T15:30:00",
-      "bars": 11474,
-      "initial_capital": 10000000.0,
-      "final_capital": 10761159.0,
-      "return_pct": 7.61,
-      "n_trades": 38,
-      "n_wins": 35,
-      "n_losses": 3,
-      "win_rate_pct": 92.11,
-      "avg_win": 32269.0,
-      "avg_loss": -98617.0,
-      "open_position": {
-        "split_count": 3,
-        "qty": 12,
-        "avg_price": 124033.3333,
-        "current_price": 118000.0,
-        "unrealized_pnl": -72400.0
       }
     },
     {
@@ -417,29 +440,6 @@
       }
     },
     {
-      "ticker": "033780",
-      "name": "KT&G",
-      "data_from": "2026-02-02T14:00:00",
-      "data_to": "2026-09-10T15:30:00",
-      "bars": 11474,
-      "initial_capital": 10000000.0,
-      "final_capital": 10521063.0,
-      "return_pct": 5.21,
-      "n_trades": 17,
-      "n_wins": 17,
-      "n_losses": 0,
-      "win_rate_pct": 100.0,
-      "avg_win": 46627.0,
-      "avg_loss": 0,
-      "open_position": {
-        "split_count": 20,
-        "qty": 40,
-        "avg_price": 175890.0,
-        "current_price": 169100.0,
-        "unrealized_pnl": -271600.0
-      }
-    },
-    {
       "ticker": "039030",
       "name": "이오테크닉스",
       "data_from": "2026-02-03T11:35:00",
@@ -553,6 +553,23 @@
         "current_price": 32750.0,
         "unrealized_pnl": -2250.0
       }
+    },
+    {
+      "ticker": "010950",
+      "name": "S-Oil",
+      "data_from": "2025-09-01T09:00:00",
+      "data_to": "2026-09-10T15:30:00",
+      "bars": 19478,
+      "initial_capital": 10000000.0,
+      "final_capital": 10309430.0,
+      "return_pct": 3.09,
+      "n_trades": 61,
+      "n_wins": 56,
+      "n_losses": 5,
+      "win_rate_pct": 91.8,
+      "avg_win": 31389.0,
+      "avg_loss": -289667.0,
+      "open_position": null
     },
     {
       "ticker": "005830",
@@ -1024,6 +1041,23 @@
       }
     },
     {
+      "ticker": "011170",
+      "name": "롯데케미칼",
+      "data_from": "2025-09-01T09:00:00",
+      "data_to": "2026-09-10T15:30:00",
+      "bars": 19401,
+      "initial_capital": 10000000.0,
+      "final_capital": 9884035.0,
+      "return_pct": -1.16,
+      "n_trades": 63,
+      "n_wins": 54,
+      "n_losses": 9,
+      "win_rate_pct": 85.71,
+      "avg_win": 33242.0,
+      "avg_loss": -212337.0,
+      "open_position": null
+    },
+    {
       "ticker": "017670",
       "name": "SK텔레콤",
       "data_from": "2026-02-03T09:45:00",
@@ -1093,6 +1127,52 @@
       }
     },
     {
+      "ticker": "051900",
+      "name": "LG생활건강",
+      "data_from": "2025-09-01T09:00:00",
+      "data_to": "2026-09-10T15:30:00",
+      "bars": 19396,
+      "initial_capital": 10000000.0,
+      "final_capital": 9862857.0,
+      "return_pct": -1.37,
+      "n_trades": 24,
+      "n_wins": 22,
+      "n_losses": 2,
+      "win_rate_pct": 91.67,
+      "avg_win": 36464.0,
+      "avg_loss": -478671.0,
+      "open_position": {
+        "split_count": 6,
+        "qty": 6,
+        "avg_price": 292000.0,
+        "current_price": 295000.0,
+        "unrealized_pnl": 18000.0
+      }
+    },
+    {
+      "ticker": "128940",
+      "name": "한미약품",
+      "data_from": "2025-09-01T09:00:00",
+      "data_to": "2026-09-10T15:30:00",
+      "bars": 19415,
+      "initial_capital": 10000000.0,
+      "final_capital": 9819023.0,
+      "return_pct": -1.81,
+      "n_trades": 49,
+      "n_wins": 42,
+      "n_losses": 7,
+      "win_rate_pct": 85.71,
+      "avg_win": 27166.0,
+      "avg_loss": -188424.0,
+      "open_position": {
+        "split_count": 2,
+        "qty": 2,
+        "avg_price": 483000.0,
+        "current_price": 481500.0,
+        "unrealized_pnl": -3000.0
+      }
+    },
+    {
       "ticker": "010140",
       "name": "삼성중공업",
       "data_from": "2026-02-03T10:05:00",
@@ -1114,23 +1194,6 @@
         "current_price": 21350.0,
         "unrealized_pnl": -2300.0
       }
-    },
-    {
-      "ticker": "010950",
-      "name": "S-Oil",
-      "data_from": "2026-02-03T09:10:00",
-      "data_to": "2026-09-10T15:30:00",
-      "bars": 11476,
-      "initial_capital": 10000000.0,
-      "final_capital": 9751654.0,
-      "return_pct": -2.48,
-      "n_trades": 41,
-      "n_wins": 37,
-      "n_losses": 4,
-      "win_rate_pct": 90.24,
-      "avg_win": 28599.0,
-      "avg_loss": -326627.0,
-      "open_position": null
     },
     {
       "ticker": "010120",
@@ -1156,6 +1219,29 @@
       }
     },
     {
+      "ticker": "090430",
+      "name": "아모레퍼시픽",
+      "data_from": "2025-09-01T09:00:00",
+      "data_to": "2026-09-10T15:30:00",
+      "bars": 19414,
+      "initial_capital": 10000000.0,
+      "final_capital": 9717626.0,
+      "return_pct": -2.82,
+      "n_trades": 38,
+      "n_wins": 34,
+      "n_losses": 4,
+      "win_rate_pct": 89.47,
+      "avg_win": 42231.0,
+      "avg_loss": -373871.0,
+      "open_position": {
+        "split_count": 13,
+        "qty": 39,
+        "avg_price": 144211.5385,
+        "current_price": 138500.0,
+        "unrealized_pnl": -222750.0
+      }
+    },
+    {
       "ticker": "034020",
       "name": "두산에너빌리티",
       "data_from": "2025-09-01T09:00:00",
@@ -1176,6 +1262,29 @@
         "avg_price": 90300.0,
         "current_price": 89900.0,
         "unrealized_pnl": -6000.0
+      }
+    },
+    {
+      "ticker": "004020",
+      "name": "현대제철",
+      "data_from": "2025-09-01T09:00:00",
+      "data_to": "2026-09-10T15:30:00",
+      "bars": 19489,
+      "initial_capital": 10000000.0,
+      "final_capital": 9658425.0,
+      "return_pct": -3.42,
+      "n_trades": 54,
+      "n_wins": 46,
+      "n_losses": 8,
+      "win_rate_pct": 85.19,
+      "avg_win": 35145.0,
+      "avg_loss": -247591.0,
+      "open_position": {
+        "split_count": 3,
+        "qty": 43,
+        "avg_price": 33326.7442,
+        "current_price": 33850.0,
+        "unrealized_pnl": 22500.0
       }
     },
     {
@@ -1248,6 +1357,29 @@
       }
     },
     {
+      "ticker": "000720",
+      "name": "현대건설",
+      "data_from": "2025-09-01T09:00:00",
+      "data_to": "2026-09-10T15:30:00",
+      "bars": 19502,
+      "initial_capital": 10000000.0,
+      "final_capital": 9511434.0,
+      "return_pct": -4.89,
+      "n_trades": 61,
+      "n_wins": 52,
+      "n_losses": 9,
+      "win_rate_pct": 85.25,
+      "avg_win": 32917.0,
+      "avg_loss": -245073.0,
+      "open_position": {
+        "split_count": 1,
+        "qty": 3,
+        "avg_price": 129400.0,
+        "current_price": 131200.0,
+        "unrealized_pnl": 5400.0
+      }
+    },
+    {
       "ticker": "012750",
       "name": "에스원",
       "data_from": "2026-02-05T09:55:00",
@@ -1268,52 +1400,6 @@
         "avg_price": 80355.5556,
         "current_price": 80800.0,
         "unrealized_pnl": 24000.0
-      }
-    },
-    {
-      "ticker": "128940",
-      "name": "한미약품",
-      "data_from": "2026-02-02T15:15:00",
-      "data_to": "2026-09-10T15:30:00",
-      "bars": 11478,
-      "initial_capital": 10000000.0,
-      "final_capital": 9445458.0,
-      "return_pct": -5.55,
-      "n_trades": 29,
-      "n_wins": 23,
-      "n_losses": 6,
-      "win_rate_pct": 79.31,
-      "avg_win": 28901.0,
-      "avg_loss": -202711.0,
-      "open_position": {
-        "split_count": 2,
-        "qty": 2,
-        "avg_price": 483000.0,
-        "current_price": 481500.0,
-        "unrealized_pnl": -3000.0
-      }
-    },
-    {
-      "ticker": "051900",
-      "name": "LG생활건강",
-      "data_from": "2026-02-02T13:20:00",
-      "data_to": "2026-09-10T15:30:00",
-      "bars": 11480,
-      "initial_capital": 10000000.0,
-      "final_capital": 9440816.0,
-      "return_pct": -5.59,
-      "n_trades": 21,
-      "n_wins": 19,
-      "n_losses": 2,
-      "win_rate_pct": 90.48,
-      "avg_win": 27765.0,
-      "avg_loss": -552363.0,
-      "open_position": {
-        "split_count": 6,
-        "qty": 6,
-        "avg_price": 292000.0,
-        "current_price": 295000.0,
-        "unrealized_pnl": 18000.0
       }
     },
     {
@@ -1420,23 +1506,6 @@
       "open_position": null
     },
     {
-      "ticker": "011170",
-      "name": "롯데케미칼",
-      "data_from": "2026-02-02T14:15:00",
-      "data_to": "2026-09-10T15:30:00",
-      "bars": 11475,
-      "initial_capital": 10000000.0,
-      "final_capital": 9337922.0,
-      "return_pct": -6.62,
-      "n_trades": 46,
-      "n_wins": 38,
-      "n_losses": 8,
-      "win_rate_pct": 82.61,
-      "avg_win": 28911.0,
-      "avg_loss": -220088.0,
-      "open_position": null
-    },
-    {
       "ticker": "011790",
       "name": "SKC",
       "data_from": "2026-02-03T09:25:00",
@@ -1457,29 +1526,6 @@
         "avg_price": 90200.0,
         "current_price": 92100.0,
         "unrealized_pnl": 19000.0
-      }
-    },
-    {
-      "ticker": "004020",
-      "name": "현대제철",
-      "data_from": "2026-02-03T09:45:00",
-      "data_to": "2026-09-10T15:30:00",
-      "bars": 11483,
-      "initial_capital": 10000000.0,
-      "final_capital": 9316249.0,
-      "return_pct": -6.84,
-      "n_trades": 45,
-      "n_wins": 38,
-      "n_losses": 7,
-      "win_rate_pct": 84.44,
-      "avg_win": 25327.0,
-      "avg_loss": -238381.0,
-      "open_position": {
-        "split_count": 3,
-        "qty": 43,
-        "avg_price": 33326.7442,
-        "current_price": 33850.0,
-        "unrealized_pnl": 22500.0
       }
     },
     {
@@ -1707,52 +1753,6 @@
       }
     },
     {
-      "ticker": "097950",
-      "name": "CJ제일제당",
-      "data_from": "2026-02-02T13:40:00",
-      "data_to": "2026-09-10T15:30:00",
-      "bars": 11459,
-      "initial_capital": 10000000.0,
-      "final_capital": 9048419.0,
-      "return_pct": -9.52,
-      "n_trades": 16,
-      "n_wins": 13,
-      "n_losses": 3,
-      "win_rate_pct": 81.25,
-      "avg_win": 31113.0,
-      "avg_loss": -390818.0,
-      "open_position": {
-        "split_count": 16,
-        "qty": 32,
-        "avg_price": 186237.5,
-        "current_price": 180500.0,
-        "unrealized_pnl": -183600.0
-      }
-    },
-    {
-      "ticker": "090430",
-      "name": "아모레퍼시픽",
-      "data_from": "2026-02-02T14:30:00",
-      "data_to": "2026-09-10T15:30:00",
-      "bars": 11481,
-      "initial_capital": 10000000.0,
-      "final_capital": 9019726.0,
-      "return_pct": -9.8,
-      "n_trades": 29,
-      "n_wins": 25,
-      "n_losses": 4,
-      "win_rate_pct": 86.21,
-      "avg_win": 29518.0,
-      "avg_loss": -373871.0,
-      "open_position": {
-        "split_count": 13,
-        "qty": 39,
-        "avg_price": 144211.5385,
-        "current_price": 138500.0,
-        "unrealized_pnl": -222750.0
-      }
-    },
-    {
       "ticker": "302440",
       "name": "SK바이오사이언스",
       "data_from": "2026-02-02T12:45:00",
@@ -1865,29 +1865,6 @@
         "avg_price": 9159.2923,
         "current_price": 9390.0,
         "unrealized_pnl": 74980.0
-      }
-    },
-    {
-      "ticker": "000720",
-      "name": "현대건설",
-      "data_from": "2026-02-03T10:05:00",
-      "data_to": "2026-09-10T15:30:00",
-      "bars": 11484,
-      "initial_capital": 10000000.0,
-      "final_capital": 8775924.0,
-      "return_pct": -12.24,
-      "n_trades": 43,
-      "n_wins": 34,
-      "n_losses": 9,
-      "win_rate_pct": 79.07,
-      "avg_win": 28711.0,
-      "avg_loss": -245073.0,
-      "open_position": {
-        "split_count": 1,
-        "qty": 3,
-        "avg_price": 129400.0,
-        "current_price": 131200.0,
-        "unrealized_pnl": 5400.0
       }
     },
     {
@@ -2060,6 +2037,29 @@
         "avg_price": 71200.0,
         "current_price": 69300.0,
         "unrealized_pnl": -13300.0
+      }
+    },
+    {
+      "ticker": "097950",
+      "name": "CJ제일제당",
+      "data_from": "2025-09-01T09:00:00",
+      "data_to": "2026-09-10T15:30:00",
+      "bars": 19368,
+      "initial_capital": 10000000.0,
+      "final_capital": 8140442.0,
+      "return_pct": -18.6,
+      "n_trades": 19,
+      "n_wins": 15,
+      "n_losses": 4,
+      "win_rate_pct": 78.95,
+      "avg_win": 33397.0,
+      "avg_loss": -544230.0,
+      "open_position": {
+        "split_count": 16,
+        "qty": 32,
+        "avg_price": 186237.5,
+        "current_price": 180500.0,
+        "unrealized_pnl": -183600.0
       }
     },
     {
