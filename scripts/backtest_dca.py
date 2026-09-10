@@ -32,8 +32,8 @@ from agents.collector import DataCollectorAgent
 from agents.calculator import compute_rsi, to_heikin_ashi, find_pivots
 
 SPLIT_COUNT = config.TQQQ_SPLIT_COUNT      # 20
-TP_PCT = config.TQQQ_TP_PCT                # 0.03
-SL_PCT = config.TQQQ_SL_PCT                # 0.10
+TP_PCT = config.DCA_TP_PCT                 # 0.03 (TQQQ와 별도 - config.DCA_TP_PCT 참고)
+SL_PCT = config.DCA_SL_PCT                 # 0.10
 RSI_LENGTH = config.TQQQ_RSI_LENGTH
 MA_LENGTH = config.TQQQ_MA_LENGTH
 SPREAD_LIMIT = config.TQQQ_SPREAD_LIMIT

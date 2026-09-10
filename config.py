@@ -185,5 +185,12 @@ TQQQ_SPREAD_LIMIT = 15
 TQQQ_PIVOT_LEFT = 10
 TQQQ_PIVOT_RIGHT = 10
 TQQQ_FIB_RATIO = 0.382
+
+# 98종목 국내주식 DCA 백테스트(scripts/backtest_dca.py)는 TQQQ와 진입신호 로직은
+# 공유하지만 TP/SL은 별도 값 사용 - TQQQ_TP_PCT/SL_PCT를 직접 재사용하면 TQQQ용으로
+# 튜닝한 값이 국내 백테스트에도 의도치 않게 흘러들어감 (2026-09-10 실제 발생한 문제).
+DCA_TP_PCT = 0.03                  # 평단가 대비 +3% 익절
+DCA_SL_PCT = 0.10                  # 평단가 대비 -10% 손절
+
 TQQQ_POSITIONS_FILE = "positions_tqqq.json"
 TQQQ_TRADE_LOG_FILE = "trade_log_tqqq.json"
