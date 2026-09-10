@@ -656,5 +656,19 @@
     "pnl_pct": -1.12,
     "commission": 6342.0,
     "tax": 1810.0
+  },
+  {
+    "ticker": "041510",
+    "name": "에스엠",
+    "qty": 12,
+    "entry_price": 81200.0,
+    "entry_time": "2026-09-09T09:39:47",
+    "exit_price": 79500.0,
+    "exit_time": "2026-09-10T09:02:21",
+    "reason": "손절(SL 도달)",
+    "pnl": -29057.0,
+    "pnl_pct": -2.98,
+    "commission": 6749.0,
+    "tax": 1908.0
   }
 ]
