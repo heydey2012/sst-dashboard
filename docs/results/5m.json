@@ -1,7 +1,7 @@
 {
   "timeframe": "5m",
   "timeframe_label": "5분봉",
-  "last_updated": "2026-09-10T13:36:42",
+  "last_updated": "2026-09-10T13:45:54",
   "total_tickers": 98,
   "total_signals": 1,
   "results": [
@@ -182,22 +182,6 @@
       ]
     },
     {
-      "ticker": "034730",
-      "name": "SK",
-      "is_fresh": true,
-      "best_signal": true,
-      "best_reason": "1차 저점(587,000) 지지 후 재반등",
-      "has_active_entry": false,
-      "signal_time": "09/10 10:25",
-      "signal_price": 587000.0,
-      "rebound_time": "09/10 10:35",
-      "rebound_price": 589000.0,
-      "bars_after_signal": 2,
-      "reasons": [
-        "음봉형 도지"
-      ]
-    },
-    {
       "ticker": "006400",
       "name": "삼성SDI",
       "is_fresh": true,
@@ -259,38 +243,6 @@
       "bars_after_signal": 2,
       "reasons": [
         "연속 양봉 2개 이상"
-      ]
-    },
-    {
-      "ticker": "009540",
-      "name": "HD한국조선해양",
-      "is_fresh": true,
-      "best_signal": true,
-      "best_reason": "1차 저점(354,500) 지지 후 재반등",
-      "has_active_entry": false,
-      "signal_time": "09/10 13:20",
-      "signal_price": 354500.0,
-      "rebound_time": "09/10 13:25",
-      "rebound_price": 356500.0,
-      "bars_after_signal": 1,
-      "reasons": [
-        "전 봉(음봉)보다 몸통이 큰 양봉"
-      ]
-    },
-    {
-      "ticker": "042660",
-      "name": "한화오션",
-      "is_fresh": true,
-      "best_signal": true,
-      "best_reason": "저점 이탈(85,800→84,500)했으나 RSI 다이버전스 동반 재반등 (RSI 20.9→22.7)",
-      "has_active_entry": false,
-      "signal_time": "09/10 09:00",
-      "signal_price": 85800.0,
-      "rebound_time": "09/10 09:05",
-      "rebound_price": 86500.0,
-      "bars_after_signal": 1,
-      "reasons": [
-        "전 봉(음봉)보다 몸통이 큰 양봉"
       ]
     },
     {
@@ -371,38 +323,6 @@
       "bars_after_signal": 2,
       "reasons": [
         "연속 양봉 2개 이상"
-      ]
-    },
-    {
-      "ticker": "035720",
-      "name": "카카오",
-      "is_fresh": true,
-      "best_signal": true,
-      "best_reason": "저점 이탈(34,750→34,550)했으나 RSI 다이버전스 동반 재반등 (RSI 27.0→29.7)",
-      "has_active_entry": false,
-      "signal_time": "09/10 09:10",
-      "signal_price": 34750.0,
-      "rebound_time": "09/10 09:15",
-      "rebound_price": 34900.0,
-      "bars_after_signal": 1,
-      "reasons": [
-        "전 봉(음봉)보다 몸통이 큰 양봉"
-      ]
-    },
-    {
-      "ticker": "015760",
-      "name": "한국전력",
-      "is_fresh": true,
-      "best_signal": true,
-      "best_reason": "저점 이탈(32,800→32,450)했으나 RSI 다이버전스 동반 재반등 (RSI 18.5→23.5)",
-      "has_active_entry": false,
-      "signal_time": "09/10 09:00",
-      "signal_price": 32800.0,
-      "rebound_time": "09/10 09:10",
-      "rebound_price": 32900.0,
-      "bars_after_signal": 2,
-      "reasons": [
-        "음봉형 도지"
       ]
     },
     {
@@ -614,22 +534,6 @@
       ]
     },
     {
-      "ticker": "078930",
-      "name": "GS",
-      "is_fresh": true,
-      "best_signal": true,
-      "best_reason": "저점 이탈(117,900→117,100)했으나 RSI 다이버전스 동반 재반등 (RSI 31.2→29.5)",
-      "has_active_entry": false,
-      "signal_time": "09/10 10:15",
-      "signal_price": 118000.0,
-      "rebound_time": "09/10 10:30",
-      "rebound_price": 118200.0,
-      "bars_after_signal": 3,
-      "reasons": [
-        "연속 양봉 2개 이상"
-      ]
-    },
-    {
       "ticker": "006800",
       "name": "미래에셋증권",
       "is_fresh": true,
@@ -657,22 +561,6 @@
       "rebound_time": "09/10 09:50",
       "rebound_price": 90000.0,
       "bars_after_signal": 10,
-      "reasons": [
-        "음봉형 도지"
-      ]
-    },
-    {
-      "ticker": "003490",
-      "name": "대한항공",
-      "is_fresh": true,
-      "best_signal": true,
-      "best_reason": "저점 이탈(29,250→29,050)했으나 RSI 다이버전스 동반 재반등 (RSI 28.0→35.4)",
-      "has_active_entry": false,
-      "signal_time": "09/10 09:15",
-      "signal_price": 29250.0,
-      "rebound_time": "09/10 09:20",
-      "rebound_price": 29250.0,
-      "bars_after_signal": 1,
       "reasons": [
         "음봉형 도지"
       ]
@@ -902,11 +790,27 @@
       ]
     },
     {
+      "ticker": "039030",
+      "name": "이오테크닉스",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "09/10 13:20",
+      "signal_price": 471000.0,
+      "rebound_time": "09/10 13:35",
+      "rebound_price": 472000.0,
+      "bars_after_signal": 3,
+      "reasons": [
+        "전 봉(음봉)보다 몸통이 큰 양봉"
+      ]
+    },
+    {
       "ticker": "058470",
       "name": "리노공업",
       "is_fresh": true,
       "best_signal": true,
-      "best_reason": "1차 저점(70,900) 지지 후 재반등",
+      "best_reason": "저점 이탈(70,900→70,700)했으나 RSI 다이버전스 동반 재반등 (RSI 41.6→40.0)",
       "has_active_entry": false,
       "signal_time": "09/10 13:15",
       "signal_price": 70900.0,
@@ -937,8 +841,8 @@
       "ticker": "357780",
       "name": "솔브레인",
       "is_fresh": true,
-      "best_signal": true,
-      "best_reason": "1차 저점(344,500) 지지 후 재반등",
+      "best_signal": false,
+      "best_reason": "",
       "has_active_entry": false,
       "signal_time": "09/10 13:10",
       "signal_price": 344500.0,
