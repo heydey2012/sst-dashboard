@@ -1,10 +1,10 @@
 {
-  "last_updated": "2026-09-10T10:48:48",
+  "last_updated": "2026-09-10T10:57:42",
   "strategy_version": "tqqq",
   "paper_mode": true,
   "currency": "USD",
-  "initial_capital": 10000000,
-  "current_capital": 10000000,
+  "initial_capital": 7450,
+  "current_capital": 7450,
   "return_pct": 0.0,
   "profit_amount": 0,
   "positions": []
