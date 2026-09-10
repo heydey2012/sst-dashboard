@@ -2,7 +2,7 @@
   "summary": {
     "strategy": "RSI Spread Pro 분할매수(DCA) - RSI_Spread_Pro_Strategy_v1.pine 포팅, 평단가 -10% 손절 추가",
     "timeframe": "5m",
-    "generated_at": "2026-09-10T15:43:47",
+    "generated_at": "2026-09-10T15:46:06",
     "data_from": "2025-09-01T09:00:00",
     "data_to": "2026-09-10T15:30:00",
     "tickers_used": 98,
@@ -12,11 +12,11 @@
     "sl_pct": 0.1,
     "initial_capital_per_ticker": 10000000.0,
     "total_initial_capital": 980000000.0,
-    "total_final_capital": 953963943.0,
-    "total_return_pct": -2.66,
-    "total_trades": 3718,
-    "total_wins": 3180,
-    "overall_win_rate_pct": 85.53,
+    "total_final_capital": 955579355.0,
+    "total_return_pct": -2.49,
+    "total_trades": 3860,
+    "total_wins": 3314,
+    "overall_win_rate_pct": 85.85,
     "open_positions_count": 78
   },
   "tickers": [
@@ -41,6 +41,75 @@
         "avg_price": 124033.3333,
         "current_price": 118000.0,
         "unrealized_pnl": -72400.0
+      }
+    },
+    {
+      "ticker": "011780",
+      "name": "금호석유",
+      "data_from": "2025-09-01T09:00:00",
+      "data_to": "2026-09-10T15:30:00",
+      "bars": 19401,
+      "initial_capital": 10000000.0,
+      "final_capital": 11426717.0,
+      "return_pct": 14.27,
+      "n_trades": 45,
+      "n_wins": 42,
+      "n_losses": 3,
+      "win_rate_pct": 93.33,
+      "avg_win": 40004.0,
+      "avg_loss": -58986.0,
+      "open_position": {
+        "split_count": 5,
+        "qty": 15,
+        "avg_price": 131900.0,
+        "current_price": 126800.0,
+        "unrealized_pnl": -76500.0
+      }
+    },
+    {
+      "ticker": "003490",
+      "name": "대한항공",
+      "data_from": "2025-09-01T09:00:00",
+      "data_to": "2026-09-10T15:30:00",
+      "bars": 19501,
+      "initial_capital": 10000000.0,
+      "final_capital": 11367263.0,
+      "return_pct": 13.67,
+      "n_trades": 23,
+      "n_wins": 22,
+      "n_losses": 1,
+      "win_rate_pct": 95.65,
+      "avg_win": 67347.0,
+      "avg_loss": -106671.0,
+      "open_position": {
+        "split_count": 2,
+        "qty": 33,
+        "avg_price": 29783.3333,
+        "current_price": 29550.0,
+        "unrealized_pnl": -7700.0
+      }
+    },
+    {
+      "ticker": "078930",
+      "name": "GS",
+      "data_from": "2025-09-01T09:00:00",
+      "data_to": "2026-09-10T15:30:00",
+      "bars": 19396,
+      "initial_capital": 10000000.0,
+      "final_capital": 11335947.0,
+      "return_pct": 13.36,
+      "n_trades": 53,
+      "n_wins": 50,
+      "n_losses": 3,
+      "win_rate_pct": 94.34,
+      "avg_win": 32386.0,
+      "avg_loss": -68157.0,
+      "open_position": {
+        "split_count": 6,
+        "qty": 23,
+        "avg_price": 121330.4348,
+        "current_price": 117900.0,
+        "unrealized_pnl": -78900.0
       }
     },
     {
@@ -113,29 +182,6 @@
       }
     },
     {
-      "ticker": "003490",
-      "name": "대한항공",
-      "data_from": "2026-02-03T09:55:00",
-      "data_to": "2026-09-10T15:30:00",
-      "bars": 11485,
-      "initial_capital": 10000000.0,
-      "final_capital": 10990404.0,
-      "return_pct": 9.9,
-      "n_trades": 20,
-      "n_wins": 19,
-      "n_losses": 1,
-      "win_rate_pct": 95.0,
-      "avg_win": 58146.0,
-      "avg_loss": -106671.0,
-      "open_position": {
-        "split_count": 2,
-        "qty": 33,
-        "avg_price": 29783.3333,
-        "current_price": 29550.0,
-        "unrealized_pnl": -7700.0
-      }
-    },
-    {
       "ticker": "066570",
       "name": "LG전자",
       "data_from": "2025-09-01T09:00:00",
@@ -176,29 +222,6 @@
       "open_position": null
     },
     {
-      "ticker": "011780",
-      "name": "금호석유",
-      "data_from": "2026-02-02T13:05:00",
-      "data_to": "2026-09-10T15:30:00",
-      "bars": 11475,
-      "initial_capital": 10000000.0,
-      "final_capital": 10839991.0,
-      "return_pct": 8.4,
-      "n_trades": 30,
-      "n_wins": 27,
-      "n_losses": 3,
-      "win_rate_pct": 90.0,
-      "avg_win": 40498.0,
-      "avg_loss": -58986.0,
-      "open_position": {
-        "split_count": 5,
-        "qty": 15,
-        "avg_price": 131900.0,
-        "current_price": 126800.0,
-        "unrealized_pnl": -76500.0
-      }
-    },
-    {
       "ticker": "032640",
       "name": "LG유플러스",
       "data_from": "2025-09-01T09:00:00",
@@ -219,29 +242,6 @@
         "avg_price": 14919.5682,
         "current_price": 14760.0,
         "unrealized_pnl": -105315.0
-      }
-    },
-    {
-      "ticker": "078930",
-      "name": "GS",
-      "data_from": "2026-02-02T14:25:00",
-      "data_to": "2026-09-10T15:30:00",
-      "bars": 11482,
-      "initial_capital": 10000000.0,
-      "final_capital": 10735613.0,
-      "return_pct": 7.36,
-      "n_trades": 40,
-      "n_wins": 37,
-      "n_losses": 3,
-      "win_rate_pct": 92.5,
-      "avg_win": 27540.0,
-      "avg_loss": -68157.0,
-      "open_position": {
-        "split_count": 6,
-        "qty": 23,
-        "avg_price": 121330.4348,
-        "current_price": 117900.0,
-        "unrealized_pnl": -78900.0
       }
     },
     {
@@ -572,29 +572,6 @@
       "open_position": null
     },
     {
-      "ticker": "005830",
-      "name": "DB손해보험",
-      "data_from": "2026-02-02T13:45:00",
-      "data_to": "2026-09-10T15:30:00",
-      "bars": 11473,
-      "initial_capital": 10000000.0,
-      "final_capital": 10294318.0,
-      "return_pct": 2.94,
-      "n_trades": 40,
-      "n_wins": 37,
-      "n_losses": 3,
-      "win_rate_pct": 92.5,
-      "avg_win": 25925.0,
-      "avg_loss": -215573.0,
-      "open_position": {
-        "split_count": 6,
-        "qty": 12,
-        "avg_price": 187716.6667,
-        "current_price": 186200.0,
-        "unrealized_pnl": -18200.0
-      }
-    },
-    {
       "ticker": "000660",
       "name": "SK하이닉스",
       "data_from": "2025-09-01T09:00:00",
@@ -635,6 +612,29 @@
       }
     },
     {
+      "ticker": "017670",
+      "name": "SK텔레콤",
+      "data_from": "2025-09-01T09:00:00",
+      "data_to": "2026-09-10T15:30:00",
+      "bars": 19499,
+      "initial_capital": 10000000.0,
+      "final_capital": 10201474.0,
+      "return_pct": 2.01,
+      "n_trades": 39,
+      "n_wins": 36,
+      "n_losses": 3,
+      "win_rate_pct": 92.31,
+      "avg_win": 34030.0,
+      "avg_loss": -319530.0,
+      "open_position": {
+        "split_count": 10,
+        "qty": 50,
+        "avg_price": 91700.0,
+        "current_price": 90400.0,
+        "unrealized_pnl": -65000.0
+      }
+    },
+    {
       "ticker": "030200",
       "name": "KT",
       "data_from": "2025-09-01T09:00:00",
@@ -650,6 +650,29 @@
       "avg_win": 46816.0,
       "avg_loss": -430340.0,
       "open_position": null
+    },
+    {
+      "ticker": "006800",
+      "name": "미래에셋증권",
+      "data_from": "2025-09-01T09:00:00",
+      "data_to": "2026-09-10T15:30:00",
+      "bars": 19504,
+      "initial_capital": 10000000.0,
+      "final_capital": 10138557.0,
+      "return_pct": 1.39,
+      "n_trades": 66,
+      "n_wins": 55,
+      "n_losses": 11,
+      "win_rate_pct": 83.33,
+      "avg_win": 32487.0,
+      "avg_loss": -150602.0,
+      "open_position": {
+        "split_count": 2,
+        "qty": 28,
+        "avg_price": 34450.0,
+        "current_price": 34750.0,
+        "unrealized_pnl": 8400.0
+      }
     },
     {
       "ticker": "329180",
@@ -1018,6 +1041,29 @@
       }
     },
     {
+      "ticker": "004990",
+      "name": "롯데지주",
+      "data_from": "2025-09-01T09:00:00",
+      "data_to": "2026-09-10T15:30:00",
+      "bars": 19376,
+      "initial_capital": 10000000.0,
+      "final_capital": 9919808.0,
+      "return_pct": -0.8,
+      "n_trades": 42,
+      "n_wins": 37,
+      "n_losses": 5,
+      "win_rate_pct": 88.1,
+      "avg_win": 35787.0,
+      "avg_loss": -286265.0,
+      "open_position": {
+        "split_count": 3,
+        "qty": 60,
+        "avg_price": 24650.0,
+        "current_price": 25100.0,
+        "unrealized_pnl": 27000.0
+      }
+    },
+    {
       "ticker": "138040",
       "name": "메리츠금융지주",
       "data_from": "2025-09-01T09:00:00",
@@ -1056,52 +1102,6 @@
       "avg_win": 33242.0,
       "avg_loss": -212337.0,
       "open_position": null
-    },
-    {
-      "ticker": "017670",
-      "name": "SK텔레콤",
-      "data_from": "2026-02-03T09:45:00",
-      "data_to": "2026-09-10T15:30:00",
-      "bars": 11484,
-      "initial_capital": 10000000.0,
-      "final_capital": 9881502.0,
-      "return_pct": -1.18,
-      "n_trades": 33,
-      "n_wins": 30,
-      "n_losses": 3,
-      "win_rate_pct": 90.91,
-      "avg_win": 30170.0,
-      "avg_loss": -319530.0,
-      "open_position": {
-        "split_count": 10,
-        "qty": 50,
-        "avg_price": 91700.0,
-        "current_price": 90400.0,
-        "unrealized_pnl": -65000.0
-      }
-    },
-    {
-      "ticker": "004990",
-      "name": "롯데지주",
-      "data_from": "2026-02-02T13:35:00",
-      "data_to": "2026-09-10T15:30:00",
-      "bars": 11466,
-      "initial_capital": 10000000.0,
-      "final_capital": 9879610.0,
-      "return_pct": -1.2,
-      "n_trades": 29,
-      "n_wins": 25,
-      "n_losses": 4,
-      "win_rate_pct": 86.21,
-      "avg_win": 32400.0,
-      "avg_loss": -239347.0,
-      "open_position": {
-        "split_count": 3,
-        "qty": 60,
-        "avg_price": 24650.0,
-        "current_price": 25100.0,
-        "unrealized_pnl": 27000.0
-      }
     },
     {
       "ticker": "011210",
@@ -1170,6 +1170,29 @@
         "avg_price": 483000.0,
         "current_price": 481500.0,
         "unrealized_pnl": -3000.0
+      }
+    },
+    {
+      "ticker": "005830",
+      "name": "DB손해보험",
+      "data_from": "2025-09-01T09:00:00",
+      "data_to": "2026-09-10T15:30:00",
+      "bars": 19379,
+      "initial_capital": 10000000.0,
+      "final_capital": 9814629.0,
+      "return_pct": -1.85,
+      "n_trades": 50,
+      "n_wins": 45,
+      "n_losses": 5,
+      "win_rate_pct": 90.0,
+      "avg_win": 31693.0,
+      "avg_loss": -318668.0,
+      "open_position": {
+        "split_count": 6,
+        "qty": 12,
+        "avg_price": 187716.6667,
+        "current_price": 186200.0,
+        "unrealized_pnl": -18200.0
       }
     },
     {
@@ -1311,29 +1334,6 @@
       }
     },
     {
-      "ticker": "006800",
-      "name": "미래에셋증권",
-      "data_from": "2026-02-03T10:05:00",
-      "data_to": "2026-09-10T15:30:00",
-      "bars": 11483,
-      "initial_capital": 10000000.0,
-      "final_capital": 9619769.0,
-      "return_pct": -3.8,
-      "n_trades": 42,
-      "n_wins": 32,
-      "n_losses": 10,
-      "win_rate_pct": 76.19,
-      "avg_win": 32976.0,
-      "avg_loss": -144387.0,
-      "open_position": {
-        "split_count": 2,
-        "qty": 28,
-        "avg_price": 34450.0,
-        "current_price": 34750.0,
-        "unrealized_pnl": 8400.0
-      }
-    },
-    {
       "ticker": "006260",
       "name": "LS",
       "data_from": "2026-02-02T15:15:00",
@@ -1401,6 +1401,23 @@
         "current_price": 80800.0,
         "unrealized_pnl": 24000.0
       }
+    },
+    {
+      "ticker": "047810",
+      "name": "한국항공우주",
+      "data_from": "2025-09-01T09:00:00",
+      "data_to": "2026-09-10T15:30:00",
+      "bars": 19502,
+      "initial_capital": 10000000.0,
+      "final_capital": 9432365.0,
+      "return_pct": -5.68,
+      "n_trades": 74,
+      "n_wins": 63,
+      "n_losses": 11,
+      "win_rate_pct": 85.14,
+      "avg_win": 27427.0,
+      "avg_loss": -208685.0,
+      "open_position": null
     },
     {
       "ticker": "357780",
@@ -1908,23 +1925,6 @@
       "open_position": null
     },
     {
-      "ticker": "047810",
-      "name": "한국항공우주",
-      "data_from": "2026-02-03T10:00:00",
-      "data_to": "2026-09-10T15:30:00",
-      "bars": 11480,
-      "initial_capital": 10000000.0,
-      "final_capital": 8627811.0,
-      "return_pct": -13.72,
-      "n_trades": 48,
-      "n_wins": 37,
-      "n_losses": 11,
-      "win_rate_pct": 77.08,
-      "avg_win": 22985.0,
-      "avg_loss": -202056.0,
-      "open_position": null
-    },
-    {
       "ticker": "009540",
       "name": "HD한국조선해양",
       "data_from": "2025-09-01T09:00:00",
@@ -1945,29 +1945,6 @@
         "avg_price": 353400.0,
         "current_price": 351500.0,
         "unrealized_pnl": -38000.0
-      }
-    },
-    {
-      "ticker": "000100",
-      "name": "유한양행",
-      "data_from": "2026-02-03T09:20:00",
-      "data_to": "2026-09-10T15:30:00",
-      "bars": 11481,
-      "initial_capital": 10000000.0,
-      "final_capital": 8354343.0,
-      "return_pct": -16.46,
-      "n_trades": 22,
-      "n_wins": 18,
-      "n_losses": 4,
-      "win_rate_pct": 81.82,
-      "avg_win": 45512.0,
-      "avg_loss": -566743.0,
-      "open_position": {
-        "split_count": 11,
-        "qty": 65,
-        "avg_price": 81944.6154,
-        "current_price": 78900.0,
-        "unrealized_pnl": -197900.0
       }
     },
     {
@@ -2063,6 +2040,29 @@
       }
     },
     {
+      "ticker": "000100",
+      "name": "유한양행",
+      "data_from": "2025-09-01T09:00:00",
+      "data_to": "2026-09-10T15:30:00",
+      "bars": 19499,
+      "initial_capital": 10000000.0,
+      "final_capital": 7940948.0,
+      "return_pct": -20.59,
+      "n_trades": 29,
+      "n_wins": 24,
+      "n_losses": 5,
+      "win_rate_pct": 82.76,
+      "avg_win": 58030.0,
+      "avg_loss": -650774.0,
+      "open_position": {
+        "split_count": 11,
+        "qty": 65,
+        "avg_price": 81944.6154,
+        "current_price": 78900.0,
+        "unrealized_pnl": -197900.0
+      }
+    },
+    {
       "ticker": "064350",
       "name": "현대로템",
       "data_from": "2026-02-24T09:05:00",
@@ -2134,18 +2134,18 @@
     {
       "ticker": "361610",
       "name": "SK아이이테크놀로지",
-      "data_from": "2026-02-02T14:40:00",
+      "data_from": "2025-09-01T09:00:00",
       "data_to": "2026-09-10T15:30:00",
-      "bars": 11479,
+      "bars": 19403,
       "initial_capital": 10000000.0,
-      "final_capital": 7410079.0,
-      "return_pct": -25.9,
-      "n_trades": 31,
-      "n_wins": 22,
-      "n_losses": 9,
-      "win_rate_pct": 70.97,
-      "avg_win": 30523.0,
-      "avg_loss": -360220.0,
+      "final_capital": 6671144.0,
+      "return_pct": -33.29,
+      "n_trades": 56,
+      "n_wins": 44,
+      "n_losses": 12,
+      "win_rate_pct": 78.57,
+      "avg_win": 27026.0,
+      "avg_loss": -374882.0,
       "open_position": {
         "split_count": 2,
         "qty": 54,

@@ -1,5 +1,71 @@
 [
   {
+    "entry_time": "2025-09-19T09:10:00",
+    "exit_time": "2026-01-14T12:10:00",
+    "avg_entry_price": 53282.5,
+    "exit_price": 54880.975,
+    "exit_reason": "익절(평단가 대비 목표 도달)",
+    "qty": 180,
+    "split_count": 20,
+    "pnl": 199825.0,
+    "pnl_pct": 2.08
+  },
+  {
+    "entry_time": "2026-01-15T09:35:00",
+    "exit_time": "2026-01-19T11:40:00",
+    "avg_entry_price": 54850.0,
+    "exit_price": 56495.5,
+    "exit_reason": "익절(평단가 대비 목표 도달)",
+    "qty": 18,
+    "split_count": 2,
+    "pnl": 20570.0,
+    "pnl_pct": 2.08
+  },
+  {
+    "entry_time": "2026-01-21T09:10:00",
+    "exit_time": "2026-01-22T09:10:00",
+    "avg_entry_price": 60600.0,
+    "exit_price": 62418.0,
+    "exit_reason": "익절(평단가 대비 목표 도달)",
+    "qty": 16,
+    "split_count": 2,
+    "pnl": 20202.0,
+    "pnl_pct": 2.08
+  },
+  {
+    "entry_time": "2026-01-22T13:05:00",
+    "exit_time": "2026-01-27T09:00:00",
+    "avg_entry_price": 62039.13043478261,
+    "exit_price": 63900.30434782609,
+    "exit_reason": "익절(평단가 대비 목표 도달)",
+    "qty": 23,
+    "split_count": 3,
+    "pnl": 29729.0,
+    "pnl_pct": 2.08
+  },
+  {
+    "entry_time": "2026-01-27T13:20:00",
+    "exit_time": "2026-01-30T09:00:00",
+    "avg_entry_price": 68866.66666666667,
+    "exit_price": 70932.66666666667,
+    "exit_reason": "익절(평단가 대비 목표 도달)",
+    "qty": 21,
+    "split_count": 3,
+    "pnl": 30132.0,
+    "pnl_pct": 2.08
+  },
+  {
+    "entry_time": "2026-01-30T14:55:00",
+    "exit_time": "2026-02-04T09:00:00",
+    "avg_entry_price": 72046.15384615384,
+    "exit_price": 74207.53846153847,
+    "exit_reason": "익절(평단가 대비 목표 도달)",
+    "qty": 13,
+    "split_count": 2,
+    "pnl": 19514.0,
+    "pnl_pct": 2.08
+  },
+  {
     "entry_time": "2026-02-06T09:05:00",
     "exit_time": "2026-02-09T09:00:00",
     "avg_entry_price": 70650.0,
