@@ -1,7 +1,7 @@
 {
   "timeframe": "15m",
   "timeframe_label": "15분봉",
-  "last_updated": "2026-09-10T13:43:07",
+  "last_updated": "2026-09-10T13:56:46",
   "total_tickers": 98,
   "total_signals": 0,
   "results": [
@@ -281,8 +281,8 @@
       "ticker": "051910",
       "name": "LG화학",
       "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
+      "best_signal": true,
+      "best_reason": "1차 저점(280,000) 지지 후 재반등",
       "has_active_entry": false,
       "signal_time": "09/10 11:45",
       "signal_price": 280000.0,
@@ -323,6 +323,22 @@
       "bars_after_signal": 1,
       "reasons": [
         "연속 양봉 2개 이상"
+      ]
+    },
+    {
+      "ticker": "004020",
+      "name": "현대제철",
+      "is_fresh": true,
+      "best_signal": true,
+      "best_reason": "1차 저점(32,650) 지지 후 재반등",
+      "has_active_entry": false,
+      "signal_time": "09/10 09:30",
+      "signal_price": 32750.0,
+      "rebound_time": "09/10 11:00",
+      "rebound_price": 32800.0,
+      "bars_after_signal": 6,
+      "reasons": [
+        "음봉형 도지"
       ]
     },
     {
@@ -406,38 +422,6 @@
       ]
     },
     {
-      "ticker": "011780",
-      "name": "금호석유",
-      "is_fresh": true,
-      "best_signal": true,
-      "best_reason": "1차 저점(124,650) 지지 후 재반등",
-      "has_active_entry": false,
-      "signal_time": "09/10 11:30",
-      "signal_price": 124800.0,
-      "rebound_time": "09/10 12:00",
-      "rebound_price": 125200.0,
-      "bars_after_signal": 2,
-      "reasons": [
-        "전 봉(음봉)보다 몸통이 큰 양봉"
-      ]
-    },
-    {
-      "ticker": "004990",
-      "name": "롯데지주",
-      "is_fresh": true,
-      "best_signal": true,
-      "best_reason": "1차 저점(24,500) 지지 후 재반등",
-      "has_active_entry": false,
-      "signal_time": "09/10 10:00",
-      "signal_price": 24500.0,
-      "rebound_time": "09/10 10:15",
-      "rebound_price": 24550.0,
-      "bars_after_signal": 1,
-      "reasons": [
-        "음봉형 도지"
-      ]
-    },
-    {
       "ticker": "361610",
       "name": "SK아이이테크놀로지",
       "is_fresh": true,
@@ -451,6 +435,22 @@
       "bars_after_signal": 1,
       "reasons": [
         "양봉형 도지"
+      ]
+    },
+    {
+      "ticker": "096770",
+      "name": "SK이노베이션",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "09/10 11:30",
+      "signal_price": 151200.0,
+      "rebound_time": "09/10 12:15",
+      "rebound_price": 152900.0,
+      "bars_after_signal": 3,
+      "reasons": [
+        "전 봉(음봉)보다 몸통이 큰 양봉"
       ]
     },
     {
@@ -611,6 +611,22 @@
       "bars_after_signal": 4,
       "reasons": [
         "전 봉(음봉)보다 몸통이 큰 양봉"
+      ]
+    },
+    {
+      "ticker": "086520",
+      "name": "에코프로",
+      "is_fresh": true,
+      "best_signal": true,
+      "best_reason": "저점 이탈(83,400→83,300)했으나 RSI 다이버전스 동반 재반등 (RSI 43.0→42.2)",
+      "has_active_entry": false,
+      "signal_time": "09/10 10:45",
+      "signal_price": 83400.0,
+      "rebound_time": "09/10 11:00",
+      "rebound_price": 83400.0,
+      "bars_after_signal": 1,
+      "reasons": [
+        "음봉형 도지"
       ]
     },
     {
