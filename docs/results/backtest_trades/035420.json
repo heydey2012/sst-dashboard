@@ -1,182 +1,212 @@
 [
   {
-    "entry_time": "2026-02-04T09:05:00",
-    "exit_time": "2026-02-26T09:25:00",
-    "avg_entry_price": 256333.33333333334,
-    "exit_price": 264023.3333333334,
-    "qty": 9,
-    "split_count": 8,
-    "pnl": 48066.0,
-    "pnl_pct": 2.08
-  },
-  {
-    "entry_time": "2026-03-03T09:00:00",
-    "exit_time": "2026-03-11T09:05:00",
-    "avg_entry_price": 220863.63636363635,
-    "exit_price": 227489.54545454544,
-    "qty": 11,
-    "split_count": 6,
-    "pnl": 50619.0,
-    "pnl_pct": 2.08
-  },
-  {
-    "entry_time": "2026-03-11T14:25:00",
-    "exit_time": "2026-04-16T09:00:00",
-    "avg_entry_price": 208970.0,
-    "exit_price": 215239.1,
-    "qty": 40,
-    "split_count": 20,
-    "pnl": 174156.0,
-    "pnl_pct": 2.08
-  },
-  {
-    "entry_time": "2026-04-17T09:15:00",
-    "exit_time": "2026-04-29T09:00:00",
-    "avg_entry_price": 217000.0,
-    "exit_price": 223510.0,
-    "qty": 6,
-    "split_count": 3,
-    "pnl": 27127.0,
-    "pnl_pct": 2.08
-  },
-  {
-    "entry_time": "2026-04-30T09:45:00",
-    "exit_time": "2026-05-14T09:10:00",
-    "avg_entry_price": 205833.33333333334,
-    "exit_price": 212008.33333333334,
-    "qty": 6,
-    "split_count": 3,
-    "pnl": 25731.0,
-    "pnl_pct": 2.08
-  },
-  {
-    "entry_time": "2026-05-20T09:25:00",
-    "exit_time": "2026-05-21T09:50:00",
-    "avg_entry_price": 193400.0,
-    "exit_price": 199202.0,
+    "entry_time": "2025-08-06T09:45:00",
+    "exit_time": "2025-08-07T14:00:00",
+    "avg_entry_price": 227000.0,
+    "exit_price": 233810.0,
     "qty": 2,
     "split_count": 1,
-    "pnl": 8059.0,
+    "pnl": 9459.0,
     "pnl_pct": 2.08
   },
   {
-    "entry_time": "2026-06-01T14:35:00",
-    "exit_time": "2026-06-08T11:10:00",
-    "avg_entry_price": 262300.0,
-    "exit_price": 270169.0,
-    "qty": 10,
-    "split_count": 9,
-    "pnl": 54650.0,
-    "pnl_pct": 2.08
-  },
-  {
-    "entry_time": "2026-06-09T09:20:00",
-    "exit_time": "2026-06-12T10:35:00",
-    "avg_entry_price": 245750.0,
-    "exit_price": 253122.5,
-    "qty": 5,
-    "split_count": 3,
-    "pnl": 25601.0,
-    "pnl_pct": 2.08
-  },
-  {
-    "entry_time": "2026-06-17T09:10:00",
-    "exit_time": "2026-06-17T12:35:00",
-    "avg_entry_price": 238000.0,
-    "exit_price": 245140.0,
-    "qty": 2,
-    "split_count": 1,
-    "pnl": 9917.0,
-    "pnl_pct": 2.08
-  },
-  {
-    "entry_time": "2026-06-18T09:20:00",
-    "exit_time": "2026-06-19T09:00:00",
-    "avg_entry_price": 236000.0,
-    "exit_price": 243080.0,
-    "qty": 2,
-    "split_count": 1,
-    "pnl": 9834.0,
-    "pnl_pct": 2.08
-  },
-  {
-    "entry_time": "2026-06-23T09:25:00",
-    "exit_time": "2026-07-22T10:45:00",
-    "avg_entry_price": 196610.0,
-    "exit_price": 202508.30000000002,
-    "qty": 40,
-    "split_count": 20,
-    "pnl": 163855.0,
-    "pnl_pct": 2.08
-  },
-  {
-    "entry_time": "2026-07-24T09:20:00",
-    "exit_time": "2026-07-27T09:00:00",
-    "avg_entry_price": 208250.0,
-    "exit_price": 214497.5,
-    "qty": 4,
-    "split_count": 2,
-    "pnl": 17356.0,
-    "pnl_pct": 2.08
-  },
-  {
-    "entry_time": "2026-07-29T11:05:00",
-    "exit_time": "2026-07-31T10:10:00",
-    "avg_entry_price": 202500.0,
-    "exit_price": 208575.0,
-    "qty": 2,
-    "split_count": 1,
-    "pnl": 8438.0,
-    "pnl_pct": 2.08
-  },
-  {
-    "entry_time": "2026-08-03T09:05:00",
-    "exit_time": "2026-08-04T09:00:00",
-    "avg_entry_price": 203500.0,
-    "exit_price": 209605.0,
-    "qty": 4,
-    "split_count": 2,
-    "pnl": 16960.0,
-    "pnl_pct": 2.08
-  },
-  {
-    "entry_time": "2026-08-05T10:20:00",
-    "exit_time": "2026-08-13T14:20:00",
-    "avg_entry_price": 222166.66666666666,
-    "exit_price": 228831.66666666666,
+    "entry_time": "2025-08-08T10:00:00",
+    "exit_time": "2025-09-09T12:30:00",
+    "avg_entry_price": 224958.33333333334,
+    "exit_price": 231707.08333333334,
     "qty": 12,
     "split_count": 6,
-    "pnl": 55546.0,
+    "pnl": 56244.0,
+    "pnl_pct": 2.08
+  },
+  {
+    "entry_time": "2025-09-12T15:00:00",
+    "exit_time": "2025-09-25T10:45:00",
+    "avg_entry_price": 233357.14285714287,
+    "exit_price": 240357.85714285716,
+    "qty": 14,
+    "split_count": 7,
+    "pnl": 68068.0,
+    "pnl_pct": 2.08
+  },
+  {
+    "entry_time": "2025-09-30T10:15:00",
+    "exit_time": "2025-10-10T09:15:00",
+    "avg_entry_price": 261166.66666666666,
+    "exit_price": 269001.6666666667,
+    "qty": 3,
+    "split_count": 3,
+    "pnl": 16324.0,
+    "pnl_pct": 2.08
+  },
+  {
+    "entry_time": "2025-10-13T09:15:00",
+    "exit_time": "2025-10-29T09:15:00",
+    "avg_entry_price": 250388.88888888888,
+    "exit_price": 257900.55555555556,
+    "qty": 9,
+    "split_count": 5,
+    "pnl": 46952.0,
+    "pnl_pct": 2.08
+  },
+  {
+    "entry_time": "2025-10-30T09:30:00",
+    "exit_time": "2025-10-31T11:30:00",
+    "avg_entry_price": 258625.0,
+    "exit_price": 266383.75,
+    "qty": 2,
+    "split_count": 2,
+    "pnl": 10777.0,
+    "pnl_pct": 2.08
+  },
+  {
+    "entry_time": "2025-11-05T09:45:00",
+    "exit_time": "2025-11-05T14:00:00",
+    "avg_entry_price": 263000.0,
+    "exit_price": 270890.0,
+    "qty": 1,
+    "split_count": 1,
+    "pnl": 5480.0,
+    "pnl_pct": 2.08
+  },
+  {
+    "entry_time": "2025-11-06T10:30:00",
+    "exit_time": "2026-01-06T09:30:00",
+    "avg_entry_price": 249187.5,
+    "exit_price": 256663.125,
+    "qty": 20,
+    "split_count": 15,
+    "pnl": 103836.0,
+    "pnl_pct": 2.08
+  },
+  {
+    "entry_time": "2026-01-12T10:00:00",
+    "exit_time": "2026-01-13T09:00:00",
+    "avg_entry_price": 250500.0,
+    "exit_price": 258015.0,
+    "qty": 1,
+    "split_count": 1,
+    "pnl": 5219.0,
+    "pnl_pct": 2.08
+  },
+  {
+    "entry_time": "2026-01-14T10:00:00",
+    "exit_time": "2026-01-23T09:30:00",
+    "avg_entry_price": 244928.57142857142,
+    "exit_price": 252276.42857142858,
+    "qty": 7,
+    "split_count": 4,
+    "pnl": 35722.0,
+    "pnl_pct": 2.08
+  },
+  {
+    "entry_time": "2026-01-27T12:45:00",
+    "exit_time": "2026-05-29T09:15:00",
+    "avg_entry_price": 217916.66666666666,
+    "exit_price": 224454.16666666666,
+    "qty": 36,
+    "split_count": 20,
+    "pnl": 163451.0,
+    "pnl_pct": 2.08
+  },
+  {
+    "entry_time": "2026-06-02T09:30:00",
+    "exit_time": "2026-06-02T11:45:00",
+    "avg_entry_price": 257750.0,
+    "exit_price": 265482.5,
+    "qty": 2,
+    "split_count": 2,
+    "pnl": 10740.0,
+    "pnl_pct": 2.08
+  },
+  {
+    "entry_time": "2026-06-04T09:15:00",
+    "exit_time": "2026-06-04T14:00:00",
+    "avg_entry_price": 261000.0,
+    "exit_price": 268830.0,
+    "qty": 3,
+    "split_count": 3,
+    "pnl": 16314.0,
+    "pnl_pct": 2.08
+  },
+  {
+    "entry_time": "2026-06-05T10:00:00",
+    "exit_time": "2026-06-05T12:30:00",
+    "avg_entry_price": 247500.0,
+    "exit_price": 254925.0,
+    "qty": 2,
+    "split_count": 1,
+    "pnl": 10313.0,
+    "pnl_pct": 2.08
+  },
+  {
+    "entry_time": "2026-06-09T10:30:00",
+    "exit_time": "2026-06-09T11:30:00",
+    "avg_entry_price": 247500.0,
+    "exit_price": 254925.0,
+    "qty": 2,
+    "split_count": 1,
+    "pnl": 10313.0,
+    "pnl_pct": 2.08
+  },
+  {
+    "entry_time": "2026-06-12T14:45:00",
+    "exit_time": "2026-06-15T09:45:00",
+    "avg_entry_price": 246000.0,
+    "exit_price": 253380.0,
+    "qty": 4,
+    "split_count": 2,
+    "pnl": 20502.0,
+    "pnl_pct": 2.08
+  },
+  {
+    "entry_time": "2026-06-18T09:15:00",
+    "exit_time": "2026-07-23T10:45:00",
+    "avg_entry_price": 207475.0,
+    "exit_price": 213699.25,
+    "qty": 16,
+    "split_count": 8,
+    "pnl": 69164.0,
+    "pnl_pct": 2.08
+  },
+  {
+    "entry_time": "2026-07-24T09:30:00",
+    "exit_time": "2026-07-27T09:00:00",
+    "avg_entry_price": 208000.0,
+    "exit_price": 214240.0,
+    "qty": 2,
+    "split_count": 1,
+    "pnl": 8667.0,
+    "pnl_pct": 2.08
+  },
+  {
+    "entry_time": "2026-07-28T09:30:00",
+    "exit_time": "2026-08-04T09:15:00",
+    "avg_entry_price": 218333.33333333334,
+    "exit_price": 224883.33333333334,
+    "qty": 6,
+    "split_count": 3,
+    "pnl": 27294.0,
+    "pnl_pct": 2.08
+  },
+  {
+    "entry_time": "2026-08-06T09:30:00",
+    "exit_time": "2026-08-13T14:15:00",
+    "avg_entry_price": 222166.66666666666,
+    "exit_price": 228831.66666666666,
+    "qty": 6,
+    "split_count": 3,
+    "pnl": 27773.0,
     "pnl_pct": 2.08
   },
   {
     "entry_time": "2026-08-18T09:15:00",
     "exit_time": "2026-08-24T09:00:00",
-    "avg_entry_price": 221062.5,
-    "exit_price": 227694.375,
-    "qty": 8,
-    "split_count": 4,
-    "pnl": 36847.0,
-    "pnl_pct": 2.08
-  },
-  {
-    "entry_time": "2026-08-24T10:35:00",
-    "exit_time": "2026-08-28T09:00:00",
-    "avg_entry_price": 218625.0,
-    "exit_price": 225183.75,
-    "qty": 8,
-    "split_count": 4,
-    "pnl": 36440.0,
-    "pnl_pct": 2.08
-  },
-  {
-    "entry_time": "2026-08-31T09:05:00",
-    "exit_time": "2026-09-07T09:55:00",
-    "avg_entry_price": 209968.75,
-    "exit_price": 216267.8125,
-    "qty": 16,
-    "split_count": 8,
-    "pnl": 69995.0,
+    "avg_entry_price": 221333.33333333334,
+    "exit_price": 227973.33333333334,
+    "qty": 6,
+    "split_count": 3,
+    "pnl": 27669.0,
     "pnl_pct": 2.08
   }
 ]
