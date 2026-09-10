@@ -1,7 +1,7 @@
 {
   "timeframe": "5m",
   "timeframe_label": "5분봉",
-  "last_updated": "2026-09-10T11:51:36",
+  "last_updated": "2026-09-10T11:56:54",
   "total_tickers": 98,
   "total_signals": 0,
   "results": [
@@ -329,8 +329,8 @@
       "ticker": "005490",
       "name": "POSCO홀딩스",
       "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
+      "best_signal": true,
+      "best_reason": "저점 이탈(332,500→332,000)했으나 RSI 다이버전스 동반 재반등 (RSI 34.0→37.7)",
       "has_active_entry": false,
       "signal_time": "09/10 10:10",
       "signal_price": 332500.0,
@@ -353,22 +353,6 @@
       "rebound_time": "09/10 09:20",
       "rebound_price": 1215000.0,
       "bars_after_signal": 1,
-      "reasons": [
-        "전 봉(음봉)보다 몸통이 큰 양봉"
-      ]
-    },
-    {
-      "ticker": "051910",
-      "name": "LG화학",
-      "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
-      "has_active_entry": false,
-      "signal_time": "09/10 10:25",
-      "signal_price": 283500.0,
-      "rebound_time": "09/10 10:40",
-      "rebound_price": 284000.0,
-      "bars_after_signal": 3,
       "reasons": [
         "전 봉(음봉)보다 몸통이 큰 양봉"
       ]
@@ -761,8 +745,8 @@
       "ticker": "086280",
       "name": "현대글로비스",
       "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
+      "best_signal": true,
+      "best_reason": "저점 이탈(201,500→200,500)했으나 RSI 다이버전스 동반 재반등 (RSI 35.3→34.2)",
       "has_active_entry": false,
       "signal_time": "09/10 09:00",
       "signal_price": 201500.0,
