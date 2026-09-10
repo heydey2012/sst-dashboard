@@ -1,6 +1,7 @@
 {
-  "last_updated": "2026-09-10T10:36:34",
+  "last_updated": "2026-09-10T10:48:48",
   "strategy_version": "tqqq",
+  "paper_mode": true,
   "currency": "USD",
   "initial_capital": 10000000,
   "current_capital": 10000000,
