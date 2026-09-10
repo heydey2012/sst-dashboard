@@ -670,5 +670,33 @@
     "pnl_pct": -2.98,
     "commission": 6749.0,
     "tax": 1908.0
+  },
+  {
+    "ticker": "055550",
+    "name": "신한지주",
+    "qty": 9,
+    "entry_price": 110700.0,
+    "entry_time": "2026-09-09T13:35:47",
+    "exit_price": 109900.0,
+    "exit_time": "2026-09-10T10:06:14",
+    "reason": "손절(SL 도달)",
+    "pnl": -16127.0,
+    "pnl_pct": -1.62,
+    "commission": 6949.0,
+    "tax": 1978.0
+  },
+  {
+    "ticker": "068270",
+    "name": "셀트리온",
+    "qty": 5,
+    "entry_price": 182400.0,
+    "entry_time": "2026-09-10T09:20:57",
+    "exit_price": 181400.0,
+    "exit_time": "2026-09-10T10:06:16",
+    "reason": "손절(SL 도달)",
+    "pnl": -13180.0,
+    "pnl_pct": -1.45,
+    "commission": 6366.0,
+    "tax": 1814.0
   }
 ]
