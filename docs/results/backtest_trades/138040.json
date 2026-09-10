@@ -1,5 +1,82 @@
 [
   {
+    "entry_time": "2025-09-02T12:05:00",
+    "exit_time": "2025-09-10T09:30:00",
+    "avg_entry_price": 123463.63636363637,
+    "exit_price": 127167.54545454546,
+    "exit_reason": "익절(평단가 대비 목표 도달)",
+    "qty": 11,
+    "split_count": 3,
+    "pnl": 28296.0,
+    "pnl_pct": 2.08
+  },
+  {
+    "entry_time": "2025-09-10T10:55:00",
+    "exit_time": "2025-11-12T09:45:00",
+    "avg_entry_price": 116225.97402597402,
+    "exit_price": 119712.75324675324,
+    "exit_reason": "익절(평단가 대비 목표 도달)",
+    "qty": 77,
+    "split_count": 20,
+    "pnl": 186461.0,
+    "pnl_pct": 2.08
+  },
+  {
+    "entry_time": "2025-11-12T12:05:00",
+    "exit_time": "2025-11-14T12:25:00",
+    "avg_entry_price": 120300.0,
+    "exit_price": 123909.0,
+    "exit_reason": "익절(평단가 대비 목표 도달)",
+    "qty": 8,
+    "split_count": 2,
+    "pnl": 20052.0,
+    "pnl_pct": 2.08
+  },
+  {
+    "entry_time": "2025-11-17T09:35:00",
+    "exit_time": "2025-12-30T09:10:00",
+    "avg_entry_price": 109766.66666666667,
+    "exit_price": 113059.66666666667,
+    "exit_reason": "익절(평단가 대비 목표 도달)",
+    "qty": 60,
+    "split_count": 15,
+    "pnl": 137219.0,
+    "pnl_pct": 2.08
+  },
+  {
+    "entry_time": "2026-01-08T15:15:00",
+    "exit_time": "2026-01-27T09:15:00",
+    "avg_entry_price": 105900.0,
+    "exit_price": 109077.0,
+    "exit_reason": "익절(평단가 대비 목표 도달)",
+    "qty": 40,
+    "split_count": 10,
+    "pnl": 88257.0,
+    "pnl_pct": 2.08
+  },
+  {
+    "entry_time": "2026-01-29T09:10:00",
+    "exit_time": "2026-01-29T14:40:00",
+    "avg_entry_price": 108600.0,
+    "exit_price": 111858.0,
+    "exit_reason": "익절(평단가 대비 목표 도달)",
+    "qty": 8,
+    "split_count": 2,
+    "pnl": 18101.0,
+    "pnl_pct": 2.08
+  },
+  {
+    "entry_time": "2026-01-30T10:50:00",
+    "exit_time": "2026-01-30T14:00:00",
+    "avg_entry_price": 114950.0,
+    "exit_price": 118398.5,
+    "exit_reason": "익절(평단가 대비 목표 도달)",
+    "qty": 8,
+    "split_count": 2,
+    "pnl": 19160.0,
+    "pnl_pct": 2.08
+  },
+  {
     "entry_time": "2026-02-03T14:15:00",
     "exit_time": "2026-02-04T12:30:00",
     "avg_entry_price": 118500.0,
