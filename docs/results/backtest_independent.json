@@ -2,7 +2,7 @@
   "summary": {
     "strategy": "RSI Spread Pro 분할매수(DCA) - RSI_Spread_Pro_Strategy_v1.pine 포팅, 평단가 -10% 손절 추가",
     "timeframe": "5m",
-    "generated_at": "2026-09-10T15:48:25",
+    "generated_at": "2026-09-10T15:50:44",
     "data_from": "2025-09-01T09:00:00",
     "data_to": "2026-09-10T15:30:00",
     "tickers_used": 98,
@@ -12,11 +12,11 @@
     "sl_pct": 0.1,
     "initial_capital_per_ticker": 10000000.0,
     "total_initial_capital": 980000000.0,
-    "total_final_capital": 955685755.0,
-    "total_return_pct": -2.48,
-    "total_trades": 4046,
-    "total_wins": 3487,
-    "overall_win_rate_pct": 86.18,
+    "total_final_capital": 957560183.0,
+    "total_return_pct": -2.29,
+    "total_trades": 4264,
+    "total_wins": 3692,
+    "overall_win_rate_pct": 86.59,
     "open_positions_count": 78
   },
   "tickers": [
@@ -268,6 +268,29 @@
       }
     },
     {
+      "ticker": "240810",
+      "name": "원익IPS",
+      "data_from": "2025-09-01T09:00:00",
+      "data_to": "2026-09-10T15:30:00",
+      "bars": 19504,
+      "initial_capital": 10000000.0,
+      "final_capital": 10741671.0,
+      "return_pct": 7.42,
+      "n_trades": 94,
+      "n_wins": 82,
+      "n_losses": 12,
+      "win_rate_pct": 87.23,
+      "avg_win": 27224.0,
+      "avg_loss": -121021.0,
+      "open_position": {
+        "split_count": 3,
+        "qty": 12,
+        "avg_price": 122000.0,
+        "current_price": 118800.0,
+        "unrealized_pnl": -38400.0
+      }
+    },
+    {
       "ticker": "086790",
       "name": "하나금융지주",
       "data_from": "2025-09-01T09:00:00",
@@ -346,6 +369,29 @@
       "avg_win": 26719.0,
       "avg_loss": -265323.0,
       "open_position": null
+    },
+    {
+      "ticker": "039030",
+      "name": "이오테크닉스",
+      "data_from": "2025-09-01T09:00:00",
+      "data_to": "2026-09-10T15:30:00",
+      "bars": 19496,
+      "initial_capital": 10000000.0,
+      "final_capital": 10667857.0,
+      "return_pct": 6.68,
+      "n_trades": 72,
+      "n_wins": 64,
+      "n_losses": 8,
+      "win_rate_pct": 88.89,
+      "avg_win": 23699.0,
+      "avg_loss": -102052.0,
+      "open_position": {
+        "split_count": 2,
+        "qty": 2,
+        "avg_price": 471250.0,
+        "current_price": 455000.0,
+        "unrealized_pnl": -32500.0
+      }
     },
     {
       "ticker": "012330",
@@ -460,29 +506,6 @@
         "avg_price": 337527.7778,
         "current_price": 339000.0,
         "unrealized_pnl": 13250.0
-      }
-    },
-    {
-      "ticker": "039030",
-      "name": "이오테크닉스",
-      "data_from": "2026-02-03T11:35:00",
-      "data_to": "2026-09-10T15:30:00",
-      "bars": 11484,
-      "initial_capital": 10000000.0,
-      "final_capital": 10509183.0,
-      "return_pct": 5.09,
-      "n_trades": 48,
-      "n_wins": 42,
-      "n_losses": 6,
-      "win_rate_pct": 87.5,
-      "avg_win": 25721.0,
-      "avg_loss": -89770.0,
-      "open_position": {
-        "split_count": 2,
-        "qty": 2,
-        "avg_price": 471250.0,
-        "current_price": 455000.0,
-        "unrealized_pnl": -32500.0
       }
     },
     {
@@ -759,29 +782,6 @@
       "avg_win": 22980.0,
       "avg_loss": -109871.0,
       "open_position": null
-    },
-    {
-      "ticker": "240810",
-      "name": "원익IPS",
-      "data_from": "2026-02-03T12:00:00",
-      "data_to": "2026-09-10T15:30:00",
-      "bars": 11485,
-      "initial_capital": 10000000.0,
-      "final_capital": 10098019.0,
-      "return_pct": 0.98,
-      "n_trades": 63,
-      "n_wins": 52,
-      "n_losses": 11,
-      "win_rate_pct": 82.54,
-      "avg_win": 25834.0,
-      "avg_loss": -109722.0,
-      "open_position": {
-        "split_count": 3,
-        "qty": 12,
-        "avg_price": 122000.0,
-        "current_price": 118800.0,
-        "unrealized_pnl": -38400.0
-      }
     },
     {
       "ticker": "145020",
@@ -1357,6 +1357,29 @@
       }
     },
     {
+      "ticker": "086520",
+      "name": "에코프로",
+      "data_from": "2025-09-01T09:00:00",
+      "data_to": "2026-09-10T15:30:00",
+      "bars": 19318,
+      "initial_capital": 10000000.0,
+      "final_capital": 9545215.0,
+      "return_pct": -4.55,
+      "n_trades": 65,
+      "n_wins": 50,
+      "n_losses": 15,
+      "win_rate_pct": 76.92,
+      "avg_win": 30258.0,
+      "avg_loss": -128898.0,
+      "open_position": {
+        "split_count": 11,
+        "qty": 56,
+        "avg_price": 87510.7143,
+        "current_price": 86900.0,
+        "unrealized_pnl": -34200.0
+      }
+    },
+    {
       "ticker": "000720",
       "name": "현대건설",
       "data_from": "2025-09-01T09:00:00",
@@ -1420,21 +1443,27 @@
       "open_position": null
     },
     {
-      "ticker": "357780",
-      "name": "솔브레인",
-      "data_from": "2026-02-03T09:35:00",
+      "ticker": "214150",
+      "name": "클래시스",
+      "data_from": "2025-09-01T09:00:00",
       "data_to": "2026-09-10T15:30:00",
-      "bars": 11469,
+      "bars": 19473,
       "initial_capital": 10000000.0,
-      "final_capital": 9381662.0,
-      "return_pct": -6.18,
-      "n_trades": 49,
-      "n_wins": 40,
+      "final_capital": 9371992.0,
+      "return_pct": -6.28,
+      "n_trades": 55,
+      "n_wins": 46,
       "n_losses": 9,
-      "win_rate_pct": 81.63,
-      "avg_win": 20243.0,
-      "avg_loss": -158674.0,
-      "open_position": null
+      "win_rate_pct": 83.64,
+      "avg_win": 29208.0,
+      "avg_loss": -208445.0,
+      "open_position": {
+        "split_count": 7,
+        "qty": 106,
+        "avg_price": 31901.4151,
+        "current_price": 31000.0,
+        "unrealized_pnl": -95550.0
+      }
     },
     {
       "ticker": "316140",
@@ -1460,20 +1489,37 @@
       }
     },
     {
-      "ticker": "247540",
-      "name": "에코프로비엠",
-      "data_from": "2026-02-02T12:05:00",
+      "ticker": "000990",
+      "name": "DB하이텍",
+      "data_from": "2025-09-01T09:00:00",
       "data_to": "2026-09-10T15:30:00",
-      "bars": 11560,
+      "bars": 19501,
       "initial_capital": 10000000.0,
-      "final_capital": 9340866.0,
-      "return_pct": -6.59,
-      "n_trades": 42,
-      "n_wins": 32,
-      "n_losses": 10,
-      "win_rate_pct": 76.19,
-      "avg_win": 32878.0,
-      "avg_loss": -171123.0,
+      "final_capital": 9361288.0,
+      "return_pct": -6.39,
+      "n_trades": 78,
+      "n_wins": 64,
+      "n_losses": 14,
+      "win_rate_pct": 82.05,
+      "avg_win": 23623.0,
+      "avg_loss": -153613.0,
+      "open_position": null
+    },
+    {
+      "ticker": "357780",
+      "name": "솔브레인",
+      "data_from": "2025-09-01T09:00:00",
+      "data_to": "2026-09-10T15:30:00",
+      "bars": 19471,
+      "initial_capital": 10000000.0,
+      "final_capital": 9298365.0,
+      "return_pct": -7.02,
+      "n_trades": 75,
+      "n_wins": 63,
+      "n_losses": 12,
+      "win_rate_pct": 84.0,
+      "avg_win": 19274.0,
+      "avg_loss": -159656.0,
       "open_position": null
     },
     {
@@ -1498,6 +1544,23 @@
         "current_price": 71700.0,
         "unrealized_pnl": -227400.0
       }
+    },
+    {
+      "ticker": "036930",
+      "name": "주성엔지니어링",
+      "data_from": "2025-09-01T09:00:00",
+      "data_to": "2026-09-10T15:30:00",
+      "bars": 19500,
+      "initial_capital": 10000000.0,
+      "final_capital": 9284532.0,
+      "return_pct": -7.15,
+      "n_trades": 79,
+      "n_wins": 66,
+      "n_losses": 13,
+      "win_rate_pct": 83.54,
+      "avg_win": 23604.0,
+      "avg_loss": -174869.0,
+      "open_position": null
     },
     {
       "ticker": "010060",
@@ -1638,43 +1701,20 @@
       }
     },
     {
-      "ticker": "086520",
-      "name": "에코프로",
-      "data_from": "2026-02-03T12:10:00",
+      "ticker": "247540",
+      "name": "에코프로비엠",
+      "data_from": "2025-09-01T09:00:00",
       "data_to": "2026-09-10T15:30:00",
-      "bars": 11485,
+      "bars": 19504,
       "initial_capital": 10000000.0,
-      "final_capital": 9199759.0,
-      "return_pct": -8.0,
-      "n_trades": 40,
-      "n_wins": 27,
-      "n_losses": 13,
-      "win_rate_pct": 67.5,
-      "avg_win": 32215.0,
-      "avg_loss": -125834.0,
-      "open_position": {
-        "split_count": 11,
-        "qty": 56,
-        "avg_price": 87510.7143,
-        "current_price": 86900.0,
-        "unrealized_pnl": -34200.0
-      }
-    },
-    {
-      "ticker": "036930",
-      "name": "주성엔지니어링",
-      "data_from": "2026-02-03T12:10:00",
-      "data_to": "2026-09-10T15:30:00",
-      "bars": 11485,
-      "initial_capital": 10000000.0,
-      "final_capital": 9141280.0,
-      "return_pct": -8.59,
-      "n_trades": 60,
-      "n_wins": 48,
+      "final_capital": 9203245.0,
+      "return_pct": -7.97,
+      "n_trades": 64,
+      "n_wins": 52,
       "n_losses": 12,
-      "win_rate_pct": 80.0,
-      "avg_win": 17565.0,
-      "avg_loss": -141821.0,
+      "win_rate_pct": 81.25,
+      "avg_win": 32240.0,
+      "avg_loss": -206102.0,
       "open_position": null
     },
     {
@@ -1747,49 +1787,26 @@
       }
     },
     {
-      "ticker": "214150",
-      "name": "클래시스",
-      "data_from": "2026-02-03T09:50:00",
+      "ticker": "058470",
+      "name": "리노공업",
+      "data_from": "2025-09-01T09:00:00",
       "data_to": "2026-09-10T15:30:00",
-      "bars": 11470,
+      "bars": 19502,
       "initial_capital": 10000000.0,
-      "final_capital": 9055961.0,
-      "return_pct": -9.44,
-      "n_trades": 40,
-      "n_wins": 32,
+      "final_capital": 9031046.0,
+      "return_pct": -9.69,
+      "n_trades": 53,
+      "n_wins": 45,
       "n_losses": 8,
-      "win_rate_pct": 80.0,
-      "avg_win": 22860.0,
-      "avg_loss": -197500.0,
+      "win_rate_pct": 84.91,
+      "avg_win": 38333.0,
+      "avg_loss": -335078.0,
       "open_position": {
-        "split_count": 7,
-        "qty": 106,
-        "avg_price": 31901.4151,
-        "current_price": 31000.0,
-        "unrealized_pnl": -95550.0
-      }
-    },
-    {
-      "ticker": "302440",
-      "name": "SK바이오사이언스",
-      "data_from": "2026-02-02T12:45:00",
-      "data_to": "2026-09-10T15:30:00",
-      "bars": 11469,
-      "initial_capital": 10000000.0,
-      "final_capital": 9017797.0,
-      "return_pct": -9.82,
-      "n_trades": 17,
-      "n_wins": 14,
-      "n_losses": 3,
-      "win_rate_pct": 82.35,
-      "avg_win": 45197.0,
-      "avg_loss": -555654.0,
-      "open_position": {
-        "split_count": 10,
-        "qty": 130,
-        "avg_price": 37600.0,
-        "current_price": 38000.0,
-        "unrealized_pnl": 52000.0
+        "split_count": 1,
+        "qty": 7,
+        "avg_price": 71200.0,
+        "current_price": 69300.0,
+        "unrealized_pnl": -13300.0
       }
     },
     {
@@ -1860,23 +1877,6 @@
         "current_price": 9390.0,
         "unrealized_pnl": 74980.0
       }
-    },
-    {
-      "ticker": "000990",
-      "name": "DB하이텍",
-      "data_from": "2026-02-03T09:45:00",
-      "data_to": "2026-09-10T15:30:00",
-      "bars": 11483,
-      "initial_capital": 10000000.0,
-      "final_capital": 8699708.0,
-      "return_pct": -13.0,
-      "n_trades": 51,
-      "n_wins": 37,
-      "n_losses": 14,
-      "win_rate_pct": 72.55,
-      "avg_win": 24269.0,
-      "avg_loss": -157018.0,
-      "open_position": null
     },
     {
       "ticker": "011790",
@@ -1994,29 +1994,6 @@
       }
     },
     {
-      "ticker": "058470",
-      "name": "리노공업",
-      "data_from": "2026-02-03T12:05:00",
-      "data_to": "2026-09-10T15:30:00",
-      "bars": 11482,
-      "initial_capital": 10000000.0,
-      "final_capital": 8207217.0,
-      "return_pct": -17.93,
-      "n_trades": 31,
-      "n_wins": 23,
-      "n_losses": 8,
-      "win_rate_pct": 74.19,
-      "avg_win": 39180.0,
-      "avg_loss": -335078.0,
-      "open_position": {
-        "split_count": 1,
-        "qty": 7,
-        "avg_price": 71200.0,
-        "current_price": 69300.0,
-        "unrealized_pnl": -13300.0
-      }
-    },
-    {
       "ticker": "097950",
       "name": "CJ제일제당",
       "data_from": "2025-09-01T09:00:00",
@@ -2037,6 +2014,29 @@
         "avg_price": 186237.5,
         "current_price": 180500.0,
         "unrealized_pnl": -183600.0
+      }
+    },
+    {
+      "ticker": "302440",
+      "name": "SK바이오사이언스",
+      "data_from": "2025-09-01T09:00:00",
+      "data_to": "2026-09-10T15:30:00",
+      "bars": 19392,
+      "initial_capital": 10000000.0,
+      "final_capital": 8020669.0,
+      "return_pct": -19.79,
+      "n_trades": 24,
+      "n_wins": 20,
+      "n_losses": 4,
+      "win_rate_pct": 83.33,
+      "avg_win": 50680.0,
+      "avg_loss": -761235.0,
+      "open_position": {
+        "split_count": 10,
+        "qty": 130,
+        "avg_price": 37600.0,
+        "current_price": 38000.0,
+        "unrealized_pnl": 52000.0
       }
     },
     {
