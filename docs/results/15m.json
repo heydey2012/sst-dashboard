@@ -1,7 +1,7 @@
 {
   "timeframe": "15m",
   "timeframe_label": "15분봉",
-  "last_updated": "2026-09-10T11:54:54",
+  "last_updated": "2026-09-10T12:10:21",
   "total_tickers": 98,
   "total_signals": 1,
   "results": [
@@ -70,11 +70,27 @@
       ]
     },
     {
+      "ticker": "373220",
+      "name": "LG에너지솔루션",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "09/10 11:45",
+      "signal_price": 358000.0,
+      "rebound_time": "09/10 12:00",
+      "rebound_price": 358000.0,
+      "bars_after_signal": 1,
+      "reasons": [
+        "음봉형 도지"
+      ]
+    },
+    {
       "ticker": "207940",
       "name": "삼성바이오로직스",
       "is_fresh": true,
-      "best_signal": true,
-      "best_reason": "1차 저점(1,420,000) 지지 후 재반등",
+      "best_signal": false,
+      "best_reason": "",
       "has_active_entry": false,
       "signal_time": "09/10 10:00",
       "signal_price": 1420000.0,
@@ -137,8 +153,8 @@
       "ticker": "006400",
       "name": "삼성SDI",
       "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
+      "best_signal": true,
+      "best_reason": "1차 저점(555,000) 지지 후 재반등",
       "has_active_entry": false,
       "signal_time": "09/10 11:00",
       "signal_price": 555000.0,
@@ -233,8 +249,8 @@
       "ticker": "005490",
       "name": "POSCO홀딩스",
       "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
+      "best_signal": true,
+      "best_reason": "저점 이탈(332,500→332,000)했으나 RSI 다이버전스 동반 재반등 (RSI 44.1→42.4)",
       "has_active_entry": false,
       "signal_time": "09/10 10:30",
       "signal_price": 333000.0,
@@ -406,6 +422,22 @@
       ]
     },
     {
+      "ticker": "011780",
+      "name": "금호석유",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "09/10 11:30",
+      "signal_price": 124800.0,
+      "rebound_time": "09/10 12:00",
+      "rebound_price": 125000.0,
+      "bars_after_signal": 2,
+      "reasons": [
+        "전 봉(음봉)보다 몸통이 큰 양봉"
+      ]
+    },
+    {
       "ticker": "004990",
       "name": "롯데지주",
       "is_fresh": true,
@@ -431,10 +463,10 @@
       "signal_time": "09/10 11:30",
       "signal_price": 17750.0,
       "rebound_time": "09/10 11:45",
-      "rebound_price": 17740.0,
+      "rebound_price": 17780.0,
       "bars_after_signal": 1,
       "reasons": [
-        "음봉형 도지"
+        "양봉형 도지"
       ]
     },
     {
@@ -617,8 +649,8 @@
       "ticker": "247540",
       "name": "에코프로비엠",
       "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
+      "best_signal": true,
+      "best_reason": "1차 저점(110,400) 지지 후 재반등",
       "has_active_entry": false,
       "signal_time": "09/10 10:45",
       "signal_price": 110500.0,
@@ -665,8 +697,8 @@
       "ticker": "008930",
       "name": "한미사이언스",
       "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
+      "best_signal": true,
+      "best_reason": "1차 저점(51,700) 지지 후 재반등",
       "has_active_entry": false,
       "signal_time": "09/10 09:30",
       "signal_price": 53200.0,
@@ -729,8 +761,8 @@
       "ticker": "012750",
       "name": "에스원",
       "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
+      "best_signal": true,
+      "best_reason": "1차 저점(79,600) 지지 후 재반등",
       "has_active_entry": false,
       "signal_time": "09/10 11:00",
       "signal_price": 79600.0,
@@ -761,8 +793,8 @@
       "ticker": "036570",
       "name": "엔씨소프트",
       "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
+      "best_signal": true,
+      "best_reason": "1차 저점(204,500) 지지 후 재반등",
       "has_active_entry": false,
       "signal_time": "09/10 10:00",
       "signal_price": 204500.0,
