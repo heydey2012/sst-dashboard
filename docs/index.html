@@ -898,7 +898,8 @@ function renderBacktestPanel(data) {
   const sign = s.total_return_pct >= 0 ? "+" : "";
 
   const tfLabel = (TIMEFRAMES.find(tf => tf.key === s.timeframe) || {}).label || s.timeframe;
-  let html = `<div class="portfolio-title">📊 98종목 RSI Spread Pro 분할매수(DCA) 백테스트 (${tfLabel}, 종목당 ₩${Math.round(s.initial_capital_per_ticker).toLocaleString()} 시드, ${s.split_count}회 분할·손절없음·평단가+${(s.tp_pct*100).toFixed(0)}% 익절) · 데이터 ${fmtPeriod(s.data_from)} ~ ${fmtPeriod(s.data_to)} (더 과거 데이터 백필 진행 중, 갱신될 때마다 결과 자동 반영)</div>`;
+  const slText = s.sl_pct ? `평단가-${(s.sl_pct*100).toFixed(0)}% 손절` : "손절없음";
+  let html = `<div class="portfolio-title">📊 98종목 RSI Spread Pro 분할매수(DCA) 백테스트 (${tfLabel}, 종목당 ₩${Math.round(s.initial_capital_per_ticker).toLocaleString()} 시드, ${s.split_count}회 분할·평단가+${(s.tp_pct*100).toFixed(0)}% 익절·${slText}) · 데이터 ${fmtPeriod(s.data_from)} ~ ${fmtPeriod(s.data_to)} (더 과거 데이터 백필 진행 중, 갱신될 때마다 결과 자동 반영)</div>`;
   html += `<div class="portfolio-stats">`;
   html += `<div><div class="stat-label">총 초기자금(${s.tickers_used}종목)</div><div class="stat-value">₩${Math.round(s.total_initial_capital).toLocaleString()}</div></div>`;
   html += `<div><div class="stat-label">총 최종자산</div><div class="stat-value">₩${Math.round(s.total_final_capital).toLocaleString()}</div></div>`;
