@@ -962,7 +962,8 @@ async function showBtTrades(ticker) {
     const isWin = (x.pnl || 0) >= 0;
     const pnlCls = isWin ? "pos" : "neg";
     const pnlSign = isWin ? "+" : "";
-    const statusLabel = x.exit_reason ? `${x.exit_reason}(분할 ${x.split_count}회)` : `익절(분할 ${x.split_count}회)`;
+    const baseLabel = x.exit_reason || "익절(평단가 대비 목표 도달)";
+    const statusLabel = `${baseLabel} · 분할 ${x.split_count}회`;
     return `
       <div class="report-row">
         <div>

@@ -2,7 +2,7 @@
   "summary": {
     "strategy": "RSI Spread Pro 분할매수(DCA) - RSI_Spread_Pro_Strategy_v1.pine 포팅, 평단가 -10% 손절 추가",
     "timeframe": "15m",
-    "generated_at": "2026-09-10T11:40:59",
+    "generated_at": "2026-09-10T11:45:00",
     "data_from": "2025-08-01T09:00:00",
     "data_to": "2026-09-10T11:30:00",
     "tickers_used": 98,

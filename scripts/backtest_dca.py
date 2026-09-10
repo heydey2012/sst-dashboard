@@ -107,7 +107,7 @@ def backtest_ticker(ticker: str, df: pd.DataFrame) -> dict:
             if price <= sl_price:
                 exit_price, exit_reason = sl_price, "손절(평단가 대비 -10%)"
             elif price >= tp_price:
-                exit_price, exit_reason = tp_price, "익절(분할 {}회)".format(len(entries))
+                exit_price, exit_reason = tp_price, "익절(평단가 대비 목표 도달)"
 
             if exit_price is not None:
                 buy_cost = sum(e["qty"] * e["price"] for e in entries)
