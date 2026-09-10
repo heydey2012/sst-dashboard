@@ -897,12 +897,13 @@ function renderBacktestPanel(data) {
   const cls = s.total_return_pct >= 0 ? "pos" : "neg";
   const sign = s.total_return_pct >= 0 ? "+" : "";
 
-  let html = `<div class="portfolio-title">📊 98종목 독립계좌 백테스트 (5분봉, 종목당 ₩${Math.round(s.initial_capital_per_ticker).toLocaleString()} 시드) · 데이터 ${fmtPeriod(s.data_from)} ~ ${fmtPeriod(s.data_to)} (5년치로 백필 진행 중, 갱신될 때마다 결과 자동 반영)</div>`;
+  let html = `<div class="portfolio-title">📊 98종목 RSI Spread Pro 분할매수(DCA) 백테스트 (5분봉, 종목당 ₩${Math.round(s.initial_capital_per_ticker).toLocaleString()} 시드, ${s.split_count}회 분할·손절없음·평단가+${(s.tp_pct*100).toFixed(0)}% 익절) · 데이터 ${fmtPeriod(s.data_from)} ~ ${fmtPeriod(s.data_to)} (더 과거 데이터 백필 진행 중, 갱신될 때마다 결과 자동 반영)</div>`;
   html += `<div class="portfolio-stats">`;
   html += `<div><div class="stat-label">총 초기자금(${s.tickers_used}종목)</div><div class="stat-value">₩${Math.round(s.total_initial_capital).toLocaleString()}</div></div>`;
   html += `<div><div class="stat-label">총 최종자산</div><div class="stat-value">₩${Math.round(s.total_final_capital).toLocaleString()}</div></div>`;
   html += `<div><div class="stat-label">전체 수익률</div><div class="stat-value ${cls}">${sign}${s.total_return_pct}%</div></div>`;
-  html += `<div><div class="stat-label">전체 승률</div><div class="stat-value">${s.overall_win_rate_pct}% (${s.total_trades}건)</div></div>`;
+  html += `<div><div class="stat-label">완료거래 승률</div><div class="stat-value">${s.overall_win_rate_pct}% (${s.total_trades}건, 손절 없어 항상 100%)</div></div>`;
+  html += `<div><div class="stat-label">현재 미청산(물림)</div><div class="stat-value ${s.open_positions_count > 0 ? 'neg' : ''}">${s.open_positions_count}/${s.tickers_used}종목</div></div>`;
   html += `</div>`;
   html += `<input class="bt-search" placeholder="종목명 또는 종목코드 검색 (예: 삼성전자, 005930)" oninput="setBtSearch(this.value)">`;
   html += `<div id="btTableBody"></div>`;
@@ -927,24 +928,42 @@ async function showBtTrades(ticker) {
     if (res.ok) trades = await res.json();
   } catch (e) { /* ignore */ }
 
-  if (trades.length === 0) {
+  const totalPnl = trades.reduce((sum, x) => sum + (x.pnl || 0), 0);
+  const totalCls = totalPnl >= 0 ? "pos" : "neg";
+  document.getElementById("btTradesTotal").innerHTML =
+    `<span>청산완료 ${trades.length}건</span><span class="${totalCls}">${totalPnl >= 0 ? "+" : ""}₩${Math.round(totalPnl).toLocaleString()}</span>`;
+
+  let openHtml = "";
+  if (t && t.open_position) {
+    const op = t.open_position;
+    const opCls = op.unrealized_pnl >= 0 ? "pos" : "neg";
+    const opSign = op.unrealized_pnl >= 0 ? "+" : "";
+    openHtml = `
+      <div class="report-row">
+        <div>
+          <div><b>현재 미청산(물림) 포지션</b><span class="report-status open">보유중</span></div>
+          <div class="pos-line">분할 ${op.split_count}/20회 · ${op.qty}주 · 평단가 ${op.avg_price.toLocaleString()} → 현재 ${op.current_price.toLocaleString()}</div>
+        </div>
+        <div class="pos-pnl">
+          <div class="pos-pnl-amt ${opCls}">${opSign}₩${Math.round(op.unrealized_pnl).toLocaleString()}</div>
+        </div>
+      </div>
+    `;
+  }
+
+  if (trades.length === 0 && !openHtml) {
     document.getElementById("btTradesBody").innerHTML = `<div class="report-empty">거래 내역이 없습니다.</div>`;
     return;
   }
 
-  const totalPnl = trades.reduce((sum, x) => sum + (x.pnl || 0), 0);
-  const totalCls = totalPnl >= 0 ? "pos" : "neg";
-  document.getElementById("btTradesTotal").innerHTML =
-    `<span>전체 ${trades.length}건</span><span class="${totalCls}">${totalPnl >= 0 ? "+" : ""}₩${Math.round(totalPnl).toLocaleString()}</span>`;
-
-  document.getElementById("btTradesBody").innerHTML = trades.slice().reverse().map(x => {
+  const closedHtml = trades.slice().reverse().map(x => {
     const pnlCls = (x.pnl || 0) >= 0 ? "pos" : "neg";
     const pnlSign = (x.pnl || 0) >= 0 ? "+" : "";
     return `
       <div class="report-row">
         <div>
-          <div><b>${formatShortDateTime(x.entry_time)} → ${formatShortDateTime(x.exit_time)}</b><span class="report-status ${x.pnl >= 0 ? 'win' : 'loss'}">${escapeHtml(x.exit_reason)}</span></div>
-          <div class="pos-line">${x.qty}주 · 매수 ${x.entry_price.toLocaleString()} → 매도 ${x.exit_price.toLocaleString()}${x.best_signal ? ' · ⭐강추' : ''}</div>
+          <div><b>${formatShortDateTime(x.entry_time)} → ${formatShortDateTime(x.exit_time)}</b><span class="report-status win">익절(분할 ${x.split_count}회)</span></div>
+          <div class="pos-line">${x.qty}주 · 평단가 ${x.avg_entry_price.toLocaleString()} → 매도 ${x.exit_price.toLocaleString()}</div>
         </div>
         <div class="pos-pnl">
           <div class="pos-pnl-amt ${pnlCls}">${pnlSign}₩${Math.round(x.pnl).toLocaleString()}</div>
@@ -953,6 +972,8 @@ async function showBtTrades(ticker) {
       </div>
     `;
   }).join("");
+
+  document.getElementById("btTradesBody").innerHTML = openHtml + closedHtml;
 }
 
 function closeBtTrades() {
