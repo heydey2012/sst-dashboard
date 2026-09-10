@@ -1,9 +1,9 @@
 {
   "timeframe": "5m",
   "timeframe_label": "5분봉",
-  "last_updated": "2026-09-10T13:01:51",
+  "last_updated": "2026-09-10T13:07:03",
   "total_tickers": 98,
-  "total_signals": 0,
+  "total_signals": 1,
   "results": [
     {
       "ticker": "402340",
@@ -899,22 +899,6 @@
       "bars_after_signal": 4,
       "reasons": [
         "음봉형 도지"
-      ]
-    },
-    {
-      "ticker": "039030",
-      "name": "이오테크닉스",
-      "is_fresh": true,
-      "best_signal": true,
-      "best_reason": "저점 이탈(460,500→458,500)했으나 RSI 다이버전스 동반 재반등 (RSI 29.1→35.8)",
-      "has_active_entry": false,
-      "signal_time": "09/10 09:05",
-      "signal_price": 460500.0,
-      "rebound_time": "09/10 09:15",
-      "rebound_price": 470000.0,
-      "bars_after_signal": 2,
-      "reasons": [
-        "연속 양봉 2개 이상"
       ]
     },
     {
