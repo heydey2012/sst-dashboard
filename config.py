@@ -175,6 +175,7 @@ TQQQ_PAPER_MODE = True
 TQQQ_INITIAL_CAPITAL_USD = 7_450  # 달러로 직접 시드 고정(원화 환산 안 함, 약 1000만원 상당)
 TQQQ_SPLIT_COUNT = 20
 TQQQ_TP_PCT = 0.03                # 평단가 대비 +3% 익절
+TQQQ_SL_PCT = 0.10                # 평단가 대비 -10% 손절 (원본 Pine엔 없었지만 물림 리스크 관리를 위해 추가)
 TQQQ_RSI_LENGTH = 14
 TQQQ_MA_LENGTH = 14
 TQQQ_SPREAD_LIMIT = 15

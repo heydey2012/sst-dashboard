@@ -4,7 +4,7 @@
 
 - 일반봉 RSI스프레드 + 하이킨아시 RSI스프레드가 동시에 -15 이하 + 피보나치 0.382
   필터 통과 + 연속신호 반전(양봉 마감) 트리거 -> 분할매수(최대 20회, 물타기)
-- 손절 없음 - 평단가 대비 +3% 도달 시 보유 수량 전체 익절
+- 평단가 대비 +3% 익절 / -10% 손절 (원본 Pine엔 손절이 없었지만 물림 리스크 관리를 위해 추가)
 - 종목마다 독립적으로 10,000,000원씩 시드 (종목 간 자금 공유 없음)
 - 분할 매수 금액은 Pine 원본과 동일하게 "총자금/분할횟수" 고정 (사이클마다 복리 재투자 안 함,
   실현손익은 누적되지만 다음 분할매수 사이클의 투입금액 자체는 항상 동일)
@@ -33,6 +33,7 @@ from agents.calculator import compute_rsi, to_heikin_ashi, find_pivots
 
 SPLIT_COUNT = config.TQQQ_SPLIT_COUNT      # 20
 TP_PCT = config.TQQQ_TP_PCT                # 0.03
+SL_PCT = config.TQQQ_SL_PCT                # 0.10
 RSI_LENGTH = config.TQQQ_RSI_LENGTH
 MA_LENGTH = config.TQQQ_MA_LENGTH
 SPREAD_LIMIT = config.TQQQ_SPREAD_LIMIT
@@ -98,9 +99,19 @@ def backtest_ticker(ticker: str, df: pd.DataFrame) -> dict:
             total_qty = sum(e["qty"] for e in entries)
             avg_price = sum(e["qty"] * e["price"] for e in entries) / total_qty
             tp_price = avg_price * (1 + TP_PCT)
-            if price >= tp_price:
+            sl_price = avg_price * (1 - SL_PCT)
+            # 동시 도달 시 손절 우선(보수적 처리) - 실제로는 tp/sl 거리가 멀어(3%/10%) 한 봉에서
+            # 둘 다 걸리는 경우는 사실상 없음
+            exit_price = None
+            exit_reason = None
+            if price <= sl_price:
+                exit_price, exit_reason = sl_price, "손절(평단가 대비 -10%)"
+            elif price >= tp_price:
+                exit_price, exit_reason = tp_price, "익절(분할 {}회)".format(len(entries))
+
+            if exit_price is not None:
                 buy_cost = sum(e["qty"] * e["price"] for e in entries)
-                sell_proceeds = total_qty * tp_price
+                sell_proceeds = total_qty * exit_price
                 buy_fee = buy_cost * BUY_FEE_RATE
                 sell_fee = sell_proceeds * (SELL_FEE_RATE + SELL_TAX_RATE)
                 pnl = sell_proceeds - buy_cost - buy_fee - sell_fee
@@ -109,7 +120,8 @@ def backtest_ticker(ticker: str, df: pd.DataFrame) -> dict:
                     "entry_time": entries[0]["time"].isoformat(),
                     "exit_time": times[i].isoformat(),
                     "avg_entry_price": avg_price,
-                    "exit_price": tp_price,
+                    "exit_price": exit_price,
+                    "exit_reason": exit_reason,
                     "qty": total_qty,
                     "split_count": len(entries),
                     "pnl": round(pnl, 0),
@@ -198,7 +210,7 @@ def main():
     data_to = max((r["data_to"] for r in results), default=None)
 
     summary = {
-        "strategy": "RSI Spread Pro 분할매수(DCA) - RSI_Spread_Pro_Strategy_v1.pine 포팅, 손절 없음",
+        "strategy": "RSI Spread Pro 분할매수(DCA) - RSI_Spread_Pro_Strategy_v1.pine 포팅, 평단가 -10% 손절 추가",
         "timeframe": TIMEFRAME,
         "generated_at": pd.Timestamp.now().isoformat(timespec="seconds"),
         "data_from": data_from,
@@ -207,6 +219,7 @@ def main():
         "tickers_skipped": skipped,
         "split_count": SPLIT_COUNT,
         "tp_pct": TP_PCT,
+        "sl_pct": SL_PCT,
         "initial_capital_per_ticker": INITIAL_CAPITAL_PER_TICKER,
         "total_initial_capital": total_initial,
         "total_final_capital": round(total_final, 0),

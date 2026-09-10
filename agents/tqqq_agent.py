@@ -330,7 +330,10 @@ class TqqqAgent:
             else:
                 current_price, current_fx = quote["price"], quote["fx_rate"]
                 tp_price = pos["avg_price"] * (1 + config.TQQQ_TP_PCT)
-                if current_price >= tp_price:
+                sl_price = pos["avg_price"] * (1 - config.TQQQ_SL_PCT)
+                if current_price <= sl_price:
+                    self._execute_exit(pos, current_price, positions, current_fx, "손절(평단가 대비 -10%)")
+                elif current_price >= tp_price:
                     self._execute_exit(pos, current_price, positions, current_fx, "익절(평단가 대비 목표 도달)")
 
         self.export_dashboard_snapshot(current_price, current_fx)
@@ -413,6 +416,7 @@ class TqqqAgent:
                 "last_entry_time": pos["last_entry_time"],
                 "current_price": current_price,
                 "tp_price": pos["avg_price"] * (1 + config.TQQQ_TP_PCT),
+                "sl_price": pos["avg_price"] * (1 - config.TQQQ_SL_PCT),
                 "entries": pos["entries"],
                 "pnl": pnl_usd,
                 "pnl_pct": pnl_pct,
