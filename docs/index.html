@@ -836,10 +836,16 @@ async function refreshPortfolio() {
 // TQQQ 백테스트
 // ------------------------------------------------------------------
 let tqqqBtData = null;
+let tqqqBtTf = "5m";
+const TQQQ_BT_TIMEFRAMES = [
+  { key: "5m", label: "5분봉" },
+  { key: "15m", label: "15분봉" },
+  { key: "60m", label: "1시간봉" },
+];
 
-async function loadTqqqBacktest() {
+async function loadTqqqBacktest(tf) {
   try {
-    const res = await fetch(`results/backtest_tqqq.json?t=${Date.now()}`);
+    const res = await fetch(`results/backtest_tqqq_${tf || tqqqBtTf}.json?t=${Date.now()}`);
     if (!res.ok) return null;
     return await res.json();
   } catch (e) {
@@ -847,10 +853,19 @@ async function loadTqqqBacktest() {
   }
 }
 
+function selectTqqqBtTf(tf) {
+  tqqqBtTf = tf;
+  refreshTqqqBacktest();
+}
+
 function renderTqqqBacktestPanel(data) {
   const el = document.getElementById("tqqqBacktestPanel");
+  const tabsHtml = `<div class="tabs">${TQQQ_BT_TIMEFRAMES.map(tf =>
+    `<div class="tab${tf.key === tqqqBtTf ? ' active' : ''}" onclick="selectTqqqBtTf('${tf.key}')">${tf.label}</div>`
+  ).join("")}</div>`;
+
   if (!data) {
-    el.innerHTML = `<div class="portfolio-title">📊 TQQQ 백테스트</div><div class="no-positions">아직 백테스트 결과가 없습니다.</div>`;
+    el.innerHTML = `<div class="portfolio-title">📊 TQQQ 백테스트</div>${tabsHtml}<div class="no-positions">아직 이 타임프레임의 백테스트 결과가 없습니다.</div>`;
     return;
   }
   tqqqBtData = data;
@@ -858,7 +873,8 @@ function renderTqqqBacktestPanel(data) {
   const cls = s.return_pct >= 0 ? "pos" : "neg";
   const sign = s.return_pct >= 0 ? "+" : "";
 
-  let html = `<div class="portfolio-title">📊 TQQQ 분할매수(DCA) 백테스트 (${s.timeframe}, $${s.initial_capital.toLocaleString()} 시드, ${s.split_count}회 분할·평단가+${(s.tp_pct*100).toFixed(0)}% 익절·평단가-${(s.sl_pct*100).toFixed(0)}% 손절) · 데이터 ${fmtPeriod(s.data_from)} ~ ${fmtPeriod(s.data_to)} (API 히스토리 한도상 더 과거로는 못 감)</div>`;
+  let html = `<div class="portfolio-title">📊 TQQQ 분할매수(DCA) 백테스트 · $${s.initial_capital.toLocaleString()} 시드, ${s.split_count}회 분할·평단가+${(s.tp_pct*100).toFixed(0)}% 익절·평단가-${(s.sl_pct*100).toFixed(0)}% 손절 · 데이터 ${fmtPeriod(s.data_from)} ~ ${fmtPeriod(s.data_to)} (API 히스토리 한도상 더 과거로는 못 감)</div>`;
+  html += tabsHtml;
   html += `<div class="portfolio-stats">`;
   html += `<div><div class="stat-label">초기자금</div><div class="stat-value">$${s.initial_capital.toLocaleString()}</div></div>`;
   html += `<div><div class="stat-label">최종자산</div><div class="stat-value">$${s.final_capital.toLocaleString()}</div></div>`;

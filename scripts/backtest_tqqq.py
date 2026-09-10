@@ -175,9 +175,14 @@ def main():
     out_dir = os.path.join(ROOT, "docs", "results")
     os.makedirs(out_dir, exist_ok=True)
     payload = {"summary": summary, "trades": trades}
-    with open(os.path.join(out_dir, "backtest_tqqq.json"), "w", encoding="utf-8") as f:
+    out_name = f"backtest_tqqq_{TIC_SCOPE}m.json"
+    with open(os.path.join(out_dir, out_name), "w", encoding="utf-8") as f:
         json.dump(payload, f, ensure_ascii=False, indent=2)
-    print(f"\n[TQQQ백테스트] 저장 완료: docs/results/backtest_tqqq.json")
+    # 대시보드 기본 로드용(타임프레임 미지정 시) - 5분봉을 기본값으로 유지
+    if TIC_SCOPE == "5":
+        with open(os.path.join(out_dir, "backtest_tqqq.json"), "w", encoding="utf-8") as f:
+            json.dump(payload, f, ensure_ascii=False, indent=2)
+    print(f"\n[TQQQ백테스트] 저장 완료: docs/results/{out_name}")
 
 
 if __name__ == "__main__":
