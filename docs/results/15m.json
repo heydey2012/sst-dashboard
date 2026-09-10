@@ -1,26 +1,10 @@
 {
   "timeframe": "15m",
   "timeframe_label": "15분봉",
-  "last_updated": "2026-09-10T10:10:59",
+  "last_updated": "2026-09-10T10:24:56",
   "total_tickers": 98,
-  "total_signals": 22,
+  "total_signals": 21,
   "results": [
-    {
-      "ticker": "068270",
-      "name": "셀트리온",
-      "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
-      "has_active_entry": false,
-      "signal_time": "09/10 09:00",
-      "signal_price": 181500.0,
-      "rebound_time": "09/10 09:15",
-      "rebound_price": 182700.0,
-      "bars_after_signal": 1,
-      "reasons": [
-        "전 봉(음봉)보다 몸통이 큰 양봉"
-      ]
-    },
     {
       "ticker": "000720",
       "name": "현대건설",
@@ -35,6 +19,22 @@
       "bars_after_signal": 1,
       "reasons": [
         "전 봉(음봉)보다 몸통이 큰 양봉"
+      ]
+    },
+    {
+      "ticker": "006800",
+      "name": "미래에셋증권",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "09/10 10:00",
+      "signal_price": 33900.0,
+      "rebound_time": "09/10 10:15",
+      "rebound_price": 33950.0,
+      "bars_after_signal": 1,
+      "reasons": [
+        "음봉형 도지"
       ]
     },
     {
@@ -63,26 +63,42 @@
       "signal_time": "09/10 09:00",
       "signal_price": 116600.0,
       "rebound_time": "09/10 10:00",
-      "rebound_price": 118600.0,
+      "rebound_price": 118500.0,
       "bars_after_signal": 4,
       "reasons": [
         "전 봉(음봉)보다 몸통이 큰 양봉"
       ]
     },
     {
-      "ticker": "039490",
-      "name": "키움증권",
+      "ticker": "326030",
+      "name": "SK바이오팜",
       "is_fresh": true,
-      "best_signal": true,
-      "best_reason": "1차 저점(270,500) 지지 후 재반등",
+      "best_signal": false,
+      "best_reason": "",
       "has_active_entry": false,
-      "signal_time": "09/10 09:30",
-      "signal_price": 270500.0,
-      "rebound_time": "09/10 09:45",
-      "rebound_price": 270500.0,
+      "signal_time": "09/10 10:00",
+      "signal_price": 82000.0,
+      "rebound_time": "09/10 10:15",
+      "rebound_price": 82400.0,
       "bars_after_signal": 1,
       "reasons": [
-        "음봉형 도지"
+        "연속 양봉 2개 이상"
+      ]
+    },
+    {
+      "ticker": "041510",
+      "name": "에스엠",
+      "is_fresh": true,
+      "best_signal": true,
+      "best_reason": "1차 저점(78,100) 지지 후 재반등",
+      "has_active_entry": false,
+      "signal_time": "09/10 09:00",
+      "signal_price": 78100.0,
+      "rebound_time": "09/10 10:00",
+      "rebound_price": 78500.0,
+      "bars_after_signal": 4,
+      "reasons": [
+        "연속 양봉 2개 이상"
       ]
     },
     {
