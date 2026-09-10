@@ -1,10 +1,10 @@
 {
-  "last_updated": "2026-09-10T10:36:09",
+  "last_updated": "2026-09-10T10:38:11",
   "strategy_version": "current",
   "initial_capital": 10000000,
-  "current_capital": 9345209.0,
-  "return_pct": -6.55,
-  "profit_amount": -654791.0,
+  "current_capital": 9336574.0,
+  "return_pct": -6.63,
+  "profit_amount": -663426.0,
   "positions": [
     {
       "ticker": "105560",
@@ -12,7 +12,7 @@
       "qty": 5,
       "entry_price": 174000.0,
       "entry_time": "2026-09-04T11:35:33",
-      "current_price": 173000.0,
+      "current_price": 172700.0,
       "tp": 180400.0,
       "sl": 169000.0,
       "tp_basis": "피벗고점",
@@ -30,8 +30,8 @@
       "reasons": [
         "음봉형 도지"
       ],
-      "pnl": -12802.0,
-      "pnl_pct": -1.47
+      "pnl": -14294.0,
+      "pnl_pct": -1.64
     },
     {
       "ticker": "000810",
@@ -39,7 +39,7 @@
       "qty": 1,
       "entry_price": 663000.0,
       "entry_time": "2026-09-04T11:36:17",
-      "current_price": 640000.0,
+      "current_price": 641000.0,
       "tp": 704000.0,
       "sl": 630000.0,
       "tp_basis": "피벗고점",
@@ -57,8 +57,8 @@
       "reasons": [
         "전 봉(음봉)보다 몸통이 큰 양봉"
       ],
-      "pnl": -28840.0,
-      "pnl_pct": -4.35
+      "pnl": -27846.0,
+      "pnl_pct": -4.2
     },
     {
       "ticker": "011210",
@@ -66,7 +66,7 @@
       "qty": 17,
       "entry_price": 57200.0,
       "entry_time": "2026-09-08T13:54:17",
-      "current_price": 56100.0,
+      "current_price": 56200.0,
       "tp": 58500.0,
       "sl": 55900.0,
       "tp_basis": "피벗고점",
@@ -84,8 +84,8 @@
       "reasons": [
         "전 봉(음봉)보다 몸통이 큰 양봉"
       ],
-      "pnl": -27349.0,
-      "pnl_pct": -2.81
+      "pnl": -25658.0,
+      "pnl_pct": -2.64
     },
     {
       "ticker": "032830",
@@ -93,7 +93,7 @@
       "qty": 3,
       "entry_price": 305000.0,
       "entry_time": "2026-09-09T10:05:34",
-      "current_price": 302000.0,
+      "current_price": 301500.0,
       "tp": 319000.0,
       "sl": 295000.0,
       "tp_basis": "피벗고점",
@@ -111,8 +111,8 @@
       "reasons": [
         "음봉형 도지"
       ],
-      "pnl": -17186.0,
-      "pnl_pct": -1.88
+      "pnl": -18677.0,
+      "pnl_pct": -2.04
     },
     {
       "ticker": "028260",
@@ -120,7 +120,7 @@
       "qty": 2,
       "entry_price": 381500.0,
       "entry_time": "2026-09-09T10:05:57",
-      "current_price": 362500.0,
+      "current_price": 361500.0,
       "tp": 400500.0,
       "sl": 354500.0,
       "tp_basis": "피벗고점",
@@ -138,8 +138,8 @@
       "reasons": [
         "음봉형 도지"
       ],
-      "pnl": -44658.0,
-      "pnl_pct": -5.85
+      "pnl": -46647.0,
+      "pnl_pct": -6.11
     },
     {
       "ticker": "010060",
@@ -201,7 +201,7 @@
       "qty": 12,
       "entry_price": 78400.0,
       "entry_time": "2026-09-10T10:24:42",
-      "current_price": 78300.0,
+      "current_price": 78500.0,
       "tp": 82100.0,
       "sl": 74700.0,
       "tp_basis": "피벗고점",
@@ -219,8 +219,35 @@
       "reasons": [
         "연속 양봉 2개 이상"
       ],
-      "pnl": -9661.0,
-      "pnl_pct": -1.03
+      "pnl": -7274.0,
+      "pnl_pct": -0.77
+    },
+    {
+      "ticker": "000720",
+      "name": "현대건설",
+      "qty": 7,
+      "entry_price": 127600.0,
+      "entry_time": "2026-09-10T10:37:07",
+      "current_price": 127500.0,
+      "tp": 140900.0,
+      "sl": 114300.0,
+      "tp_basis": "피벗고점",
+      "sl_basis": "피벗고점 대비 1:1",
+      "pivot_high": 140900.0,
+      "pivot_low": 131300.0,
+      "best_reason": "저점 이탈(128,200→127,300)했으나 RSI 다이버전스 동반 재반등 (RSI 29.8→30.2)",
+      "timeframe": "15m",
+      "signal_time": "2026-09-10 09:00:00",
+      "signal_price": 128200.0,
+      "signal_rsi": 29.768576309929912,
+      "rebound_time": "2026-09-10 09:15:00",
+      "rebound_price": 129300.0,
+      "bars_after_signal": 1,
+      "reasons": [
+        "전 봉(음봉)보다 몸통이 큰 양봉"
+      ],
+      "pnl": -8735.0,
+      "pnl_pct": -0.98
     }
   ]
 }
