@@ -1,7 +1,7 @@
 {
   "timeframe": "15m",
   "timeframe_label": "15분봉",
-  "last_updated": "2026-09-10T13:56:46",
+  "last_updated": "2026-09-10T14:10:20",
   "total_tickers": 98,
   "total_signals": 0,
   "results": [
@@ -121,8 +121,8 @@
       "ticker": "068270",
       "name": "셀트리온",
       "is_fresh": true,
-      "best_signal": true,
-      "best_reason": "1차 저점(180,200) 지지 후 재반등",
+      "best_signal": false,
+      "best_reason": "",
       "has_active_entry": false,
       "signal_time": "09/10 10:00",
       "signal_price": 180200.0,
@@ -313,8 +313,8 @@
       "ticker": "010950",
       "name": "S-Oil",
       "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
+      "best_signal": true,
+      "best_reason": "저점 이탈(154,800→153,600)했으나 RSI 다이버전스 동반 재반등 (RSI 32.5→33.8)",
       "has_active_entry": false,
       "signal_time": "09/10 10:30",
       "signal_price": 154800.0,
@@ -358,6 +358,22 @@
       ]
     },
     {
+      "ticker": "128940",
+      "name": "한미약품",
+      "is_fresh": true,
+      "best_signal": true,
+      "best_reason": "저점 이탈(478,500→477,000)했으나 RSI 다이버전스 동반 재반등 (RSI 43.7→42.0)",
+      "has_active_entry": false,
+      "signal_time": "09/10 10:15",
+      "signal_price": 478500.0,
+      "rebound_time": "09/10 10:30",
+      "rebound_price": 479000.0,
+      "bars_after_signal": 1,
+      "reasons": [
+        "연속 양봉 2개 이상"
+      ]
+    },
+    {
       "ticker": "003550",
       "name": "LG",
       "is_fresh": true,
@@ -393,8 +409,8 @@
       "ticker": "078930",
       "name": "GS",
       "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
+      "best_signal": true,
+      "best_reason": "1차 저점(117,300) 지지 후 재반등",
       "has_active_entry": false,
       "signal_time": "09/10 10:45",
       "signal_price": 117300.0,
@@ -417,6 +433,38 @@
       "rebound_time": "09/10 10:30",
       "rebound_price": 33900.0,
       "bars_after_signal": 2,
+      "reasons": [
+        "음봉형 도지"
+      ]
+    },
+    {
+      "ticker": "011780",
+      "name": "금호석유",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "09/10 11:30",
+      "signal_price": 124800.0,
+      "rebound_time": "09/10 12:00",
+      "rebound_price": 125200.0,
+      "bars_after_signal": 2,
+      "reasons": [
+        "전 봉(음봉)보다 몸통이 큰 양봉"
+      ]
+    },
+    {
+      "ticker": "004990",
+      "name": "롯데지주",
+      "is_fresh": true,
+      "best_signal": true,
+      "best_reason": "1차 저점(24,500) 지지 후 재반등",
+      "has_active_entry": false,
+      "signal_time": "09/10 10:00",
+      "signal_price": 24500.0,
+      "rebound_time": "09/10 10:15",
+      "rebound_price": 24550.0,
+      "bars_after_signal": 1,
       "reasons": [
         "음봉형 도지"
       ]
