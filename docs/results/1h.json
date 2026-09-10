@@ -1,9 +1,9 @@
 {
   "timeframe": "1h",
   "timeframe_label": "1시간봉",
-  "last_updated": "2026-09-10T10:09:47",
+  "last_updated": "2026-09-10T11:10:04",
   "total_tickers": 98,
-  "total_signals": 11,
+  "total_signals": 10,
   "results": [
     {
       "ticker": "058470",
@@ -15,7 +15,7 @@
       "signal_time": "09/10 09:00",
       "signal_price": 68600.0,
       "rebound_time": "09/10 10:00",
-      "rebound_price": 69200.0,
+      "rebound_price": 70900.0,
       "bars_after_signal": 1,
       "reasons": [
         "전 봉(음봉)보다 몸통이 큰 양봉"
