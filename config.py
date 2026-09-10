@@ -91,8 +91,16 @@ CONSECUTIVE_BULLISH_COUNT = 2
 REBOUND_WINDOW_BARS = _bars_for_minutes(16 * 60)          # 16시간 이내 1차 반등 확인 (기존 4h 기준 4봉과 동일한 시간)
 SECONDARY_WINDOW_BARS = _bars_for_minutes(24 * 60)        # 24시간 이내 2차 저점/재반등 확인
 RSI_DIVERGENCE_TOLERANCE = 3.0
-RECENT_SIGNAL_MAX_AGE_BARS = _bars_for_minutes(2 * 24 * 60)   # 이틀 이내 시그널만 리포트 대상
-FRESH_REBOUND_MAX_AGE_BARS = _bars_for_minutes(8 * 60)        # 8시간 이내 반등이면 "방금 확인됨"
+RETEST_PROXIMITY_PCT = 0.01   # 재조정 저점이 1차 저점 대비 이 비율(1%) 이내로 근접해야 "진짜 조정"으로 인정
+
+# --- 최근성 필터: 실제 경과시간(달력 기준) 기준 ---
+# 예전엔 "봉 개수" 기준으로 걸렀는데, 캐시에 며칠~몇 주씩 수집이 비어있는 구간이 있으면
+# (자동화가 며칠 안 돌았거나 네트워크 문제 등) 봉 개수만으론 몇 주 전 시그널이 "최근"으로
+# 잘못 판정되는 문제가 있었음 (예: 07/28 시그널이 08/28 스캔에서 "최근 히스토리"로 보고됨).
+# 그래서 실제 타임스탬프 차이로 판정하도록 변경.
+RECENT_SIGNAL_SAME_DAY_ONLY = True   # True면 오늘 날짜의 시그널만 리포트 대상
+FRESH_REBOUND_SAME_DAY_ONLY = True   # True면 반등이 오늘 날짜에 발생했어야 "신선함"(자동매매 진입 대상)
+LEGACY_FRESH_MAX_AGE_HOURS = 8       # 구버전(페이퍼) 전략의 신선도 기준 - 개편 전 사용하던 값
 
 # ===== 데이터 수집(백필) 설정 =====
 KIWOOM_MAX_PAGES = 10
@@ -108,3 +116,61 @@ BATCH_SIZE_BY_TIMEFRAME = {
     "5m": 3, "10m": 5, "15m": 5, "30m": 8, "1h": 10, "4h": 10,
 }
 BATCH_SIZE = BATCH_SIZE_BY_TIMEFRAME.get(TIMEFRAME, 10)
+
+# ===== 모의투자 자동매매 설정 =====
+# 절대 실계좌에서 켜지 않도록 TraderAgent가 매 주문 전 kiwoom 클라이언트의
+# auth.mode == "demo" 인지 직접 확인합니다 (config 플래그와 무관하게 이중 안전장치).
+TRADER_ENABLED = True
+TRADER_TIMEFRAME = "15m"         # 이 타임프레임의 [강추] 신호만 자동매매 진입 트리거로 사용
+INITIAL_CAPITAL = 10_000_000     # 모의계좌 초기 자금 (대시보드 수익률 계산 기준)
+CAPITAL_PER_TRADE = 1_000_000    # 종목당 매수 금액 (원)
+MAX_POSITIONS = 10               # 동시 보유 최대 종목 수
+POSITIONS_FILE = "positions.json"
+TRADE_LOG_FILE = "trade_log.json"
+
+# 매매 수수료/세금 (2026-09-01 키움 모의투자 실계좌 ka10077 당일실현손익상세 조회로 역산해
+# 검증한 값: 현대차 2주 매입394,125/매도404,000 기준 수수료5,570원(매수+매도 합산 거래대금의
+# 0.349%) + 세금1,616원(매도금액의 정확히 0.20%) 공제 후 순손익12,564원이 tdy_sel_pl과 정확히
+# 일치함. 기존 코드는 이 공제를 전혀 반영하지 않아 손익이 실제보다 부풀려져 있었음.
+COMMISSION_RATE = 0.0035         # 매수/매도 각각 거래대금의 0.35%
+SELL_TAX_RATE = 0.0020           # 매도 시 거래대금의 0.20% (증권거래세+농특세)
+
+# ===== 구버전(페이퍼) 병행 시뮬레이션 =====
+# 실제 주문은 신버전(위 설정) 하나로만 나가고, 구버전은 같은 시세로 가상매매만 하며
+# 자체 1,000만원 시드를 따로 추적함 (실계좌가 1개뿐이라 실주문을 두 전략이 같이 쓸 수 없음).
+LEGACY_ENABLED = True
+LEGACY_INITIAL_CAPITAL = 10_000_000
+LEGACY_CAPITAL_PER_TRADE = 1_000_000
+LEGACY_MAX_POSITIONS = 10
+LEGACY_POSITIONS_FILE = "positions_v1.json"
+LEGACY_TRADE_LOG_FILE = "trade_log_v1.json"
+
+# 당일 청산 원칙: 포지션을 하루도 안 넘기기 위해 매일 15:00부터 신규 매수 중단,
+# 15:10에 보유 종목 전량 강제청산 (구버전/신버전 둘 다 적용). 주말/연휴 갭 리스크 회피 목적.
+
+# 이 날짜 이후로는 신규 매수를 멈춤 (기존 보유 종목의 TP/SL 청산 감시는 계속함).
+# scripts/generate_final_report.py 가 이 날짜 장 마감 후 cron으로 한 번 실행되어
+# 최종 결과 보고서를 텔레그램으로 발송함.
+TRADING_END_DATE = "2026-09-30"
+
+# ===== TQQQ 분할매수 전략 (RSI Spread Pro Strategy v1 - DCA 포팅) =====
+# ~/Downloads/RSI_Spread_Pro_Strategy_v1.pine 포팅. 원본은 롱+숏이지만 국내 개인
+# 위탁계좌로 미국주식 공매도가 불가능해 롱 전용으로만 구현. 손절 없음 - 평단가
+# 대비 TQQQ_TP_PCT 도달 시 보유 수량 전체를 익절. 최대 TQQQ_SPLIT_COUNT회까지
+# 물타기(분할매수)하며, 회당 매수금액 = TQQQ_INITIAL_CAPITAL_KRW / TQQQ_SPLIT_COUNT
+# 를 진입 시점 환율로 환산해 사용. 신버전과 같은 키움 모의계좌로 실주문.
+TQQQ_ENABLED = True
+TQQQ_TICKER = "TQQQ"
+TQQQ_EXCHANGE = "ND"              # 나스닥
+TQQQ_TIMEFRAME = "15"             # 15분봉
+TQQQ_INITIAL_CAPITAL_KRW = 10_000_000
+TQQQ_SPLIT_COUNT = 20
+TQQQ_TP_PCT = 0.03                # 평단가 대비 +3% 익절
+TQQQ_RSI_LENGTH = 14
+TQQQ_MA_LENGTH = 14
+TQQQ_SPREAD_LIMIT = 15
+TQQQ_PIVOT_LEFT = 10
+TQQQ_PIVOT_RIGHT = 10
+TQQQ_FIB_RATIO = 0.382
+TQQQ_POSITIONS_FILE = "positions_tqqq.json"
+TQQQ_TRADE_LOG_FILE = "trade_log_tqqq.json"

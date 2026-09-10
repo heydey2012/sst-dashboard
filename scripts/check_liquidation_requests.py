@@ -21,6 +21,7 @@ sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 import config
 from agents.trader import TraderAgent
+from agents.tqqq_agent import TqqqAgent
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 REPO = "heydey2012/sst-dashboard"
@@ -28,7 +29,7 @@ PROCESSED_FILE = os.path.join(ROOT, ".liquidation_processed.json")
 CRED_FILE = os.path.expanduser("~/.git-credentials-sst")
 
 TITLE_RE = re.compile(r"^청산\s*[:：]\s*(\d{6})")
-TITLE_ALL_RE = re.compile(r"^청산전체\s*[:：]\s*(신버전|구버전)")
+TITLE_ALL_RE = re.compile(r"^청산전체\s*[:：]\s*(신버전|구버전|TQQQ분할매수)")
 
 
 def _load_processed() -> set:
@@ -94,6 +95,18 @@ def main():
         m_all = TITLE_ALL_RE.match(title)
         if m_all:
             version = m_all.group(1)
+
+            if version == "TQQQ분할매수":
+                result = TqqqAgent().close_position_manual(reason="대시보드 전체 청산 요청")
+                if result is False:
+                    print(f"[Liquidation] 이슈 #{number} - TQQQ 매도 실패, 다음 주기에 재시도합니다.")
+                    continue
+                processed.add(number)
+                _save_processed(processed)
+                comment = "전체 청산 완료 ✅ (TQQQ분할매수)" if result else "보유 중인 포지션이 없어 처리할 것이 없습니다 (TQQQ분할매수)."
+                _close_issue(number, token, comment)
+                continue
+
             paper = version == "구버전"
             if paper:
                 if legacy_trader is None:
