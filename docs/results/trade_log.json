@@ -838,5 +838,33 @@
     "pnl_pct": -1.54,
     "commission": 5673.0,
     "tax": 1616.0
+  },
+  {
+    "ticker": "293490",
+    "name": "카카오게임즈",
+    "qty": 111,
+    "entry_price": 8940.0,
+    "entry_time": "2026-09-09T09:55:01",
+    "exit_price": 8700.0,
+    "exit_time": "2026-09-10T09:02:07",
+    "reason": "손절(SL 도달)",
+    "pnl": -35425.0,
+    "pnl_pct": -3.57,
+    "commission": 6853.0,
+    "tax": 1931.0
+  },
+  {
+    "ticker": "041510",
+    "name": "에스엠",
+    "qty": 12,
+    "entry_price": 81500.0,
+    "entry_time": "2026-09-09T10:39:56",
+    "exit_price": 79700.0,
+    "exit_time": "2026-09-10T09:02:11",
+    "reason": "손절(SL 도달)",
+    "pnl": -30283.0,
+    "pnl_pct": -3.1,
+    "commission": 6770.0,
+    "tax": 1913.0
   }
 ]
