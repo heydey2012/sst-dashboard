@@ -880,5 +880,19 @@
     "pnl_pct": -3.05,
     "commission": 6803.0,
     "tax": 1922.0
+  },
+  {
+    "ticker": "068270",
+    "name": "셀트리온",
+    "qty": 5,
+    "entry_price": 182700.0,
+    "entry_time": "2026-09-10T09:36:03",
+    "exit_price": 182400.0,
+    "exit_time": "2026-09-10T09:38:06",
+    "reason": "손절(SL 도달)",
+    "pnl": -9713.0,
+    "pnl_pct": -1.06,
+    "commission": 6389.0,
+    "tax": 1824.0
   }
 ]
