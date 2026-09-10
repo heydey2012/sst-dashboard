@@ -165,7 +165,7 @@ TRADING_END_DATE = "2026-09-30"
 TQQQ_ENABLED = True
 TQQQ_TICKER = "TQQQ"
 TQQQ_EXCHANGE = "ND"              # 나스닥
-TQQQ_TIMEFRAME = "5"              # 5분봉
+TQQQ_TIMEFRAME = "15"             # 15분봉 (2026-09-10 TP/SL 스윕 결과 5분/1시간봉 대비 리스크 대비 수익 최고)
 
 # 해외주식 모의투자 계좌가 만료 상태(RC4091, 재신청 전까지 실주문 거부됨)라
 # 그동안은 페이퍼(가상매매)로 돌림 - 실제 주문 없이 조회한 실시간 시세로만 체결을
@@ -174,8 +174,11 @@ TQQQ_TIMEFRAME = "5"              # 5분봉
 TQQQ_PAPER_MODE = True
 TQQQ_INITIAL_CAPITAL_USD = 7_450  # 달러로 직접 시드 고정(원화 환산 안 함, 약 1000만원 상당)
 TQQQ_SPLIT_COUNT = 20
-TQQQ_TP_PCT = 0.03                # 평단가 대비 +3% 익절
-TQQQ_SL_PCT = 0.10                # 평단가 대비 -10% 손절 (원본 Pine엔 없었지만 물림 리스크 관리를 위해 추가)
+# 2026-09-10 TP%/SL% 스윕 결과: 15분봉에서 TP2%/SL20%가 수익률/MDD 비율 1.81로 최고
+# (+16.37%, MDD -9.0%) - TP7%/손절없음(+20.05%, MDD -20.4%)보다 낙폭이 훨씬 작아 채택.
+# 단, 백테스트 기간이 6개월뿐이라 진짜 하락장은 검증 안 됐음에 유의.
+TQQQ_TP_PCT = 0.02                 # 평단가 대비 +2% 익절
+TQQQ_SL_PCT = 0.20                 # 평단가 대비 -20% 손절
 TQQQ_RSI_LENGTH = 14
 TQQQ_MA_LENGTH = 14
 TQQQ_SPREAD_LIMIT = 15

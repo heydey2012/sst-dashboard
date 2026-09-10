@@ -282,7 +282,7 @@ const cache = {};
 // 2026-09-10: 신버전/구버전 실시간 자동매매는 종료 - 98종목 5년 백테스트로 대체 (아래 별도 섹션).
 const STRATEGIES = [
   { key: "tqqq", label: "TQQQ 분할매수", positionsFile: "positions_tqqq.json", tradeLogFile: "trade_log_tqqq.json",
-    currency: "USD", note: "키움 모의계좌 실주문 · 분할매수(최대 20회) · 평단가 +3% 익절 · -10% 손절" },
+    currency: "USD", note: "키움 모의계좌 실주문 · 15분봉 · 분할매수(최대 20회) · 평단가 +2% 익절 · -20% 손절" },
 ];
 let currentStrategy = "tqqq";
 
@@ -663,7 +663,7 @@ function renderPortfolio(data) {
             <div class="pos-name">[${escapeHtml(p.ticker)}] ${escapeHtml(p.name)}</div>
             <div class="pos-line">분할매수 ${p.split_count}/${p.max_splits}회 · 최근 매수 ${formatShortDateTime(p.last_entry_time)}</div>
             <div class="pos-line">${p.qty}주 · 평단가 $${p.avg_price.toFixed(4)} → 현재 ${hasPrice ? "$" + p.current_price.toFixed(2) : "-"}</div>
-            <div class="pos-line pos-target"><span class="pos">익절(평단가+3%) $${p.tp_price.toFixed(4)}</span> · <span class="neg">손절(평단가-10%) $${p.sl_price.toFixed(4)}</span></div>
+            <div class="pos-line pos-target"><span class="pos">익절(평단가+${((p.tp_price/p.avg_price-1)*100).toFixed(0)}%) $${p.tp_price.toFixed(4)}</span> · <span class="neg">손절(평단가-${((1-p.sl_price/p.avg_price)*100).toFixed(0)}%) $${p.sl_price.toFixed(4)}</span></div>
             <div class="pos-btn-row">${renderEntriesBtn(i)}</div>
           </div>
           <div class="pos-pnl">
