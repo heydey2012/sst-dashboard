@@ -162,7 +162,13 @@ TRADING_END_DATE = "2026-09-30"
 TQQQ_ENABLED = True
 TQQQ_TICKER = "TQQQ"
 TQQQ_EXCHANGE = "ND"              # 나스닥
-TQQQ_TIMEFRAME = "15"             # 15분봉
+TQQQ_TIMEFRAME = "5"              # 5분봉
+
+# 해외주식 모의투자 계좌가 만료 상태(RC4091, 재신청 전까지 실주문 거부됨)라
+# 그동안은 페이퍼(가상매매)로 돌림 - 실제 주문 없이 조회한 실시간 시세로만 체결을
+# 시뮬레이션. 키움 사이트에서 해외주식 모의투자를 재신청하면 False로 바꿔서
+# 실주문으로 전환.
+TQQQ_PAPER_MODE = True
 TQQQ_INITIAL_CAPITAL_KRW = 10_000_000
 TQQQ_SPLIT_COUNT = 20
 TQQQ_TP_PCT = 0.03                # 평단가 대비 +3% 익절

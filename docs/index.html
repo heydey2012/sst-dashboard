@@ -607,7 +607,10 @@ function renderPortfolio(data) {
   const positions = data.positions || [];
   lastPositions = positions;
 
-  let html = `<div class="portfolio-title">🧪 모의투자 현황 [${strat.label}] · ${strat.note} · 시세 기준 ${timeAgo(data.last_updated)} (1분마다 자동 갱신)</div>`;
+  const noteText = (isTqqq && data.paper_mode)
+    ? "페이퍼(시뮬레이션) · 해외주식 모의투자 계좌 재신청 대기 중 - 실주문 아님"
+    : strat.note;
+  let html = `<div class="portfolio-title">🧪 모의투자 현황 [${strat.label}] · ${noteText} · 시세 기준 ${timeAgo(data.last_updated)} (1분마다 자동 갱신)</div>`;
   html += `<div class="portfolio-stats-row">`;
   html += `<div class="portfolio-stats">`;
   html += `<div><div class="stat-label">초기 자금</div><div class="stat-value">₩${data.initial_capital.toLocaleString()}</div></div>`;

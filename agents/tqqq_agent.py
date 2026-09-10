@@ -2,7 +2,7 @@
 [TQQQ 분할매수 에이전트] RSI Spread Pro Strategy v1 (분할매수 DCA) 포팅
 원본: ~/Downloads/RSI_Spread_Pro_Strategy_v1.pine (© 파인스크립트 최고 마스터)
 
-- 미국 ETF 종목(TQQQ) 대상, 키움 해외주식 API로 15분봉 데이터를 받아 일반봉
+- 미국 ETF 종목(TQQQ) 대상, 키움 해외주식 API로 5분봉 데이터를 받아 일반봉
   RSI스프레드 + 하이킨아시 RSI스프레드가 동시에 -15 이하로 내려가는 [롱 시그널]이
   피보나치 0.382 필터를 통과한 채로 나온 뒤, 첫 양봉 마감이 나오면 분할매수
   (최대 config.TQQQ_SPLIT_COUNT회, 물타기) 진입합니다.
@@ -11,6 +11,9 @@
   불가능해(주문 API에 신용/대주 파라미터 자체가 없음) 롱 전용으로만 포팅했습니다.
 - 초기자금은 원화(config.TQQQ_INITIAL_CAPITAL_KRW) 기준이며, 매 진입 시점의
   실시간 환율(키움 API 응답의 base_exrt)로 달러 주문 금액을 환산합니다.
+- config.TQQQ_PAPER_MODE=True면 해외주식 모의투자 계좌 만료(RC4091)로 실주문이
+  막혀있는 동안, 실제 주문 없이 실시간 시세로만 체결을 시뮬레이션합니다
+  (신버전/구버전 관계와 동일한 실주문 vs 페이퍼 구분).
 
 *** 안전장치 ***
 매 주문 직전 kiwoom 클라이언트의 auth.mode 가 "demo"가 아니면 즉시 예외를 던지고 중단합니다.
@@ -18,6 +21,7 @@
 import json
 import os
 import subprocess
+import time
 from datetime import datetime, timedelta
 
 import pandas as pd
@@ -63,6 +67,7 @@ def _parse_cntr_tm(s: str) -> datetime:
 class TqqqAgent:
     def __init__(self):
         self.notifier = NotifierAgent()
+        self.paper = config.TQQQ_PAPER_MODE
         self.client = get_client(mode="demo") if get_client else None
         self._positions_path = os.path.join(ROOT, config.TQQQ_POSITIONS_FILE)
         self._trade_log_path = os.path.join(ROOT, config.TQQQ_TRADE_LOG_FILE)
@@ -212,6 +217,10 @@ class TqqqAgent:
         return f"{price:.4f}" if price < 1 else f"{price:.2f}"
 
     def _order(self, api_id: str, qty: int, price: float) -> dict:
+        if self.paper:
+            # 해외주식 모의투자 계좌 만료로 실주문이 막혀있는 동안 - 실제 주문 없이
+            # 항상 체결 성공으로 시뮬레이션 (신버전/구버전 관계와 동일한 페이퍼 처리)
+            return {"return_code": 0, "ord_no": f"PAPER-TQQQ-{int(time.time())}"}
         self._assert_demo_mode()
         body = {
             "stex_tp": config.TQQQ_EXCHANGE,
@@ -279,6 +288,7 @@ class TqqqAgent:
             "time": datetime.now().isoformat(timespec="seconds"),
             "price": price, "qty": qty, "fx_rate": fx_rate,
             "spread_reg": sig["spread_reg"], "spread_ha": sig["spread_ha"],
+            "simulated": self.paper,
         })
         total_qty = sum(e["qty"] for e in entries)
         avg_price = sum(e["qty"] * e["price"] for e in entries) / total_qty
@@ -355,6 +365,7 @@ class TqqqAgent:
             "pnl": round(pnl, 2),
             "pnl_pct": round(pnl_pct, 2),
             "fx_rate": fx_rate,
+            "simulated": self.paper,
         })
         print(f"[TQQQ] 전량 청산 완료 - {qty}주 @ ${price:.2f} (손익 ${pnl:+.2f}, {pnl_pct:+.2f}%)")
         self.notifier.send(
@@ -417,6 +428,7 @@ class TqqqAgent:
         payload = {
             "last_updated": datetime.now().isoformat(timespec="seconds"),
             "strategy_version": "tqqq",
+            "paper_mode": self.paper,
             "currency": "USD",
             "initial_capital": config.TQQQ_INITIAL_CAPITAL_KRW,
             "current_capital": current_capital_krw,
