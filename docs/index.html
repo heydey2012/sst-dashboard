@@ -207,6 +207,8 @@
 
   <div class="portfolio" id="portfolio"></div>
 
+  <div class="portfolio" id="tqqqBacktestPanel"></div>
+
   <div class="portfolio" id="backtestPanel"></div>
 
   <div class="modal-backdrop entries-modal" id="entriesBackdrop" style="display:none" onclick="if(event.target===this) closeEntries()">
@@ -831,6 +833,98 @@ async function refreshPortfolio() {
 }
 
 // ------------------------------------------------------------------
+// TQQQ 백테스트
+// ------------------------------------------------------------------
+let tqqqBtData = null;
+
+async function loadTqqqBacktest() {
+  try {
+    const res = await fetch(`results/backtest_tqqq.json?t=${Date.now()}`);
+    if (!res.ok) return null;
+    return await res.json();
+  } catch (e) {
+    return null;
+  }
+}
+
+function renderTqqqBacktestPanel(data) {
+  const el = document.getElementById("tqqqBacktestPanel");
+  if (!data) {
+    el.innerHTML = `<div class="portfolio-title">📊 TQQQ 백테스트</div><div class="no-positions">아직 백테스트 결과가 없습니다.</div>`;
+    return;
+  }
+  tqqqBtData = data;
+  const s = data.summary;
+  const cls = s.return_pct >= 0 ? "pos" : "neg";
+  const sign = s.return_pct >= 0 ? "+" : "";
+
+  let html = `<div class="portfolio-title">📊 TQQQ 분할매수(DCA) 백테스트 (${s.timeframe}, $${s.initial_capital.toLocaleString()} 시드, ${s.split_count}회 분할·평단가+${(s.tp_pct*100).toFixed(0)}% 익절·평단가-${(s.sl_pct*100).toFixed(0)}% 손절) · 데이터 ${fmtPeriod(s.data_from)} ~ ${fmtPeriod(s.data_to)} (API 히스토리 한도상 더 과거로는 못 감)</div>`;
+  html += `<div class="portfolio-stats">`;
+  html += `<div><div class="stat-label">초기자금</div><div class="stat-value">$${s.initial_capital.toLocaleString()}</div></div>`;
+  html += `<div><div class="stat-label">최종자산</div><div class="stat-value">$${s.final_capital.toLocaleString()}</div></div>`;
+  html += `<div><div class="stat-label">수익률</div><div class="stat-value ${cls}">${sign}${s.return_pct}%</div></div>`;
+  html += `<div><div class="stat-label">승률</div><div class="stat-value">${s.win_rate_pct}% (${s.n_trades}건)</div></div>`;
+  html += `</div>`;
+  html += `<div class="pos-row" style="cursor:pointer" onclick="showTqqqBtTrades()"><div class="pos-info"><div class="bt-row-sub">평균 익절 +$${s.avg_win.toLocaleString()} · 평균 손절 $${s.avg_loss.toLocaleString()}${s.open_position ? ` · 현재 분할 ${s.open_position.split_count}/${s.split_count}회 물림 (미실현 $${s.open_position.unrealized_pnl.toLocaleString()})` : ""}</div></div><div class="mini-btn">거래내역 보기 →</div></div>`;
+  el.innerHTML = html;
+}
+
+async function refreshTqqqBacktest() {
+  renderTqqqBacktestPanel(await loadTqqqBacktest());
+}
+
+function showTqqqBtTrades() {
+  if (!tqqqBtData) return;
+  const trades = tqqqBtData.trades || [];
+  const s = tqqqBtData.summary;
+  document.getElementById("btTradesTitle").textContent = `📈 [TQQQ] 백테스트 거래내역`;
+
+  const totalPnl = trades.reduce((sum, x) => sum + (x.pnl || 0), 0);
+  const totalCls = totalPnl >= 0 ? "pos" : "neg";
+  document.getElementById("btTradesTotal").innerHTML =
+    `<span>청산완료 ${trades.length}건</span><span class="${totalCls}">${totalPnl >= 0 ? "+" : ""}$${totalPnl.toLocaleString()}</span>`;
+
+  let openHtml = "";
+  if (s.open_position) {
+    const op = s.open_position;
+    const opCls = op.unrealized_pnl >= 0 ? "pos" : "neg";
+    const opSign = op.unrealized_pnl >= 0 ? "+" : "";
+    openHtml = `
+      <div class="report-row">
+        <div>
+          <div><b>현재 미청산(물림) 포지션</b><span class="report-status open">보유중</span></div>
+          <div class="pos-line">분할 ${op.split_count}/${s.split_count}회 · ${op.qty}주 · 평단가 $${op.avg_price.toFixed(4)} → 현재 $${op.current_price.toFixed(2)}</div>
+        </div>
+        <div class="pos-pnl">
+          <div class="pos-pnl-amt ${opCls}">${opSign}$${op.unrealized_pnl.toLocaleString()}</div>
+        </div>
+      </div>
+    `;
+  }
+
+  const closedHtml = trades.slice().reverse().map(x => {
+    const isWin = (x.pnl || 0) >= 0;
+    const pnlCls = isWin ? "pos" : "neg";
+    const pnlSign = isWin ? "+" : "";
+    return `
+      <div class="report-row">
+        <div>
+          <div><b>${formatShortDateTime(x.entry_time)} → ${formatShortDateTime(x.exit_time)}</b><span class="report-status ${isWin ? 'win' : 'loss'}">${escapeHtml(x.exit_reason)} · 분할 ${x.split_count}회</span></div>
+          <div class="pos-line">${x.qty}주 · 평단가 $${x.avg_entry_price.toFixed(4)} → 매도 $${x.exit_price.toFixed(4)}</div>
+        </div>
+        <div class="pos-pnl">
+          <div class="pos-pnl-amt ${pnlCls}">${pnlSign}$${x.pnl.toLocaleString()}</div>
+          <div class="pos-pnl-pct ${pnlCls}">${pnlSign}${x.pnl_pct.toFixed(2)}%</div>
+        </div>
+      </div>
+    `;
+  }).join("");
+
+  document.getElementById("btTradesBody").innerHTML = openHtml + closedHtml;
+  document.getElementById("btTradesBackdrop").style.display = "flex";
+}
+
+// ------------------------------------------------------------------
 // 98종목 5년 백테스트 (신버전/구버전 실시간 자동매매를 대체)
 // ------------------------------------------------------------------
 let btTickers = [];
@@ -991,7 +1085,7 @@ async function refreshAll() {
   btn.classList.add("spinning");
   btn.textContent = "↻ 불러오는 중...";
   cache[current] = null;
-  await Promise.all([render(), refreshPortfolio(), renderStrategyCards(), refreshBacktest()]);
+  await Promise.all([render(), refreshPortfolio(), renderStrategyCards(), refreshBacktest(), refreshTqqqBacktest()]);
   btn.disabled = false;
   btn.classList.remove("spinning");
   btn.textContent = "↻ 새로고침";
@@ -1000,6 +1094,7 @@ async function refreshAll() {
 render();
 renderStrategyCards();
 refreshPortfolio();
+refreshTqqqBacktest();
 refreshBacktest();
 setInterval(() => { cache[current] = null; render(); }, 60000); // 1분마다 자동 새로고침
 setInterval(refreshPortfolio, 60000);

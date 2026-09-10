@@ -26,8 +26,11 @@ import config
 from tickers import TICKERS
 from agents.collector import DataCollectorAgent
 
-YEARS = int(sys.argv[1]) if len(sys.argv) > 1 else 5
-TARGET_START = (datetime.now() - timedelta(days=365 * YEARS)).date()
+_arg = sys.argv[1] if len(sys.argv) > 1 else "5"
+if "-" in _arg:
+    TARGET_START = datetime.strptime(_arg, "%Y-%m-%d").date()
+else:
+    TARGET_START = (datetime.now() - timedelta(days=365 * int(_arg))).date()
 REBUILD_EVERY_N_TICKERS = 10
 PYTHON_BIN = sys.executable
 
@@ -76,9 +79,9 @@ def backfill_ticker(collector: DataCollectorAgent, ticker: str) -> int:
 
 
 def rebuild_backtest():
-    print(f"[백필] 중간 재계산 - scripts/backtest_independent.py 실행")
+    print(f"[백필] 중간 재계산 - scripts/backtest_dca.py 실행")
     try:
-        subprocess.run([PYTHON_BIN, os.path.join(ROOT, "scripts", "backtest_independent.py"), "5m", "10000000"],
+        subprocess.run([PYTHON_BIN, os.path.join(ROOT, "scripts", "backtest_dca.py"), config.TIMEFRAME, "10000000"],
                         cwd=ROOT, check=True)
         subprocess.run(["git", "add", "docs/results/backtest_independent.json", "docs/results/backtest_trades/"],
                         cwd=ROOT, check=True, capture_output=True)
@@ -97,7 +100,7 @@ def rebuild_backtest():
 
 
 def main():
-    print(f"[백필] 목표: {YEARS}년 전({TARGET_START})까지 98종목 5분봉 백필 시작")
+    print(f"[백필] 목표: {TARGET_START}까지 98종목 {config.TIMEFRAME} 백필 시작")
     collector = DataCollectorAgent()
 
     for i, ticker in enumerate(TICKERS, start=1):
