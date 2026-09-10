@@ -866,5 +866,19 @@
     "pnl_pct": -3.1,
     "commission": 6770.0,
     "tax": 1913.0
+  },
+  {
+    "ticker": "035900",
+    "name": "JYP Ent.",
+    "qty": 25,
+    "entry_price": 39300.0,
+    "entry_time": "2026-09-09T09:54:51",
+    "exit_price": 38450.0,
+    "exit_time": "2026-09-10T09:06:05",
+    "reason": "손절(SL 도달)",
+    "pnl": -29976.0,
+    "pnl_pct": -3.05,
+    "commission": 6803.0,
+    "tax": 1922.0
   }
 ]
