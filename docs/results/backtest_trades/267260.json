@@ -1,1 +1,13 @@
-[]
+[
+  {
+    "entry_time": "2025-09-04T09:20:00",
+    "exit_time": "2025-09-05T12:25:00",
+    "avg_entry_price": 497000.0,
+    "exit_price": 511910.0,
+    "exit_reason": "익절(평단가 대비 목표 도달)",
+    "qty": 2,
+    "split_count": 2,
+    "pnl": 20710.0,
+    "pnl_pct": 2.08
+  }
+]
