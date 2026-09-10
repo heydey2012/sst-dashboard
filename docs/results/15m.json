@@ -1,9 +1,9 @@
 {
   "timeframe": "15m",
   "timeframe_label": "15분봉",
-  "last_updated": "2026-09-10T09:54:46",
+  "last_updated": "2026-09-10T10:10:59",
   "total_tickers": 98,
-  "total_signals": 16,
+  "total_signals": 22,
   "results": [
     {
       "ticker": "068270",
@@ -38,22 +38,6 @@
       ]
     },
     {
-      "ticker": "010060",
-      "name": "OCI홀딩스",
-      "is_fresh": true,
-      "best_signal": true,
-      "best_reason": "1차 저점(221,000) 지지 후 재반등",
-      "has_active_entry": false,
-      "signal_time": "09/10 09:00",
-      "signal_price": 221000.0,
-      "rebound_time": "09/10 09:15",
-      "rebound_price": 224500.0,
-      "bars_after_signal": 1,
-      "reasons": [
-        "전 봉(음봉)보다 몸통이 큰 양봉"
-      ]
-    },
-    {
       "ticker": "001040",
       "name": "CJ",
       "is_fresh": true,
@@ -70,17 +54,33 @@
       ]
     },
     {
-      "ticker": "041510",
-      "name": "에스엠",
+      "ticker": "240810",
+      "name": "원익IPS",
       "is_fresh": true,
       "best_signal": false,
       "best_reason": "",
       "has_active_entry": false,
       "signal_time": "09/10 09:00",
-      "signal_price": 78100.0,
+      "signal_price": 116600.0,
+      "rebound_time": "09/10 10:00",
+      "rebound_price": 118600.0,
+      "bars_after_signal": 4,
+      "reasons": [
+        "전 봉(음봉)보다 몸통이 큰 양봉"
+      ]
+    },
+    {
+      "ticker": "039490",
+      "name": "키움증권",
+      "is_fresh": true,
+      "best_signal": true,
+      "best_reason": "1차 저점(270,500) 지지 후 재반등",
+      "has_active_entry": false,
+      "signal_time": "09/10 09:30",
+      "signal_price": 270500.0,
       "rebound_time": "09/10 09:45",
-      "rebound_price": 78500.0,
-      "bars_after_signal": 3,
+      "rebound_price": 270500.0,
+      "bars_after_signal": 1,
       "reasons": [
         "음봉형 도지"
       ]
