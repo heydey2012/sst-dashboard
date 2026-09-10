@@ -145,6 +145,19 @@
     background:var(--red); color:#fff; opacity:0.9;
   }
   .liquidate-all-btn:hover{ opacity:1; }
+
+  .perf-summary{
+    border:1px solid var(--line); background:var(--panel); border-radius:14px;
+    padding:16px 18px; margin-bottom:16px;
+  }
+  .perf-summary-title{ font-size:13px; font-weight:700; color:var(--muted); margin-bottom:12px; }
+  .perf-cards{ display:flex; gap:14px; flex-wrap:wrap; }
+  .perf-card{
+    flex:1; min-width:220px; border:1px solid var(--line); border-radius:10px; padding:12px 14px;
+  }
+  .perf-card-title{ font-size:12.5px; font-weight:700; margin-bottom:10px; }
+  .perf-stats{ display:flex; gap:16px; flex-wrap:wrap; }
+  .perf-sub{ font-size:11px; color:var(--muted-2); margin-top:8px; }
   .mini-btn{
     padding:4px 10px; border-radius:999px; border:1px solid var(--line);
     background:var(--panel); color:var(--muted); font-size:11px; font-weight:700; cursor:pointer;
@@ -170,6 +183,8 @@
       <button class="refresh-btn" id="refreshBtn" onclick="refreshAll()">↻ 새로고침</button>
     </div>
   </div>
+
+  <div class="perf-summary" id="perfSummary"></div>
 
   <div class="tabs" id="versionTabs"></div>
   <div class="portfolio" id="portfolio"></div>
@@ -260,6 +275,57 @@ async function loadTradeLog() {
   } catch (e) {
     return [];
   }
+}
+
+async function loadTradeLogFile(file) {
+  try {
+    const res = await fetch(`results/${file}?t=${Date.now()}`);
+    if (!res.ok) return [];
+    return await res.json();
+  } catch (e) {
+    return [];
+  }
+}
+
+function computeStats(trades) {
+  const total = trades.length;
+  const wins = trades.filter(t => t.pnl > 0);
+  const losses = trades.filter(t => t.pnl <= 0);
+  const winRate = total ? (wins.length / total * 100) : 0;
+  const avgWin = wins.length ? wins.reduce((s, t) => s + t.pnl, 0) / wins.length : 0;
+  const avgLoss = losses.length ? losses.reduce((s, t) => s + t.pnl, 0) / losses.length : 0;
+  return { total, winCount: wins.length, lossCount: losses.length, winRate, avgWin, avgLoss };
+}
+
+function renderPerfCard(label, stats) {
+  return `
+    <div class="perf-card">
+      <div class="perf-card-title">${label}</div>
+      <div class="perf-stats">
+        <div><div class="stat-label">총 거래</div><div class="stat-value">${stats.total}건</div></div>
+        <div><div class="stat-label">승률</div><div class="stat-value">${stats.total ? stats.winRate.toFixed(1) : "-"}%</div></div>
+        <div><div class="stat-label">평균 익절</div><div class="stat-value ${stats.winCount ? "pos" : ""}">${stats.winCount ? "+₩" + Math.round(stats.avgWin).toLocaleString() : "-"}</div></div>
+        <div><div class="stat-label">평균 손절</div><div class="stat-value ${stats.lossCount ? "neg" : ""}">${stats.lossCount ? "₩" + Math.round(stats.avgLoss).toLocaleString() : "-"}</div></div>
+      </div>
+      <div class="perf-sub">승 ${stats.winCount}건 · 패 ${stats.lossCount}건 (청산 완료 거래 기준)</div>
+    </div>
+  `;
+}
+
+async function refreshPerfSummary() {
+  const [cur, leg] = await Promise.all([
+    loadTradeLogFile("trade_log.json"),
+    loadTradeLogFile("trade_log_v1.json"),
+  ]);
+  const el = document.getElementById("perfSummary");
+  const today = new Date().toLocaleDateString("ko-KR", { year: "numeric", month: "2-digit", day: "2-digit" });
+  el.innerHTML = `
+    <div class="perf-summary-title">📈 누적 성과 (${today} 기준, 청산 완료 거래 전체)</div>
+    <div class="perf-cards">
+      ${renderPerfCard("신버전", computeStats(cur))}
+      ${renderPerfCard("구버전(페이퍼)", computeStats(leg))}
+    </div>
+  `;
 }
 
 let reportGroup = "day";
@@ -679,7 +745,7 @@ async function refreshAll() {
   btn.classList.add("spinning");
   btn.textContent = "↻ 불러오는 중...";
   cache[current] = null;
-  await Promise.all([render(), refreshPortfolio()]);
+  await Promise.all([render(), refreshPortfolio(), refreshPerfSummary()]);
   btn.disabled = false;
   btn.classList.remove("spinning");
   btn.textContent = "↻ 새로고침";
@@ -688,8 +754,10 @@ async function refreshAll() {
 render();
 renderVersionTabs();
 refreshPortfolio();
+refreshPerfSummary();
 setInterval(() => { cache[current] = null; render(); }, 60000); // 1분마다 자동 새로고침
 setInterval(refreshPortfolio, 60000);
+setInterval(refreshPerfSummary, 60000);
 </script>
 </body>
 </html>
