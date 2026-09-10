@@ -628,5 +628,33 @@
     "pnl_pct": -1.82,
     "commission": 5654.0,
     "tax": 1608.0
+  },
+  {
+    "ticker": "373220",
+    "name": "LG에너지솔루션",
+    "qty": 2,
+    "entry_price": 352000.0,
+    "entry_time": "2026-09-08T13:50:29",
+    "exit_price": 371000.0,
+    "exit_time": "2026-09-10T09:00:14",
+    "reason": "익절(TP 도달)",
+    "pnl": 31455.0,
+    "pnl_pct": 4.47,
+    "commission": 5061.0,
+    "tax": 1484.0
+  },
+  {
+    "ticker": "097950",
+    "name": "CJ제일제당",
+    "qty": 5,
+    "entry_price": 181400.0,
+    "entry_time": "2026-09-09T14:22:29",
+    "exit_price": 181000.0,
+    "exit_time": "2026-09-10T09:00:21",
+    "reason": "손절(SL 도달)",
+    "pnl": -10152.0,
+    "pnl_pct": -1.12,
+    "commission": 6342.0,
+    "tax": 1810.0
   }
 ]
