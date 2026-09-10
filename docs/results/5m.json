@@ -1,9 +1,9 @@
 {
   "timeframe": "5m",
   "timeframe_label": "5분봉",
-  "last_updated": "2026-09-10T13:16:46",
+  "last_updated": "2026-09-10T13:21:50",
   "total_tickers": 98,
-  "total_signals": 3,
+  "total_signals": 2,
   "results": [
     {
       "ticker": "402340",
@@ -97,22 +97,6 @@
       "rebound_time": "09/10 10:15",
       "rebound_price": 303500.0,
       "bars_after_signal": 2,
-      "reasons": [
-        "연속 양봉 2개 이상"
-      ]
-    },
-    {
-      "ticker": "329180",
-      "name": "HD현대중공업",
-      "is_fresh": true,
-      "best_signal": true,
-      "best_reason": "1차 저점(457,500) 지지 후 재반등",
-      "has_active_entry": false,
-      "signal_time": "09/10 09:00",
-      "signal_price": 457500.0,
-      "rebound_time": "09/10 09:05",
-      "rebound_price": 469500.0,
-      "bars_after_signal": 1,
       "reasons": [
         "연속 양봉 2개 이상"
       ]
@@ -854,6 +838,22 @@
       ]
     },
     {
+      "ticker": "042700",
+      "name": "한미반도체",
+      "is_fresh": true,
+      "best_signal": true,
+      "best_reason": "1차 저점(257,000) 지지 후 재반등",
+      "has_active_entry": false,
+      "signal_time": "09/10 13:10",
+      "signal_price": 257000.0,
+      "rebound_time": "09/10 13:15",
+      "rebound_price": 258500.0,
+      "bars_after_signal": 1,
+      "reasons": [
+        "전 봉(음봉)보다 몸통이 큰 양봉"
+      ]
+    },
+    {
       "ticker": "302440",
       "name": "SK바이오사이언스",
       "is_fresh": true,
@@ -899,6 +899,22 @@
       "bars_after_signal": 1,
       "reasons": [
         "연속 양봉 2개 이상"
+      ]
+    },
+    {
+      "ticker": "357780",
+      "name": "솔브레인",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "09/10 13:10",
+      "signal_price": 344500.0,
+      "rebound_time": "09/10 13:15",
+      "rebound_price": 345500.0,
+      "bars_after_signal": 1,
+      "reasons": [
+        "음봉형 도지"
       ]
     },
     {
