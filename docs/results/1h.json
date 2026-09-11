@@ -1,10 +1,26 @@
 {
   "timeframe": "1h",
   "timeframe_label": "1시간봉",
-  "last_updated": "2026-09-11T12:10:01",
+  "last_updated": "2026-09-11T13:10:35",
   "total_tickers": 98,
   "total_signals": 3,
   "results": [
+    {
+      "ticker": "005930",
+      "name": "삼성전자",
+      "is_fresh": true,
+      "best_signal": true,
+      "best_reason": "1차 저점(257,750) 지지 후 재반등",
+      "has_active_entry": false,
+      "signal_time": "09/11 10:00",
+      "signal_price": 258000.0,
+      "rebound_time": "09/11 12:00",
+      "rebound_price": 258000.0,
+      "bars_after_signal": 2,
+      "reasons": [
+        "양봉형 도지"
+      ]
+    },
     {
       "ticker": "034730",
       "name": "SK",
@@ -38,16 +54,32 @@
       ]
     },
     {
+      "ticker": "011170",
+      "name": "롯데케미칼",
+      "is_fresh": true,
+      "best_signal": true,
+      "best_reason": "1차 저점(63,900) 지지 후 재반등",
+      "has_active_entry": false,
+      "signal_time": "09/11 11:00",
+      "signal_price": 63900.0,
+      "rebound_time": "09/11 12:00",
+      "rebound_price": 64200.0,
+      "bars_after_signal": 1,
+      "reasons": [
+        "전 봉(음봉)보다 몸통이 큰 양봉"
+      ]
+    },
+    {
       "ticker": "128940",
       "name": "한미약품",
       "is_fresh": true,
       "best_signal": false,
       "best_reason": "",
-      "has_active_entry": true,
+      "has_active_entry": false,
       "signal_time": "09/11 11:00",
       "signal_price": 461500.0,
       "rebound_time": "09/11 12:00",
-      "rebound_price": 463500.0,
+      "rebound_price": 466500.0,
       "bars_after_signal": 1,
       "reasons": [
         "전 봉(음봉)보다 몸통이 큰 양봉"
@@ -73,8 +105,8 @@
       "ticker": "058470",
       "name": "리노공업",
       "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
+      "best_signal": true,
+      "best_reason": "저점 이탈(66,900→66,800)했으나 RSI 다이버전스 동반 재반등 (RSI 38.8→39.2)",
       "has_active_entry": false,
       "signal_time": "09/11 09:00",
       "signal_price": 66900.0,
