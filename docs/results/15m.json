@@ -1,9 +1,9 @@
 {
   "timeframe": "15m",
   "timeframe_label": "15분봉",
-  "last_updated": "2026-09-11T10:24:41",
+  "last_updated": "2026-09-11T10:39:42",
   "total_tickers": 98,
-  "total_signals": 5,
+  "total_signals": 3,
   "results": [
     {
       "ticker": "000660",
@@ -14,11 +14,11 @@
       "has_active_entry": false,
       "signal_time": "09/11 09:30",
       "signal_price": 1775000.0,
-      "rebound_time": "09/11 10:15",
-      "rebound_price": 1781000.0,
-      "bars_after_signal": 3,
+      "rebound_time": "09/11 10:30",
+      "rebound_price": 1782000.0,
+      "bars_after_signal": 4,
       "reasons": [
-        "음봉형 도지"
+        "전 봉(음봉)보다 몸통이 큰 양봉"
       ]
     },
     {
@@ -90,8 +90,8 @@
       "ticker": "000270",
       "name": "기아",
       "is_fresh": true,
-      "best_signal": true,
-      "best_reason": "1차 저점(125,200) 지지 후 재반등",
+      "best_signal": false,
+      "best_reason": "",
       "has_active_entry": false,
       "signal_time": "09/11 09:30",
       "signal_price": 125200.0,
@@ -122,8 +122,8 @@
       "ticker": "006400",
       "name": "삼성SDI",
       "is_fresh": true,
-      "best_signal": true,
-      "best_reason": "1차 저점(549,000) 지지 후 재반등",
+      "best_signal": false,
+      "best_reason": "",
       "has_active_entry": false,
       "signal_time": "09/11 09:00",
       "signal_price": 549000.0,
@@ -170,8 +170,8 @@
       "ticker": "267260",
       "name": "HD현대일렉트릭",
       "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
+      "best_signal": true,
+      "best_reason": "1차 저점(728,000) 지지 후 재반등",
       "has_active_entry": false,
       "signal_time": "09/11 09:30",
       "signal_price": 728000.0,
@@ -186,8 +186,8 @@
       "ticker": "298040",
       "name": "효성중공업",
       "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
+      "best_signal": true,
+      "best_reason": "저점 이탈(2,811,000→2,796,000)했으나 RSI 다이버전스 동반 재반등 (RSI 31.5→33.5)",
       "has_active_entry": false,
       "signal_time": "09/11 09:00",
       "signal_price": 2811000.0,
@@ -218,8 +218,8 @@
       "ticker": "010130",
       "name": "고려아연",
       "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
+      "best_signal": true,
+      "best_reason": "1차 저점(1,182,000) 지지 후 재반등",
       "has_active_entry": false,
       "signal_time": "09/11 09:30",
       "signal_price": 1182000.0,
@@ -263,22 +263,6 @@
       ]
     },
     {
-      "ticker": "018260",
-      "name": "삼성에스디에스",
-      "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
-      "has_active_entry": true,
-      "signal_time": "09/11 10:00",
-      "signal_price": 221000.0,
-      "rebound_time": "09/11 10:15",
-      "rebound_price": 221500.0,
-      "bars_after_signal": 1,
-      "reasons": [
-        "연속 양봉 2개 이상"
-      ]
-    },
-    {
       "ticker": "011170",
       "name": "롯데케미칼",
       "is_fresh": true,
@@ -311,22 +295,6 @@
       ]
     },
     {
-      "ticker": "128940",
-      "name": "한미약품",
-      "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
-      "has_active_entry": false,
-      "signal_time": "09/11 10:00",
-      "signal_price": 461000.0,
-      "rebound_time": "09/11 10:15",
-      "rebound_price": 461000.0,
-      "bars_after_signal": 1,
-      "reasons": [
-        "음봉형 도지"
-      ]
-    },
-    {
       "ticker": "047810",
       "name": "한국항공우주",
       "is_fresh": true,
@@ -346,8 +314,8 @@
       "ticker": "000100",
       "name": "유한양행",
       "is_fresh": true,
-      "best_signal": true,
-      "best_reason": "1차 저점(78,700) 지지 후 재반등",
+      "best_signal": false,
+      "best_reason": "",
       "has_active_entry": false,
       "signal_time": "09/11 09:30",
       "signal_price": 78700.0,
@@ -368,23 +336,23 @@
       "signal_time": "09/11 09:45",
       "signal_price": 28650.0,
       "rebound_time": "09/11 10:15",
-      "rebound_price": 28800.0,
+      "rebound_price": 28750.0,
       "bars_after_signal": 2,
       "reasons": [
-        "연속 양봉 2개 이상"
+        "음봉형 도지"
       ]
     },
     {
-      "ticker": "004990",
-      "name": "롯데지주",
+      "ticker": "096770",
+      "name": "SK이노베이션",
       "is_fresh": true,
       "best_signal": false,
       "best_reason": "",
       "has_active_entry": false,
       "signal_time": "09/11 10:00",
-      "signal_price": 24850.0,
+      "signal_price": 144300.0,
       "rebound_time": "09/11 10:15",
-      "rebound_price": 24850.0,
+      "rebound_price": 144200.0,
       "bars_after_signal": 1,
       "reasons": [
         "음봉형 도지"
@@ -424,11 +392,43 @@
       ]
     },
     {
-      "ticker": "058470",
-      "name": "리노공업",
+      "ticker": "196170",
+      "name": "알테오젠",
       "is_fresh": true,
       "best_signal": false,
       "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "09/11 10:15",
+      "signal_price": 268500.0,
+      "rebound_time": "09/11 10:30",
+      "rebound_price": 268500.0,
+      "bars_after_signal": 1,
+      "reasons": [
+        "음봉형 도지"
+      ]
+    },
+    {
+      "ticker": "039030",
+      "name": "이오테크닉스",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "09/11 09:30",
+      "signal_price": 436000.0,
+      "rebound_time": "09/11 10:30",
+      "rebound_price": 443000.0,
+      "bars_after_signal": 4,
+      "reasons": [
+        "전 봉(음봉)보다 몸통이 큰 양봉"
+      ]
+    },
+    {
+      "ticker": "058470",
+      "name": "리노공업",
+      "is_fresh": true,
+      "best_signal": true,
+      "best_reason": "1차 저점(66,300) 지지 후 재반등",
       "has_active_entry": false,
       "signal_time": "09/11 09:30",
       "signal_price": 66300.0,
@@ -443,8 +443,8 @@
       "ticker": "357780",
       "name": "솔브레인",
       "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
+      "best_signal": true,
+      "best_reason": "1차 저점(327,000) 지지 후 재반등",
       "has_active_entry": false,
       "signal_time": "09/11 09:30",
       "signal_price": 327000.0,
