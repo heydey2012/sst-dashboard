@@ -1,7 +1,7 @@
 {
   "timeframe": "5m",
   "timeframe_label": "5분봉",
-  "last_updated": "2026-09-11T11:25:50",
+  "last_updated": "2026-09-11T11:33:29",
   "total_tickers": 98,
   "total_signals": 0,
   "results": [
@@ -185,8 +185,8 @@
       "ticker": "068270",
       "name": "셀트리온",
       "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
+      "best_signal": true,
+      "best_reason": "저점 이탈(178,700→177,300)했으나 RSI 다이버전스 동반 재반등 (RSI 30.0→34.2)",
       "has_active_entry": false,
       "signal_time": "09/11 09:10",
       "signal_price": 178700.0,
@@ -233,8 +233,8 @@
       "ticker": "006400",
       "name": "삼성SDI",
       "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
+      "best_signal": true,
+      "best_reason": "저점 이탈(549,000→547,000)했으나 RSI 다이버전스 동반 재반등 (RSI 29.3→35.4)",
       "has_active_entry": false,
       "signal_time": "09/11 09:10",
       "signal_price": 549000.0,
@@ -259,6 +259,22 @@
       "bars_after_signal": 1,
       "reasons": [
         "연속 양봉 2개 이상"
+      ]
+    },
+    {
+      "ticker": "066570",
+      "name": "LG전자",
+      "is_fresh": true,
+      "best_signal": true,
+      "best_reason": "저점 이탈(202,000→199,200)했으나 RSI 다이버전스 동반 재반등 (RSI 27.1→26.1)",
+      "has_active_entry": false,
+      "signal_time": "09/11 09:05",
+      "signal_price": 203000.0,
+      "rebound_time": "09/11 09:15",
+      "rebound_price": 202000.0,
+      "bars_after_signal": 2,
+      "reasons": [
+        "음봉형 도지"
       ]
     },
     {
@@ -361,8 +377,8 @@
       "ticker": "051910",
       "name": "LG화학",
       "is_fresh": true,
-      "best_signal": true,
-      "best_reason": "저점 이탈(274,500→269,500)했으나 RSI 다이버전스 동반 재반등 (RSI 26.5→28.7)",
+      "best_signal": false,
+      "best_reason": "",
       "has_active_entry": false,
       "signal_time": "09/11 09:05",
       "signal_price": 275500.0,
@@ -553,8 +569,8 @@
       "ticker": "003550",
       "name": "LG",
       "is_fresh": true,
-      "best_signal": true,
-      "best_reason": "저점 이탈(112,800→112,400)했으나 RSI 다이버전스 동반 재반등 (RSI 23.0→29.3)",
+      "best_signal": false,
+      "best_reason": "",
       "has_active_entry": false,
       "signal_time": "09/11 09:30",
       "signal_price": 113300.0,
@@ -969,8 +985,8 @@
       "ticker": "247540",
       "name": "에코프로비엠",
       "is_fresh": true,
-      "best_signal": true,
-      "best_reason": "저점 이탈(112,300→112,200)했으나 RSI 다이버전스 동반 재반등 (RSI 37.5→38.1)",
+      "best_signal": false,
+      "best_reason": "",
       "has_active_entry": false,
       "signal_time": "09/11 09:40",
       "signal_price": 112700.0,
