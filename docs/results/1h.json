@@ -1,16 +1,16 @@
 {
   "timeframe": "1h",
   "timeframe_label": "1시간봉",
-  "last_updated": "2026-09-11T13:10:35",
+  "last_updated": "2026-09-11T14:10:10",
   "total_tickers": 98,
-  "total_signals": 3,
+  "total_signals": 2,
   "results": [
     {
       "ticker": "005930",
       "name": "삼성전자",
       "is_fresh": true,
-      "best_signal": true,
-      "best_reason": "1차 저점(257,750) 지지 후 재반등",
+      "best_signal": false,
+      "best_reason": "",
       "has_active_entry": false,
       "signal_time": "09/11 10:00",
       "signal_price": 258000.0,
@@ -22,11 +22,27 @@
       ]
     },
     {
+      "ticker": "402340",
+      "name": "SK스퀘어",
+      "is_fresh": true,
+      "best_signal": true,
+      "best_reason": "1차 저점(1,073,000) 지지 후 재반등",
+      "has_active_entry": false,
+      "signal_time": "09/11 11:00",
+      "signal_price": 1073000.0,
+      "rebound_time": "09/11 13:00",
+      "rebound_price": 1077000.0,
+      "bars_after_signal": 2,
+      "reasons": [
+        "음봉형 도지"
+      ]
+    },
+    {
       "ticker": "034730",
       "name": "SK",
       "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
+      "best_signal": true,
+      "best_reason": "1차 저점(577,000) 지지 후 재반등",
       "has_active_entry": false,
       "signal_time": "09/11 10:00",
       "signal_price": 579000.0,
@@ -41,8 +57,8 @@
       "ticker": "051910",
       "name": "LG화학",
       "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
+      "best_signal": true,
+      "best_reason": "1차 저점(268,500) 지지 후 재반등",
       "has_active_entry": false,
       "signal_time": "09/11 11:00",
       "signal_price": 268500.0,
@@ -57,8 +73,8 @@
       "ticker": "011170",
       "name": "롯데케미칼",
       "is_fresh": true,
-      "best_signal": true,
-      "best_reason": "1차 저점(63,900) 지지 후 재반등",
+      "best_signal": false,
+      "best_reason": "",
       "has_active_entry": false,
       "signal_time": "09/11 11:00",
       "signal_price": 63900.0,
@@ -86,11 +102,27 @@
       ]
     },
     {
-      "ticker": "039030",
-      "name": "이오테크닉스",
+      "ticker": "042700",
+      "name": "한미반도체",
       "is_fresh": true,
       "best_signal": false,
       "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "09/11 13:00",
+      "signal_price": 233500.0,
+      "rebound_time": "09/11 14:00",
+      "rebound_price": 233000.0,
+      "bars_after_signal": 1,
+      "reasons": [
+        "음봉형 도지"
+      ]
+    },
+    {
+      "ticker": "039030",
+      "name": "이오테크닉스",
+      "is_fresh": true,
+      "best_signal": true,
+      "best_reason": "1차 저점(443,000) 지지 후 재반등",
       "has_active_entry": false,
       "signal_time": "09/11 10:00",
       "signal_price": 443000.0,
@@ -115,6 +147,22 @@
       "bars_after_signal": 1,
       "reasons": [
         "전 봉(음봉)보다 몸통이 큰 양봉"
+      ]
+    },
+    {
+      "ticker": "240810",
+      "name": "원익IPS",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "09/11 10:00",
+      "signal_price": 111200.0,
+      "rebound_time": "09/11 14:00",
+      "rebound_price": 110900.0,
+      "bars_after_signal": 4,
+      "reasons": [
+        "연속 양봉 2개 이상"
       ]
     }
   ]
