@@ -1,9 +1,9 @@
 {
   "timeframe": "5m",
   "timeframe_label": "5분봉",
-  "last_updated": "2026-09-11T13:51:52",
+  "last_updated": "2026-09-11T13:56:59",
   "total_tickers": 98,
-  "total_signals": 0,
+  "total_signals": 1,
   "results": [
     {
       "ticker": "005930",
@@ -617,8 +617,8 @@
       "ticker": "006800",
       "name": "미래에셋증권",
       "is_fresh": true,
-      "best_signal": true,
-      "best_reason": "1차 저점(33,400) 지지 후 재반등",
+      "best_signal": false,
+      "best_reason": "",
       "has_active_entry": false,
       "signal_time": "09/11 09:40",
       "signal_price": 33450.0,
@@ -1107,22 +1107,6 @@
       "bars_after_signal": 1,
       "reasons": [
         "전 봉(음봉)보다 몸통이 큰 양봉"
-      ]
-    },
-    {
-      "ticker": "352820",
-      "name": "하이브",
-      "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
-      "has_active_entry": false,
-      "signal_time": "09/11 10:45",
-      "signal_price": 167300.0,
-      "rebound_time": "09/11 10:55",
-      "rebound_price": 172700.0,
-      "bars_after_signal": 2,
-      "reasons": [
-        "연속 양봉 2개 이상"
       ]
     },
     {
