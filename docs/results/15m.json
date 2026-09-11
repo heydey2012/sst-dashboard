@@ -1,10 +1,42 @@
 {
   "timeframe": "15m",
   "timeframe_label": "15분봉",
-  "last_updated": "2026-09-11T09:24:59",
+  "last_updated": "2026-09-11T09:39:53",
   "total_tickers": 98,
-  "total_signals": 27,
+  "total_signals": 28,
   "results": [
+    {
+      "ticker": "032830",
+      "name": "삼성생명",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "09/11 09:00",
+      "signal_price": 300000.0,
+      "rebound_time": "09/11 09:15",
+      "rebound_price": 302000.0,
+      "bars_after_signal": 1,
+      "reasons": [
+        "연속 양봉 2개 이상"
+      ]
+    },
+    {
+      "ticker": "028260",
+      "name": "삼성물산",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "09/11 09:15",
+      "signal_price": 364500.0,
+      "rebound_time": "09/11 09:30",
+      "rebound_price": 364500.0,
+      "bars_after_signal": 1,
+      "reasons": [
+        "음봉형 도지"
+      ]
+    },
     {
       "ticker": "012330",
       "name": "현대모비스",
@@ -15,7 +47,7 @@
       "signal_time": "09/11 09:00",
       "signal_price": 411000.0,
       "rebound_time": "09/11 09:15",
-      "rebound_price": 413000.0,
+      "rebound_price": 414500.0,
       "bars_after_signal": 1,
       "reasons": [
         "연속 양봉 2개 이상"
@@ -31,7 +63,7 @@
       "signal_time": "09/11 09:00",
       "signal_price": 549000.0,
       "rebound_time": "09/11 09:15",
-      "rebound_price": 559000.0,
+      "rebound_price": 555500.0,
       "bars_after_signal": 1,
       "reasons": [
         "연속 양봉 2개 이상"
@@ -47,10 +79,42 @@
       "signal_time": "09/11 09:00",
       "signal_price": 84300.0,
       "rebound_time": "09/11 09:15",
-      "rebound_price": 84800.0,
+      "rebound_price": 84600.0,
       "bars_after_signal": 1,
       "reasons": [
         "연속 양봉 2개 이상"
+      ]
+    },
+    {
+      "ticker": "267260",
+      "name": "HD현대일렉트릭",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "09/11 09:00",
+      "signal_price": 730000.0,
+      "rebound_time": "09/11 09:15",
+      "rebound_price": 737000.0,
+      "bars_after_signal": 1,
+      "reasons": [
+        "연속 양봉 2개 이상"
+      ]
+    },
+    {
+      "ticker": "298040",
+      "name": "효성중공업",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "09/11 09:00",
+      "signal_price": 2811000.0,
+      "rebound_time": "09/11 09:15",
+      "rebound_price": 2843000.0,
+      "bars_after_signal": 1,
+      "reasons": [
+        "전 봉(음봉)보다 몸통이 큰 양봉"
       ]
     },
     {
@@ -63,71 +127,39 @@
       "signal_time": "09/11 09:00",
       "signal_price": 34500.0,
       "rebound_time": "09/11 09:15",
-      "rebound_price": 34700.0,
+      "rebound_price": 34650.0,
       "bars_after_signal": 1,
       "reasons": [
         "연속 양봉 2개 이상"
       ]
     },
     {
-      "ticker": "003550",
-      "name": "LG",
+      "ticker": "032640",
+      "name": "LG유플러스",
       "is_fresh": true,
       "best_signal": false,
       "best_reason": "",
       "has_active_entry": false,
       "signal_time": "09/11 09:00",
-      "signal_price": 114000.0,
+      "signal_price": 14600.0,
       "rebound_time": "09/11 09:15",
-      "rebound_price": 114600.0,
+      "rebound_price": 14600.0,
       "bars_after_signal": 1,
       "reasons": [
-        "연속 양봉 2개 이상"
+        "음봉형 도지"
       ]
     },
     {
-      "ticker": "361610",
-      "name": "SK아이이테크놀로지",
-      "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
-      "has_active_entry": true,
-      "signal_time": "09/11 09:00",
-      "signal_price": 17060.0,
-      "rebound_time": "09/11 09:15",
-      "rebound_price": 17360.0,
-      "bars_after_signal": 1,
-      "reasons": [
-        "전 봉(음봉)보다 몸통이 큰 양봉"
-      ]
-    },
-    {
-      "ticker": "086520",
-      "name": "에코프로",
-      "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
-      "has_active_entry": true,
-      "signal_time": "09/11 09:00",
-      "signal_price": 84200.0,
-      "rebound_time": "09/11 09:15",
-      "rebound_price": 84800.0,
-      "bars_after_signal": 1,
-      "reasons": [
-        "연속 양봉 2개 이상"
-      ]
-    },
-    {
-      "ticker": "010140",
-      "name": "삼성중공업",
+      "ticker": "006260",
+      "name": "LS",
       "is_fresh": true,
       "best_signal": false,
       "best_reason": "",
       "has_active_entry": false,
-      "signal_time": "09/11 09:00",
-      "signal_price": 21250.0,
-      "rebound_time": "09/11 09:15",
-      "rebound_price": 21300.0,
+      "signal_time": "09/11 09:15",
+      "signal_price": 313000.0,
+      "rebound_time": "09/11 09:30",
+      "rebound_price": 316500.0,
       "bars_after_signal": 1,
       "reasons": [
         "연속 양봉 2개 이상"
