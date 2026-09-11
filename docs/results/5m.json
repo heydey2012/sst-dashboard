@@ -1,7 +1,7 @@
 {
   "timeframe": "5m",
   "timeframe_label": "5분봉",
-  "last_updated": "2026-09-11T13:01:47",
+  "last_updated": "2026-09-11T13:07:12",
   "total_tickers": 98,
   "total_signals": 0,
   "results": [
@@ -377,8 +377,8 @@
       "ticker": "051910",
       "name": "LG화학",
       "is_fresh": true,
-      "best_signal": true,
-      "best_reason": "저점 이탈(274,500→268,000)했으나 RSI 다이버전스 동반 재반등 (RSI 26.5→27.0)",
+      "best_signal": false,
+      "best_reason": "",
       "has_active_entry": false,
       "signal_time": "09/11 09:05",
       "signal_price": 275500.0,
