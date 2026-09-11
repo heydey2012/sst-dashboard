@@ -1,9 +1,9 @@
 {
   "timeframe": "5m",
   "timeframe_label": "5분봉",
-  "last_updated": "2026-09-11T14:16:47",
+  "last_updated": "2026-09-11T14:22:04",
   "total_tickers": 98,
-  "total_signals": 1,
+  "total_signals": 3,
   "results": [
     {
       "ticker": "005930",
@@ -310,22 +310,6 @@
       ]
     },
     {
-      "ticker": "000810",
-      "name": "삼성화재",
-      "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
-      "has_active_entry": false,
-      "signal_time": "09/11 14:05",
-      "signal_price": 683000.0,
-      "rebound_time": "09/11 14:10",
-      "rebound_price": 684000.0,
-      "bars_after_signal": 1,
-      "reasons": [
-        "음봉형 도지"
-      ]
-    },
-    {
       "ticker": "042660",
       "name": "한화오션",
       "is_fresh": true,
@@ -505,8 +489,8 @@
       "ticker": "138040",
       "name": "메리츠금융지주",
       "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
+      "best_signal": true,
+      "best_reason": "1차 저점(128,400) 지지 후 재반등",
       "has_active_entry": false,
       "signal_time": "09/11 14:00",
       "signal_price": 128400.0,
@@ -587,14 +571,14 @@
       "is_fresh": true,
       "best_signal": false,
       "best_reason": "",
-      "has_active_entry": true,
+      "has_active_entry": false,
       "signal_time": "09/11 14:05",
       "signal_price": 289500.0,
-      "rebound_time": "09/11 14:10",
-      "rebound_price": 290500.0,
-      "bars_after_signal": 1,
+      "rebound_time": "09/11 14:15",
+      "rebound_price": 290000.0,
+      "bars_after_signal": 2,
       "reasons": [
-        "전 봉(음봉)보다 몸통이 큰 양봉"
+        "음봉형 도지"
       ]
     },
     {
@@ -729,8 +713,8 @@
       "ticker": "004990",
       "name": "롯데지주",
       "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
+      "best_signal": true,
+      "best_reason": "1차 저점(25,000) 지지 후 재반등",
       "has_active_entry": false,
       "signal_time": "09/11 14:05",
       "signal_price": 25000.0,
@@ -739,22 +723,6 @@
       "bars_after_signal": 1,
       "reasons": [
         "음봉형 도지"
-      ]
-    },
-    {
-      "ticker": "096770",
-      "name": "SK이노베이션",
-      "is_fresh": true,
-      "best_signal": true,
-      "best_reason": "저점 이탈(147,400→142,900)했으나 RSI 다이버전스 동반 재반등 (RSI 18.7→25.5)",
-      "has_active_entry": false,
-      "signal_time": "09/11 09:10",
-      "signal_price": 147400.0,
-      "rebound_time": "09/11 09:15",
-      "rebound_price": 148900.0,
-      "bars_after_signal": 1,
-      "reasons": [
-        "전 봉(음봉)보다 몸통이 큰 양봉"
       ]
     },
     {
