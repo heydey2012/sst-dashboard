@@ -1,7 +1,7 @@
 {
   "timeframe": "5m",
   "timeframe_label": "5분봉",
-  "last_updated": "2026-09-14T12:51:53",
+  "last_updated": "2026-09-14T12:57:02",
   "total_tickers": 98,
   "total_signals": 0,
   "results": [
@@ -1018,8 +1018,8 @@
       "ticker": "012750",
       "name": "에스원",
       "is_fresh": true,
-      "best_signal": true,
-      "best_reason": "1차 저점(85,200) 지지 후 재반등",
+      "best_signal": false,
+      "best_reason": "",
       "has_active_entry": false,
       "signal_time": "09/14 11:55",
       "signal_price": 85200.0,
