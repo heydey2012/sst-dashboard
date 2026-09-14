@@ -1,7 +1,7 @@
 {
   "timeframe": "15m",
   "timeframe_label": "15분봉",
-  "last_updated": "2026-09-14T10:54:48",
+  "last_updated": "2026-09-14T11:09:48",
   "total_tickers": 98,
   "total_signals": 0,
   "results": [
@@ -175,7 +175,7 @@
       "signal_time": "09/14 10:00",
       "signal_price": 398000.0,
       "rebound_time": "09/14 10:45",
-      "rebound_price": 398500.0,
+      "rebound_price": 400500.0,
       "bars_after_signal": 3,
       "reasons": [
         "전 봉(음봉)보다 몸통이 큰 양봉"
@@ -206,11 +206,11 @@
       "has_active_entry": false,
       "signal_time": "09/14 10:00",
       "signal_price": 663000.0,
-      "rebound_time": "09/14 10:45",
-      "rebound_price": 663000.0,
-      "bars_after_signal": 3,
+      "rebound_time": "09/14 11:00",
+      "rebound_price": 668000.0,
+      "bars_after_signal": 4,
       "reasons": [
-        "음봉형 도지"
+        "연속 양봉 2개 이상"
       ]
     },
     {
@@ -262,6 +262,22 @@
       ]
     },
     {
+      "ticker": "005490",
+      "name": "POSCO홀딩스",
+      "is_fresh": true,
+      "best_signal": true,
+      "best_reason": "1차 저점(321,000) 지지 후 재반등",
+      "has_active_entry": false,
+      "signal_time": "09/14 10:15",
+      "signal_price": 321500.0,
+      "rebound_time": "09/14 10:45",
+      "rebound_price": 322500.0,
+      "bars_after_signal": 2,
+      "reasons": [
+        "전 봉(음봉)보다 몸통이 큰 양봉"
+      ]
+    },
+    {
       "ticker": "010130",
       "name": "고려아연",
       "is_fresh": true,
@@ -281,16 +297,32 @@
       "ticker": "015760",
       "name": "한국전력",
       "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
+      "best_signal": true,
+      "best_reason": "1차 저점(31,900) 지지 후 재반등",
       "has_active_entry": false,
       "signal_time": "09/14 09:15",
       "signal_price": 32100.0,
       "rebound_time": "09/14 10:45",
-      "rebound_price": 31900.0,
+      "rebound_price": 32000.0,
       "bars_after_signal": 6,
       "reasons": [
-        "음봉형 도지"
+        "연속 양봉 2개 이상"
+      ]
+    },
+    {
+      "ticker": "032640",
+      "name": "LG유플러스",
+      "is_fresh": true,
+      "best_signal": true,
+      "best_reason": "1차 저점(14,800) 지지 후 재반등",
+      "has_active_entry": false,
+      "signal_time": "09/14 09:45",
+      "signal_price": 14800.0,
+      "rebound_time": "09/14 10:15",
+      "rebound_price": 14810.0,
+      "bars_after_signal": 2,
+      "reasons": [
+        "연속 양봉 2개 이상"
       ]
     },
     {
@@ -329,8 +361,8 @@
       "ticker": "004020",
       "name": "현대제철",
       "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
+      "best_signal": true,
+      "best_reason": "저점 이탈(33,100→33,050)했으나 RSI 다이버전스 동반 재반등 (RSI 35.9→38.9)",
       "has_active_entry": false,
       "signal_time": "09/14 09:00",
       "signal_price": 33100.0,
@@ -483,6 +515,22 @@
       "bars_after_signal": 5,
       "reasons": [
         "연속 양봉 2개 이상"
+      ]
+    },
+    {
+      "ticker": "086520",
+      "name": "에코프로",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "09/14 09:30",
+      "signal_price": 80900.0,
+      "rebound_time": "09/14 10:45",
+      "rebound_price": 80900.0,
+      "bars_after_signal": 5,
+      "reasons": [
+        "전 봉(음봉)보다 몸통이 큰 양봉"
       ]
     },
     {
