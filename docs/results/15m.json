@@ -1,7 +1,7 @@
 {
   "timeframe": "15m",
   "timeframe_label": "15분봉",
-  "last_updated": "2026-09-14T11:24:54",
+  "last_updated": "2026-09-14T11:39:52",
   "total_tickers": 98,
   "total_signals": 0,
   "results": [
@@ -169,8 +169,8 @@
       "ticker": "012330",
       "name": "현대모비스",
       "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
+      "best_signal": true,
+      "best_reason": "1차 저점(397,500) 지지 후 재반등",
       "has_active_entry": false,
       "signal_time": "09/14 10:00",
       "signal_price": 398000.0,
@@ -297,8 +297,8 @@
       "ticker": "015760",
       "name": "한국전력",
       "is_fresh": true,
-      "best_signal": true,
-      "best_reason": "1차 저점(31,900) 지지 후 재반등",
+      "best_signal": false,
+      "best_reason": "",
       "has_active_entry": false,
       "signal_time": "09/14 09:15",
       "signal_price": 32100.0,
@@ -521,8 +521,8 @@
       "ticker": "086520",
       "name": "에코프로",
       "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
+      "best_signal": true,
+      "best_reason": "1차 저점(80,600) 지지 후 재반등",
       "has_active_entry": false,
       "signal_time": "09/14 09:30",
       "signal_price": 80900.0,
@@ -579,6 +579,22 @@
       "bars_after_signal": 1,
       "reasons": [
         "음봉형 도지"
+      ]
+    },
+    {
+      "ticker": "041510",
+      "name": "에스엠",
+      "is_fresh": true,
+      "best_signal": true,
+      "best_reason": "1차 저점(83,600) 지지 후 재반등",
+      "has_active_entry": false,
+      "signal_time": "09/14 09:00",
+      "signal_price": 83600.0,
+      "rebound_time": "09/14 09:15",
+      "rebound_price": 83900.0,
+      "bars_after_signal": 1,
+      "reasons": [
+        "연속 양봉 2개 이상"
       ]
     },
     {
