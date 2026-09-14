@@ -1,7 +1,7 @@
 {
   "timeframe": "5m",
   "timeframe_label": "5분봉",
-  "last_updated": "2026-09-14T13:16:46",
+  "last_updated": "2026-09-14T13:22:15",
   "total_tickers": 98,
   "total_signals": 1,
   "results": [
@@ -185,8 +185,8 @@
       "ticker": "034020",
       "name": "두산에너빌리티",
       "is_fresh": true,
-      "best_signal": true,
-      "best_reason": "저점 이탈(88,250→87,900)했으나 RSI 다이버전스 동반 재반등 (RSI 33.0→33.8)",
+      "best_signal": false,
+      "best_reason": "",
       "has_active_entry": false,
       "signal_time": "09/14 09:00",
       "signal_price": 88500.0,
