@@ -1,7 +1,7 @@
 {
   "timeframe": "1h",
   "timeframe_label": "1시간봉",
-  "last_updated": "2026-09-14T11:10:28",
+  "last_updated": "2026-09-14T12:10:09",
   "total_tickers": 98,
   "total_signals": 0,
   "results": [
@@ -22,19 +22,51 @@
       ]
     },
     {
+      "ticker": "361610",
+      "name": "SK아이이테크놀로지",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "09/14 10:00",
+      "signal_price": 16010.0,
+      "rebound_time": "09/14 11:00",
+      "rebound_price": 16070.0,
+      "bars_after_signal": 1,
+      "reasons": [
+        "연속 양봉 2개 이상"
+      ]
+    },
+    {
       "ticker": "096770",
       "name": "SK이노베이션",
       "is_fresh": true,
       "best_signal": false,
       "best_reason": "",
-      "has_active_entry": true,
+      "has_active_entry": false,
       "signal_time": "09/14 10:00",
       "signal_price": 138000.0,
       "rebound_time": "09/14 11:00",
-      "rebound_price": 138400.0,
+      "rebound_price": 138700.0,
       "bars_after_signal": 1,
       "reasons": [
         "전 봉(음봉)보다 몸통이 큰 양봉"
+      ]
+    },
+    {
+      "ticker": "247540",
+      "name": "에코프로비엠",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "09/14 10:00",
+      "signal_price": 104800.0,
+      "rebound_time": "09/14 12:00",
+      "rebound_price": 105300.0,
+      "bars_after_signal": 2,
+      "reasons": [
+        "음봉형 도지"
       ]
     }
   ]
