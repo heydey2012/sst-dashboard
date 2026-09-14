@@ -1,0 +1,321 @@
+{
+  "summary": {
+    "mode": "independent_capital",
+    "strategy": "RSI Spread Pro DCA (분할매수)",
+    "money_management": "분할매수 (SplitBuy)",
+    "timeframe": "15m",
+    "generated_at": "2026-09-13T13:36:17",
+    "data_from": "2025-08-01T09:00:00",
+    "data_to": "2026-09-11T14:15:00",
+    "tickers_used": 1,
+    "total_initial_capital": 10000000.0,
+    "total_final_capital": 10178066.0,
+    "total_return_pct": 1.78,
+    "total_trades": 7,
+    "total_wins": 7,
+    "overall_win_rate_pct": 100.0,
+    "open_positions_count": 0,
+    "symbols": [
+      "000660(SK하이닉스)"
+    ],
+    "elapsed_sec": 0.08,
+    "provider": "cached"
+  },
+  "tickers": [
+    {
+      "symbol": "000660",
+      "data_from": "2025-08-01T09:00:00",
+      "data_to": "2026-09-11T14:15:00",
+      "bars": 7326,
+      "initial_capital": 10000000.0,
+      "final_capital": 10178066.0,
+      "return_pct": 1.78,
+      "n_trades": 7,
+      "n_wins": 7,
+      "n_losses": 0,
+      "win_rate_pct": 100.0,
+      "avg_win": 25438.0,
+      "avg_loss": 0,
+      "open_position": null
+    }
+  ],
+  "trades_by_ticker": {
+    "000660": [
+      {
+        "entry_time": "2025-08-06T10:00:00",
+        "exit_time": "2025-08-11T14:00:00",
+        "avg_entry_price": 258375.0,
+        "exit_price": 266126.25,
+        "exit_reason": "익절(평단가 대비 목표 도달)",
+        "qty": 2,
+        "split_count": 2,
+        "pnl": 10766.0,
+        "pnl_pct": 2.08,
+        "entries": [
+          {
+            "time": "2025-08-06T10:00:00",
+            "price": 258750.0,
+            "qty": 1,
+            "pnl": 5007.0,
+            "pnl_pct": 1.94
+          },
+          {
+            "time": "2025-08-08T14:00:00",
+            "price": 258000.0,
+            "qty": 1,
+            "pnl": 5760.0,
+            "pnl_pct": 2.23
+          }
+        ]
+      },
+      {
+        "entry_time": "2025-08-14T10:00:00",
+        "exit_time": "2025-09-05T09:00:00",
+        "avg_entry_price": 262675.0,
+        "exit_price": 270555.25,
+        "exit_reason": "익절(평단가 대비 목표 도달)",
+        "qty": 10,
+        "split_count": 10,
+        "pnl": 54728.0,
+        "pnl_pct": 2.08,
+        "entries": [
+          {
+            "time": "2025-08-14T10:00:00",
+            "price": 272750.0,
+            "qty": 1,
+            "pnl": -4637.0,
+            "pnl_pct": -1.7
+          },
+          {
+            "time": "2025-08-14T10:45:00",
+            "price": 272000.0,
+            "qty": 1,
+            "pnl": -3885.0,
+            "pnl_pct": -1.43
+          },
+          {
+            "time": "2025-08-18T09:30:00",
+            "price": 269500.0,
+            "qty": 1,
+            "pnl": -1376.0,
+            "pnl_pct": -0.51
+          },
+          {
+            "time": "2025-08-20T09:15:00",
+            "price": 253750.0,
+            "qty": 1,
+            "pnl": 14429.0,
+            "pnl_pct": 5.69
+          },
+          {
+            "time": "2025-08-27T10:00:00",
+            "price": 258000.0,
+            "qty": 1,
+            "pnl": 10164.0,
+            "pnl_pct": 3.94
+          },
+          {
+            "time": "2025-09-01T09:15:00",
+            "price": 259500.0,
+            "qty": 1,
+            "pnl": 8659.0,
+            "pnl_pct": 3.34
+          },
+          {
+            "time": "2025-09-01T09:30:00",
+            "price": 259750.0,
+            "qty": 1,
+            "pnl": 8408.0,
+            "pnl_pct": 3.24
+          },
+          {
+            "time": "2025-09-01T10:00:00",
+            "price": 258750.0,
+            "qty": 1,
+            "pnl": 9412.0,
+            "pnl_pct": 3.64
+          },
+          {
+            "time": "2025-09-01T10:15:00",
+            "price": 259500.0,
+            "qty": 1,
+            "pnl": 8659.0,
+            "pnl_pct": 3.34
+          },
+          {
+            "time": "2025-09-03T14:15:00",
+            "price": 263250.0,
+            "qty": 1,
+            "pnl": 4896.0,
+            "pnl_pct": 1.86
+          }
+        ]
+      },
+      {
+        "entry_time": "2025-09-17T10:00:00",
+        "exit_time": "2025-09-18T09:45:00",
+        "avg_entry_price": 336875.0,
+        "exit_price": 346981.25,
+        "exit_reason": "익절(평단가 대비 목표 도달)",
+        "qty": 2,
+        "split_count": 2,
+        "pnl": 14038.0,
+        "pnl_pct": 2.08,
+        "entries": [
+          {
+            "time": "2025-09-17T10:00:00",
+            "price": 336500.0,
+            "qty": 1,
+            "pnl": 7395.0,
+            "pnl_pct": 2.2
+          },
+          {
+            "time": "2025-09-17T10:15:00",
+            "price": 337250.0,
+            "qty": 1,
+            "pnl": 6642.0,
+            "pnl_pct": 1.97
+          }
+        ]
+      },
+      {
+        "entry_time": "2025-09-19T10:15:00",
+        "exit_time": "2025-10-02T09:00:00",
+        "avg_entry_price": 350750.0,
+        "exit_price": 361272.5,
+        "exit_reason": "익절(평단가 대비 목표 도달)",
+        "qty": 6,
+        "split_count": 6,
+        "pnl": 43847.0,
+        "pnl_pct": 2.08,
+        "entries": [
+          {
+            "time": "2025-09-19T10:15:00",
+            "price": 349750.0,
+            "qty": 1,
+            "pnl": 8311.0,
+            "pnl_pct": 2.38
+          },
+          {
+            "time": "2025-09-19T10:30:00",
+            "price": 354000.0,
+            "qty": 1,
+            "pnl": 4047.0,
+            "pnl_pct": 1.14
+          },
+          {
+            "time": "2025-09-24T10:00:00",
+            "price": 357750.0,
+            "qty": 1,
+            "pnl": 283.0,
+            "pnl_pct": 0.08
+          },
+          {
+            "time": "2025-09-24T11:15:00",
+            "price": 351250.0,
+            "qty": 1,
+            "pnl": 6806.0,
+            "pnl_pct": 1.94
+          },
+          {
+            "time": "2025-09-24T12:15:00",
+            "price": 349750.0,
+            "qty": 1,
+            "pnl": 8311.0,
+            "pnl_pct": 2.38
+          },
+          {
+            "time": "2025-09-26T10:00:00",
+            "price": 342000.0,
+            "qty": 1,
+            "pnl": 16089.0,
+            "pnl_pct": 4.7
+          }
+        ]
+      },
+      {
+        "entry_time": "2025-10-13T09:15:00",
+        "exit_time": "2025-10-14T09:00:00",
+        "avg_entry_price": 411416.6666666667,
+        "exit_price": 423759.1666666667,
+        "exit_reason": "익절(평단가 대비 목표 도달)",
+        "qty": 3,
+        "split_count": 3,
+        "pnl": 25716.0,
+        "pnl_pct": 2.08,
+        "entries": [
+          {
+            "time": "2025-10-13T09:15:00",
+            "price": 410500.0,
+            "qty": 1,
+            "pnl": 9492.0,
+            "pnl_pct": 2.31
+          },
+          {
+            "time": "2025-10-13T09:30:00",
+            "price": 410250.0,
+            "qty": 1,
+            "pnl": 9743.0,
+            "pnl_pct": 2.37
+          },
+          {
+            "time": "2025-10-13T09:45:00",
+            "price": 413500.0,
+            "qty": 1,
+            "pnl": 6481.0,
+            "pnl_pct": 1.57
+          }
+        ]
+      },
+      {
+        "entry_time": "2025-10-14T13:45:00",
+        "exit_time": "2025-10-16T09:00:00",
+        "avg_entry_price": 413000.0,
+        "exit_price": 425390.0,
+        "exit_reason": "익절(평단가 대비 목표 도달)",
+        "qty": 1,
+        "split_count": 1,
+        "pnl": 8605.0,
+        "pnl_pct": 2.08,
+        "entries": [
+          {
+            "time": "2025-10-14T13:45:00",
+            "price": 413000.0,
+            "qty": 1,
+            "pnl": 8605.0,
+            "pnl_pct": 2.08
+          }
+        ]
+      },
+      {
+        "entry_time": "2025-10-21T12:00:00",
+        "exit_time": "2025-10-24T09:45:00",
+        "avg_entry_price": 488750.0,
+        "exit_price": 503412.5,
+        "exit_reason": "익절(평단가 대비 목표 도달)",
+        "qty": 2,
+        "split_count": 2,
+        "pnl": 20366.0,
+        "pnl_pct": 2.08,
+        "entries": [
+          {
+            "time": "2025-10-21T12:00:00",
+            "price": 491000.0,
+            "qty": 1,
+            "pnl": 7925.0,
+            "pnl_pct": 1.61
+          },
+          {
+            "time": "2025-10-21T13:30:00",
+            "price": 486500.0,
+            "qty": 1,
+            "pnl": 12441.0,
+            "pnl_pct": 2.56
+          }
+        ]
+      }
+    ]
+  },
+  "status": "done",
+  "run_id": "rsi_spread_pro_dca_split_buy_15m_1789274177"
+}

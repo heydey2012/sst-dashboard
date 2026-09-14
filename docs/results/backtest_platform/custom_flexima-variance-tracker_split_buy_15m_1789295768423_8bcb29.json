@@ -1,0 +1,279 @@
+{
+  "summary": {
+    "mode": "independent_capital",
+    "strategy": "FlexiMA Variance Tracker",
+    "money_management": "분할매수 (SplitBuy)",
+    "timeframe": "15m",
+    "generated_at": "2026-09-13T19:43:36",
+    "data_from": "2025-09-13T00:00:00+00:00",
+    "data_to": "2026-09-13T00:00:00+00:00",
+    "tickers_used": 5,
+    "total_initial_capital": 50000.0,
+    "total_final_capital": 47656.0,
+    "total_return_pct": -4.69,
+    "total_trades": 1,
+    "total_wins": 1,
+    "overall_win_rate_pct": 100.0,
+    "open_positions_count": 1,
+    "symbols": [
+      "BTCUSDT",
+      "ETHUSDT",
+      "XRPUSDT",
+      "SOLUSDT",
+      "APTUSDT"
+    ],
+    "elapsed_sec": 390.65,
+    "provider": "bybit"
+  },
+  "tickers": [
+    {
+      "symbol": "BTCUSDT",
+      "data_from": "2025-09-13T00:00:00+00:00",
+      "data_to": "2026-09-13T00:00:00+00:00",
+      "bars": 35041,
+      "initial_capital": 10000.0,
+      "final_capital": 10000.0,
+      "return_pct": 0.0,
+      "n_trades": 0,
+      "n_wins": 0,
+      "n_losses": 0,
+      "win_rate_pct": 0,
+      "avg_win": 0,
+      "avg_loss": 0,
+      "open_position": null
+    },
+    {
+      "symbol": "ETHUSDT",
+      "data_from": "2025-09-13T00:00:00+00:00",
+      "data_to": "2026-09-13T00:00:00+00:00",
+      "bars": 35041,
+      "initial_capital": 10000.0,
+      "final_capital": 7448.0,
+      "return_pct": -25.52,
+      "n_trades": 0,
+      "n_wins": 0,
+      "n_losses": 0,
+      "win_rate_pct": 0,
+      "avg_win": 0,
+      "avg_loss": 0,
+      "open_position": {
+        "split_count": 11,
+        "qty": 1.1679999578449358,
+        "avg_price": 4708.9043,
+        "current_price": 2523.75,
+        "unrealized_pnl": -2552.0
+      }
+    },
+    {
+      "symbol": "XRPUSDT",
+      "data_from": "2025-09-13T00:00:00+00:00",
+      "data_to": "2026-09-13T00:00:00+00:00",
+      "bars": 35041,
+      "initial_capital": 10000.0,
+      "final_capital": 10000.0,
+      "return_pct": 0.0,
+      "n_trades": 0,
+      "n_wins": 0,
+      "n_losses": 0,
+      "win_rate_pct": 0,
+      "avg_win": 0,
+      "avg_loss": 0,
+      "open_position": null
+    },
+    {
+      "symbol": "SOLUSDT",
+      "data_from": "2025-09-13T00:00:00+00:00",
+      "data_to": "2026-09-13T00:00:00+00:00",
+      "bars": 35041,
+      "initial_capital": 10000.0,
+      "final_capital": 10208.0,
+      "return_pct": 2.08,
+      "n_trades": 1,
+      "n_wins": 1,
+      "n_losses": 0,
+      "win_rate_pct": 100.0,
+      "avg_win": 208.0,
+      "avg_loss": 0,
+      "open_position": null
+    },
+    {
+      "symbol": "APTUSDT",
+      "data_from": "2025-09-13T00:00:00+00:00",
+      "data_to": "2026-09-13T00:00:00+00:00",
+      "bars": 35041,
+      "initial_capital": 10000.0,
+      "final_capital": 10000.0,
+      "return_pct": 0.0,
+      "n_trades": 0,
+      "n_wins": 0,
+      "n_losses": 0,
+      "win_rate_pct": 0,
+      "avg_win": 0,
+      "avg_loss": 0,
+      "open_position": null
+    }
+  ],
+  "trades_by_ticker": {
+    "BTCUSDT": [],
+    "ETHUSDT": [],
+    "XRPUSDT": [],
+    "SOLUSDT": [
+      {
+        "entry_time": "2025-09-13T09:45:00+00:00",
+        "exit_time": "2025-09-18T16:45:00+00:00",
+        "avg_entry_price": 241.79744818589998,
+        "exit_price": 249.051371631477,
+        "exit_reason": "익절(평단가 대비 목표 도달)",
+        "qty": 41.35692942595386,
+        "split_count": 20,
+        "pnl": 208.0,
+        "pnl_pct": 2.08,
+        "entries": [
+          {
+            "time": "2025-09-13T09:45:00+00:00",
+            "price": 243.31,
+            "qty": 2.054991574534544,
+            "pnl": 7.0,
+            "pnl_pct": 1.45
+          },
+          {
+            "time": "2025-09-13T10:00:00+00:00",
+            "price": 242.79,
+            "qty": 2.0593928909757406,
+            "pnl": 8.0,
+            "pnl_pct": 1.66
+          },
+          {
+            "time": "2025-09-13T10:15:00+00:00",
+            "price": 242.56,
+            "qty": 2.061345646437995,
+            "pnl": 9.0,
+            "pnl_pct": 1.76
+          },
+          {
+            "time": "2025-09-13T10:30:00+00:00",
+            "price": 242.36,
+            "qty": 2.0630467073774548,
+            "pnl": 9.0,
+            "pnl_pct": 1.85
+          },
+          {
+            "time": "2025-09-13T10:45:00+00:00",
+            "price": 242.49,
+            "qty": 2.0619406985855084,
+            "pnl": 9.0,
+            "pnl_pct": 1.79
+          },
+          {
+            "time": "2025-09-13T11:00:00+00:00",
+            "price": 241.4,
+            "qty": 2.071251035625518,
+            "pnl": 11.0,
+            "pnl_pct": 2.25
+          },
+          {
+            "time": "2025-09-13T11:15:00+00:00",
+            "price": 241.88,
+            "qty": 2.0671407309409626,
+            "pnl": 10.0,
+            "pnl_pct": 2.05
+          },
+          {
+            "time": "2025-09-13T11:30:00+00:00",
+            "price": 242.31,
+            "qty": 2.06347241137386,
+            "pnl": 9.0,
+            "pnl_pct": 1.87
+          },
+          {
+            "time": "2025-09-13T11:45:00+00:00",
+            "price": 241.81,
+            "qty": 2.067739134030851,
+            "pnl": 10.0,
+            "pnl_pct": 2.08
+          },
+          {
+            "time": "2025-09-13T12:00:00+00:00",
+            "price": 241.69,
+            "qty": 2.0687657743390293,
+            "pnl": 11.0,
+            "pnl_pct": 2.13
+          },
+          {
+            "time": "2025-09-13T12:15:00+00:00",
+            "price": 241.94,
+            "qty": 2.066628089608994,
+            "pnl": 10.0,
+            "pnl_pct": 2.02
+          },
+          {
+            "time": "2025-09-13T12:30:00+00:00",
+            "price": 242.17,
+            "qty": 2.0646653177519925,
+            "pnl": 10.0,
+            "pnl_pct": 1.93
+          },
+          {
+            "time": "2025-09-13T12:45:00+00:00",
+            "price": 242.32,
+            "qty": 2.0633872565203037,
+            "pnl": 9.0,
+            "pnl_pct": 1.86
+          },
+          {
+            "time": "2025-09-13T13:00:00+00:00",
+            "price": 242.44,
+            "qty": 2.0623659462134962,
+            "pnl": 9.0,
+            "pnl_pct": 1.81
+          },
+          {
+            "time": "2025-09-13T13:15:00+00:00",
+            "price": 242.71,
+            "qty": 2.060071690494829,
+            "pnl": 8.0,
+            "pnl_pct": 1.7
+          },
+          {
+            "time": "2025-09-13T13:30:00+00:00",
+            "price": 241.52,
+            "qty": 2.070221927790659,
+            "pnl": 11.0,
+            "pnl_pct": 2.2
+          },
+          {
+            "time": "2025-09-13T13:45:00+00:00",
+            "price": 240.01,
+            "qty": 2.083246531394525,
+            "pnl": 14.0,
+            "pnl_pct": 2.85
+          },
+          {
+            "time": "2025-09-13T14:00:00+00:00",
+            "price": 239.52,
+            "qty": 2.0875083500334,
+            "pnl": 15.0,
+            "pnl_pct": 3.06
+          },
+          {
+            "time": "2025-09-13T14:15:00+00:00",
+            "price": 240.84,
+            "qty": 2.076067098488623,
+            "pnl": 12.0,
+            "pnl_pct": 2.49
+          },
+          {
+            "time": "2025-09-13T14:30:00+00:00",
+            "price": 239.96,
+            "qty": 2.0836806134355723,
+            "pnl": 14.0,
+            "pnl_pct": 2.87
+          }
+        ]
+      }
+    ],
+    "APTUSDT": []
+  },
+  "status": "done",
+  "run_id": "custom_flexima-variance-tracker_split_buy_15m_1789295768423_8bcb29"
+}

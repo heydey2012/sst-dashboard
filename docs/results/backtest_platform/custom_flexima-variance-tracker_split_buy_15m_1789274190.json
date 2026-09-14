@@ -1,0 +1,131 @@
+{
+  "summary": {
+    "mode": "independent_capital",
+    "strategy": "FlexiMA Variance Tracker",
+    "money_management": "분할매수 (SplitBuy)",
+    "timeframe": "15m",
+    "generated_at": "2026-09-13T13:36:33",
+    "data_from": "2026-08-13T00:00:00+00:00",
+    "data_to": "2026-09-13T00:00:00+00:00",
+    "tickers_used": 1,
+    "total_initial_capital": 10000.0,
+    "total_final_capital": 10104.0,
+    "total_return_pct": 1.04,
+    "total_trades": 1,
+    "total_wins": 1,
+    "overall_win_rate_pct": 100.0,
+    "open_positions_count": 0,
+    "symbols": [
+      "APTUSDT"
+    ],
+    "elapsed_sec": 1.91,
+    "provider": "bybit"
+  },
+  "tickers": [
+    {
+      "symbol": "APTUSDT",
+      "data_from": "2026-08-13T00:00:00+00:00",
+      "data_to": "2026-09-13T00:00:00+00:00",
+      "bars": 2977,
+      "initial_capital": 10000.0,
+      "final_capital": 10104.0,
+      "return_pct": 1.04,
+      "n_trades": 1,
+      "n_wins": 1,
+      "n_losses": 0,
+      "win_rate_pct": 100.0,
+      "avg_win": 104.0,
+      "avg_loss": 0,
+      "open_position": null
+    }
+  ],
+  "trades_by_ticker": {
+    "APTUSDT": [
+      {
+        "entry_time": "2026-08-13T19:45:00+00:00",
+        "exit_time": "2026-08-20T16:30:00+00:00",
+        "avg_entry_price": 0.55937921861067,
+        "exit_price": 0.5761605951689901,
+        "exit_reason": "익절(평단가 대비 목표 도달)",
+        "qty": 8938.480075142046,
+        "split_count": 10,
+        "pnl": 104.0,
+        "pnl_pct": 2.08,
+        "entries": [
+          {
+            "time": "2026-08-13T19:45:00+00:00",
+            "price": 0.559,
+            "qty": 894.4543828264758,
+            "pnl": 11.0,
+            "pnl_pct": 2.15
+          },
+          {
+            "time": "2026-08-13T20:00:00+00:00",
+            "price": 0.5589,
+            "qty": 894.6144211844696,
+            "pnl": 11.0,
+            "pnl_pct": 2.17
+          },
+          {
+            "time": "2026-08-13T20:15:00+00:00",
+            "price": 0.5591,
+            "qty": 894.2944017170452,
+            "pnl": 11.0,
+            "pnl_pct": 2.13
+          },
+          {
+            "time": "2026-08-13T20:30:00+00:00",
+            "price": 0.5589,
+            "qty": 894.6144211844696,
+            "pnl": 11.0,
+            "pnl_pct": 2.17
+          },
+          {
+            "time": "2026-08-13T20:45:00+00:00",
+            "price": 0.5585,
+            "qty": 895.2551477170994,
+            "pnl": 11.0,
+            "pnl_pct": 2.24
+          },
+          {
+            "time": "2026-08-13T21:00:00+00:00",
+            "price": 0.5592,
+            "qty": 894.134477825465,
+            "pnl": 11.0,
+            "pnl_pct": 2.12
+          },
+          {
+            "time": "2026-08-13T21:15:00+00:00",
+            "price": 0.5609,
+            "qty": 891.4244963451596,
+            "pnl": 9.0,
+            "pnl_pct": 1.81
+          },
+          {
+            "time": "2026-08-13T21:30:00+00:00",
+            "price": 0.56,
+            "qty": 892.8571428571428,
+            "pnl": 10.0,
+            "pnl_pct": 1.97
+          },
+          {
+            "time": "2026-08-13T21:45:00+00:00",
+            "price": 0.5595,
+            "qty": 893.6550491510277,
+            "pnl": 10.0,
+            "pnl_pct": 2.06
+          },
+          {
+            "time": "2026-08-13T22:00:00+00:00",
+            "price": 0.5598,
+            "qty": 893.1761343336907,
+            "pnl": 10.0,
+            "pnl_pct": 2.01
+          }
+        ]
+      }
+    ]
+  },
+  "status": "done",
+  "run_id": "custom_flexima-variance-tracker_split_buy_15m_1789274190"
+}

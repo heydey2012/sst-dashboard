@@ -1,0 +1,3820 @@
+{
+  "summary": {
+    "max_drawdown_pct": -29.39,
+    "tickers_used": 2,
+    "total_candidates": 384,
+    "data_from": "2025-09-01T09:00:00",
+    "data_to": "2026-09-11T14:15:00",
+    "initial_capital": 10000000.0,
+    "final_capital": 10285702.0,
+    "total_return_pct": 2.86,
+    "n_trades": 189,
+    "n_wins": 106,
+    "n_losses": 83,
+    "win_rate_pct": 56.08,
+    "avg_win": 201031.0,
+    "avg_loss": -253296.0,
+    "profit_factor": 1.01,
+    "mode": "pooled_capital",
+    "strategy": "RSI Spread Pro 스캐너 (신호→눌림→반등)",
+    "money_management": "전액매수 1:1 (SingleShot)",
+    "timeframe": "5m",
+    "generated_at": "2026-09-13T13:36:17",
+    "symbols": [
+      "005930(삼성전자)",
+      "000660(SK하이닉스)"
+    ],
+    "elapsed_sec": 0.69,
+    "provider": "cached"
+  },
+  "trades": [
+    {
+      "ticker": "005930",
+      "entry_time": "2025-09-02T14:25:00",
+      "entry_price": 69100.0,
+      "exit_time": "2025-09-02T14:30:00",
+      "exit_price": 69200.0,
+      "exit_reason": "익절(TP)",
+      "qty": 144,
+      "sl": 69000.0,
+      "tp": 69200.0,
+      "capital_before": 10000000.0,
+      "capital_after": 9993476.08,
+      "pnl": -6523.9199999999255,
+      "pnl_pct": -0.06523919999999925,
+      "hold_bars": 1
+    },
+    {
+      "ticker": "000660",
+      "entry_time": "2025-09-03T13:55:00",
+      "entry_price": 263500.0,
+      "exit_time": "2025-09-09T09:00:00",
+      "exit_price": 279310.0,
+      "exit_reason": "익절(TP)",
+      "qty": 37,
+      "sl": 247690.0,
+      "tp": 279310.0,
+      "capital_before": 9993476.08,
+      "capital_after": 10556831.4385,
+      "pnl": 563355.3585000001,
+      "pnl_pct": 5.637231269582426,
+      "hold_bars": 253
+    },
+    {
+      "ticker": "005930",
+      "entry_time": "2025-09-11T09:50:00",
+      "entry_price": 72500.0,
+      "exit_time": "2025-09-11T09:55:00",
+      "exit_price": 72400.0,
+      "exit_reason": "손절(SL)",
+      "qty": 145,
+      "sl": 72400.0,
+      "tp": 72600.0,
+      "capital_before": 10556831.4385,
+      "capital_after": 10520283.4635,
+      "pnl": -36547.97499999963,
+      "pnl_pct": -0.34620212715258303,
+      "hold_bars": 1
+    },
+    {
+      "ticker": "000660",
+      "entry_time": "2025-09-11T09:55:00",
+      "entry_price": 309250.0,
+      "exit_time": "2025-09-12T09:00:00",
+      "exit_price": 315500.0,
+      "exit_reason": "익절(TP)",
+      "qty": 34,
+      "sl": 303000.0,
+      "tp": 315500.0,
+      "capital_before": 10520283.4635,
+      "capital_after": 10710288.6385,
+      "pnl": 190005.17499999888,
+      "pnl_pct": 1.8060841769066356,
+      "hold_bars": 67
+    },
+    {
+      "ticker": "000660",
+      "entry_time": "2025-09-12T09:00:00",
+      "entry_price": 321500.0,
+      "exit_time": "2025-09-15T09:00:00",
+      "exit_price": 336000.0,
+      "exit_reason": "익절(TP)",
+      "qty": 33,
+      "sl": 307000.0,
+      "tp": 336000.0,
+      "capital_before": 10710288.6385,
+      "capital_after": 11165575.613499999,
+      "pnl": 455286.9749999996,
+      "pnl_pct": 4.250930954030419,
+      "hold_bars": 78
+    },
+    {
+      "ticker": "000660",
+      "entry_time": "2025-09-15T09:55:00",
+      "entry_price": 329000.0,
+      "exit_time": "2025-09-15T10:15:00",
+      "exit_price": 326500.0,
+      "exit_reason": "손절(SL)",
+      "qty": 33,
+      "sl": 326500.0,
+      "tp": 331500.0,
+      "capital_before": 11165575.613499999,
+      "capital_after": 11060436.788499998,
+      "pnl": -105138.82500000112,
+      "pnl_pct": -0.9416337199210811,
+      "hold_bars": 4
+    },
+    {
+      "ticker": "000660",
+      "entry_time": "2025-09-16T12:10:00",
+      "entry_price": 347500.0,
+      "exit_time": "2025-09-16T12:15:00",
+      "exit_price": 347000.0,
+      "exit_reason": "손절(SL)",
+      "qty": 31,
+      "sl": 347000.0,
+      "tp": 348000.0,
+      "capital_before": 11060436.788499998,
+      "capital_after": 11022344.763499998,
+      "pnl": -38092.02500000037,
+      "pnl_pct": -0.3443989213844272,
+      "hold_bars": 1
+    },
+    {
+      "ticker": "000660",
+      "entry_time": "2025-09-17T09:25:00",
+      "entry_price": 338500.0,
+      "exit_time": "2025-09-19T09:00:00",
+      "exit_price": 358810.0,
+      "exit_reason": "익절(TP)",
+      "qty": 32,
+      "sl": 318190.0,
+      "tp": 358810.0,
+      "capital_before": 11022344.763499998,
+      "capital_after": 11648250.219499996,
+      "pnl": 625905.4559999984,
+      "pnl_pct": 5.678514594033171,
+      "hold_bars": 151
+    },
+    {
+      "ticker": "000660",
+      "entry_time": "2025-09-22T09:55:00",
+      "entry_price": 350000.0,
+      "exit_time": "2025-09-22T10:10:00",
+      "exit_price": 353250.0,
+      "exit_reason": "익절(TP)",
+      "qty": 33,
+      "sl": 346750.0,
+      "tp": 353250.0,
+      "capital_before": 11648250.219499996,
+      "capital_after": 11731036.081999997,
+      "pnl": 82785.86250000075,
+      "pnl_pct": 0.7107150081770337,
+      "hold_bars": 3
+    },
+    {
+      "ticker": "005930",
+      "entry_time": "2025-09-22T13:30:00",
+      "entry_price": 83000.0,
+      "exit_time": "2025-09-22T13:35:00",
+      "exit_price": 82800.0,
+      "exit_reason": "손절(SL)",
+      "qty": 141,
+      "sl": 82800.0,
+      "tp": 83200.0,
+      "capital_before": 11731036.081999997,
+      "capital_after": 11678314.771999998,
+      "pnl": -52721.30999999866,
+      "pnl_pct": -0.449417337321925,
+      "hold_bars": 1
+    },
+    {
+      "ticker": "000660",
+      "entry_time": "2025-09-24T09:20:00",
+      "entry_price": 359500.0,
+      "exit_time": "2025-09-24T09:25:00",
+      "exit_price": 359000.0,
+      "exit_reason": "손절(SL)",
+      "qty": 32,
+      "sl": 359000.0,
+      "tp": 360000.0,
+      "capital_before": 11678314.771999998,
+      "capital_after": 11638187.571999999,
+      "pnl": -40127.199999999255,
+      "pnl_pct": -0.3436043708652937,
+      "hold_bars": 1
+    },
+    {
+      "ticker": "005930",
+      "entry_time": "2025-09-25T09:20:00",
+      "entry_price": 85000.0,
+      "exit_time": "2025-09-25T09:35:00",
+      "exit_price": 85600.0,
+      "exit_reason": "익절(TP)",
+      "qty": 136,
+      "sl": 84400.0,
+      "tp": 85600.0,
+      "capital_before": 11638187.571999999,
+      "capital_after": 11695352.452,
+      "pnl": 57164.88000000082,
+      "pnl_pct": 0.4911836971723351,
+      "hold_bars": 3
+    },
+    {
+      "ticker": "000660",
+      "entry_time": "2025-09-25T09:35:00",
+      "entry_price": 355500.0,
+      "exit_time": "2025-09-26T09:00:00",
+      "exit_price": 351000.0,
+      "exit_reason": "손절(SL)",
+      "qty": 32,
+      "sl": 351000.0,
+      "tp": 360000.0,
+      "capital_before": 11695352.452,
+      "capital_after": 11527743.651999999,
+      "pnl": -167608.80000000075,
+      "pnl_pct": -1.433123120383929,
+      "hold_bars": 71
+    },
+    {
+      "ticker": "000660",
+      "entry_time": "2025-09-26T09:40:00",
+      "entry_price": 342500.0,
+      "exit_time": "2025-09-26T09:55:00",
+      "exit_price": 340500.0,
+      "exit_reason": "손절(SL)",
+      "qty": 33,
+      "sl": 340500.0,
+      "tp": 344500.0,
+      "capital_before": 11527743.651999999,
+      "capital_after": 11438137.101999998,
+      "pnl": -89606.55000000075,
+      "pnl_pct": -0.777312132408969,
+      "hold_bars": 3
+    },
+    {
+      "ticker": "000660",
+      "entry_time": "2025-09-30T09:30:00",
+      "entry_price": 350000.0,
+      "exit_time": "2025-09-30T09:35:00",
+      "exit_price": 351000.0,
+      "exit_reason": "익절(TP)",
+      "qty": 32,
+      "sl": 349000.0,
+      "tp": 351000.0,
+      "capital_before": 11438137.101999998,
+      "capital_after": 11446554.701999998,
+      "pnl": 8417.599999999627,
+      "pnl_pct": 0.07359240342142585,
+      "hold_bars": 1
+    },
+    {
+      "ticker": "000660",
+      "entry_time": "2025-10-01T09:05:00",
+      "entry_price": 356000.0,
+      "exit_time": "2025-10-02T09:00:00",
+      "exit_price": 364500.0,
+      "exit_reason": "익절(TP)",
+      "qty": 32,
+      "sl": 347500.0,
+      "tp": 364500.0,
+      "capital_before": 11446554.701999998,
+      "capital_after": 11694101.101999996,
+      "pnl": 247546.3999999985,
+      "pnl_pct": 2.1626280260273076,
+      "hold_bars": 77
+    },
+    {
+      "ticker": "005930",
+      "entry_time": "2025-10-02T14:05:00",
+      "entry_price": 89500.0,
+      "exit_time": "2025-10-02T14:15:00",
+      "exit_price": 89300.0,
+      "exit_reason": "손절(SL)",
+      "qty": 130,
+      "sl": 89300.0,
+      "tp": 89700.0,
+      "capital_before": 11694101.101999996,
+      "capital_after": 11643718.301999995,
+      "pnl": -50382.800000000745,
+      "pnl_pct": -0.4308394425577865,
+      "hold_bars": 2
+    },
+    {
+      "ticker": "005930",
+      "entry_time": "2025-10-10T11:15:00",
+      "entry_price": 93500.0,
+      "exit_time": "2025-10-10T11:30:00",
+      "exit_price": 93800.0,
+      "exit_reason": "익절(TP)",
+      "qty": 124,
+      "sl": 93200.0,
+      "tp": 93800.0,
+      "capital_before": 11643718.301999995,
+      "capital_after": 11656498.361999996,
+      "pnl": 12780.060000000522,
+      "pnl_pct": 0.10975926820391507,
+      "hold_bars": 3
+    },
+    {
+      "ticker": "005930",
+      "entry_time": "2025-10-13T09:35:00",
+      "entry_price": 91800.0,
+      "exit_time": "2025-10-13T10:00:00",
+      "exit_price": 92700.0,
+      "exit_reason": "익절(TP)",
+      "qty": 126,
+      "sl": 90900.0,
+      "tp": 92700.0,
+      "capital_before": 11656498.361999996,
+      "capital_after": 11745386.951999996,
+      "pnl": 88888.58999999985,
+      "pnl_pct": 0.7625668295873079,
+      "hold_bars": 5
+    },
+    {
+      "ticker": "005930",
+      "entry_time": "2025-10-14T10:35:00",
+      "entry_price": 93800.0,
+      "exit_time": "2025-10-14T10:45:00",
+      "exit_price": 93100.0,
+      "exit_reason": "손절(SL)",
+      "qty": 125,
+      "sl": 93100.0,
+      "tp": 94500.0,
+      "capital_before": 11745386.951999996,
+      "capital_after": 11633435.076999996,
+      "pnl": -111951.875,
+      "pnl_pct": -0.9531561238255919,
+      "hold_bars": 2
+    },
+    {
+      "ticker": "000660",
+      "entry_time": "2025-10-14T13:40:00",
+      "entry_price": 407500.0,
+      "exit_time": "2025-10-16T09:05:00",
+      "exit_price": 431950.0,
+      "exit_reason": "익절(TP)",
+      "qty": 28,
+      "sl": 383050.0,
+      "tp": 431950.0,
+      "capital_before": 11633435.076999996,
+      "capital_after": 12292739.106999995,
+      "pnl": 659304.0299999993,
+      "pnl_pct": 5.667320319717804,
+      "hold_bars": 101
+    },
+    {
+      "ticker": "005930",
+      "entry_time": "2025-10-16T14:05:00",
+      "entry_price": 97300.0,
+      "exit_time": "2025-10-16T14:50:00",
+      "exit_price": 97000.0,
+      "exit_reason": "손절(SL)",
+      "qty": 126,
+      "sl": 97000.0,
+      "tp": 97600.0,
+      "capital_before": 12292739.106999995,
+      "capital_after": 12229267.236999994,
+      "pnl": -63471.87000000104,
+      "pnl_pct": -0.5163362652336576,
+      "hold_bars": 9
+    },
+    {
+      "ticker": "005930",
+      "entry_time": "2025-10-17T11:40:00",
+      "entry_price": 97900.0,
+      "exit_time": "2025-10-17T11:55:00",
+      "exit_price": 97500.0,
+      "exit_reason": "손절(SL)",
+      "qty": 124,
+      "sl": 97500.0,
+      "tp": 98300.0,
+      "capital_before": 12229267.236999994,
+      "capital_after": 12154270.796999995,
+      "pnl": -74996.43999999948,
+      "pnl_pct": -0.6132537505852814,
+      "hold_bars": 3
+    },
+    {
+      "ticker": "005930",
+      "entry_time": "2025-10-20T09:30:00",
+      "entry_price": 96500.0,
+      "exit_time": "2025-10-20T09:35:00",
+      "exit_price": 96800.0,
+      "exit_reason": "익절(TP)",
+      "qty": 125,
+      "sl": 96200.0,
+      "tp": 96800.0,
+      "capital_before": 12154270.796999995,
+      "capital_after": 12166366.421999995,
+      "pnl": 12095.625,
+      "pnl_pct": 0.09951748814898487,
+      "hold_bars": 1
+    },
+    {
+      "ticker": "005930",
+      "entry_time": "2025-10-20T13:35:00",
+      "entry_price": 97500.0,
+      "exit_time": "2025-10-20T13:40:00",
+      "exit_price": 97600.0,
+      "exit_reason": "익절(TP)",
+      "qty": 124,
+      "sl": 97400.0,
+      "tp": 97600.0,
+      "capital_before": 12166366.421999995,
+      "capital_after": 12153353.241999995,
+      "pnl": -13013.179999999702,
+      "pnl_pct": -0.10696028336339143,
+      "hold_bars": 1
+    },
+    {
+      "ticker": "005930",
+      "entry_time": "2025-10-21T12:00:00",
+      "entry_price": 98800.0,
+      "exit_time": "2025-10-21T14:50:00",
+      "exit_price": 97400.0,
+      "exit_reason": "손절(SL)",
+      "qty": 122,
+      "sl": 97400.0,
+      "tp": 100200.0,
+      "capital_before": 12153353.241999995,
+      "capital_after": 11957573.741999995,
+      "pnl": -195779.5,
+      "pnl_pct": -1.610909319441306,
+      "hold_bars": 34
+    },
+    {
+      "ticker": "000660",
+      "entry_time": "2025-10-23T09:20:00",
+      "entry_price": 475000.0,
+      "exit_time": "2025-10-23T09:50:00",
+      "exit_price": 479000.0,
+      "exit_reason": "익절(TP)",
+      "qty": 25,
+      "sl": 471000.0,
+      "tp": 479000.0,
+      "capital_before": 11957573.741999995,
+      "capital_after": 12032441.241999995,
+      "pnl": 74867.5,
+      "pnl_pct": 0.6261094567791294,
+      "hold_bars": 6
+    },
+    {
+      "ticker": "000660",
+      "entry_time": "2025-10-23T13:05:00",
+      "entry_price": 479000.0,
+      "exit_time": "2025-10-24T09:00:00",
+      "exit_price": 487000.0,
+      "exit_reason": "익절(TP)",
+      "qty": 25,
+      "sl": 471000.0,
+      "tp": 487000.0,
+      "capital_before": 12032441.241999995,
+      "capital_after": 12206903.741999995,
+      "pnl": 174462.5,
+      "pnl_pct": 1.4499343607100081,
+      "hold_bars": 29
+    },
+    {
+      "ticker": "005930",
+      "entry_time": "2025-10-27T10:20:00",
+      "entry_price": 101200.0,
+      "exit_time": "2025-10-27T10:35:00",
+      "exit_price": 101500.0,
+      "exit_reason": "익절(TP)",
+      "qty": 120,
+      "sl": 100900.0,
+      "tp": 101500.0,
+      "capital_before": 12206903.741999995,
+      "capital_after": 12217331.141999995,
+      "pnl": 10427.400000000373,
+      "pnl_pct": 0.08542215307328976,
+      "hold_bars": 3
+    },
+    {
+      "ticker": "005930",
+      "entry_time": "2025-10-28T09:35:00",
+      "entry_price": 99800.0,
+      "exit_time": "2025-10-28T09:40:00",
+      "exit_price": 99700.0,
+      "exit_reason": "손절(SL)",
+      "qty": 122,
+      "sl": 99700.0,
+      "tp": 99900.0,
+      "capital_before": 12217331.141999995,
+      "capital_after": 12179586.171999995,
+      "pnl": -37744.97000000067,
+      "pnl_pct": -0.3089461156556796,
+      "hold_bars": 1
+    },
+    {
+      "ticker": "005930",
+      "entry_time": "2025-10-30T10:30:00",
+      "entry_price": 103500.0,
+      "exit_time": "2025-10-30T10:45:00",
+      "exit_price": 104100.0,
+      "exit_reason": "익절(TP)",
+      "qty": 117,
+      "sl": 102900.0,
+      "tp": 104100.0,
+      "capital_before": 12179586.171999995,
+      "capital_after": 12224219.331999995,
+      "pnl": 44633.16000000015,
+      "pnl_pct": 0.3664587562310501,
+      "hold_bars": 3
+    },
+    {
+      "ticker": "000660",
+      "entry_time": "2025-10-30T13:20:00",
+      "entry_price": 565000.0,
+      "exit_time": "2025-10-30T13:25:00",
+      "exit_price": 563000.0,
+      "exit_reason": "손절(SL)",
+      "qty": 21,
+      "sl": 563000.0,
+      "tp": 567000.0,
+      "capital_before": 12224219.331999995,
+      "capital_after": 12157384.731999995,
+      "pnl": -66834.59999999963,
+      "pnl_pct": -0.5467392083275462,
+      "hold_bars": 1
+    },
+    {
+      "ticker": "005930",
+      "entry_time": "2025-10-30T13:30:00",
+      "entry_price": 103400.0,
+      "exit_time": "2025-10-30T13:35:00",
+      "exit_price": 103700.0,
+      "exit_reason": "익절(TP)",
+      "qty": 117,
+      "sl": 103100.0,
+      "tp": 103700.0,
+      "capital_before": 12157384.731999995,
+      "capital_after": 12167010.906999996,
+      "pnl": 9626.175000000745,
+      "pnl_pct": 0.07917965263255394,
+      "hold_bars": 1
+    },
+    {
+      "ticker": "000660",
+      "entry_time": "2025-10-31T09:15:00",
+      "entry_price": 557000.0,
+      "exit_time": "2025-10-31T09:20:00",
+      "exit_price": 560000.0,
+      "exit_reason": "익절(TP)",
+      "qty": 21,
+      "sl": 554000.0,
+      "tp": 560000.0,
+      "capital_before": 12167010.906999996,
+      "capital_after": 12205324.356999995,
+      "pnl": 38313.449999999255,
+      "pnl_pct": 0.31489615890749745,
+      "hold_bars": 1
+    },
+    {
+      "ticker": "000660",
+      "entry_time": "2025-10-31T14:50:00",
+      "entry_price": 558500.0,
+      "exit_time": "2025-10-31T14:55:00",
+      "exit_price": 558000.0,
+      "exit_reason": "손절(SL)",
+      "qty": 21,
+      "sl": 558000.0,
+      "tp": 559000.0,
+      "capital_before": 12205324.356999995,
+      "capital_after": 12170214.981999995,
+      "pnl": -35109.375,
+      "pnl_pct": -0.2876562225883336,
+      "hold_bars": 1
+    },
+    {
+      "ticker": "005930",
+      "entry_time": "2025-11-03T13:15:00",
+      "entry_price": 110200.0,
+      "exit_time": "2025-11-03T13:20:00",
+      "exit_price": 110100.0,
+      "exit_reason": "손절(SL)",
+      "qty": 110,
+      "sl": 110100.0,
+      "tp": 110300.0,
+      "capital_before": 12170214.981999995,
+      "capital_after": 12133780.231999995,
+      "pnl": -36434.75,
+      "pnl_pct": -0.2993763877950206,
+      "hold_bars": 1
+    },
+    {
+      "ticker": "005930",
+      "entry_time": "2025-11-04T09:35:00",
+      "entry_price": 109900.0,
+      "exit_time": "2025-11-05T09:00:00",
+      "exit_price": 103306.0,
+      "exit_reason": "손절(SL)",
+      "qty": 110,
+      "sl": 103306.0,
+      "tp": 116494.0,
+      "capital_before": 12133780.231999995,
+      "capital_after": 11384467.744999995,
+      "pnl": -749312.4869999997,
+      "pnl_pct": -6.175424910234191,
+      "hold_bars": 71
+    },
+    {
+      "ticker": "000660",
+      "entry_time": "2025-11-05T09:05:00",
+      "entry_price": 564000.0,
+      "exit_time": "2025-11-06T09:00:00",
+      "exit_price": 597840.0,
+      "exit_reason": "익절(TP)",
+      "qty": 20,
+      "sl": 530160.0,
+      "tp": 597840.0,
+      "capital_before": 11384467.744999995,
+      "capital_after": 12036259.984999996,
+      "pnl": 651792.2400000002,
+      "pnl_pct": 5.725276355464789,
+      "hold_bars": 77
+    },
+    {
+      "ticker": "005930",
+      "entry_time": "2025-11-11T11:30:00",
+      "entry_price": 104600.0,
+      "exit_time": "2025-11-11T11:55:00",
+      "exit_price": 104000.0,
+      "exit_reason": "손절(SL)",
+      "qty": 115,
+      "sl": 104000.0,
+      "tp": 105200.0,
+      "capital_before": 12036259.984999996,
+      "capital_after": 11942133.634999996,
+      "pnl": -94126.34999999963,
+      "pnl_pct": -0.7820232374284299,
+      "hold_bars": 5
+    },
+    {
+      "ticker": "000660",
+      "entry_time": "2025-11-13T16:05:00",
+      "entry_price": 613000.0,
+      "exit_time": "2025-11-13T16:15:00",
+      "exit_price": 611000.0,
+      "exit_reason": "손절(SL)",
+      "qty": 19,
+      "sl": 611000.0,
+      "tp": 615000.0,
+      "capital_before": 11942133.634999996,
+      "capital_after": 11879749.034999995,
+      "pnl": -62384.60000000149,
+      "pnl_pct": -0.5223907377586594,
+      "hold_bars": 2
+    },
+    {
+      "ticker": "000660",
+      "entry_time": "2025-11-14T09:10:00",
+      "entry_price": 582000.0,
+      "exit_time": "2025-11-19T09:30:00",
+      "exit_price": 547080.0,
+      "exit_reason": "손절(SL)",
+      "qty": 20,
+      "sl": 547080.0,
+      "tp": 616920.0,
+      "capital_before": 11879749.034999995,
+      "capital_after": 11158266.914999995,
+      "pnl": -721482.1199999992,
+      "pnl_pct": -6.073210114745488,
+      "hold_bars": 238
+    },
+    {
+      "ticker": "000660",
+      "entry_time": "2025-11-19T09:35:00",
+      "entry_price": 553000.0,
+      "exit_time": "2025-11-19T09:45:00",
+      "exit_price": 559000.0,
+      "exit_reason": "익절(TP)",
+      "qty": 20,
+      "sl": 547000.0,
+      "tp": 559000.0,
+      "capital_before": 11158266.914999995,
+      "capital_after": 11254806.914999995,
+      "pnl": 96540.0,
+      "pnl_pct": 0.8651881222721228,
+      "hold_bars": 2
+    },
+    {
+      "ticker": "000660",
+      "entry_time": "2025-11-20T10:05:00",
+      "entry_price": 580000.0,
+      "exit_time": "2025-11-20T10:25:00",
+      "exit_price": 584000.0,
+      "exit_reason": "익절(TP)",
+      "qty": 19,
+      "sl": 576000.0,
+      "tp": 584000.0,
+      "capital_before": 11254806.914999995,
+      "capital_after": 11307516.714999996,
+      "pnl": 52709.800000000745,
+      "pnl_pct": 0.4683314462707579,
+      "hold_bars": 4
+    },
+    {
+      "ticker": "005930",
+      "entry_time": "2025-11-21T09:10:00",
+      "entry_price": 96800.0,
+      "exit_time": "2025-11-21T10:25:00",
+      "exit_price": 95600.0,
+      "exit_reason": "손절(SL)",
+      "qty": 116,
+      "sl": 95600.0,
+      "tp": 98000.0,
+      "capital_before": 11307516.714999996,
+      "capital_after": 11145007.674999995,
+      "pnl": -162509.04000000097,
+      "pnl_pct": -1.4371770928662386,
+      "hold_bars": 15
+    },
+    {
+      "ticker": "005930",
+      "entry_time": "2025-11-21T15:35:00",
+      "entry_price": 94800.0,
+      "exit_time": "2025-11-25T09:00:00",
+      "exit_price": 100488.0,
+      "exit_reason": "익절(TP)",
+      "qty": 117,
+      "sl": 89112.0,
+      "tp": 100488.0,
+      "capital_before": 11145007.674999995,
+      "capital_after": 11785913.597799994,
+      "pnl": 640905.9227999989,
+      "pnl_pct": 5.750609972549877,
+      "hold_bars": 79
+    },
+    {
+      "ticker": "005930",
+      "entry_time": "2025-11-25T13:05:00",
+      "entry_price": 98300.0,
+      "exit_time": "2025-11-25T13:35:00",
+      "exit_price": 98700.0,
+      "exit_reason": "익절(TP)",
+      "qty": 119,
+      "sl": 97900.0,
+      "tp": 98700.0,
+      "capital_before": 11785913.597799994,
+      "capital_after": 11808855.607799994,
+      "pnl": 22942.009999999776,
+      "pnl_pct": 0.19465618689315883,
+      "hold_bars": 6
+    },
+    {
+      "ticker": "000660",
+      "entry_time": "2025-11-26T09:15:00",
+      "entry_price": 508000.0,
+      "exit_time": "2025-11-26T10:25:00",
+      "exit_price": 513500.0,
+      "exit_reason": "익절(TP)",
+      "qty": 23,
+      "sl": 502500.0,
+      "tp": 513500.0,
+      "capital_before": 11808855.607799994,
+      "capital_after": 11910572.532799995,
+      "pnl": 101716.92500000075,
+      "pnl_pct": 0.861361408575566,
+      "hold_bars": 14
+    },
+    {
+      "ticker": "000660",
+      "entry_time": "2025-11-28T09:10:00",
+      "entry_price": 539000.0,
+      "exit_time": "2025-11-28T09:25:00",
+      "exit_price": 536000.0,
+      "exit_reason": "손절(SL)",
+      "qty": 22,
+      "sl": 536000.0,
+      "tp": 542000.0,
+      "capital_before": 11910572.532799995,
+      "capital_after": 11819799.432799995,
+      "pnl": -90773.09999999963,
+      "pnl_pct": -0.7621220537469852,
+      "hold_bars": 3
+    },
+    {
+      "ticker": "005930",
+      "entry_time": "2025-11-28T09:25:00",
+      "entry_price": 101700.0,
+      "exit_time": "2025-12-05T10:15:00",
+      "exit_price": 107802.0,
+      "exit_reason": "익절(TP)",
+      "qty": 116,
+      "sl": 95598.0,
+      "tp": 107802.0,
+      "capital_before": 11819799.432799995,
+      "capital_after": 12501477.040399995,
+      "pnl": 681677.6075999998,
+      "pnl_pct": 5.7672519019937125,
+      "hold_bars": 400
+    },
+    {
+      "ticker": "000660",
+      "entry_time": "2025-12-08T09:45:00",
+      "entry_price": 538000.0,
+      "exit_time": "2025-12-08T10:15:00",
+      "exit_price": 542000.0,
+      "exit_reason": "익절(TP)",
+      "qty": 23,
+      "sl": 534000.0,
+      "tp": 542000.0,
+      "capital_before": 12501477.040399995,
+      "capital_after": 12567312.240399996,
+      "pnl": 65835.20000000112,
+      "pnl_pct": 0.5266193729528672,
+      "hold_bars": 6
+    },
+    {
+      "ticker": "005930",
+      "entry_time": "2025-12-08T14:40:00",
+      "entry_price": 109300.0,
+      "exit_time": "2025-12-16T15:05:00",
+      "exit_price": 102742.0,
+      "exit_reason": "손절(SL)",
+      "qty": 114,
+      "sl": 102742.0,
+      "tp": 115858.0,
+      "capital_before": 12567312.240399996,
+      "capital_after": 11794991.663799997,
+      "pnl": -772320.5765999984,
+      "pnl_pct": -6.145471377063651,
+      "hold_bars": 473
+    },
+    {
+      "ticker": "005930",
+      "entry_time": "2025-12-17T13:50:00",
+      "entry_price": 105600.0,
+      "exit_time": "2025-12-17T13:55:00",
+      "exit_price": 105400.0,
+      "exit_reason": "손절(SL)",
+      "qty": 111,
+      "sl": 105400.0,
+      "tp": 105800.0,
+      "capital_before": 11794991.663799997,
+      "capital_after": 11748219.593799997,
+      "pnl": -46772.0700000003,
+      "pnl_pct": -0.3965417808945846,
+      "hold_bars": 1
+    },
+    {
+      "ticker": "000660",
+      "entry_time": "2025-12-17T14:00:00",
+      "entry_price": 541000.0,
+      "exit_time": "2025-12-17T14:45:00",
+      "exit_price": 549000.0,
+      "exit_reason": "익절(TP)",
+      "qty": 21,
+      "sl": 533000.0,
+      "tp": 549000.0,
+      "capital_before": 11748219.593799997,
+      "capital_after": 11892033.893799996,
+      "pnl": 143814.29999999888,
+      "pnl_pct": 1.2241369754094094,
+      "hold_bars": 9
+    },
+    {
+      "ticker": "005930",
+      "entry_time": "2025-12-18T09:30:00",
+      "entry_price": 107100.0,
+      "exit_time": "2025-12-18T09:55:00",
+      "exit_price": 107500.0,
+      "exit_reason": "익절(TP)",
+      "qty": 111,
+      "sl": 106700.0,
+      "tp": 107500.0,
+      "capital_before": 11892033.893799996,
+      "capital_after": 11911382.303799996,
+      "pnl": 19348.41000000015,
+      "pnl_pct": 0.1627005958172352,
+      "hold_bars": 5
+    },
+    {
+      "ticker": "000660",
+      "entry_time": "2025-12-23T10:05:00",
+      "entry_price": 588500.0,
+      "exit_time": "2025-12-23T10:20:00",
+      "exit_price": 586000.0,
+      "exit_reason": "손절(SL)",
+      "qty": 20,
+      "sl": 586000.0,
+      "tp": 591000.0,
+      "capital_before": 11911382.303799996,
+      "capital_after": 11836762.803799996,
+      "pnl": -74619.5,
+      "pnl_pct": -0.6264554196719445,
+      "hold_bars": 3
+    },
+    {
+      "ticker": "005930",
+      "entry_time": "2025-12-23T12:50:00",
+      "entry_price": 111400.0,
+      "exit_time": "2025-12-23T13:10:00",
+      "exit_price": 111600.0,
+      "exit_reason": "익절(TP)",
+      "qty": 106,
+      "sl": 111200.0,
+      "tp": 111600.0,
+      "capital_before": 11836762.803799996,
+      "capital_after": 11833123.823799996,
+      "pnl": -3638.980000000447,
+      "pnl_pct": -0.03074303388788202,
+      "hold_bars": 4
+    },
+    {
+      "ticker": "000660",
+      "entry_time": "2025-12-26T15:10:00",
+      "entry_price": 598000.0,
+      "exit_time": "2025-12-29T09:00:00",
+      "exit_price": 604000.0,
+      "exit_reason": "익절(TP)",
+      "qty": 19,
+      "sl": 592000.0,
+      "tp": 604000.0,
+      "capital_before": 11833123.823799996,
+      "capital_after": 11923041.323799996,
+      "pnl": 89917.5,
+      "pnl_pct": 0.7598796508758632,
+      "hold_bars": 4
+    },
+    {
+      "ticker": "000660",
+      "entry_time": "2025-12-29T11:25:00",
+      "entry_price": 626000.0,
+      "exit_time": "2025-12-29T11:30:00",
+      "exit_price": 625000.0,
+      "exit_reason": "손절(SL)",
+      "qty": 19,
+      "sl": 625000.0,
+      "tp": 627000.0,
+      "capital_before": 11923041.323799996,
+      "capital_after": 11879100.973799996,
+      "pnl": -43940.34999999963,
+      "pnl_pct": -0.3685330680879951,
+      "hold_bars": 1
+    },
+    {
+      "ticker": "005930",
+      "entry_time": "2025-12-30T15:15:00",
+      "entry_price": 120300.0,
+      "exit_time": "2026-01-02T10:00:00",
+      "exit_price": 120900.0,
+      "exit_reason": "익절(TP)",
+      "qty": 98,
+      "sl": 119700.0,
+      "tp": 120900.0,
+      "capital_before": 11879100.973799996,
+      "capital_after": 11913028.573799996,
+      "pnl": 33927.59999999963,
+      "pnl_pct": 0.2856074721044025,
+      "hold_bars": 3
+    },
+    {
+      "ticker": "000660",
+      "entry_time": "2026-01-05T13:10:00",
+      "entry_price": 692500.0,
+      "exit_time": "2026-01-05T13:25:00",
+      "exit_price": 690000.0,
+      "exit_reason": "손절(SL)",
+      "qty": 17,
+      "sl": 690000.0,
+      "tp": 695000.0,
+      "capital_before": 11913028.573799996,
+      "capital_after": 11845889.198799996,
+      "pnl": -67139.375,
+      "pnl_pct": -0.5635794003521307,
+      "hold_bars": 3
+    },
+    {
+      "ticker": "000660",
+      "entry_time": "2026-01-06T09:30:00",
+      "entry_price": 680000.0,
+      "exit_time": "2026-01-06T10:00:00",
+      "exit_price": 673000.0,
+      "exit_reason": "손절(SL)",
+      "qty": 17,
+      "sl": 673000.0,
+      "tp": 687000.0,
+      "capital_before": 11845889.198799996,
+      "capital_after": 11702845.248799996,
+      "pnl": -143043.94999999925,
+      "pnl_pct": -1.2075408405347048,
+      "hold_bars": 6
+    },
+    {
+      "ticker": "005930",
+      "entry_time": "2026-01-07T13:30:00",
+      "entry_price": 138900.0,
+      "exit_time": "2026-01-07T14:15:00",
+      "exit_price": 139800.0,
+      "exit_reason": "익절(TP)",
+      "qty": 84,
+      "sl": 138000.0,
+      "tp": 139800.0,
+      "capital_before": 11702845.248799996,
+      "capital_after": 11753795.868799996,
+      "pnl": 50950.61999999918,
+      "pnl_pct": 0.43536950986533496,
+      "hold_bars": 9
+    },
+    {
+      "ticker": "005930",
+      "entry_time": "2026-01-08T11:20:00",
+      "entry_price": 141900.0,
+      "exit_time": "2026-01-08T15:05:00",
+      "exit_price": 139200.0,
+      "exit_reason": "손절(SL)",
+      "qty": 82,
+      "sl": 139200.0,
+      "tp": 144600.0,
+      "capital_before": 11753795.868799996,
+      "capital_after": 11508392.418799996,
+      "pnl": -245403.44999999925,
+      "pnl_pct": -2.087865509485437,
+      "hold_bars": 45
+    },
+    {
+      "ticker": "000660",
+      "entry_time": "2026-01-08T15:05:00",
+      "entry_price": 761000.0,
+      "exit_time": "2026-01-28T09:00:00",
+      "exit_price": 806660.0,
+      "exit_reason": "익절(TP)",
+      "qty": 15,
+      "sl": 715340.0,
+      "tp": 806660.0,
+      "capital_before": 11508392.418799996,
+      "capital_after": 12167985.363799997,
+      "pnl": 659592.9450000003,
+      "pnl_pct": 5.731408184539274,
+      "hold_bars": 1019
+    },
+    {
+      "ticker": "000660",
+      "entry_time": "2026-01-28T11:50:00",
+      "entry_price": 836000.0,
+      "exit_time": "2026-01-28T12:30:00",
+      "exit_price": 827000.0,
+      "exit_reason": "손절(SL)",
+      "qty": 14,
+      "sl": 827000.0,
+      "tp": 845000.0,
+      "capital_before": 12167985.363799997,
+      "capital_after": 12017652.663799997,
+      "pnl": -150332.69999999925,
+      "pnl_pct": -1.2354773243501926,
+      "hold_bars": 8
+    },
+    {
+      "ticker": "005930",
+      "entry_time": "2026-01-29T09:55:00",
+      "entry_price": 162100.0,
+      "exit_time": "2026-01-29T10:05:00",
+      "exit_price": 160450.0,
+      "exit_reason": "손절(SL)",
+      "qty": 74,
+      "sl": 160450.0,
+      "tp": 163750.0,
+      "capital_before": 12017652.663799997,
+      "capital_after": 11870600.418799996,
+      "pnl": -147052.24500000104,
+      "pnl_pct": -1.2236353397278412,
+      "hold_bars": 2
+    },
+    {
+      "ticker": "005930",
+      "entry_time": "2026-01-29T10:25:00",
+      "entry_price": 158900.0,
+      "exit_time": "2026-01-29T10:30:00",
+      "exit_price": 160100.0,
+      "exit_reason": "익절(TP)",
+      "qty": 74,
+      "sl": 157700.0,
+      "tp": 160100.0,
+      "capital_before": 11870600.418799996,
+      "capital_after": 11934534.198799998,
+      "pnl": 63933.78000000119,
+      "pnl_pct": 0.5385892688186726,
+      "hold_bars": 1
+    },
+    {
+      "ticker": "005930",
+      "entry_time": "2026-01-30T10:55:00",
+      "entry_price": 163600.0,
+      "exit_time": "2026-01-30T15:30:00",
+      "exit_price": 160700.0,
+      "exit_reason": "손절(SL)",
+      "qty": 72,
+      "sl": 160700.0,
+      "tp": 166500.0,
+      "capital_before": 11934534.198799998,
+      "capital_after": 11701405.038799997,
+      "pnl": -233129.16000000015,
+      "pnl_pct": -1.9533997399198118,
+      "hold_bars": 53
+    },
+    {
+      "ticker": "000660",
+      "entry_time": "2026-02-02T10:50:00",
+      "entry_price": 873000.0,
+      "exit_time": "2026-02-06T09:00:00",
+      "exit_price": 820620.0,
+      "exit_reason": "손절(SL)",
+      "qty": 13,
+      "sl": 820620.0,
+      "tp": 925380.0,
+      "capital_before": 11701405.038799997,
+      "capital_after": 10997959.971799998,
+      "pnl": -703445.0669999998,
+      "pnl_pct": -6.011629070761057,
+      "hold_bars": 290
+    },
+    {
+      "ticker": "000660",
+      "entry_time": "2026-02-06T09:15:00",
+      "entry_price": 802000.0,
+      "exit_time": "2026-02-06T09:20:00",
+      "exit_price": 795000.0,
+      "exit_reason": "손절(SL)",
+      "qty": 13,
+      "sl": 795000.0,
+      "tp": 809000.0,
+      "capital_before": 10997959.971799998,
+      "capital_after": 10885242.821799997,
+      "pnl": -112717.15000000037,
+      "pnl_pct": -1.0248914370394127,
+      "hold_bars": 1
+    },
+    {
+      "ticker": "005930",
+      "entry_time": "2026-02-06T09:20:00",
+      "entry_price": 152700.0,
+      "exit_time": "2026-02-06T09:25:00",
+      "exit_price": 153200.0,
+      "exit_reason": "익절(TP)",
+      "qty": 71,
+      "sl": 152200.0,
+      "tp": 153200.0,
+      "capital_before": 10885242.821799997,
+      "capital_after": 10897906.026799997,
+      "pnl": 12663.205000000075,
+      "pnl_pct": 0.11633369330667877,
+      "hold_bars": 1
+    },
+    {
+      "ticker": "000660",
+      "entry_time": "2026-02-09T10:50:00",
+      "entry_price": 881000.0,
+      "exit_time": "2026-02-10T09:00:00",
+      "exit_price": 888000.0,
+      "exit_reason": "익절(TP)",
+      "qty": 12,
+      "sl": 874000.0,
+      "tp": 888000.0,
+      "capital_before": 10897906.026799997,
+      "capital_after": 10959541.026799997,
+      "pnl": 61635.0,
+      "pnl_pct": 0.5655673654042158,
+      "hold_bars": 56
+    },
+    {
+      "ticker": "005930",
+      "entry_time": "2026-02-11T09:20:00",
+      "entry_price": 163500.0,
+      "exit_time": "2026-02-11T09:40:00",
+      "exit_price": 164200.0,
+      "exit_reason": "익절(TP)",
+      "qty": 67,
+      "sl": 162800.0,
+      "tp": 164200.0,
+      "capital_before": 10959541.026799997,
+      "capital_after": 10983345.121799996,
+      "pnl": 23804.094999998808,
+      "pnl_pct": 0.21719974350923346,
+      "hold_bars": 4
+    },
+    {
+      "ticker": "000660",
+      "entry_time": "2026-02-12T14:00:00",
+      "entry_price": 885000.0,
+      "exit_time": "2026-02-12T14:40:00",
+      "exit_price": 889000.0,
+      "exit_reason": "익절(TP)",
+      "qty": 12,
+      "sl": 881000.0,
+      "tp": 889000.0,
+      "capital_before": 10983345.121799996,
+      "capital_after": 11008949.521799996,
+      "pnl": 25604.400000000373,
+      "pnl_pct": 0.23312023537510598,
+      "hold_bars": 8
+    },
+    {
+      "ticker": "005930",
+      "entry_time": "2026-02-13T10:00:00",
+      "entry_price": 179900.0,
+      "exit_time": "2026-02-13T13:30:00",
+      "exit_price": 183400.0,
+      "exit_reason": "익절(TP)",
+      "qty": 61,
+      "sl": 176400.0,
+      "tp": 183400.0,
+      "capital_before": 11008949.521799996,
+      "capital_after": 11198988.006799996,
+      "pnl": 190038.4849999994,
+      "pnl_pct": 1.7262181520923854,
+      "hold_bars": 42
+    },
+    {
+      "ticker": "005930",
+      "entry_time": "2026-02-13T14:45:00",
+      "entry_price": 181900.0,
+      "exit_time": "2026-02-13T15:00:00",
+      "exit_price": 181050.0,
+      "exit_reason": "손절(SL)",
+      "qty": 61,
+      "sl": 181050.0,
+      "tp": 182750.0,
+      "capital_before": 11198988.006799996,
+      "capital_after": 11123937.724299995,
+      "pnl": -75050.28250000067,
+      "pnl_pct": -0.6701523606814325,
+      "hold_bars": 3
+    },
+    {
+      "ticker": "005930",
+      "entry_time": "2026-02-19T10:40:00",
+      "entry_price": 188600.0,
+      "exit_time": "2026-02-19T15:30:00",
+      "exit_price": 189900.0,
+      "exit_reason": "익절(TP)",
+      "qty": 58,
+      "sl": 187300.0,
+      "tp": 189900.0,
+      "capital_before": 11123937.724299995,
+      "capital_after": 11176219.214299995,
+      "pnl": 52281.49000000022,
+      "pnl_pct": 0.46999085481926484,
+      "hold_bars": 56
+    },
+    {
+      "ticker": "000660",
+      "entry_time": "2026-02-20T09:25:00",
+      "entry_price": 887000.0,
+      "exit_time": "2026-02-20T10:30:00",
+      "exit_price": 893000.0,
+      "exit_reason": "익절(TP)",
+      "qty": 12,
+      "sl": 881000.0,
+      "tp": 893000.0,
+      "capital_before": 11176219.214299995,
+      "capital_after": 11225726.414299997,
+      "pnl": 49507.20000000112,
+      "pnl_pct": 0.4429691208692163,
+      "hold_bars": 13
+    },
+    {
+      "ticker": "005930",
+      "entry_time": "2026-02-23T11:10:00",
+      "entry_price": 193200.0,
+      "exit_time": "2026-02-24T10:35:00",
+      "exit_price": 197200.0,
+      "exit_reason": "익절(TP)",
+      "qty": 58,
+      "sl": 189200.0,
+      "tp": 197200.0,
+      "capital_before": 11225726.414299997,
+      "capital_after": 11433742.254299996,
+      "pnl": 208015.83999999985,
+      "pnl_pct": 1.8530278783118832,
+      "hold_bars": 71
+    },
+    {
+      "ticker": "005930",
+      "entry_time": "2026-02-25T12:35:00",
+      "entry_price": 204000.0,
+      "exit_time": "2026-02-25T13:30:00",
+      "exit_price": 205000.0,
+      "exit_reason": "익절(TP)",
+      "qty": 56,
+      "sl": 203000.0,
+      "tp": 205000.0,
+      "capital_before": 11433742.254299996,
+      "capital_after": 11465642.654299997,
+      "pnl": 31900.400000000373,
+      "pnl_pct": 0.2790022661915725,
+      "hold_bars": 11
+    },
+    {
+      "ticker": "000660",
+      "entry_time": "2026-02-25T14:45:00",
+      "entry_price": 1017500.0,
+      "exit_time": "2026-02-26T14:45:00",
+      "exit_price": 1078550.0,
+      "exit_reason": "익절(TP)",
+      "qty": 11,
+      "sl": 956450.0,
+      "tp": 1078550.0,
+      "capital_before": 11465642.654299997,
+      "capital_after": 12112378.881799996,
+      "pnl": 646736.2274999991,
+      "pnl_pct": 5.640645247717114,
+      "hold_bars": 78
+    },
+    {
+      "ticker": "005930",
+      "entry_time": "2026-02-27T09:05:00",
+      "entry_price": 215750.0,
+      "exit_time": "2026-02-27T09:15:00",
+      "exit_price": 218000.0,
+      "exit_reason": "익절(TP)",
+      "qty": 56,
+      "sl": 213500.0,
+      "tp": 218000.0,
+      "capital_before": 12112378.881799996,
+      "capital_after": 12212760.981799996,
+      "pnl": 100382.09999999963,
+      "pnl_pct": 0.8287562747135766,
+      "hold_bars": 2
+    },
+    {
+      "ticker": "000660",
+      "entry_time": "2026-02-27T09:45:00",
+      "entry_price": 1065000.0,
+      "exit_time": "2026-03-03T09:00:00",
+      "exit_price": 1025000.0,
+      "exit_reason": "손절(SL)",
+      "qty": 11,
+      "sl": 1025000.0,
+      "tp": 1105000.0,
+      "capital_before": 12212760.981799996,
+      "capital_after": 11749017.481799996,
+      "pnl": -463743.5,
+      "pnl_pct": -3.7972044215971423,
+      "hold_bars": 69
+    },
+    {
+      "ticker": "005930",
+      "entry_time": "2026-03-03T09:25:00",
+      "entry_price": 209000.0,
+      "exit_time": "2026-03-03T09:30:00",
+      "exit_price": 210500.0,
+      "exit_reason": "익절(TP)",
+      "qty": 56,
+      "sl": 207500.0,
+      "tp": 210500.0,
+      "capital_before": 11749017.481799996,
+      "capital_after": 11808275.281799996,
+      "pnl": 59257.800000000745,
+      "pnl_pct": 0.5043638763138705,
+      "hold_bars": 1
+    },
+    {
+      "ticker": "005930",
+      "entry_time": "2026-03-04T09:05:00",
+      "entry_price": 188900.0,
+      "exit_time": "2026-03-04T11:50:00",
+      "exit_price": 179800.0,
+      "exit_reason": "손절(SL)",
+      "qty": 62,
+      "sl": 179800.0,
+      "tp": 198000.0,
+      "capital_before": 11808275.281799996,
+      "capital_after": 11220580.691799996,
+      "pnl": -587694.5899999999,
+      "pnl_pct": -4.976972300991399,
+      "hold_bars": 28
+    },
+    {
+      "ticker": "000660",
+      "entry_time": "2026-03-06T09:15:00",
+      "entry_price": 928000.0,
+      "exit_time": "2026-03-09T09:00:00",
+      "exit_price": 872320.0,
+      "exit_reason": "손절(SL)",
+      "qty": 12,
+      "sl": 872320.0,
+      "tp": 983680.0,
+      "capital_before": 11220580.691799996,
+      "capital_after": 10530338.003799995,
+      "pnl": -690242.688000001,
+      "pnl_pct": -6.151577239709444,
+      "hold_bars": 75
+    },
+    {
+      "ticker": "005930",
+      "entry_time": "2026-03-09T09:30:00",
+      "entry_price": 173500.0,
+      "exit_time": "2026-03-10T09:00:00",
+      "exit_price": 183910.0,
+      "exit_reason": "익절(TP)",
+      "qty": 60,
+      "sl": 163090.0,
+      "tp": 183910.0,
+      "capital_before": 10530338.003799995,
+      "capital_after": 11131859.033799995,
+      "pnl": 601521.0299999993,
+      "pnl_pct": 5.712267068568297,
+      "hold_bars": 67
+    },
+    {
+      "ticker": "000660",
+      "entry_time": "2026-03-11T14:20:00",
+      "entry_price": 971000.0,
+      "exit_time": "2026-03-13T09:00:00",
+      "exit_price": 912740.0,
+      "exit_reason": "손절(SL)",
+      "qty": 11,
+      "sl": 912740.0,
+      "tp": 1029260.0,
+      "capital_before": 11131859.033799995,
+      "capital_after": 10469818.610799994,
+      "pnl": -662040.4230000004,
+      "pnl_pct": -5.947258413799774,
+      "hold_bars": 92
+    },
+    {
+      "ticker": "005930",
+      "entry_time": "2026-03-13T09:15:00",
+      "entry_price": 182600.0,
+      "exit_time": "2026-03-13T10:30:00",
+      "exit_price": 184400.0,
+      "exit_reason": "익절(TP)",
+      "qty": 57,
+      "sl": 180800.0,
+      "tp": 184400.0,
+      "capital_before": 10469818.610799994,
+      "capital_after": 10550361.320799993,
+      "pnl": 80542.70999999903,
+      "pnl_pct": 0.7692846743010078,
+      "hold_bars": 15
+    },
+    {
+      "ticker": "000660",
+      "entry_time": "2026-03-17T12:50:00",
+      "entry_price": 992000.0,
+      "exit_time": "2026-03-18T14:50:00",
+      "exit_price": 1051520.0,
+      "exit_reason": "익절(TP)",
+      "qty": 10,
+      "sl": 932480.0,
+      "tp": 1051520.0,
+      "capital_before": 10550361.320799993,
+      "capital_after": 11123568.680799993,
+      "pnl": 573207.3599999994,
+      "pnl_pct": 5.433059044811324,
+      "hold_bars": 102
+    },
+    {
+      "ticker": "005930",
+      "entry_time": "2026-03-19T09:35:00",
+      "entry_price": 200000.0,
+      "exit_time": "2026-03-23T09:50:00",
+      "exit_price": 188000.0,
+      "exit_reason": "손절(SL)",
+      "qty": 55,
+      "sl": 188000.0,
+      "tp": 212000.0,
+      "capital_before": 11123568.680799993,
+      "capital_after": 10441755.680799993,
+      "pnl": -681813.0,
+      "pnl_pct": -6.129444781303448,
+      "hold_bars": 159
+    },
+    {
+      "ticker": "000660",
+      "entry_time": "2026-03-24T10:15:00",
+      "entry_price": 956000.0,
+      "exit_time": "2026-03-24T12:45:00",
+      "exit_price": 983500.0,
+      "exit_reason": "익절(TP)",
+      "qty": 10,
+      "sl": 928500.0,
+      "tp": 983500.0,
+      "capital_before": 10441755.680799993,
+      "capital_after": 10696143.430799993,
+      "pnl": 254387.75,
+      "pnl_pct": 2.4362545703665623,
+      "hold_bars": 30
+    },
+    {
+      "ticker": "000660",
+      "entry_time": "2026-03-26T09:05:00",
+      "entry_price": 966000.0,
+      "exit_time": "2026-03-27T09:00:00",
+      "exit_price": 908040.0,
+      "exit_reason": "손절(SL)",
+      "qty": 11,
+      "sl": 908040.0,
+      "tp": 1023960.0,
+      "capital_before": 10696143.430799993,
+      "capital_after": 10037512.072799992,
+      "pnl": -658631.3580000009,
+      "pnl_pct": -6.157652636776021,
+      "hold_bars": 77
+    },
+    {
+      "ticker": "005930",
+      "entry_time": "2026-03-27T09:05:00",
+      "entry_price": 175100.0,
+      "exit_time": "2026-04-01T12:30:00",
+      "exit_price": 185606.0,
+      "exit_reason": "익절(TP)",
+      "qty": 57,
+      "sl": 164594.0,
+      "tp": 185606.0,
+      "capital_before": 10037512.072799992,
+      "capital_after": 10614226.860899992,
+      "pnl": 576714.7881000005,
+      "pnl_pct": 5.745594963345576,
+      "hold_bars": 275
+    },
+    {
+      "ticker": "005930",
+      "entry_time": "2026-04-02T10:50:00",
+      "entry_price": 181150.0,
+      "exit_time": "2026-04-06T09:00:00",
+      "exit_price": 192019.0,
+      "exit_reason": "익절(TP)",
+      "qty": 58,
+      "sl": 170281.0,
+      "tp": 192019.0,
+      "capital_before": 10614226.860899992,
+      "capital_after": 11221335.506999992,
+      "pnl": 607108.6460999995,
+      "pnl_pct": 5.719763239058206,
+      "hold_bars": 134
+    },
+    {
+      "ticker": "005930",
+      "entry_time": "2026-04-07T10:30:00",
+      "entry_price": 195700.0,
+      "exit_time": "2026-04-08T09:00:00",
+      "exit_price": 199700.0,
+      "exit_reason": "익절(TP)",
+      "qty": 57,
+      "sl": 191700.0,
+      "tp": 199700.0,
+      "capital_before": 11221335.506999992,
+      "capital_after": 11425465.616999993,
+      "pnl": 204130.11000000127,
+      "pnl_pct": 1.819124914968122,
+      "hold_bars": 60
+    },
+    {
+      "ticker": "005930",
+      "entry_time": "2026-04-08T14:30:00",
+      "entry_price": 211000.0,
+      "exit_time": "2026-04-08T14:35:00",
+      "exit_price": 209500.0,
+      "exit_reason": "손절(SL)",
+      "qty": 54,
+      "sl": 209500.0,
+      "tp": 212500.0,
+      "capital_before": 11425465.616999993,
+      "capital_after": 11320696.166999994,
+      "pnl": -104769.44999999925,
+      "pnl_pct": -0.9169818851330872,
+      "hold_bars": 1
+    },
+    {
+      "ticker": "000660",
+      "entry_time": "2026-04-08T14:45:00",
+      "entry_price": 1037000.0,
+      "exit_time": "2026-04-08T14:50:00",
+      "exit_price": 1041000.0,
+      "exit_reason": "익절(TP)",
+      "qty": 10,
+      "sl": 1033000.0,
+      "tp": 1041000.0,
+      "capital_before": 11320696.166999994,
+      "capital_after": 11338841.166999994,
+      "pnl": 18145.0,
+      "pnl_pct": 0.16028166229646687,
+      "hold_bars": 1
+    },
+    {
+      "ticker": "005930",
+      "entry_time": "2026-04-08T14:50:00",
+      "entry_price": 210500.0,
+      "exit_time": "2026-04-08T15:10:00",
+      "exit_price": 211500.0,
+      "exit_reason": "익절(TP)",
+      "qty": 53,
+      "sl": 209500.0,
+      "tp": 211500.0,
+      "capital_before": 11338841.166999994,
+      "capital_after": 11368309.166999994,
+      "pnl": 29468.0,
+      "pnl_pct": 0.2598854641844902,
+      "hold_bars": 4
+    },
+    {
+      "ticker": "005930",
+      "entry_time": "2026-04-09T09:15:00",
+      "entry_price": 206250.0,
+      "exit_time": "2026-04-09T09:20:00",
+      "exit_price": 207500.0,
+      "exit_reason": "익절(TP)",
+      "qty": 55,
+      "sl": 205000.0,
+      "tp": 207500.0,
+      "capital_before": 11368309.166999994,
+      "capital_after": 11413103.229499994,
+      "pnl": 44794.0625,
+      "pnl_pct": 0.39402572398390173,
+      "hold_bars": 1
+    },
+    {
+      "ticker": "005930",
+      "entry_time": "2026-04-13T09:10:00",
+      "entry_price": 200500.0,
+      "exit_time": "2026-04-13T09:20:00",
+      "exit_price": 201600.0,
+      "exit_reason": "익절(TP)",
+      "qty": 56,
+      "sl": 199400.0,
+      "tp": 201600.0,
+      "capital_before": 11413103.229499994,
+      "capital_after": 11451004.309499994,
+      "pnl": 37901.080000000075,
+      "pnl_pct": 0.332083914758918,
+      "hold_bars": 2
+    },
+    {
+      "ticker": "000660",
+      "entry_time": "2026-04-14T11:05:00",
+      "entry_price": 1114000.0,
+      "exit_time": "2026-04-14T11:15:00",
+      "exit_price": 1118000.0,
+      "exit_reason": "익절(TP)",
+      "qty": 10,
+      "sl": 1110000.0,
+      "tp": 1118000.0,
+      "capital_before": 11451004.309499994,
+      "capital_after": 11467532.309499994,
+      "pnl": 16528.0,
+      "pnl_pct": 0.1443366848293649,
+      "hold_bars": 2
+    },
+    {
+      "ticker": "000660",
+      "entry_time": "2026-04-14T14:05:00",
+      "entry_price": 1121000.0,
+      "exit_time": "2026-04-14T14:20:00",
+      "exit_price": 1116000.0,
+      "exit_reason": "손절(SL)",
+      "qty": 10,
+      "sl": 1116000.0,
+      "tp": 1126000.0,
+      "capital_before": 11467532.309499994,
+      "capital_after": 11394088.809499994,
+      "pnl": -73443.5,
+      "pnl_pct": -0.6404472908191202,
+      "hold_bars": 3
+    },
+    {
+      "ticker": "000660",
+      "entry_time": "2026-04-14T14:45:00",
+      "entry_price": 1112000.0,
+      "exit_time": "2026-04-21T09:00:00",
+      "exit_price": 1178720.0,
+      "exit_reason": "익절(TP)",
+      "qty": 10,
+      "sl": 1045279.9999999999,
+      "tp": 1178720.0,
+      "capital_before": 11394088.809499994,
+      "capital_after": 12036635.769499995,
+      "pnl": 642546.9600000009,
+      "pnl_pct": 5.639300963358015,
+      "hold_bars": 321
+    },
+    {
+      "ticker": "005930",
+      "entry_time": "2026-04-21T11:00:00",
+      "entry_price": 216750.0,
+      "exit_time": "2026-04-21T11:05:00",
+      "exit_price": 216500.0,
+      "exit_reason": "손절(SL)",
+      "qty": 55,
+      "sl": 216500.0,
+      "tp": 217000.0,
+      "capital_before": 12036635.769499995,
+      "capital_after": 11997877.956999995,
+      "pnl": -38757.8125,
+      "pnl_pct": -0.3219987149416752,
+      "hold_bars": 1
+    },
+    {
+      "ticker": "000660",
+      "entry_time": "2026-04-21T11:05:00",
+      "entry_price": 1212500.0,
+      "exit_time": "2026-04-21T11:40:00",
+      "exit_price": 1217000.0,
+      "exit_reason": "익절(TP)",
+      "qty": 9,
+      "sl": 1208000.0,
+      "tp": 1217000.0,
+      "capital_before": 11997877.956999995,
+      "capital_after": 12015382.731999995,
+      "pnl": 17504.775000000373,
+      "pnl_pct": 0.14589892531610105,
+      "hold_bars": 7
+    },
+    {
+      "ticker": "000660",
+      "entry_time": "2026-04-22T09:25:00",
+      "entry_price": 1217000.0,
+      "exit_time": "2026-04-22T10:05:00",
+      "exit_price": 1205000.0,
+      "exit_reason": "손절(SL)",
+      "qty": 9,
+      "sl": 1205000.0,
+      "tp": 1229000.0,
+      "capital_before": 12015382.731999995,
+      "capital_after": 11884592.031999996,
+      "pnl": -130790.69999999925,
+      "pnl_pct": -1.0885271232490217,
+      "hold_bars": 8
+    },
+    {
+      "ticker": "000660",
+      "entry_time": "2026-04-23T10:30:00",
+      "entry_price": 1237000.0,
+      "exit_time": "2026-04-23T11:15:00",
+      "exit_price": 1222000.0,
+      "exit_reason": "손절(SL)",
+      "qty": 9,
+      "sl": 1222000.0,
+      "tp": 1252000.0,
+      "capital_before": 11884592.031999996,
+      "capital_after": 11726475.981999997,
+      "pnl": -158116.04999999888,
+      "pnl_pct": -1.3304289248992451,
+      "hold_bars": 9
+    },
+    {
+      "ticker": "005930",
+      "entry_time": "2026-04-23T11:35:00",
+      "entry_price": 222750.0,
+      "exit_time": "2026-04-23T12:35:00",
+      "exit_price": 217500.0,
+      "exit_reason": "손절(SL)",
+      "qty": 52,
+      "sl": 217500.0,
+      "tp": 228000.0,
+      "capital_before": 11726475.981999997,
+      "capital_after": 11429684.031999998,
+      "pnl": -296791.94999999925,
+      "pnl_pct": -2.530956021703122,
+      "hold_bars": 12
+    },
+    {
+      "ticker": "005930",
+      "entry_time": "2026-04-24T09:35:00",
+      "entry_price": 220750.0,
+      "exit_time": "2026-04-24T09:40:00",
+      "exit_price": 220000.0,
+      "exit_reason": "손절(SL)",
+      "qty": 51,
+      "sl": 220000.0,
+      "tp": 221500.0,
+      "capital_before": 11429684.031999998,
+      "capital_after": 11367866.294499997,
+      "pnl": -61817.737500000745,
+      "pnl_pct": -0.5408525496149145,
+      "hold_bars": 1
+    },
+    {
+      "ticker": "000660",
+      "entry_time": "2026-04-24T13:05:00",
+      "entry_price": 1204000.0,
+      "exit_time": "2026-04-24T13:30:00",
+      "exit_price": 1210000.0,
+      "exit_reason": "익절(TP)",
+      "qty": 9,
+      "sl": 1198000.0,
+      "tp": 1210000.0,
+      "capital_before": 11367866.294499997,
+      "capital_after": 11399005.394499997,
+      "pnl": 31139.099999999627,
+      "pnl_pct": 0.2739221168977449,
+      "hold_bars": 5
+    },
+    {
+      "ticker": "000660",
+      "entry_time": "2026-04-27T14:05:00",
+      "entry_price": 1302000.0,
+      "exit_time": "2026-04-27T14:20:00",
+      "exit_price": 1310000.0,
+      "exit_reason": "익절(TP)",
+      "qty": 8,
+      "sl": 1294000.0,
+      "tp": 1310000.0,
+      "capital_before": 11399005.394499997,
+      "capital_after": 11441006.994499996,
+      "pnl": 42001.59999999963,
+      "pnl_pct": 0.3684672350472379,
+      "hold_bars": 3
+    },
+    {
+      "ticker": "000660",
+      "entry_time": "2026-04-27T14:55:00",
+      "entry_price": 1290000.0,
+      "exit_time": "2026-05-04T10:10:00",
+      "exit_price": 1367400.0,
+      "exit_reason": "익절(TP)",
+      "qty": 8,
+      "sl": 1212600.0,
+      "tp": 1367400.0,
+      "capital_before": 11441006.994499996,
+      "capital_after": 12037327.554499997,
+      "pnl": 596320.5600000005,
+      "pnl_pct": 5.212133514879136,
+      "hold_bars": 255
+    },
+    {
+      "ticker": "005930",
+      "entry_time": "2026-05-04T12:20:00",
+      "entry_price": 228250.0,
+      "exit_time": "2026-05-04T12:25:00",
+      "exit_price": 228000.0,
+      "exit_reason": "손절(SL)",
+      "qty": 52,
+      "sl": 228000.0,
+      "tp": 228500.0,
+      "capital_before": 12037327.554499997,
+      "capital_after": 11999428.004499998,
+      "pnl": -37899.54999999888,
+      "pnl_pct": -0.3148502009969034,
+      "hold_bars": 1
+    },
+    {
+      "ticker": "000660",
+      "entry_time": "2026-05-06T15:30:00",
+      "entry_price": 1601000.0,
+      "exit_time": "2026-05-07T09:00:00",
+      "exit_price": 1606000.0,
+      "exit_reason": "익절(TP)",
+      "qty": 7,
+      "sl": 1596000.0,
+      "tp": 1606000.0,
+      "capital_before": 11999428.004499998,
+      "capital_after": 12010825.054499997,
+      "pnl": 11397.049999998882,
+      "pnl_pct": 0.09497994400837095,
+      "hold_bars": 2
+    },
+    {
+      "ticker": "005930",
+      "entry_time": "2026-05-08T09:25:00",
+      "entry_price": 263000.0,
+      "exit_time": "2026-05-08T09:30:00",
+      "exit_price": 264500.0,
+      "exit_reason": "익절(TP)",
+      "qty": 45,
+      "sl": 261500.0,
+      "tp": 264500.0,
+      "capital_before": 12010825.054499997,
+      "capital_after": 12053339.929499997,
+      "pnl": 42514.875,
+      "pnl_pct": 0.3539713117715531,
+      "hold_bars": 1
+    },
+    {
+      "ticker": "005930",
+      "entry_time": "2026-05-11T10:10:00",
+      "entry_price": 284500.0,
+      "exit_time": "2026-05-11T10:55:00",
+      "exit_price": 287750.0,
+      "exit_reason": "익절(TP)",
+      "qty": 42,
+      "sl": 281250.0,
+      "tp": 287750.0,
+      "capital_before": 12053339.929499997,
+      "capital_after": 12164480.854499998,
+      "pnl": 111140.92500000075,
+      "pnl_pct": 0.9220757536920403,
+      "hold_bars": 9
+    },
+    {
+      "ticker": "005930",
+      "entry_time": "2026-05-11T14:50:00",
+      "entry_price": 285000.0,
+      "exit_time": "2026-05-11T15:00:00",
+      "exit_price": 283500.0,
+      "exit_reason": "손절(SL)",
+      "qty": 42,
+      "sl": 283500.0,
+      "tp": 286500.0,
+      "capital_before": 12164480.854499998,
+      "capital_after": 12076466.704499997,
+      "pnl": -88014.15000000037,
+      "pnl_pct": -0.7235339596711302,
+      "hold_bars": 2
+    },
+    {
+      "ticker": "005930",
+      "entry_time": "2026-05-11T15:05:00",
+      "entry_price": 285000.0,
+      "exit_time": "2026-05-12T09:00:00",
+      "exit_price": 286500.0,
+      "exit_reason": "익절(TP)",
+      "qty": 42,
+      "sl": 283500.0,
+      "tp": 286500.0,
+      "capital_before": 12076466.704499997,
+      "capital_after": 12114206.854499998,
+      "pnl": 37740.15000000037,
+      "pnl_pct": 0.31250986669749553,
+      "hold_bars": 5
+    },
+    {
+      "ticker": "000660",
+      "entry_time": "2026-05-12T09:00:00",
+      "entry_price": 1943000.0,
+      "exit_time": "2026-05-12T10:25:00",
+      "exit_price": 1878000.0,
+      "exit_reason": "손절(SL)",
+      "qty": 6,
+      "sl": 1878000.0,
+      "tp": 2008000.0,
+      "capital_before": 12114206.854499998,
+      "capital_after": 11700485.554499999,
+      "pnl": -413721.2999999989,
+      "pnl_pct": -3.415174472163781,
+      "hold_bars": 17
+    },
+    {
+      "ticker": "005930",
+      "entry_time": "2026-05-12T10:40:00",
+      "entry_price": 275500.0,
+      "exit_time": "2026-05-12T15:15:00",
+      "exit_price": 283500.0,
+      "exit_reason": "익절(TP)",
+      "qty": 42,
+      "sl": 267500.0,
+      "tp": 283500.0,
+      "capital_before": 11700485.554499999,
+      "capital_after": 12011531.254499998,
+      "pnl": 311045.69999999925,
+      "pnl_pct": 2.6583999317906195,
+      "hold_bars": 55
+    },
+    {
+      "ticker": "005930",
+      "entry_time": "2026-05-13T09:35:00",
+      "entry_price": 264500.0,
+      "exit_time": "2026-05-13T09:40:00",
+      "exit_price": 266000.0,
+      "exit_reason": "익절(TP)",
+      "qty": 45,
+      "sl": 263000.0,
+      "tp": 266000.0,
+      "capital_before": 12011531.254499998,
+      "capital_after": 12053904.379499998,
+      "pnl": 42373.125,
+      "pnl_pct": 0.3527703845762824,
+      "hold_bars": 1
+    },
+    {
+      "ticker": "000660",
+      "entry_time": "2026-05-14T09:35:00",
+      "entry_price": 1964000.0,
+      "exit_time": "2026-05-14T09:40:00",
+      "exit_price": 1969000.0,
+      "exit_reason": "익절(TP)",
+      "qty": 6,
+      "sl": 1959000.0,
+      "tp": 1969000.0,
+      "capital_before": 12053904.379499998,
+      "capital_after": 12059099.479499998,
+      "pnl": 5195.0999999996275,
+      "pnl_pct": 0.04309889838544682,
+      "hold_bars": 1
+    },
+    {
+      "ticker": "005930",
+      "entry_time": "2026-05-14T11:10:00",
+      "entry_price": 293500.0,
+      "exit_time": "2026-05-15T11:00:00",
+      "exit_price": 283250.0,
+      "exit_reason": "손절(SL)",
+      "qty": 41,
+      "sl": 283250.0,
+      "tp": 303750.0,
+      "capital_before": 12059099.479499998,
+      "capital_after": 11614398.616999997,
+      "pnl": -444700.86250000075,
+      "pnl_pct": -3.6876788623891446,
+      "hold_bars": 76
+    },
+    {
+      "ticker": "000660",
+      "entry_time": "2026-05-19T09:05:00",
+      "entry_price": 1809000.0,
+      "exit_time": "2026-05-20T09:10:00",
+      "exit_price": 1700460.0,
+      "exit_reason": "손절(SL)",
+      "qty": 6,
+      "sl": 1700460.0,
+      "tp": 1917540.0,
+      "capital_before": 11614398.616999997,
+      "capital_after": 10941635.134999998,
+      "pnl": -672763.4819999989,
+      "pnl_pct": -5.79249519656812,
+      "hold_bars": 79
+    },
+    {
+      "ticker": "000660",
+      "entry_time": "2026-05-20T09:20:00",
+      "entry_price": 1707000.0,
+      "exit_time": "2026-05-20T09:25:00",
+      "exit_price": 1720000.0,
+      "exit_reason": "익절(TP)",
+      "qty": 6,
+      "sl": 1694000.0,
+      "tp": 1720000.0,
+      "capital_before": 10941635.134999998,
+      "capital_after": 10997974.834999997,
+      "pnl": 56339.699999999255,
+      "pnl_pct": 0.5149111563753425,
+      "hold_bars": 1
+    },
+    {
+      "ticker": "005930",
+      "entry_time": "2026-05-20T11:50:00",
+      "entry_price": 268250.0,
+      "exit_time": "2026-05-20T13:05:00",
+      "exit_price": 271750.0,
+      "exit_reason": "익절(TP)",
+      "qty": 40,
+      "sl": 264750.0,
+      "tp": 271750.0,
+      "capital_before": 10997974.834999997,
+      "capital_after": 11115168.834999997,
+      "pnl": 117194.0,
+      "pnl_pct": 1.0655961825539133,
+      "hold_bars": 15
+    },
+    {
+      "ticker": "000660",
+      "entry_time": "2026-05-22T09:10:00",
+      "entry_price": 1933000.0,
+      "exit_time": "2026-05-26T09:25:00",
+      "exit_price": 2048980.0,
+      "exit_reason": "익절(TP)",
+      "qty": 5,
+      "sl": 1817020.0,
+      "tp": 2048980.0,
+      "capital_before": 11115168.834999997,
+      "capital_after": 11673641.529999997,
+      "pnl": 558472.6950000003,
+      "pnl_pct": 5.024419361417648,
+      "hold_bars": 81
+    },
+    {
+      "ticker": "000660",
+      "entry_time": "2026-05-26T10:45:00",
+      "entry_price": 2061500.0,
+      "exit_time": "2026-05-26T11:05:00",
+      "exit_price": 2073000.0,
+      "exit_reason": "익절(TP)",
+      "qty": 5,
+      "sl": 2050000.0,
+      "tp": 2073000.0,
+      "capital_before": 11673641.529999997,
+      "capital_after": 11709383.654999997,
+      "pnl": 35742.125,
+      "pnl_pct": 0.30617802429641683,
+      "hold_bars": 4
+    },
+    {
+      "ticker": "000660",
+      "entry_time": "2026-05-26T14:10:00",
+      "entry_price": 2074000.0,
+      "exit_time": "2026-05-26T14:35:00",
+      "exit_price": 2066500.0,
+      "exit_reason": "손절(SL)",
+      "qty": 5,
+      "sl": 2066500.0,
+      "tp": 2081500.0,
+      "capital_before": 11709383.654999997,
+      "capital_after": 11650179.779999997,
+      "pnl": -59203.875,
+      "pnl_pct": -0.5056105149882888,
+      "hold_bars": 5
+    },
+    {
+      "ticker": "000660",
+      "entry_time": "2026-05-27T09:10:00",
+      "entry_price": 2265000.0,
+      "exit_time": "2026-06-08T09:00:00",
+      "exit_price": 2052000.0,
+      "exit_reason": "손절(SL)",
+      "qty": 5,
+      "sl": 2052000.0,
+      "tp": 2478000.0,
+      "capital_before": 11650179.779999997,
+      "capital_after": 10563474.029999997,
+      "pnl": -1086705.75,
+      "pnl_pct": -9.327802407526455,
+      "hold_bars": 544
+    },
+    {
+      "ticker": "000660",
+      "entry_time": "2026-06-08T09:30:00",
+      "entry_price": 1965000.0,
+      "exit_time": "2026-06-08T11:00:00",
+      "exit_price": 2026000.0,
+      "exit_reason": "익절(TP)",
+      "qty": 5,
+      "sl": 1904000.0,
+      "tp": 2026000.0,
+      "capital_before": 10563474.029999997,
+      "capital_after": 10847246.779999997,
+      "pnl": 283772.75,
+      "pnl_pct": 2.686358192334194,
+      "hold_bars": 18
+    },
+    {
+      "ticker": "000660",
+      "entry_time": "2026-06-10T09:05:00",
+      "entry_price": 2178000.0,
+      "exit_time": "2026-06-10T13:20:00",
+      "exit_price": 2045000.0,
+      "exit_reason": "손절(SL)",
+      "qty": 4,
+      "sl": 2045000.0,
+      "tp": 2311000.0,
+      "capital_before": 10847246.779999997,
+      "capital_after": 10297988.979999997,
+      "pnl": -549257.8000000007,
+      "pnl_pct": -5.0635687667096745,
+      "hold_bars": 51
+    },
+    {
+      "ticker": "005930",
+      "entry_time": "2026-06-11T09:10:00",
+      "entry_price": 292000.0,
+      "exit_time": "2026-06-11T09:15:00",
+      "exit_price": 296000.0,
+      "exit_reason": "익절(TP)",
+      "qty": 35,
+      "sl": 288000.0,
+      "tp": 296000.0,
+      "capital_before": 10297988.979999997,
+      "capital_after": 10416253.979999997,
+      "pnl": 118265.0,
+      "pnl_pct": 1.1484281079508403,
+      "hold_bars": 1
+    },
+    {
+      "ticker": "000660",
+      "entry_time": "2026-06-11T11:25:00",
+      "entry_price": 2054000.0,
+      "exit_time": "2026-06-11T11:35:00",
+      "exit_price": 2071000.0,
+      "exit_reason": "익절(TP)",
+      "qty": 5,
+      "sl": 2037000.0,
+      "tp": 2071000.0,
+      "capital_before": 10416253.979999997,
+      "capital_after": 10479521.229999997,
+      "pnl": 63267.25,
+      "pnl_pct": 0.6073896635150982,
+      "hold_bars": 2
+    },
+    {
+      "ticker": "005930",
+      "entry_time": "2026-06-12T10:45:00",
+      "entry_price": 332500.0,
+      "exit_time": "2026-06-12T12:00:00",
+      "exit_price": 335500.0,
+      "exit_reason": "익절(TP)",
+      "qty": 31,
+      "sl": 329500.0,
+      "tp": 335500.0,
+      "capital_before": 10479521.229999997,
+      "capital_after": 10550694.129999997,
+      "pnl": 71172.90000000037,
+      "pnl_pct": 0.6791617521252008,
+      "hold_bars": 15
+    },
+    {
+      "ticker": "005930",
+      "entry_time": "2026-06-12T14:10:00",
+      "entry_price": 333500.0,
+      "exit_time": "2026-06-12T14:35:00",
+      "exit_price": 329500.0,
+      "exit_reason": "손절(SL)",
+      "qty": 31,
+      "sl": 329500.0,
+      "tp": 337500.0,
+      "capital_before": 10550694.129999997,
+      "capital_after": 10405225.079999996,
+      "pnl": -145469.05000000075,
+      "pnl_pct": -1.378762839748827,
+      "hold_bars": 5
+    },
+    {
+      "ticker": "005930",
+      "entry_time": "2026-06-12T14:50:00",
+      "entry_price": 326500.0,
+      "exit_time": "2026-06-17T14:35:00",
+      "exit_price": 346090.0,
+      "exit_reason": "익절(TP)",
+      "qty": 31,
+      "sl": 306910.0,
+      "tp": 346090.0,
+      "capital_before": 10405225.079999996,
+      "capital_after": 10990075.714499997,
+      "pnl": 584850.6345000006,
+      "pnl_pct": 5.6207398687045105,
+      "hold_bars": 231
+    },
+    {
+      "ticker": "000660",
+      "entry_time": "2026-06-18T10:10:00",
+      "entry_price": 2612000.0,
+      "exit_time": "2026-06-18T11:55:00",
+      "exit_price": 2641000.0,
+      "exit_reason": "익절(TP)",
+      "qty": 4,
+      "sl": 2583000.0,
+      "tp": 2641000.0,
+      "capital_before": 10990075.714499997,
+      "capital_after": 11083908.714499997,
+      "pnl": 93833.0,
+      "pnl_pct": 0.8537975755362575,
+      "hold_bars": 21
+    },
+    {
+      "ticker": "005930",
+      "entry_time": "2026-06-18T14:05:00",
+      "entry_price": 353000.0,
+      "exit_time": "2026-06-18T14:30:00",
+      "exit_price": 355000.0,
+      "exit_reason": "익절(TP)",
+      "qty": 31,
+      "sl": 351000.0,
+      "tp": 355000.0,
+      "capital_before": 11083908.714499997,
+      "capital_after": 11122807.514499998,
+      "pnl": 38898.800000000745,
+      "pnl_pct": 0.3509483973745944,
+      "hold_bars": 5
+    },
+    {
+      "ticker": "000660",
+      "entry_time": "2026-06-19T09:15:00",
+      "entry_price": 2811000.0,
+      "exit_time": "2026-06-22T10:25:00",
+      "exit_price": 2937000.0,
+      "exit_reason": "익절(TP)",
+      "qty": 3,
+      "sl": 2685000.0,
+      "tp": 2937000.0,
+      "capital_before": 11122807.514499998,
+      "capital_after": 11482361.114499997,
+      "pnl": 359553.5999999996,
+      "pnl_pct": 3.2325795401140915,
+      "hold_bars": 92
+    },
+    {
+      "ticker": "000660",
+      "entry_time": "2026-06-22T13:20:00",
+      "entry_price": 2900000.0,
+      "exit_time": "2026-06-22T13:25:00",
+      "exit_price": 2890000.0,
+      "exit_reason": "손절(SL)",
+      "qty": 3,
+      "sl": 2890000.0,
+      "tp": 2910000.0,
+      "capital_before": 11482361.114499997,
+      "capital_after": 11434149.614499997,
+      "pnl": -48211.5,
+      "pnl_pct": -0.41987444497907506,
+      "hold_bars": 1
+    },
+    {
+      "ticker": "005930",
+      "entry_time": "2026-06-23T09:30:00",
+      "entry_price": 344000.0,
+      "exit_time": "2026-06-23T09:45:00",
+      "exit_price": 347500.0,
+      "exit_reason": "익절(TP)",
+      "qty": 33,
+      "sl": 340500.0,
+      "tp": 347500.0,
+      "capital_before": 11434149.614499997,
+      "capital_after": 11525585.189499997,
+      "pnl": 91435.57499999925,
+      "pnl_pct": 0.7996709688322338,
+      "hold_bars": 3
+    },
+    {
+      "ticker": "000660",
+      "entry_time": "2026-06-24T12:00:00",
+      "entry_price": 2473000.0,
+      "exit_time": "2026-06-24T14:10:00",
+      "exit_price": 2621380.0,
+      "exit_reason": "익절(TP)",
+      "qty": 4,
+      "sl": 2324620.0,
+      "tp": 2621380.0,
+      "capital_before": 11525585.189499997,
+      "capital_after": 12097174.625499995,
+      "pnl": 571589.4359999988,
+      "pnl_pct": 4.959309454592609,
+      "hold_bars": 26
+    },
+    {
+      "ticker": "005930",
+      "entry_time": "2026-06-25T15:05:00",
+      "entry_price": 360500.0,
+      "exit_time": "2026-06-26T09:00:00",
+      "exit_price": 356500.0,
+      "exit_reason": "손절(SL)",
+      "qty": 33,
+      "sl": 356500.0,
+      "tp": 364500.0,
+      "capital_before": 12097174.625499995,
+      "capital_after": 11940449.375499995,
+      "pnl": -156725.25,
+      "pnl_pct": -1.2955525141352773,
+      "hold_bars": 5
+    },
+    {
+      "ticker": "005930",
+      "entry_time": "2026-06-26T09:40:00",
+      "entry_price": 346000.0,
+      "exit_time": "2026-06-26T09:45:00",
+      "exit_price": 349000.0,
+      "exit_reason": "익절(TP)",
+      "qty": 34,
+      "sl": 343000.0,
+      "tp": 349000.0,
+      "capital_before": 11940449.375499995,
+      "capital_after": 12017546.075499997,
+      "pnl": 77096.70000000112,
+      "pnl_pct": 0.6456767042469267,
+      "hold_bars": 1
+    },
+    {
+      "ticker": "005930",
+      "entry_time": "2026-06-30T14:40:00",
+      "entry_price": 338000.0,
+      "exit_time": "2026-07-01T09:10:00",
+      "exit_price": 332000.0,
+      "exit_reason": "손절(SL)",
+      "qty": 35,
+      "sl": 332000.0,
+      "tp": 344000.0,
+      "capital_before": 12017546.075499997,
+      "capital_after": 11783112.575499997,
+      "pnl": -234433.5,
+      "pnl_pct": -1.9507601512586359,
+      "hold_bars": 12
+    },
+    {
+      "ticker": "005930",
+      "entry_time": "2026-07-02T09:20:00",
+      "entry_price": 294250.0,
+      "exit_time": "2026-07-03T13:35:00",
+      "exit_price": 311905.0,
+      "exit_reason": "익절(TP)",
+      "qty": 40,
+      "sl": 276595.0,
+      "tp": 311905.0,
+      "capital_before": 11783112.575499997,
+      "capital_after": 12463218.485499997,
+      "pnl": 680105.9100000001,
+      "pnl_pct": 5.771869746997991,
+      "hold_bars": 129
+    },
+    {
+      "ticker": "005930",
+      "entry_time": "2026-07-06T10:55:00",
+      "entry_price": 313000.0,
+      "exit_time": "2026-07-06T11:25:00",
+      "exit_price": 308250.0,
+      "exit_reason": "손절(SL)",
+      "qty": 39,
+      "sl": 308250.0,
+      "tp": 317750.0,
+      "capital_before": 12463218.485499997,
+      "capital_after": 12252695.022999996,
+      "pnl": -210523.46250000037,
+      "pnl_pct": -1.6891580834030018,
+      "hold_bars": 6
+    },
+    {
+      "ticker": "000660",
+      "entry_time": "2026-07-07T09:15:00",
+      "entry_price": 2309000.0,
+      "exit_time": "2026-07-07T11:30:00",
+      "exit_price": 2170460.0,
+      "exit_reason": "손절(SL)",
+      "qty": 5,
+      "sl": 2170460.0,
+      "tp": 2447540.0,
+      "capital_before": 12252695.022999996,
+      "capital_after": 11537101.287999997,
+      "pnl": -715593.7349999994,
+      "pnl_pct": -5.840296633979148,
+      "hold_bars": 27
+    },
+    {
+      "ticker": "005930",
+      "entry_time": "2026-07-08T09:10:00",
+      "entry_price": 292500.0,
+      "exit_time": "2026-07-08T09:40:00",
+      "exit_price": 297500.0,
+      "exit_reason": "익절(TP)",
+      "qty": 39,
+      "sl": 287500.0,
+      "tp": 297500.0,
+      "capital_before": 11537101.287999997,
+      "capital_after": 11707765.287999997,
+      "pnl": 170664.0,
+      "pnl_pct": 1.4792623878366356,
+      "hold_bars": 6
+    },
+    {
+      "ticker": "005930",
+      "entry_time": "2026-07-08T13:20:00",
+      "entry_price": 283000.0,
+      "exit_time": "2026-07-13T11:00:00",
+      "exit_price": 266020.0,
+      "exit_reason": "손절(SL)",
+      "qty": 41,
+      "sl": 266020.0,
+      "tp": 299980.0,
+      "capital_before": 11707765.287999997,
+      "capital_after": 10988576.538999997,
+      "pnl": -719188.7489999998,
+      "pnl_pct": -6.142835385819874,
+      "hold_bars": 206
+    },
+    {
+      "ticker": "000660",
+      "entry_time": "2026-07-14T09:10:00",
+      "entry_price": 1845000.0,
+      "exit_time": "2026-07-14T09:55:00",
+      "exit_price": 1902500.0,
+      "exit_reason": "익절(TP)",
+      "qty": 5,
+      "sl": 1787500.0,
+      "tp": 1902500.0,
+      "capital_before": 10988576.538999997,
+      "capital_after": 11256143.413999997,
+      "pnl": 267566.875,
+      "pnl_pct": 2.4349548283198255,
+      "hold_bars": 9
+    },
+    {
+      "ticker": "000660",
+      "entry_time": "2026-07-15T10:50:00",
+      "entry_price": 2100000.0,
+      "exit_time": "2026-07-15T11:05:00",
+      "exit_price": 2129000.0,
+      "exit_reason": "익절(TP)",
+      "qty": 5,
+      "sl": 2071000.0,
+      "tp": 2129000.0,
+      "capital_before": 11256143.413999997,
+      "capital_after": 11378810.663999997,
+      "pnl": 122667.25,
+      "pnl_pct": 1.0897804468929453,
+      "hold_bars": 3
+    },
+    {
+      "ticker": "005930",
+      "entry_time": "2026-07-15T14:15:00",
+      "entry_price": 279500.0,
+      "exit_time": "2026-07-16T09:00:00",
+      "exit_price": 273500.0,
+      "exit_reason": "손절(SL)",
+      "qty": 40,
+      "sl": 273500.0,
+      "tp": 285500.0,
+      "capital_before": 11378810.663999997,
+      "capital_after": 11115800.663999997,
+      "pnl": -263010.0,
+      "pnl_pct": -2.3114014967496086,
+      "hold_bars": 15
+    },
+    {
+      "ticker": "005930",
+      "entry_time": "2026-07-16T09:50:00",
+      "entry_price": 256750.0,
+      "exit_time": "2026-07-20T09:00:00",
+      "exit_price": 241345.0,
+      "exit_reason": "손절(SL)",
+      "qty": 43,
+      "sl": 241345.0,
+      "tp": 272155.0,
+      "capital_before": 11115800.663999997,
+      "capital_after": 10431492.848249998,
+      "pnl": -684307.8157499991,
+      "pnl_pct": -6.15617206924393,
+      "hold_bars": 68
+    },
+    {
+      "ticker": "005930",
+      "entry_time": "2026-07-20T09:05:00",
+      "entry_price": 254500.0,
+      "exit_time": "2026-07-20T10:15:00",
+      "exit_price": 248500.0,
+      "exit_reason": "손절(SL)",
+      "qty": 40,
+      "sl": 248500.0,
+      "tp": 260500.0,
+      "capital_before": 10431492.848249998,
+      "capital_after": 10170582.848249998,
+      "pnl": -260910.0,
+      "pnl_pct": -2.501176042542853,
+      "hold_bars": 14
+    },
+    {
+      "ticker": "005930",
+      "entry_time": "2026-07-21T14:00:00",
+      "entry_price": 260750.0,
+      "exit_time": "2026-07-22T09:00:00",
+      "exit_price": 266500.0,
+      "exit_reason": "익절(TP)",
+      "qty": 38,
+      "sl": 255000.0,
+      "tp": 266500.0,
+      "capital_before": 10170582.848249998,
+      "capital_after": 10367848.923249997,
+      "pnl": 197266.07499999925,
+      "pnl_pct": 1.9395749284313817,
+      "hold_bars": 18
+    },
+    {
+      "ticker": "000660",
+      "entry_time": "2026-07-22T12:20:00",
+      "entry_price": 1943000.0,
+      "exit_time": "2026-07-22T13:20:00",
+      "exit_price": 1962000.0,
+      "exit_reason": "익절(TP)",
+      "qty": 5,
+      "sl": 1924000.0,
+      "tp": 1962000.0,
+      "capital_before": 10367848.923249997,
+      "capital_after": 10442262.173249997,
+      "pnl": 74413.25,
+      "pnl_pct": 0.7177308480366414,
+      "hold_bars": 12
+    },
+    {
+      "ticker": "005930",
+      "entry_time": "2026-07-22T14:30:00",
+      "entry_price": 266500.0,
+      "exit_time": "2026-07-24T11:40:00",
+      "exit_price": 250510.0,
+      "exit_reason": "손절(SL)",
+      "qty": 39,
+      "sl": 250510.0,
+      "tp": 282490.0,
+      "capital_before": 10442262.173249997,
+      "capital_after": 9798041.862749998,
+      "pnl": -644220.3104999997,
+      "pnl_pct": -6.169355833167094,
+      "hold_bars": 122
+    },
+    {
+      "ticker": "000660",
+      "entry_time": "2026-07-28T10:00:00",
+      "entry_price": 1622000.0,
+      "exit_time": "2026-07-29T09:30:00",
+      "exit_price": 1524680.0,
+      "exit_reason": "손절(SL)",
+      "qty": 6,
+      "sl": 1524680.0,
+      "tp": 1719320.0,
+      "capital_before": 9798041.862749998,
+      "capital_after": 9194823.306749998,
+      "pnl": -603218.5559999999,
+      "pnl_pct": -6.15652152184922,
+      "hold_bars": 67
+    },
+    {
+      "ticker": "005930",
+      "entry_time": "2026-07-29T10:20:00",
+      "entry_price": 225250.0,
+      "exit_time": "2026-07-29T10:40:00",
+      "exit_price": 219500.0,
+      "exit_reason": "손절(SL)",
+      "qty": 40,
+      "sl": 219500.0,
+      "tp": 231000.0,
+      "capital_before": 9194823.306749998,
+      "capital_after": 8946350.806749998,
+      "pnl": -248472.5,
+      "pnl_pct": -2.702308589416767,
+      "hold_bars": 4
+    },
+    {
+      "ticker": "005930",
+      "entry_time": "2026-08-03T09:35:00",
+      "entry_price": 242500.0,
+      "exit_time": "2026-08-03T09:40:00",
+      "exit_price": 241000.0,
+      "exit_reason": "손절(SL)",
+      "qty": 36,
+      "sl": 241000.0,
+      "tp": 244000.0,
+      "capital_before": 8946350.806749998,
+      "capital_after": 8874123.106749998,
+      "pnl": -72227.69999999925,
+      "pnl_pct": -0.8073425864935192,
+      "hold_bars": 1
+    },
+    {
+      "ticker": "005930",
+      "entry_time": "2026-08-04T09:45:00",
+      "entry_price": 233250.0,
+      "exit_time": "2026-08-05T09:00:00",
+      "exit_price": 247245.0,
+      "exit_reason": "익절(TP)",
+      "qty": 38,
+      "sl": 219255.0,
+      "tp": 247245.0,
+      "capital_before": 8874123.106749998,
+      "capital_after": 9386282.727249999,
+      "pnl": 512159.6205000002,
+      "pnl_pct": 5.771382866104617,
+      "hold_bars": 69
+    },
+    {
+      "ticker": "005930",
+      "entry_time": "2026-08-06T09:15:00",
+      "entry_price": 242000.0,
+      "exit_time": "2026-08-12T11:30:00",
+      "exit_price": 256520.0,
+      "exit_reason": "익절(TP)",
+      "qty": 38,
+      "sl": 227480.0,
+      "tp": 256520.0,
+      "capital_before": 9386282.727249999,
+      "capital_after": 9917655.195249999,
+      "pnl": 531372.4680000003,
+      "pnl_pct": 5.66115983761425,
+      "hold_bars": 339
+    },
+    {
+      "ticker": "000660",
+      "entry_time": "2026-08-12T14:25:00",
+      "entry_price": 1497000.0,
+      "exit_time": "2026-08-12T14:30:00",
+      "exit_price": 1506000.0,
+      "exit_reason": "익절(TP)",
+      "qty": 6,
+      "sl": 1488000.0,
+      "tp": 1506000.0,
+      "capital_before": 9917655.195249999,
+      "capital_after": 9952687.695249999,
+      "pnl": 35032.5,
+      "pnl_pct": 0.3532336959725985,
+      "hold_bars": 1
+    },
+    {
+      "ticker": "000660",
+      "entry_time": "2026-08-14T10:15:00",
+      "entry_price": 1646000.0,
+      "exit_time": "2026-08-18T09:00:00",
+      "exit_price": 1709000.0,
+      "exit_reason": "익절(TP)",
+      "qty": 6,
+      "sl": 1583000.0,
+      "tp": 1709000.0,
+      "capital_before": 9952687.695249999,
+      "capital_after": 10309210.995249998,
+      "pnl": 356523.2999999989,
+      "pnl_pct": 3.582181124503209,
+      "hold_bars": 63
+    },
+    {
+      "ticker": "005930",
+      "entry_time": "2026-08-18T10:55:00",
+      "entry_price": 278500.0,
+      "exit_time": "2026-08-18T11:40:00",
+      "exit_price": 269750.0,
+      "exit_reason": "손절(SL)",
+      "qty": 37,
+      "sl": 269750.0,
+      "tp": 287250.0,
+      "capital_before": 10309210.995249998,
+      "capital_after": 9964452.857749997,
+      "pnl": -344758.1375000011,
+      "pnl_pct": -3.3441757827912295,
+      "hold_bars": 9
+    },
+    {
+      "ticker": "005930",
+      "entry_time": "2026-08-19T09:25:00",
+      "entry_price": 248500.0,
+      "exit_time": "2026-08-19T09:30:00",
+      "exit_price": 248250.0,
+      "exit_reason": "손절(SL)",
+      "qty": 40,
+      "sl": 248250.0,
+      "tp": 248750.0,
+      "capital_before": 9964452.857749997,
+      "capital_after": 9933598.357749997,
+      "pnl": -30854.5,
+      "pnl_pct": -0.309645701981544,
+      "hold_bars": 1
+    },
+    {
+      "ticker": "000660",
+      "entry_time": "2026-08-19T09:30:00",
+      "entry_price": 1517000.0,
+      "exit_time": "2026-08-19T09:35:00",
+      "exit_price": 1526000.0,
+      "exit_reason": "익절(TP)",
+      "qty": 6,
+      "sl": 1508000.0,
+      "tp": 1526000.0,
+      "capital_before": 9933598.357749997,
+      "capital_after": 9968378.857749997,
+      "pnl": 34780.5,
+      "pnl_pct": 0.35012992017001515,
+      "hold_bars": 1
+    },
+    {
+      "ticker": "000660",
+      "entry_time": "2026-08-19T15:10:00",
+      "entry_price": 1487000.0,
+      "exit_time": "2026-08-20T09:00:00",
+      "exit_price": 1576220.0,
+      "exit_reason": "익절(TP)",
+      "qty": 6,
+      "sl": 1397780.0,
+      "tp": 1576220.0,
+      "capital_before": 9968378.857749997,
+      "capital_after": 10483918.783749996,
+      "pnl": 515539.92599999905,
+      "pnl_pct": 5.171752933519259,
+      "hold_bars": 4
+    },
+    {
+      "ticker": "005930",
+      "entry_time": "2026-08-20T11:55:00",
+      "entry_price": 269000.0,
+      "exit_time": "2026-08-20T12:00:00",
+      "exit_price": 268000.0,
+      "exit_reason": "손절(SL)",
+      "qty": 38,
+      "sl": 268000.0,
+      "tp": 270000.0,
+      "capital_before": 10483918.783749996,
+      "capital_after": 10424526.683749994,
+      "pnl": -59392.10000000149,
+      "pnl_pct": -0.5665066777516328,
+      "hold_bars": 1
+    },
+    {
+      "ticker": "005930",
+      "entry_time": "2026-08-20T14:05:00",
+      "entry_price": 267500.0,
+      "exit_time": "2026-08-21T14:10:00",
+      "exit_price": 283550.0,
+      "exit_reason": "익절(TP)",
+      "qty": 38,
+      "sl": 251450.0,
+      "tp": 283550.0,
+      "capital_before": 10424526.683749994,
+      "capital_after": 11011890.878749995,
+      "pnl": 587364.1950000003,
+      "pnl_pct": 5.6344447361394145,
+      "hold_bars": 79
+    },
+    {
+      "ticker": "005930",
+      "entry_time": "2026-08-21T15:30:00",
+      "entry_price": 281500.0,
+      "exit_time": "2026-08-24T09:00:00",
+      "exit_price": 277500.0,
+      "exit_reason": "손절(SL)",
+      "qty": 39,
+      "sl": 277500.0,
+      "tp": 285500.0,
+      "capital_before": 11011890.878749995,
+      "capital_after": 10833140.228749994,
+      "pnl": -178750.65000000037,
+      "pnl_pct": -1.6232511924445359,
+      "hold_bars": 2
+    },
+    {
+      "ticker": "005930",
+      "entry_time": "2026-08-24T09:30:00",
+      "entry_price": 262750.0,
+      "exit_time": "2026-08-24T09:35:00",
+      "exit_price": 262000.0,
+      "exit_reason": "손절(SL)",
+      "qty": 41,
+      "sl": 262000.0,
+      "tp": 263500.0,
+      "capital_before": 10833140.228749994,
+      "capital_after": 10779827.416249994,
+      "pnl": -53312.8125,
+      "pnl_pct": -0.4921270414142107,
+      "hold_bars": 1
+    },
+    {
+      "ticker": "000660",
+      "entry_time": "2026-08-24T11:10:00",
+      "entry_price": 1711000.0,
+      "exit_time": "2026-08-25T09:00:00",
+      "exit_price": 1608340.0,
+      "exit_reason": "손절(SL)",
+      "qty": 6,
+      "sl": 1608340.0,
+      "tp": 1813660.0,
+      "capital_before": 10779827.416249994,
+      "capital_after": 10143509.938249994,
+      "pnl": -636317.4780000001,
+      "pnl_pct": -5.902854038653594,
+      "hold_bars": 52
+    },
+    {
+      "ticker": "005930",
+      "entry_time": "2026-08-25T09:20:00",
+      "entry_price": 248000.0,
+      "exit_time": "2026-08-25T09:25:00",
+      "exit_price": 250000.0,
+      "exit_reason": "익절(TP)",
+      "qty": 40,
+      "sl": 246000.0,
+      "tp": 250000.0,
+      "capital_before": 10143509.938249994,
+      "capital_after": 10202521.938249994,
+      "pnl": 59012.0,
+      "pnl_pct": 0.5817710078586568,
+      "hold_bars": 1
+    },
+    {
+      "ticker": "005930",
+      "entry_time": "2026-08-26T10:00:00",
+      "entry_price": 258000.0,
+      "exit_time": "2026-08-26T11:20:00",
+      "exit_price": 260250.0,
+      "exit_reason": "익절(TP)",
+      "qty": 39,
+      "sl": 255750.0,
+      "tp": 260250.0,
+      "capital_before": 10202521.938249994,
+      "capital_after": 10268970.625749994,
+      "pnl": 66448.6875,
+      "pnl_pct": 0.6512966882323384,
+      "hold_bars": 16
+    },
+    {
+      "ticker": "005930",
+      "entry_time": "2026-08-26T14:25:00",
+      "entry_price": 262000.0,
+      "exit_time": "2026-08-26T14:30:00",
+      "exit_price": 262500.0,
+      "exit_reason": "익절(TP)",
+      "qty": 39,
+      "sl": 261500.0,
+      "tp": 262500.0,
+      "capital_before": 10268970.625749994,
+      "capital_after": 10266974.800749995,
+      "pnl": -1995.824999999255,
+      "pnl_pct": -0.019435492346181388,
+      "hold_bars": 1
+    },
+    {
+      "ticker": "000660",
+      "entry_time": "2026-08-31T09:10:00",
+      "entry_price": 1601000.0,
+      "exit_time": "2026-08-31T09:20:00",
+      "exit_price": 1615000.0,
+      "exit_reason": "익절(TP)",
+      "qty": 6,
+      "sl": 1587000.0,
+      "tp": 1615000.0,
+      "capital_before": 10266974.800749995,
+      "capital_after": 10330638.400749994,
+      "pnl": 63663.59999999963,
+      "pnl_pct": 0.6200813894600097,
+      "hold_bars": 2
+    },
+    {
+      "ticker": "005930",
+      "entry_time": "2026-09-01T09:20:00",
+      "entry_price": 256000.0,
+      "exit_time": "2026-09-01T09:30:00",
+      "exit_price": 257750.0,
+      "exit_reason": "익절(TP)",
+      "qty": 40,
+      "sl": 254250.0,
+      "tp": 257750.0,
+      "capital_before": 10330638.400749994,
+      "capital_after": 10378997.900749994,
+      "pnl": 48359.5,
+      "pnl_pct": 0.4681172462341645,
+      "hold_bars": 2
+    },
+    {
+      "ticker": "000660",
+      "entry_time": "2026-09-01T14:20:00",
+      "entry_price": 1690000.0,
+      "exit_time": "2026-09-01T14:25:00",
+      "exit_price": 1695000.0,
+      "exit_reason": "익절(TP)",
+      "qty": 6,
+      "sl": 1685000.0,
+      "tp": 1695000.0,
+      "capital_before": 10378997.900749994,
+      "capital_after": 10387645.400749994,
+      "pnl": 8647.5,
+      "pnl_pct": 0.08331729211906985,
+      "hold_bars": 1
+    },
+    {
+      "ticker": "000660",
+      "entry_time": "2026-09-02T09:20:00",
+      "entry_price": 1652000.0,
+      "exit_time": "2026-09-02T10:30:00",
+      "exit_price": 1635000.0,
+      "exit_reason": "손절(SL)",
+      "qty": 6,
+      "sl": 1635000.0,
+      "tp": 1669000.0,
+      "capital_before": 10387645.400749994,
+      "capital_after": 10265029.100749994,
+      "pnl": -122616.30000000075,
+      "pnl_pct": -1.1804051377335982,
+      "hold_bars": 14
+    },
+    {
+      "ticker": "000660",
+      "entry_time": "2026-09-03T14:30:00",
+      "entry_price": 1589000.0,
+      "exit_time": "2026-09-03T14:45:00",
+      "exit_price": 1603000.0,
+      "exit_reason": "익절(TP)",
+      "qty": 6,
+      "sl": 1575000.0,
+      "tp": 1603000.0,
+      "capital_before": 10265029.100749994,
+      "capital_after": 10328843.900749994,
+      "pnl": 63814.800000000745,
+      "pnl_pct": 0.6216718859115387,
+      "hold_bars": 3
+    },
+    {
+      "ticker": "005930",
+      "entry_time": "2026-09-04T15:15:00",
+      "entry_price": 256000.0,
+      "exit_time": "2026-09-04T15:30:00",
+      "exit_price": 255500.0,
+      "exit_reason": "손절(SL)",
+      "qty": 40,
+      "sl": 255500.0,
+      "tp": 256500.0,
+      "capital_before": 10328843.900749994,
+      "capital_after": 10287378.900749994,
+      "pnl": -41465.0,
+      "pnl_pct": -0.4014486073992188,
+      "hold_bars": 1
+    },
+    {
+      "ticker": "000660",
+      "entry_time": "2026-09-04T15:35:00",
+      "entry_price": 1647000.0,
+      "exit_time": "2026-09-07T09:00:00",
+      "exit_price": 1745820.0,
+      "exit_reason": "익절(TP)",
+      "qty": 6,
+      "sl": 1548180.0,
+      "tp": 1745820.0,
+      "capital_before": 10287378.900749994,
+      "capital_after": 10858390.506749993,
+      "pnl": 571011.6059999987,
+      "pnl_pct": 5.550603428812849,
+      "hold_bars": 1
+    },
+    {
+      "ticker": "000660",
+      "entry_time": "2026-09-07T14:15:00",
+      "entry_price": 1770000.0,
+      "exit_time": "2026-09-07T15:00:00",
+      "exit_price": 1779000.0,
+      "exit_reason": "익절(TP)",
+      "qty": 6,
+      "sl": 1761000.0,
+      "tp": 1779000.0,
+      "capital_before": 10858390.506749993,
+      "capital_after": 10889983.206749992,
+      "pnl": 31592.699999999255,
+      "pnl_pct": 0.29095195996460077,
+      "hold_bars": 9
+    },
+    {
+      "ticker": "005930",
+      "entry_time": "2026-09-08T14:15:00",
+      "entry_price": 275250.0,
+      "exit_time": "2026-09-11T09:00:00",
+      "exit_price": 258734.99999999997,
+      "exit_reason": "손절(SL)",
+      "qty": 39,
+      "sl": 258734.99999999997,
+      "tp": 291765.0,
+      "capital_before": 10889983.206749992,
+      "capital_after": 10224611.19749999,
+      "pnl": -665372.009250002,
+      "pnl_pct": -6.10994522780881,
+      "hold_bars": 171
+    },
+    {
+      "ticker": "000660",
+      "entry_time": "2026-09-11T09:20:00",
+      "entry_price": 1786000.0,
+      "exit_time": "2026-09-11T13:35:00",
+      "exit_price": 1802000.0,
+      "exit_reason": "익절(TP)",
+      "qty": 5,
+      "sl": 1770000.0,
+      "tp": 1802000.0,
+      "capital_before": 10224611.19749999,
+      "capital_after": 10285702.19749999,
+      "pnl": 61091.0,
+      "pnl_pct": 0.5974897120287302,
+      "hold_bars": 51
+    }
+  ],
+  "equity_curve": [
+    {
+      "time": null,
+      "capital": 10000000.0
+    },
+    {
+      "time": "2025-09-02T14:30:00",
+      "capital": 9993476.08
+    },
+    {
+      "time": "2025-09-09T09:00:00",
+      "capital": 10556831.4385
+    },
+    {
+      "time": "2025-09-11T09:55:00",
+      "capital": 10520283.4635
+    },
+    {
+      "time": "2025-09-12T09:00:00",
+      "capital": 10710288.6385
+    },
+    {
+      "time": "2025-09-15T09:00:00",
+      "capital": 11165575.613499999
+    },
+    {
+      "time": "2025-09-15T10:15:00",
+      "capital": 11060436.788499998
+    },
+    {
+      "time": "2025-09-16T12:15:00",
+      "capital": 11022344.763499998
+    },
+    {
+      "time": "2025-09-19T09:00:00",
+      "capital": 11648250.219499996
+    },
+    {
+      "time": "2025-09-22T10:10:00",
+      "capital": 11731036.081999997
+    },
+    {
+      "time": "2025-09-22T13:35:00",
+      "capital": 11678314.771999998
+    },
+    {
+      "time": "2025-09-24T09:25:00",
+      "capital": 11638187.571999999
+    },
+    {
+      "time": "2025-09-25T09:35:00",
+      "capital": 11695352.452
+    },
+    {
+      "time": "2025-09-26T09:00:00",
+      "capital": 11527743.651999999
+    },
+    {
+      "time": "2025-09-26T09:55:00",
+      "capital": 11438137.101999998
+    },
+    {
+      "time": "2025-09-30T09:35:00",
+      "capital": 11446554.701999998
+    },
+    {
+      "time": "2025-10-02T09:00:00",
+      "capital": 11694101.101999996
+    },
+    {
+      "time": "2025-10-02T14:15:00",
+      "capital": 11643718.301999995
+    },
+    {
+      "time": "2025-10-10T11:30:00",
+      "capital": 11656498.361999996
+    },
+    {
+      "time": "2025-10-13T10:00:00",
+      "capital": 11745386.951999996
+    },
+    {
+      "time": "2025-10-14T10:45:00",
+      "capital": 11633435.076999996
+    },
+    {
+      "time": "2025-10-16T09:05:00",
+      "capital": 12292739.106999995
+    },
+    {
+      "time": "2025-10-16T14:50:00",
+      "capital": 12229267.236999994
+    },
+    {
+      "time": "2025-10-17T11:55:00",
+      "capital": 12154270.796999995
+    },
+    {
+      "time": "2025-10-20T09:35:00",
+      "capital": 12166366.421999995
+    },
+    {
+      "time": "2025-10-20T13:40:00",
+      "capital": 12153353.241999995
+    },
+    {
+      "time": "2025-10-21T14:50:00",
+      "capital": 11957573.741999995
+    },
+    {
+      "time": "2025-10-23T09:50:00",
+      "capital": 12032441.241999995
+    },
+    {
+      "time": "2025-10-24T09:00:00",
+      "capital": 12206903.741999995
+    },
+    {
+      "time": "2025-10-27T10:35:00",
+      "capital": 12217331.141999995
+    },
+    {
+      "time": "2025-10-28T09:40:00",
+      "capital": 12179586.171999995
+    },
+    {
+      "time": "2025-10-30T10:45:00",
+      "capital": 12224219.331999995
+    },
+    {
+      "time": "2025-10-30T13:25:00",
+      "capital": 12157384.731999995
+    },
+    {
+      "time": "2025-10-30T13:35:00",
+      "capital": 12167010.906999996
+    },
+    {
+      "time": "2025-10-31T09:20:00",
+      "capital": 12205324.356999995
+    },
+    {
+      "time": "2025-10-31T14:55:00",
+      "capital": 12170214.981999995
+    },
+    {
+      "time": "2025-11-03T13:20:00",
+      "capital": 12133780.231999995
+    },
+    {
+      "time": "2025-11-05T09:00:00",
+      "capital": 11384467.744999995
+    },
+    {
+      "time": "2025-11-06T09:00:00",
+      "capital": 12036259.984999996
+    },
+    {
+      "time": "2025-11-11T11:55:00",
+      "capital": 11942133.634999996
+    },
+    {
+      "time": "2025-11-13T16:15:00",
+      "capital": 11879749.034999995
+    },
+    {
+      "time": "2025-11-19T09:30:00",
+      "capital": 11158266.914999995
+    },
+    {
+      "time": "2025-11-19T09:45:00",
+      "capital": 11254806.914999995
+    },
+    {
+      "time": "2025-11-20T10:25:00",
+      "capital": 11307516.714999996
+    },
+    {
+      "time": "2025-11-21T10:25:00",
+      "capital": 11145007.674999995
+    },
+    {
+      "time": "2025-11-25T09:00:00",
+      "capital": 11785913.597799994
+    },
+    {
+      "time": "2025-11-25T13:35:00",
+      "capital": 11808855.607799994
+    },
+    {
+      "time": "2025-11-26T10:25:00",
+      "capital": 11910572.532799995
+    },
+    {
+      "time": "2025-11-28T09:25:00",
+      "capital": 11819799.432799995
+    },
+    {
+      "time": "2025-12-05T10:15:00",
+      "capital": 12501477.040399995
+    },
+    {
+      "time": "2025-12-08T10:15:00",
+      "capital": 12567312.240399996
+    },
+    {
+      "time": "2025-12-16T15:05:00",
+      "capital": 11794991.663799997
+    },
+    {
+      "time": "2025-12-17T13:55:00",
+      "capital": 11748219.593799997
+    },
+    {
+      "time": "2025-12-17T14:45:00",
+      "capital": 11892033.893799996
+    },
+    {
+      "time": "2025-12-18T09:55:00",
+      "capital": 11911382.303799996
+    },
+    {
+      "time": "2025-12-23T10:20:00",
+      "capital": 11836762.803799996
+    },
+    {
+      "time": "2025-12-23T13:10:00",
+      "capital": 11833123.823799996
+    },
+    {
+      "time": "2025-12-29T09:00:00",
+      "capital": 11923041.323799996
+    },
+    {
+      "time": "2025-12-29T11:30:00",
+      "capital": 11879100.973799996
+    },
+    {
+      "time": "2026-01-02T10:00:00",
+      "capital": 11913028.573799996
+    },
+    {
+      "time": "2026-01-05T13:25:00",
+      "capital": 11845889.198799996
+    },
+    {
+      "time": "2026-01-06T10:00:00",
+      "capital": 11702845.248799996
+    },
+    {
+      "time": "2026-01-07T14:15:00",
+      "capital": 11753795.868799996
+    },
+    {
+      "time": "2026-01-08T15:05:00",
+      "capital": 11508392.418799996
+    },
+    {
+      "time": "2026-01-28T09:00:00",
+      "capital": 12167985.363799997
+    },
+    {
+      "time": "2026-01-28T12:30:00",
+      "capital": 12017652.663799997
+    },
+    {
+      "time": "2026-01-29T10:05:00",
+      "capital": 11870600.418799996
+    },
+    {
+      "time": "2026-01-29T10:30:00",
+      "capital": 11934534.198799998
+    },
+    {
+      "time": "2026-01-30T15:30:00",
+      "capital": 11701405.038799997
+    },
+    {
+      "time": "2026-02-06T09:00:00",
+      "capital": 10997959.971799998
+    },
+    {
+      "time": "2026-02-06T09:20:00",
+      "capital": 10885242.821799997
+    },
+    {
+      "time": "2026-02-06T09:25:00",
+      "capital": 10897906.026799997
+    },
+    {
+      "time": "2026-02-10T09:00:00",
+      "capital": 10959541.026799997
+    },
+    {
+      "time": "2026-02-11T09:40:00",
+      "capital": 10983345.121799996
+    },
+    {
+      "time": "2026-02-12T14:40:00",
+      "capital": 11008949.521799996
+    },
+    {
+      "time": "2026-02-13T13:30:00",
+      "capital": 11198988.006799996
+    },
+    {
+      "time": "2026-02-13T15:00:00",
+      "capital": 11123937.724299995
+    },
+    {
+      "time": "2026-02-19T15:30:00",
+      "capital": 11176219.214299995
+    },
+    {
+      "time": "2026-02-20T10:30:00",
+      "capital": 11225726.414299997
+    },
+    {
+      "time": "2026-02-24T10:35:00",
+      "capital": 11433742.254299996
+    },
+    {
+      "time": "2026-02-25T13:30:00",
+      "capital": 11465642.654299997
+    },
+    {
+      "time": "2026-02-26T14:45:00",
+      "capital": 12112378.881799996
+    },
+    {
+      "time": "2026-02-27T09:15:00",
+      "capital": 12212760.981799996
+    },
+    {
+      "time": "2026-03-03T09:00:00",
+      "capital": 11749017.481799996
+    },
+    {
+      "time": "2026-03-03T09:30:00",
+      "capital": 11808275.281799996
+    },
+    {
+      "time": "2026-03-04T11:50:00",
+      "capital": 11220580.691799996
+    },
+    {
+      "time": "2026-03-09T09:00:00",
+      "capital": 10530338.003799995
+    },
+    {
+      "time": "2026-03-10T09:00:00",
+      "capital": 11131859.033799995
+    },
+    {
+      "time": "2026-03-13T09:00:00",
+      "capital": 10469818.610799994
+    },
+    {
+      "time": "2026-03-13T10:30:00",
+      "capital": 10550361.320799993
+    },
+    {
+      "time": "2026-03-18T14:50:00",
+      "capital": 11123568.680799993
+    },
+    {
+      "time": "2026-03-23T09:50:00",
+      "capital": 10441755.680799993
+    },
+    {
+      "time": "2026-03-24T12:45:00",
+      "capital": 10696143.430799993
+    },
+    {
+      "time": "2026-03-27T09:00:00",
+      "capital": 10037512.072799992
+    },
+    {
+      "time": "2026-04-01T12:30:00",
+      "capital": 10614226.860899992
+    },
+    {
+      "time": "2026-04-06T09:00:00",
+      "capital": 11221335.506999992
+    },
+    {
+      "time": "2026-04-08T09:00:00",
+      "capital": 11425465.616999993
+    },
+    {
+      "time": "2026-04-08T14:35:00",
+      "capital": 11320696.166999994
+    },
+    {
+      "time": "2026-04-08T14:50:00",
+      "capital": 11338841.166999994
+    },
+    {
+      "time": "2026-04-08T15:10:00",
+      "capital": 11368309.166999994
+    },
+    {
+      "time": "2026-04-09T09:20:00",
+      "capital": 11413103.229499994
+    },
+    {
+      "time": "2026-04-13T09:20:00",
+      "capital": 11451004.309499994
+    },
+    {
+      "time": "2026-04-14T11:15:00",
+      "capital": 11467532.309499994
+    },
+    {
+      "time": "2026-04-14T14:20:00",
+      "capital": 11394088.809499994
+    },
+    {
+      "time": "2026-04-21T09:00:00",
+      "capital": 12036635.769499995
+    },
+    {
+      "time": "2026-04-21T11:05:00",
+      "capital": 11997877.956999995
+    },
+    {
+      "time": "2026-04-21T11:40:00",
+      "capital": 12015382.731999995
+    },
+    {
+      "time": "2026-04-22T10:05:00",
+      "capital": 11884592.031999996
+    },
+    {
+      "time": "2026-04-23T11:15:00",
+      "capital": 11726475.981999997
+    },
+    {
+      "time": "2026-04-23T12:35:00",
+      "capital": 11429684.031999998
+    },
+    {
+      "time": "2026-04-24T09:40:00",
+      "capital": 11367866.294499997
+    },
+    {
+      "time": "2026-04-24T13:30:00",
+      "capital": 11399005.394499997
+    },
+    {
+      "time": "2026-04-27T14:20:00",
+      "capital": 11441006.994499996
+    },
+    {
+      "time": "2026-05-04T10:10:00",
+      "capital": 12037327.554499997
+    },
+    {
+      "time": "2026-05-04T12:25:00",
+      "capital": 11999428.004499998
+    },
+    {
+      "time": "2026-05-07T09:00:00",
+      "capital": 12010825.054499997
+    },
+    {
+      "time": "2026-05-08T09:30:00",
+      "capital": 12053339.929499997
+    },
+    {
+      "time": "2026-05-11T10:55:00",
+      "capital": 12164480.854499998
+    },
+    {
+      "time": "2026-05-11T15:00:00",
+      "capital": 12076466.704499997
+    },
+    {
+      "time": "2026-05-12T09:00:00",
+      "capital": 12114206.854499998
+    },
+    {
+      "time": "2026-05-12T10:25:00",
+      "capital": 11700485.554499999
+    },
+    {
+      "time": "2026-05-12T15:15:00",
+      "capital": 12011531.254499998
+    },
+    {
+      "time": "2026-05-13T09:40:00",
+      "capital": 12053904.379499998
+    },
+    {
+      "time": "2026-05-14T09:40:00",
+      "capital": 12059099.479499998
+    },
+    {
+      "time": "2026-05-15T11:00:00",
+      "capital": 11614398.616999997
+    },
+    {
+      "time": "2026-05-20T09:10:00",
+      "capital": 10941635.134999998
+    },
+    {
+      "time": "2026-05-20T09:25:00",
+      "capital": 10997974.834999997
+    },
+    {
+      "time": "2026-05-20T13:05:00",
+      "capital": 11115168.834999997
+    },
+    {
+      "time": "2026-05-26T09:25:00",
+      "capital": 11673641.529999997
+    },
+    {
+      "time": "2026-05-26T11:05:00",
+      "capital": 11709383.654999997
+    },
+    {
+      "time": "2026-05-26T14:35:00",
+      "capital": 11650179.779999997
+    },
+    {
+      "time": "2026-06-08T09:00:00",
+      "capital": 10563474.029999997
+    },
+    {
+      "time": "2026-06-08T11:00:00",
+      "capital": 10847246.779999997
+    },
+    {
+      "time": "2026-06-10T13:20:00",
+      "capital": 10297988.979999997
+    },
+    {
+      "time": "2026-06-11T09:15:00",
+      "capital": 10416253.979999997
+    },
+    {
+      "time": "2026-06-11T11:35:00",
+      "capital": 10479521.229999997
+    },
+    {
+      "time": "2026-06-12T12:00:00",
+      "capital": 10550694.129999997
+    },
+    {
+      "time": "2026-06-12T14:35:00",
+      "capital": 10405225.079999996
+    },
+    {
+      "time": "2026-06-17T14:35:00",
+      "capital": 10990075.714499997
+    },
+    {
+      "time": "2026-06-18T11:55:00",
+      "capital": 11083908.714499997
+    },
+    {
+      "time": "2026-06-18T14:30:00",
+      "capital": 11122807.514499998
+    },
+    {
+      "time": "2026-06-22T10:25:00",
+      "capital": 11482361.114499997
+    },
+    {
+      "time": "2026-06-22T13:25:00",
+      "capital": 11434149.614499997
+    },
+    {
+      "time": "2026-06-23T09:45:00",
+      "capital": 11525585.189499997
+    },
+    {
+      "time": "2026-06-24T14:10:00",
+      "capital": 12097174.625499995
+    },
+    {
+      "time": "2026-06-26T09:00:00",
+      "capital": 11940449.375499995
+    },
+    {
+      "time": "2026-06-26T09:45:00",
+      "capital": 12017546.075499997
+    },
+    {
+      "time": "2026-07-01T09:10:00",
+      "capital": 11783112.575499997
+    },
+    {
+      "time": "2026-07-03T13:35:00",
+      "capital": 12463218.485499997
+    },
+    {
+      "time": "2026-07-06T11:25:00",
+      "capital": 12252695.022999996
+    },
+    {
+      "time": "2026-07-07T11:30:00",
+      "capital": 11537101.287999997
+    },
+    {
+      "time": "2026-07-08T09:40:00",
+      "capital": 11707765.287999997
+    },
+    {
+      "time": "2026-07-13T11:00:00",
+      "capital": 10988576.538999997
+    },
+    {
+      "time": "2026-07-14T09:55:00",
+      "capital": 11256143.413999997
+    },
+    {
+      "time": "2026-07-15T11:05:00",
+      "capital": 11378810.663999997
+    },
+    {
+      "time": "2026-07-16T09:00:00",
+      "capital": 11115800.663999997
+    },
+    {
+      "time": "2026-07-20T09:00:00",
+      "capital": 10431492.848249998
+    },
+    {
+      "time": "2026-07-20T10:15:00",
+      "capital": 10170582.848249998
+    },
+    {
+      "time": "2026-07-22T09:00:00",
+      "capital": 10367848.923249997
+    },
+    {
+      "time": "2026-07-22T13:20:00",
+      "capital": 10442262.173249997
+    },
+    {
+      "time": "2026-07-24T11:40:00",
+      "capital": 9798041.862749998
+    },
+    {
+      "time": "2026-07-29T09:30:00",
+      "capital": 9194823.306749998
+    },
+    {
+      "time": "2026-07-29T10:40:00",
+      "capital": 8946350.806749998
+    },
+    {
+      "time": "2026-08-03T09:40:00",
+      "capital": 8874123.106749998
+    },
+    {
+      "time": "2026-08-05T09:00:00",
+      "capital": 9386282.727249999
+    },
+    {
+      "time": "2026-08-12T11:30:00",
+      "capital": 9917655.195249999
+    },
+    {
+      "time": "2026-08-12T14:30:00",
+      "capital": 9952687.695249999
+    },
+    {
+      "time": "2026-08-18T09:00:00",
+      "capital": 10309210.995249998
+    },
+    {
+      "time": "2026-08-18T11:40:00",
+      "capital": 9964452.857749997
+    },
+    {
+      "time": "2026-08-19T09:30:00",
+      "capital": 9933598.357749997
+    },
+    {
+      "time": "2026-08-19T09:35:00",
+      "capital": 9968378.857749997
+    },
+    {
+      "time": "2026-08-20T09:00:00",
+      "capital": 10483918.783749996
+    },
+    {
+      "time": "2026-08-20T12:00:00",
+      "capital": 10424526.683749994
+    },
+    {
+      "time": "2026-08-21T14:10:00",
+      "capital": 11011890.878749995
+    },
+    {
+      "time": "2026-08-24T09:00:00",
+      "capital": 10833140.228749994
+    },
+    {
+      "time": "2026-08-24T09:35:00",
+      "capital": 10779827.416249994
+    },
+    {
+      "time": "2026-08-25T09:00:00",
+      "capital": 10143509.938249994
+    },
+    {
+      "time": "2026-08-25T09:25:00",
+      "capital": 10202521.938249994
+    },
+    {
+      "time": "2026-08-26T11:20:00",
+      "capital": 10268970.625749994
+    },
+    {
+      "time": "2026-08-26T14:30:00",
+      "capital": 10266974.800749995
+    },
+    {
+      "time": "2026-08-31T09:20:00",
+      "capital": 10330638.400749994
+    },
+    {
+      "time": "2026-09-01T09:30:00",
+      "capital": 10378997.900749994
+    },
+    {
+      "time": "2026-09-01T14:25:00",
+      "capital": 10387645.400749994
+    },
+    {
+      "time": "2026-09-02T10:30:00",
+      "capital": 10265029.100749994
+    },
+    {
+      "time": "2026-09-03T14:45:00",
+      "capital": 10328843.900749994
+    },
+    {
+      "time": "2026-09-04T15:30:00",
+      "capital": 10287378.900749994
+    },
+    {
+      "time": "2026-09-07T09:00:00",
+      "capital": 10858390.506749993
+    },
+    {
+      "time": "2026-09-07T15:00:00",
+      "capital": 10889983.206749992
+    },
+    {
+      "time": "2026-09-11T09:00:00",
+      "capital": 10224611.19749999
+    },
+    {
+      "time": "2026-09-11T13:35:00",
+      "capital": 10285702.19749999
+    }
+  ],
+  "status": "done",
+  "run_id": "rsi_spread_pro_scanner_single_shot_5m_1789274177"
+}

@@ -1,0 +1,47 @@
+{
+  "summary": {
+    "mode": "independent_capital",
+    "strategy": "FlexiMA Variance Tracker",
+    "money_management": "분할매수 (SplitBuy)",
+    "timeframe": "15m",
+    "generated_at": "2026-09-13T13:37:35",
+    "data_from": "2026-08-13T00:00:00+00:00",
+    "data_to": "2026-09-13T00:00:00+00:00",
+    "tickers_used": 1,
+    "total_initial_capital": 10000.0,
+    "total_final_capital": 10000.0,
+    "total_return_pct": 0.0,
+    "total_trades": 0,
+    "total_wins": 0,
+    "overall_win_rate_pct": 0,
+    "open_positions_count": 0,
+    "symbols": [
+      "BTCUSDT"
+    ],
+    "elapsed_sec": 3.13,
+    "provider": "bybit"
+  },
+  "tickers": [
+    {
+      "symbol": "BTCUSDT",
+      "data_from": "2026-08-13T00:00:00+00:00",
+      "data_to": "2026-09-13T00:00:00+00:00",
+      "bars": 2977,
+      "initial_capital": 10000.0,
+      "final_capital": 10000.0,
+      "return_pct": 0.0,
+      "n_trades": 0,
+      "n_wins": 0,
+      "n_losses": 0,
+      "win_rate_pct": 0,
+      "avg_win": 0,
+      "avg_loss": 0,
+      "open_position": null
+    }
+  ],
+  "trades_by_ticker": {
+    "BTCUSDT": []
+  },
+  "status": "done",
+  "run_id": "custom_flexima-variance-tracker_split_buy_15m_1789274251121_64eeed"
+}
