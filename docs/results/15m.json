@@ -1,10 +1,26 @@
 {
   "timeframe": "15m",
   "timeframe_label": "15분봉",
-  "last_updated": "2026-09-15T14:03:00",
+  "last_updated": "2026-09-15T14:20:20",
   "total_tickers": 98,
-  "total_signals": 0,
+  "total_signals": 8,
   "results": [
+    {
+      "ticker": "005930",
+      "name": "삼성전자",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "09/15 13:15",
+      "signal_price": 247750.0,
+      "rebound_time": "09/15 14:00",
+      "rebound_price": 247500.0,
+      "bars_after_signal": 3,
+      "reasons": [
+        "음봉형 도지"
+      ]
+    },
     {
       "ticker": "009150",
       "name": "삼성전기",
@@ -25,8 +41,8 @@
       "ticker": "105560",
       "name": "KB금융",
       "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
+      "best_signal": true,
+      "best_reason": "저점 이탈(177,100→176,500)했으나 RSI 다이버전스 동반 재반등 (RSI 33.8→36.2)",
       "has_active_entry": false,
       "signal_time": "09/15 09:30",
       "signal_price": 177100.0,
@@ -70,6 +86,22 @@
       ]
     },
     {
+      "ticker": "068270",
+      "name": "셀트리온",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "09/15 14:00",
+      "signal_price": 177700.0,
+      "rebound_time": "09/15 14:15",
+      "rebound_price": 177700.0,
+      "bars_after_signal": 1,
+      "reasons": [
+        "음봉형 도지"
+      ]
+    },
+    {
       "ticker": "009540",
       "name": "HD한국조선해양",
       "is_fresh": true,
@@ -105,8 +137,8 @@
       "ticker": "010130",
       "name": "고려아연",
       "is_fresh": true,
-      "best_signal": true,
-      "best_reason": "1차 저점(1,131,000) 지지 후 재반등",
+      "best_signal": false,
+      "best_reason": "",
       "has_active_entry": false,
       "signal_time": "09/15 09:15",
       "signal_price": 1131000.0,
@@ -137,8 +169,8 @@
       "ticker": "024110",
       "name": "기업은행",
       "is_fresh": true,
-      "best_signal": true,
-      "best_reason": "저점 이탈(20,500→20,400)했으나 RSI 다이버전스 동반 재반등 (RSI 29.0→33.9)",
+      "best_signal": false,
+      "best_reason": "",
       "has_active_entry": false,
       "signal_time": "09/15 09:30",
       "signal_price": 20500.0,
@@ -170,7 +202,7 @@
       "name": "메리츠금융지주",
       "is_fresh": true,
       "best_signal": true,
-      "best_reason": "저점 이탈(127,400→126,300)했으나 RSI 다이버전스 동반 재반등 (RSI 16.6→21.4)",
+      "best_reason": "저점 이탈(127,400→126,100)했으나 RSI 다이버전스 동반 재반등 (RSI 16.6→24.7)",
       "has_active_entry": false,
       "signal_time": "09/15 10:45",
       "signal_price": 127400.0,
@@ -179,22 +211,6 @@
       "bars_after_signal": 1,
       "reasons": [
         "연속 양봉 2개 이상"
-      ]
-    },
-    {
-      "ticker": "011790",
-      "name": "SKC",
-      "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
-      "has_active_entry": false,
-      "signal_time": "09/15 13:45",
-      "signal_price": 86300.0,
-      "rebound_time": "09/15 14:00",
-      "rebound_price": 86300.0,
-      "bars_after_signal": 1,
-      "reasons": [
-        "음봉형 도지"
       ]
     },
     {
@@ -227,22 +243,6 @@
       "bars_after_signal": 3,
       "reasons": [
         "전 봉(음봉)보다 몸통이 큰 양봉"
-      ]
-    },
-    {
-      "ticker": "036570",
-      "name": "엔씨소프트",
-      "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
-      "has_active_entry": false,
-      "signal_time": "09/15 13:45",
-      "signal_price": 203500.0,
-      "rebound_time": "09/15 14:00",
-      "rebound_price": 203500.0,
-      "bars_after_signal": 1,
-      "reasons": [
-        "음봉형 도지"
       ]
     }
   ]
