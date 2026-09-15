@@ -1,7 +1,7 @@
 {
   "timeframe": "5m",
   "timeframe_label": "5분봉",
-  "last_updated": "2026-09-15T12:37:06",
+  "last_updated": "2026-09-15T13:02:30",
   "total_tickers": 98,
   "total_signals": 0,
   "results": [
@@ -57,8 +57,8 @@
       "ticker": "329180",
       "name": "HD현대중공업",
       "is_fresh": true,
-      "best_signal": true,
-      "best_reason": "저점 이탈(457,000→452,500)했으나 RSI 다이버전스 동반 재반등 (RSI 24.4→26.1)",
+      "best_signal": false,
+      "best_reason": "",
       "has_active_entry": false,
       "signal_time": "09/15 09:25",
       "signal_price": 457000.0,
