@@ -1,22 +1,70 @@
 {
   "timeframe": "15m",
   "timeframe_label": "15분봉",
-  "last_updated": "2026-09-15T09:39:39",
+  "last_updated": "2026-09-15T09:54:47",
   "total_tickers": 98,
-  "total_signals": 4,
+  "total_signals": 2,
   "results": [
     {
-      "ticker": "010130",
-      "name": "고려아연",
+      "ticker": "105560",
+      "name": "KB금융",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "09/15 09:30",
+      "signal_price": 177100.0,
+      "rebound_time": "09/15 09:45",
+      "rebound_price": 177200.0,
+      "bars_after_signal": 1,
+      "reasons": [
+        "연속 양봉 2개 이상"
+      ]
+    },
+    {
+      "ticker": "012450",
+      "name": "한화에어로스페이스",
+      "is_fresh": true,
+      "best_signal": true,
+      "best_reason": "1차 저점(1,068,000) 지지 후 재반등",
+      "has_active_entry": false,
+      "signal_time": "09/15 09:15",
+      "signal_price": 1068000.0,
+      "rebound_time": "09/15 09:30",
+      "rebound_price": 1079000.0,
+      "bars_after_signal": 1,
+      "reasons": [
+        "전 봉(음봉)보다 몸통이 큰 양봉"
+      ]
+    },
+    {
+      "ticker": "298040",
+      "name": "효성중공업",
       "is_fresh": true,
       "best_signal": false,
       "best_reason": "",
       "has_active_entry": false,
       "signal_time": "09/15 09:15",
-      "signal_price": 1131000.0,
+      "signal_price": 2716000.0,
       "rebound_time": "09/15 09:30",
-      "rebound_price": 1131000.0,
+      "rebound_price": 2727000.0,
       "bars_after_signal": 1,
+      "reasons": [
+        "전 봉(음봉)보다 몸통이 큰 양봉"
+      ]
+    },
+    {
+      "ticker": "316140",
+      "name": "우리금융지주",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "09/15 09:15",
+      "signal_price": 36050.0,
+      "rebound_time": "09/15 09:45",
+      "rebound_price": 36150.0,
+      "bars_after_signal": 2,
       "reasons": [
         "음봉형 도지"
       ]
@@ -27,14 +75,14 @@
       "is_fresh": true,
       "best_signal": false,
       "best_reason": "",
-      "has_active_entry": true,
+      "has_active_entry": false,
       "signal_time": "09/15 09:15",
       "signal_price": 21200.0,
-      "rebound_time": "09/15 09:30",
-      "rebound_price": 21300.0,
-      "bars_after_signal": 1,
+      "rebound_time": "09/15 09:45",
+      "rebound_price": 21250.0,
+      "bars_after_signal": 2,
       "reasons": [
-        "전 봉(음봉)보다 몸통이 큰 양봉"
+        "음봉형 도지"
       ]
     }
   ]
