@@ -1,7 +1,7 @@
 {
   "timeframe": "5m",
   "timeframe_label": "5분봉",
-  "last_updated": "2026-09-15T10:22:03",
+  "last_updated": "2026-09-15T10:31:57",
   "total_tickers": 98,
   "total_signals": 1,
   "results": [
@@ -41,8 +41,8 @@
       "ticker": "012450",
       "name": "한화에어로스페이스",
       "is_fresh": true,
-      "best_signal": true,
-      "best_reason": "1차 저점(1,072,000) 지지 후 재반등",
+      "best_signal": false,
+      "best_reason": "",
       "has_active_entry": false,
       "signal_time": "09/15 09:30",
       "signal_price": 1072000.0,
@@ -121,8 +121,8 @@
       "ticker": "009540",
       "name": "HD한국조선해양",
       "is_fresh": true,
-      "best_signal": true,
-      "best_reason": "저점 이탈(347,000→346,500)했으나 RSI 다이버전스 동반 재반등 (RSI 24.2→24.7)",
+      "best_signal": false,
+      "best_reason": "",
       "has_active_entry": false,
       "signal_time": "09/15 09:30",
       "signal_price": 347000.0,
@@ -271,7 +271,7 @@
       "signal_time": "09/15 09:35",
       "signal_price": 128800.0,
       "rebound_time": "09/15 10:15",
-      "rebound_price": 128400.0,
+      "rebound_price": 128350.0,
       "bars_after_signal": 8,
       "reasons": [
         "전 봉(음봉)보다 몸통이 큰 양봉"
