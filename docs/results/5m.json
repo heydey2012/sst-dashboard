@@ -1,7 +1,7 @@
 {
   "timeframe": "5m",
   "timeframe_label": "5분봉",
-  "last_updated": "2026-09-15T11:01:57",
+  "last_updated": "2026-09-15T11:19:10",
   "total_tickers": 98,
   "total_signals": 0,
   "results": [
@@ -42,7 +42,7 @@
       "name": "한화에어로스페이스",
       "is_fresh": true,
       "best_signal": true,
-      "best_reason": "저점 이탈(1,072,000→1,056,000)했으나 RSI 다이버전스 동반 재반등 (RSI 25.9→24.9)",
+      "best_reason": "저점 이탈(1,072,000→1,054,000)했으나 RSI 다이버전스 동반 재반등 (RSI 25.9→23.9)",
       "has_active_entry": false,
       "signal_time": "09/15 09:30",
       "signal_price": 1072000.0,
