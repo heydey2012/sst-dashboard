@@ -1,9 +1,9 @@
 {
   "timeframe": "15m",
   "timeframe_label": "15분봉",
-  "last_updated": "2026-09-15T12:39:53",
+  "last_updated": "2026-09-15T13:51:00",
   "total_tickers": 98,
-  "total_signals": 1,
+  "total_signals": 2,
   "results": [
     {
       "ticker": "105560",
@@ -73,8 +73,8 @@
       "ticker": "298040",
       "name": "효성중공업",
       "is_fresh": true,
-      "best_signal": true,
-      "best_reason": "저점 이탈(2,716,000→2,711,000)했으나 RSI 다이버전스 동반 재반등 (RSI 22.6→25.7)",
+      "best_signal": false,
+      "best_reason": "",
       "has_active_entry": false,
       "signal_time": "09/15 09:15",
       "signal_price": 2716000.0,
@@ -89,8 +89,8 @@
       "ticker": "010130",
       "name": "고려아연",
       "is_fresh": true,
-      "best_signal": true,
-      "best_reason": "1차 저점(1,131,000) 지지 후 재반등",
+      "best_signal": false,
+      "best_reason": "",
       "has_active_entry": false,
       "signal_time": "09/15 09:15",
       "signal_price": 1131000.0,
@@ -105,8 +105,8 @@
       "ticker": "011200",
       "name": "HMM",
       "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
+      "best_signal": true,
+      "best_reason": "저점 이탈(20,750→20,650)했으나 RSI 다이버전스 동반 재반등 (RSI 23.9→24.7)",
       "has_active_entry": false,
       "signal_time": "09/15 09:15",
       "signal_price": 20750.0,
@@ -122,7 +122,7 @@
       "name": "기업은행",
       "is_fresh": true,
       "best_signal": true,
-      "best_reason": "저점 이탈(20,500→20,450)했으나 RSI 다이버전스 동반 재반등 (RSI 29.0→28.2)",
+      "best_reason": "저점 이탈(20,500→20,400)했으나 RSI 다이버전스 동반 재반등 (RSI 29.0→33.9)",
       "has_active_entry": false,
       "signal_time": "09/15 09:30",
       "signal_price": 20500.0,
@@ -153,8 +153,8 @@
       "ticker": "138040",
       "name": "메리츠금융지주",
       "is_fresh": true,
-      "best_signal": true,
-      "best_reason": "저점 이탈(127,400→127,100)했으나 RSI 다이버전스 동반 재반등 (RSI 16.6→18.9)",
+      "best_signal": false,
+      "best_reason": "",
       "has_active_entry": false,
       "signal_time": "09/15 10:45",
       "signal_price": 127400.0,
@@ -179,6 +179,22 @@
       "bars_after_signal": 2,
       "reasons": [
         "연속 양봉 2개 이상"
+      ]
+    },
+    {
+      "ticker": "122870",
+      "name": "와이지엔터테인먼트",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "09/15 11:45",
+      "signal_price": 44350.0,
+      "rebound_time": "09/15 12:30",
+      "rebound_price": 44550.0,
+      "bars_after_signal": 3,
+      "reasons": [
+        "전 봉(음봉)보다 몸통이 큰 양봉"
       ]
     }
   ]
