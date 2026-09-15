@@ -1,24 +1,24 @@
 {
   "timeframe": "15m",
   "timeframe_label": "15분봉",
-  "last_updated": "2026-09-14T15:57:57",
+  "last_updated": "2026-09-15T09:25:01",
   "total_tickers": 98,
-  "total_signals": 0,
+  "total_signals": 6,
   "results": [
     {
-      "ticker": "018880",
-      "name": "한온시스템",
+      "ticker": "105560",
+      "name": "KB금융",
       "is_fresh": true,
-      "best_signal": true,
-      "best_reason": "저점 이탈(3,430→3,425)했으나 RSI 다이버전스 동반 재반등 (RSI 31.8→32.6)",
+      "best_signal": false,
+      "best_reason": "",
       "has_active_entry": false,
-      "signal_time": "09/14 09:30",
-      "signal_price": 3430.0,
-      "rebound_time": "09/14 09:45",
-      "rebound_price": 3440.0,
+      "signal_time": "09/15 09:00",
+      "signal_price": 178400.0,
+      "rebound_time": "09/15 09:15",
+      "rebound_price": 178700.0,
       "bars_after_signal": 1,
       "reasons": [
-        "연속 양봉 2개 이상"
+        "전 봉(음봉)보다 몸통이 큰 양봉"
       ]
     }
   ]
