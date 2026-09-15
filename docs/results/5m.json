@@ -1,7 +1,7 @@
 {
   "timeframe": "5m",
   "timeframe_label": "5분봉",
-  "last_updated": "2026-09-15T12:11:31",
+  "last_updated": "2026-09-15T12:18:33",
   "total_tickers": 98,
   "total_signals": 0,
   "results": [
@@ -38,27 +38,11 @@
       ]
     },
     {
-      "ticker": "012450",
-      "name": "한화에어로스페이스",
-      "is_fresh": true,
-      "best_signal": true,
-      "best_reason": "저점 이탈(1,072,000→1,055,000)했으나 RSI 다이버전스 동반 재반등 (RSI 25.9→24.4)",
-      "has_active_entry": false,
-      "signal_time": "09/15 09:30",
-      "signal_price": 1072000.0,
-      "rebound_time": "09/15 09:35",
-      "rebound_price": 1082000.0,
-      "bars_after_signal": 1,
-      "reasons": [
-        "연속 양봉 2개 이상"
-      ]
-    },
-    {
       "ticker": "329180",
       "name": "HD현대중공업",
       "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
+      "best_signal": true,
+      "best_reason": "저점 이탈(457,000→454,500)했으나 RSI 다이버전스 동반 재반등 (RSI 24.4→31.5)",
       "has_active_entry": false,
       "signal_time": "09/15 09:25",
       "signal_price": 457000.0,
@@ -121,8 +105,8 @@
       "ticker": "009540",
       "name": "HD한국조선해양",
       "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
+      "best_signal": true,
+      "best_reason": "저점 이탈(347,000→339,500)했으나 RSI 다이버전스 동반 재반등 (RSI 24.2→22.7)",
       "has_active_entry": false,
       "signal_time": "09/15 09:30",
       "signal_price": 347000.0,
@@ -166,6 +150,22 @@
       ]
     },
     {
+      "ticker": "298040",
+      "name": "효성중공업",
+      "is_fresh": true,
+      "best_signal": true,
+      "best_reason": "저점 이탈(2,716,000→2,711,000)했으나 RSI 다이버전스 동반 재반등 (RSI 21.0→25.0)",
+      "has_active_entry": false,
+      "signal_time": "09/15 09:25",
+      "signal_price": 2716000.0,
+      "rebound_time": "09/15 09:35",
+      "rebound_price": 2726000.0,
+      "bars_after_signal": 2,
+      "reasons": [
+        "연속 양봉 2개 이상"
+      ]
+    },
+    {
       "ticker": "010130",
       "name": "고려아연",
       "is_fresh": true,
@@ -201,8 +201,8 @@
       "ticker": "011200",
       "name": "HMM",
       "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
+      "best_signal": true,
+      "best_reason": "저점 이탈(20,750→20,700)했으나 RSI 다이버전스 동반 재반등 (RSI 23.2→35.8)",
       "has_active_entry": false,
       "signal_time": "09/15 09:30",
       "signal_price": 20750.0,
@@ -211,6 +211,22 @@
       "bars_after_signal": 1,
       "reasons": [
         "연속 양봉 2개 이상"
+      ]
+    },
+    {
+      "ticker": "024110",
+      "name": "기업은행",
+      "is_fresh": true,
+      "best_signal": true,
+      "best_reason": "저점 이탈(20,600→20,450)했으나 RSI 다이버전스 동반 재반등 (RSI 21.7→32.8)",
+      "has_active_entry": false,
+      "signal_time": "09/15 09:05",
+      "signal_price": 20600.0,
+      "rebound_time": "09/15 09:20",
+      "rebound_price": 20650.0,
+      "bars_after_signal": 3,
+      "reasons": [
+        "음봉형 도지"
       ]
     },
     {
@@ -227,22 +243,6 @@
       "bars_after_signal": 1,
       "reasons": [
         "연속 양봉 2개 이상"
-      ]
-    },
-    {
-      "ticker": "138040",
-      "name": "메리츠금융지주",
-      "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
-      "has_active_entry": false,
-      "signal_time": "09/15 09:35",
-      "signal_price": 128800.0,
-      "rebound_time": "09/15 10:15",
-      "rebound_price": 128350.0,
-      "bars_after_signal": 8,
-      "reasons": [
-        "전 봉(음봉)보다 몸통이 큰 양봉"
       ]
     },
     {
@@ -346,7 +346,7 @@
       "name": "삼성중공업",
       "is_fresh": true,
       "best_signal": true,
-      "best_reason": "저점 이탈(21,150→21,050)했으나 RSI 다이버전스 동반 재반등 (RSI 22.7→28.7)",
+      "best_reason": "저점 이탈(21,150→21,000)했으나 RSI 다이버전스 동반 재반등 (RSI 22.7→28.8)",
       "has_active_entry": false,
       "signal_time": "09/15 09:30",
       "signal_price": 21150.0,
