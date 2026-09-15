@@ -1,7 +1,7 @@
 {
   "timeframe": "5m",
   "timeframe_label": "5분봉",
-  "last_updated": "2026-09-15T12:31:11",
+  "last_updated": "2026-09-15T12:37:06",
   "total_tickers": 98,
   "total_signals": 0,
   "results": [
@@ -57,8 +57,8 @@
       "ticker": "329180",
       "name": "HD현대중공업",
       "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
+      "best_signal": true,
+      "best_reason": "저점 이탈(457,000→452,500)했으나 RSI 다이버전스 동반 재반등 (RSI 24.4→26.1)",
       "has_active_entry": false,
       "signal_time": "09/15 09:25",
       "signal_price": 457000.0,
@@ -352,6 +352,22 @@
       "signal_price": 106300.0,
       "rebound_time": "09/15 09:15",
       "rebound_price": 107900.0,
+      "bars_after_signal": 2,
+      "reasons": [
+        "연속 양봉 2개 이상"
+      ]
+    },
+    {
+      "ticker": "357780",
+      "name": "솔브레인",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "09/15 09:05",
+      "signal_price": 322000.0,
+      "rebound_time": "09/15 09:15",
+      "rebound_price": 324500.0,
       "bars_after_signal": 2,
       "reasons": [
         "연속 양봉 2개 이상"
