@@ -1,7 +1,7 @@
 {
   "timeframe": "5m",
   "timeframe_label": "5분봉",
-  "last_updated": "2026-09-15T11:19:10",
+  "last_updated": "2026-09-15T11:58:56",
   "total_tickers": 98,
   "total_signals": 0,
   "results": [
@@ -42,7 +42,7 @@
       "name": "한화에어로스페이스",
       "is_fresh": true,
       "best_signal": true,
-      "best_reason": "저점 이탈(1,072,000→1,054,000)했으나 RSI 다이버전스 동반 재반등 (RSI 25.9→23.9)",
+      "best_reason": "저점 이탈(1,072,000→1,055,000)했으나 RSI 다이버전스 동반 재반등 (RSI 25.9→24.4)",
       "has_active_entry": false,
       "signal_time": "09/15 09:30",
       "signal_price": 1072000.0,
@@ -57,45 +57,13 @@
       "ticker": "329180",
       "name": "HD현대중공업",
       "is_fresh": true,
-      "best_signal": true,
-      "best_reason": "저점 이탈(457,000→455,000)했으나 RSI 다이버전스 동반 재반등 (RSI 24.4→28.4)",
+      "best_signal": false,
+      "best_reason": "",
       "has_active_entry": false,
       "signal_time": "09/15 09:25",
       "signal_price": 457000.0,
       "rebound_time": "09/15 09:35",
       "rebound_price": 460000.0,
-      "bars_after_signal": 2,
-      "reasons": [
-        "연속 양봉 2개 이상"
-      ]
-    },
-    {
-      "ticker": "055550",
-      "name": "신한지주",
-      "is_fresh": true,
-      "best_signal": true,
-      "best_reason": "1차 저점(112,000) 지지 후 재반등",
-      "has_active_entry": false,
-      "signal_time": "09/15 09:25",
-      "signal_price": 112000.0,
-      "rebound_time": "09/15 09:50",
-      "rebound_price": 112200.0,
-      "bars_after_signal": 5,
-      "reasons": [
-        "음봉형 도지"
-      ]
-    },
-    {
-      "ticker": "086790",
-      "name": "하나금융지주",
-      "is_fresh": true,
-      "best_signal": true,
-      "best_reason": "1차 저점(136,800) 지지 후 재반등",
-      "has_active_entry": false,
-      "signal_time": "09/15 09:00",
-      "signal_price": 136800.0,
-      "rebound_time": "09/15 09:10",
-      "rebound_price": 139100.0,
       "bars_after_signal": 2,
       "reasons": [
         "연속 양봉 2개 이상"
@@ -122,7 +90,7 @@
       "name": "HD한국조선해양",
       "is_fresh": true,
       "best_signal": true,
-      "best_reason": "저점 이탈(347,000→343,500)했으나 RSI 다이버전스 동반 재반등 (RSI 24.2→22.6)",
+      "best_reason": "저점 이탈(347,000→341,000)했으나 RSI 다이버전스 동반 재반등 (RSI 24.2→24.2)",
       "has_active_entry": false,
       "signal_time": "09/15 09:30",
       "signal_price": 347000.0,
@@ -163,22 +131,6 @@
       "bars_after_signal": 1,
       "reasons": [
         "전 봉(음봉)보다 몸통이 큰 양봉"
-      ]
-    },
-    {
-      "ticker": "298040",
-      "name": "효성중공업",
-      "is_fresh": true,
-      "best_signal": true,
-      "best_reason": "저점 이탈(2,716,000→2,711,000)했으나 RSI 다이버전스 동반 재반등 (RSI 21.0→25.0)",
-      "has_active_entry": false,
-      "signal_time": "09/15 09:25",
-      "signal_price": 2716000.0,
-      "rebound_time": "09/15 09:35",
-      "rebound_price": 2726000.0,
-      "bars_after_signal": 2,
-      "reasons": [
-        "연속 양봉 2개 이상"
       ]
     },
     {
@@ -278,6 +230,22 @@
       ]
     },
     {
+      "ticker": "090430",
+      "name": "아모레퍼시픽",
+      "is_fresh": true,
+      "best_signal": true,
+      "best_reason": "1차 저점(145,700) 지지 후 재반등",
+      "has_active_entry": false,
+      "signal_time": "09/15 11:35",
+      "signal_price": 145700.0,
+      "rebound_time": "09/15 11:40",
+      "rebound_price": 145700.0,
+      "bars_after_signal": 1,
+      "reasons": [
+        "음봉형 도지"
+      ]
+    },
+    {
       "ticker": "051900",
       "name": "LG생활건강",
       "is_fresh": true,
@@ -307,22 +275,6 @@
       "bars_after_signal": 3,
       "reasons": [
         "음봉형 도지"
-      ]
-    },
-    {
-      "ticker": "047810",
-      "name": "한국항공우주",
-      "is_fresh": true,
-      "best_signal": true,
-      "best_reason": "저점 이탈(130,200→129,600)했으나 RSI 다이버전스 동반 재반등 (RSI 35.0→34.1)",
-      "has_active_entry": false,
-      "signal_time": "09/15 09:00",
-      "signal_price": 130200.0,
-      "rebound_time": "09/15 09:05",
-      "rebound_price": 131000.0,
-      "bars_after_signal": 1,
-      "reasons": [
-        "전 봉(음봉)보다 몸통이 큰 양봉"
       ]
     },
     {
@@ -362,7 +314,7 @@
       "name": "삼성중공업",
       "is_fresh": true,
       "best_signal": true,
-      "best_reason": "저점 이탈(21,150→21,100)했으나 RSI 다이버전스 동반 재반등 (RSI 22.7→30.1)",
+      "best_reason": "저점 이탈(21,150→21,050)했으나 RSI 다이버전스 동반 재반등 (RSI 22.7→28.7)",
       "has_active_entry": false,
       "signal_time": "09/15 09:30",
       "signal_price": 21150.0,
