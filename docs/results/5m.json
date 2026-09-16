@@ -1,7 +1,7 @@
 {
   "timeframe": "5m",
   "timeframe_label": "5분봉",
-  "last_updated": "2026-09-16T12:21:56",
+  "last_updated": "2026-09-16T12:27:07",
   "total_tickers": 98,
   "total_signals": 0,
   "results": [
@@ -569,8 +569,8 @@
       "ticker": "005830",
       "name": "DB손해보험",
       "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
+      "best_signal": true,
+      "best_reason": "1차 저점(188,200) 지지 후 재반등",
       "has_active_entry": false,
       "signal_time": "09/16 10:25",
       "signal_price": 188200.0,
