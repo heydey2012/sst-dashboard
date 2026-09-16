@@ -1,9 +1,9 @@
 {
   "timeframe": "5m",
   "timeframe_label": "5분봉",
-  "last_updated": "2026-09-16T14:16:45",
+  "last_updated": "2026-09-16T14:26:36",
   "total_tickers": 98,
-  "total_signals": 1,
+  "total_signals": 2,
   "results": [
     {
       "ticker": "005930",
@@ -73,8 +73,8 @@
       "ticker": "373220",
       "name": "LG에너지솔루션",
       "is_fresh": true,
-      "best_signal": true,
-      "best_reason": "저점 이탈(367,000→366,500)했으나 RSI 다이버전스 동반 재반등 (RSI 36.1→35.3)",
+      "best_signal": false,
+      "best_reason": "",
       "has_active_entry": false,
       "signal_time": "09/16 13:50",
       "signal_price": 367000.0,
@@ -89,8 +89,8 @@
       "ticker": "207940",
       "name": "삼성바이오로직스",
       "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
+      "best_signal": true,
+      "best_reason": "저점 이탈(1,399,000→1,395,000)했으나 RSI 다이버전스 동반 재반등 (RSI 30.5→38.7)",
       "has_active_entry": false,
       "signal_time": "09/16 09:15",
       "signal_price": 1399000.0,
@@ -154,7 +154,7 @@
       "name": "기아",
       "is_fresh": true,
       "best_signal": true,
-      "best_reason": "저점 이탈(120,750→120,600)했으나 RSI 다이버전스 동반 재반등 (RSI 22.7→35.2)",
+      "best_reason": "저점 이탈(120,750→120,500)했으나 RSI 다이버전스 동반 재반등 (RSI 22.7→27.5)",
       "has_active_entry": false,
       "signal_time": "09/16 09:25",
       "signal_price": 120750.0,
@@ -457,8 +457,8 @@
       "ticker": "018260",
       "name": "삼성에스디에스",
       "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
+      "best_signal": true,
+      "best_reason": "저점 이탈(216,000→215,500)했으나 RSI 다이버전스 동반 재반등 (RSI 37.2→34.7)",
       "has_active_entry": false,
       "signal_time": "09/16 13:40",
       "signal_price": 216000.0,
@@ -633,8 +633,8 @@
       "ticker": "047810",
       "name": "한국항공우주",
       "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
+      "best_signal": true,
+      "best_reason": "저점 이탈(127,200→125,800)했으나 RSI 다이버전스 동반 재반등 (RSI 29.5→31.2)",
       "has_active_entry": false,
       "signal_time": "09/16 09:15",
       "signal_price": 127200.0,
@@ -825,8 +825,8 @@
       "ticker": "241560",
       "name": "두산밥캣",
       "is_fresh": true,
-      "best_signal": true,
-      "best_reason": "1차 저점(59,200) 지지 후 재반등",
+      "best_signal": false,
+      "best_reason": "",
       "has_active_entry": false,
       "signal_time": "09/16 13:45",
       "signal_price": 59200.0,
@@ -1094,22 +1094,6 @@
       ]
     },
     {
-      "ticker": "064350",
-      "name": "현대로템",
-      "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
-      "has_active_entry": false,
-      "signal_time": "09/16 09:20",
-      "signal_price": 120800.0,
-      "rebound_time": "09/16 09:30",
-      "rebound_price": 121100.0,
-      "bars_after_signal": 2,
-      "reasons": [
-        "연속 양봉 2개 이상"
-      ]
-    },
-    {
       "ticker": "000880",
       "name": "한화",
       "is_fresh": true,
@@ -1126,22 +1110,6 @@
       ]
     },
     {
-      "ticker": "352820",
-      "name": "하이브",
-      "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
-      "has_active_entry": false,
-      "signal_time": "09/16 14:10",
-      "signal_price": 170100.0,
-      "rebound_time": "09/16 14:15",
-      "rebound_price": 170100.0,
-      "bars_after_signal": 1,
-      "reasons": [
-        "음봉형 도지"
-      ]
-    },
-    {
       "ticker": "041510",
       "name": "에스엠",
       "is_fresh": true,
@@ -1152,22 +1120,6 @@
       "signal_price": 87400.0,
       "rebound_time": "09/16 09:05",
       "rebound_price": 88700.0,
-      "bars_after_signal": 1,
-      "reasons": [
-        "연속 양봉 2개 이상"
-      ]
-    },
-    {
-      "ticker": "035900",
-      "name": "JYP Ent.",
-      "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
-      "has_active_entry": false,
-      "signal_time": "09/16 09:00",
-      "signal_price": 38900.0,
-      "rebound_time": "09/16 09:05",
-      "rebound_price": 39100.0,
       "bars_after_signal": 1,
       "reasons": [
         "연속 양봉 2개 이상"
@@ -1193,8 +1145,8 @@
       "ticker": "293490",
       "name": "카카오게임즈",
       "is_fresh": true,
-      "best_signal": true,
-      "best_reason": "저점 이탈(9,610→9,500)했으나 RSI 다이버전스 동반 재반등 (RSI 28.9→29.8)",
+      "best_signal": false,
+      "best_reason": "",
       "has_active_entry": false,
       "signal_time": "09/16 09:25",
       "signal_price": 9610.0,
