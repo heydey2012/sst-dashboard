@@ -1,7 +1,7 @@
 {
   "timeframe": "5m",
   "timeframe_label": "5분봉",
-  "last_updated": "2026-09-16T12:16:44",
+  "last_updated": "2026-09-16T12:21:56",
   "total_tickers": 98,
   "total_signals": 0,
   "results": [
@@ -1033,8 +1033,8 @@
       "ticker": "041510",
       "name": "에스엠",
       "is_fresh": true,
-      "best_signal": true,
-      "best_reason": "저점 이탈(87,400→86,400)했으나 RSI 다이버전스 동반 재반등 (RSI 39.1→36.2)",
+      "best_signal": false,
+      "best_reason": "",
       "has_active_entry": false,
       "signal_time": "09/16 09:00",
       "signal_price": 87400.0,
