@@ -1,26 +1,10 @@
 {
   "timeframe": "1h",
   "timeframe_label": "1시간봉",
-  "last_updated": "2026-09-16T13:10:31",
+  "last_updated": "2026-09-16T14:09:48",
   "total_tickers": 98,
   "total_signals": 0,
   "results": [
-    {
-      "ticker": "000100",
-      "name": "유한양행",
-      "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
-      "has_active_entry": false,
-      "signal_time": "09/16 11:00",
-      "signal_price": 77700.0,
-      "rebound_time": "09/16 13:00",
-      "rebound_price": 77800.0,
-      "bars_after_signal": 2,
-      "reasons": [
-        "음봉형 도지"
-      ]
-    },
     {
       "ticker": "352820",
       "name": "하이브",
@@ -42,7 +26,7 @@
       "name": "크래프톤",
       "is_fresh": true,
       "best_signal": true,
-      "best_reason": "1차 저점(204,500) 지지 후 재반등",
+      "best_reason": "저점 이탈(204,500→204,000)했으나 RSI 다이버전스 동반 재반등 (RSI 25.5→27.7)",
       "has_active_entry": false,
       "signal_time": "09/16 10:00",
       "signal_price": 204500.0,
