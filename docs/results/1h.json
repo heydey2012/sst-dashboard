@@ -1,40 +1,40 @@
 {
   "timeframe": "1h",
   "timeframe_label": "1시간봉",
-  "last_updated": "2026-09-15T14:20:03",
+  "last_updated": "2026-09-16T12:09:51",
   "total_tickers": 98,
-  "total_signals": 7,
+  "total_signals": 0,
   "results": [
     {
-      "ticker": "329180",
-      "name": "HD현대중공업",
+      "ticker": "352820",
+      "name": "하이브",
       "is_fresh": true,
       "best_signal": false,
       "best_reason": "",
       "has_active_entry": false,
-      "signal_time": "09/15 12:00",
-      "signal_price": 450500.0,
-      "rebound_time": "09/15 14:00",
-      "rebound_price": 455000.0,
-      "bars_after_signal": 2,
+      "signal_time": "09/16 10:00",
+      "signal_price": 170100.0,
+      "rebound_time": "09/16 11:00",
+      "rebound_price": 170200.0,
+      "bars_after_signal": 1,
       "reasons": [
-        "연속 양봉 2개 이상"
+        "음봉형 도지"
       ]
     },
     {
-      "ticker": "055550",
-      "name": "신한지주",
+      "ticker": "259960",
+      "name": "크래프톤",
       "is_fresh": true,
       "best_signal": false,
       "best_reason": "",
       "has_active_entry": false,
-      "signal_time": "09/15 09:00",
-      "signal_price": 112400.0,
-      "rebound_time": "09/15 10:00",
-      "rebound_price": 112500.0,
-      "bars_after_signal": 1,
+      "signal_time": "09/16 10:00",
+      "signal_price": 204500.0,
+      "rebound_time": "09/16 12:00",
+      "rebound_price": 205500.0,
+      "bars_after_signal": 2,
       "reasons": [
-        "양봉형 도지"
+        "연속 양봉 2개 이상"
       ]
     }
   ]
