@@ -1,7 +1,7 @@
 {
   "timeframe": "5m",
   "timeframe_label": "5분봉",
-  "last_updated": "2026-09-17T10:07:14",
+  "last_updated": "2026-09-17T10:16:52",
   "total_tickers": 98,
   "total_signals": 1,
   "results": [
@@ -67,6 +67,39 @@
       "bars_after_signal": 2,
       "reasons": [
         "연속 양봉 2개 이상"
+      ]
+    },
+    {
+      "ticker": "207940",
+      "name": "삼성바이오로직스",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "09/17 09:55",
+      "signal_price": 1401000.0,
+      "rebound_time": "09/17 10:05",
+      "rebound_price": 1403000.0,
+      "bars_after_signal": 2,
+      "reasons": [
+        "양봉형 도지",
+        "연속 양봉 2개 이상"
+      ]
+    },
+    {
+      "ticker": "032830",
+      "name": "삼성생명",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "09/17 10:00",
+      "signal_price": 285500.0,
+      "rebound_time": "09/17 10:05",
+      "rebound_price": 286000.0,
+      "bars_after_signal": 1,
+      "reasons": [
+        "음봉형 도지"
       ]
     },
     {
@@ -217,8 +250,8 @@
       "ticker": "015760",
       "name": "한국전력",
       "is_fresh": true,
-      "best_signal": true,
-      "best_reason": "1차 저점(30,800) 지지 후 재반등",
+      "best_signal": false,
+      "best_reason": "",
       "has_active_entry": false,
       "signal_time": "09/17 09:15",
       "signal_price": 30800.0,
@@ -233,8 +266,8 @@
       "ticker": "032640",
       "name": "LG유플러스",
       "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
+      "best_signal": true,
+      "best_reason": "1차 저점(14,590) 지지 후 재반등",
       "has_active_entry": false,
       "signal_time": "09/17 09:20",
       "signal_price": 14590.0,
@@ -265,8 +298,8 @@
       "ticker": "011170",
       "name": "롯데케미칼",
       "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
+      "best_signal": true,
+      "best_reason": "저점 이탈(61,400→61,300)했으나 RSI 다이버전스 동반 재반등 (RSI 14.7→14.1)",
       "has_active_entry": false,
       "signal_time": "09/17 09:40",
       "signal_price": 61900.0,
@@ -310,6 +343,22 @@
       ]
     },
     {
+      "ticker": "090430",
+      "name": "아모레퍼시픽",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "09/17 09:40",
+      "signal_price": 145700.0,
+      "rebound_time": "09/17 09:50",
+      "rebound_price": 146000.0,
+      "bars_after_signal": 2,
+      "reasons": [
+        "음봉형 도지"
+      ]
+    },
+    {
       "ticker": "051900",
       "name": "LG생활건강",
       "is_fresh": true,
@@ -319,7 +368,7 @@
       "signal_time": "09/17 09:50",
       "signal_price": 301000.0,
       "rebound_time": "09/17 10:00",
-      "rebound_price": 302000.0,
+      "rebound_price": 302500.0,
       "bars_after_signal": 2,
       "reasons": [
         "연속 양봉 2개 이상"
@@ -345,8 +394,8 @@
       "ticker": "017670",
       "name": "SK텔레콤",
       "is_fresh": true,
-      "best_signal": false,
-      "best_reason": "",
+      "best_signal": true,
+      "best_reason": "저점 이탈(87,500→87,300)했으나 RSI 다이버전스 동반 재반등 (RSI 32.0→33.9)",
       "has_active_entry": false,
       "signal_time": "09/17 09:25",
       "signal_price": 87500.0,
@@ -518,6 +567,22 @@
       ]
     },
     {
+      "ticker": "039490",
+      "name": "키움증권",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": true,
+      "signal_time": "09/17 10:10",
+      "signal_price": 266000.0,
+      "rebound_time": "09/17 10:15",
+      "rebound_price": 266500.0,
+      "bars_after_signal": 1,
+      "reasons": [
+        "연속 양봉 2개 이상"
+      ]
+    },
+    {
       "ticker": "011210",
       "name": "현대위아",
       "is_fresh": true,
@@ -553,8 +618,8 @@
       "ticker": "352820",
       "name": "하이브",
       "is_fresh": true,
-      "best_signal": true,
-      "best_reason": "1차 저점(168,100) 지지 후 재반등",
+      "best_signal": false,
+      "best_reason": "",
       "has_active_entry": false,
       "signal_time": "09/17 09:50",
       "signal_price": 168100.0,
