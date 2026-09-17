@@ -1,16 +1,80 @@
 {
   "timeframe": "5m",
   "timeframe_label": "5분봉",
-  "last_updated": "2026-09-17T09:12:45",
+  "last_updated": "2026-09-17T09:21:58",
   "total_tickers": 98,
   "total_signals": 8,
   "results": [
     {
-      "ticker": "096770",
-      "name": "SK이노베이션",
+      "ticker": "298040",
+      "name": "효성중공업",
       "is_fresh": true,
       "best_signal": false,
       "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "09/17 09:10",
+      "signal_price": 2773000.0,
+      "rebound_time": "09/17 09:15",
+      "rebound_price": 2799000.0,
+      "bars_after_signal": 1,
+      "reasons": [
+        "전 봉(음봉)보다 몸통이 큰 양봉"
+      ]
+    },
+    {
+      "ticker": "032640",
+      "name": "LG유플러스",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "09/17 09:05",
+      "signal_price": 14600.0,
+      "rebound_time": "09/17 09:10",
+      "rebound_price": 14640.0,
+      "bars_after_signal": 1,
+      "reasons": [
+        "전 봉(음봉)보다 몸통이 큰 양봉"
+      ]
+    },
+    {
+      "ticker": "316140",
+      "name": "우리금융지주",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "09/17 09:00",
+      "signal_price": 35800.0,
+      "rebound_time": "09/17 09:10",
+      "rebound_price": 36350.0,
+      "bars_after_signal": 2,
+      "reasons": [
+        "연속 양봉 2개 이상"
+      ]
+    },
+    {
+      "ticker": "361610",
+      "name": "SK아이이테크놀로지",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "09/17 09:10",
+      "signal_price": 15630.0,
+      "rebound_time": "09/17 09:15",
+      "rebound_price": 15830.0,
+      "bars_after_signal": 1,
+      "reasons": [
+        "전 봉(음봉)보다 몸통이 큰 양봉"
+      ]
+    },
+    {
+      "ticker": "096770",
+      "name": "SK이노베이션",
+      "is_fresh": true,
+      "best_signal": true,
+      "best_reason": "저점 이탈(135,300→134,900)했으나 RSI 다이버전스 동반 재반등 (RSI 26.4→33.5)",
       "has_active_entry": false,
       "signal_time": "09/17 09:00",
       "signal_price": 135300.0,
@@ -22,11 +86,43 @@
       ]
     },
     {
-      "ticker": "000880",
-      "name": "한화",
+      "ticker": "042700",
+      "name": "한미반도체",
       "is_fresh": true,
       "best_signal": false,
       "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "09/17 09:10",
+      "signal_price": 223750.0,
+      "rebound_time": "09/17 09:20",
+      "rebound_price": 224500.0,
+      "bars_after_signal": 2,
+      "reasons": [
+        "음봉형 도지"
+      ]
+    },
+    {
+      "ticker": "326030",
+      "name": "SK바이오팜",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "09/17 09:05",
+      "signal_price": 78600.0,
+      "rebound_time": "09/17 09:10",
+      "rebound_price": 78900.0,
+      "bars_after_signal": 1,
+      "reasons": [
+        "연속 양봉 2개 이상"
+      ]
+    },
+    {
+      "ticker": "000880",
+      "name": "한화",
+      "is_fresh": true,
+      "best_signal": true,
+      "best_reason": "1차 저점(136,600) 지지 후 재반등",
       "has_active_entry": false,
       "signal_time": "09/17 09:00",
       "signal_price": 136600.0,
@@ -35,6 +131,38 @@
       "bars_after_signal": 1,
       "reasons": [
         "전 봉(음봉)보다 몸통이 큰 양봉"
+      ]
+    },
+    {
+      "ticker": "251270",
+      "name": "넷마블",
+      "is_fresh": true,
+      "best_signal": true,
+      "best_reason": "1차 저점(34,000) 지지 후 재반등",
+      "has_active_entry": false,
+      "signal_time": "09/17 09:00",
+      "signal_price": 34000.0,
+      "rebound_time": "09/17 09:10",
+      "rebound_price": 34150.0,
+      "bars_after_signal": 2,
+      "reasons": [
+        "연속 양봉 2개 이상"
+      ]
+    },
+    {
+      "ticker": "293490",
+      "name": "카카오게임즈",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "09/17 09:15",
+      "signal_price": 9430.0,
+      "rebound_time": "09/17 09:20",
+      "rebound_price": 9440.0,
+      "bars_after_signal": 1,
+      "reasons": [
+        "연속 양봉 2개 이상"
       ]
     }
   ]
