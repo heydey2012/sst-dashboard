@@ -1,9 +1,9 @@
 {
   "timeframe": "15m",
   "timeframe_label": "15분봉",
-  "last_updated": "2026-09-17T09:55:11",
+  "last_updated": "2026-09-17T10:10:18",
   "total_tickers": 98,
-  "total_signals": 7,
+  "total_signals": 2,
   "results": [
     {
       "ticker": "005380",
@@ -38,6 +38,22 @@
       ]
     },
     {
+      "ticker": "006400",
+      "name": "삼성SDI",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "09/17 09:15",
+      "signal_price": 537000.0,
+      "rebound_time": "09/17 10:00",
+      "rebound_price": 542000.0,
+      "bars_after_signal": 3,
+      "reasons": [
+        "전 봉(음봉)보다 몸통이 큰 양봉"
+      ]
+    },
+    {
       "ticker": "051910",
       "name": "LG화학",
       "is_fresh": true,
@@ -48,6 +64,54 @@
       "signal_price": 266500.0,
       "rebound_time": "09/17 09:30",
       "rebound_price": 269000.0,
+      "bars_after_signal": 1,
+      "reasons": [
+        "전 봉(음봉)보다 몸통이 큰 양봉"
+      ]
+    },
+    {
+      "ticker": "039030",
+      "name": "이오테크닉스",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "09/17 09:30",
+      "signal_price": 456000.0,
+      "rebound_time": "09/17 10:00",
+      "rebound_price": 463500.0,
+      "bars_after_signal": 2,
+      "reasons": [
+        "연속 양봉 2개 이상"
+      ]
+    },
+    {
+      "ticker": "357780",
+      "name": "솔브레인",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "09/17 09:30",
+      "signal_price": 326000.0,
+      "rebound_time": "09/17 09:45",
+      "rebound_price": 329000.0,
+      "bars_after_signal": 1,
+      "reasons": [
+        "전 봉(음봉)보다 몸통이 큰 양봉"
+      ]
+    },
+    {
+      "ticker": "247540",
+      "name": "에코프로비엠",
+      "is_fresh": true,
+      "best_signal": false,
+      "best_reason": "",
+      "has_active_entry": false,
+      "signal_time": "09/17 09:45",
+      "signal_price": 102700.0,
+      "rebound_time": "09/17 10:00",
+      "rebound_price": 103700.0,
       "bars_after_signal": 1,
       "reasons": [
         "전 봉(음봉)보다 몸통이 큰 양봉"
